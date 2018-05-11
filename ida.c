@@ -6,6 +6,8 @@
 #define STATE_WIDTH 4
 #endif
 
+#define USE_ORDER_BURNS
+#define FIND_ALL (false)
 #define PLAN_LEN_UB 255
 
 typedef unsigned char uchar;
@@ -13,10 +15,18 @@ typedef unsigned char uchar;
 typedef uchar Direction;
 #define dir_reverse(dir) ((Direction)(3 - (dir)))
 #define DIR_N 4
+
+#ifdef USE_ORDER_KORFS
+#define DIR_UP 0
+#define DIR_LEFT 1
+#define DIR_RIGHT 2
+#define DIR_DOWN 3
+#else
 #define DIR_UP 0
 #define DIR_RIGHT 1
 #define DIR_LEFT 2
 #define DIR_DOWN 3
+#endif
 
 /* stack implementation */
 
@@ -237,14 +247,18 @@ idas_internal(int f_limit, long long *ret_nodes_expanded)
 {
     uchar     dir            = 0;
     long long nodes_expanded = 0;
+    bool      solved         = false;
 
     for (;;)
     {
         if (state_is_goal())
         {
-            state_dump();
+#if FIND_ALL == true
+            solved = true;
+#else
             *ret_nodes_expanded = nodes_expanded;
             return true;
+#endif
         }
 
         if ((stack_is_empty() || stack_peak() != dir_reverse(dir)) &&
@@ -265,7 +279,7 @@ idas_internal(int f_limit, long long *ret_nodes_expanded)
             if (stack_is_empty())
             {
                 *ret_nodes_expanded = nodes_expanded;
-                return false;
+                return solved;
             }
 
             dir = stack_pop();
@@ -383,9 +397,12 @@ main(int argc, char *argv[])
 
     if (argc < 2)
     {
-        printf("usage: bin/cumain <ifname>\n");
+        printf("usage: ./c%d <ifname>\n", STATE_WIDTH);
         exit(EXIT_FAILURE);
     }
+
+    printf("[Start] STATE_WIDTH = %d, FIND_ALL_SOLUTIONS = %s\n",
+           STATE_WIDTH, FIND_ALL ? "true" : "false");
 
     load_state_from_file(argv[1], s_list);
     idas_kernel(s_list);
