@@ -1,13 +1,13 @@
 #include <stdbool.h>
 
 #define FIND_ALL (true)
-#define PACKED (true)
+#define PACKED (false) // maybe needs debug in 24 puzzle
 #define COLLECT_LOG (true)
 
 #define BLOCK_DIM (32) /* NOTE: broken when more than 32 */
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
 #define STACK_BUF_LEN (96 * (BLOCK_DIM/DIR_N))
-#define MAX_BUF_RATIO (1024)
+#define MAX_BUF_RATIO (256)
 
 #define STATE_WIDTH 5
 #define STATE_N (STATE_WIDTH * STATE_WIDTH)
@@ -32,7 +32,7 @@ typedef struct search_stat_tag
 #if COLLECT_LOG == true
 	unsigned long long int nodes_expanded;
 #endif
-	//bool assert_failed;
+    //bool assert_failed;
 } search_stat;
 typedef struct input_tag
 {
@@ -248,7 +248,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
                 {
                     if (state_is_goal(state))
 					{
-#if FIND_ALL == true
+#if FIND_ALL == false
 						asm("trap;");
 #else
 						stat->loads = loop_cnt;
@@ -498,8 +498,23 @@ state_movable(State state, Direction dir)
 }
 
 #define h_diff(who, opponent, dir)                                       \
-    (h_diff_table[((who) * STATE_N * DIR_N) + ((opponent) << 2) + (dir)])
-static int h_diff_table[STATE_N * STATE_N * DIR_N];
+    (h_diff_table[((opponent) * STATE_N * DIR_N) + ((who) << 2) + (dir)])
+//static int h_diff_table[STATE_N * STATE_N * DIR_N];
+
+static inline int
+cal_h_diff(int opponent, int from, int rev_dir)
+{
+	int goal_x = POS_X(opponent), goal_y = POS_Y(opponent);
+	int from_x = POS_X(from), from_y = POS_Y(from);
+	if (rev_dir == DIR_LEFT)
+		return goal_x > from_x ? -1 : 1;
+	else if (rev_dir == DIR_RIGHT)
+		return goal_x < from_x ? -1 : 1;
+	else if (rev_dir == DIR_UP)
+		return goal_y > from_y ? -1 : 1;
+	else
+		return goal_y < from_y ? -1 : 1;
+}
 
 void
 state_move(State state, Direction dir)
@@ -530,8 +545,7 @@ state_move(State state, Direction dir)
         assert(false);
     }
 
-    state->h_value =
-        state->h_value + h_diff(who, state->i + state->j * STATE_WIDTH, dir_reverse(dir));
+    state->h_value += cal_h_diff(who, state->i + state->j * STATE_WIDTH, dir);
     state->parent_dir = dir;
 }
 
@@ -1007,6 +1021,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
+        state_dump(state);
         --cnt;
         if (state_is_goal(state))
         {
@@ -1256,7 +1271,7 @@ cudaPfree(void *ptr)
 }
 
 #define h_d_t(op, i, dir)                                                      \
-    (h_diff_table[(op) *STATE_N * DIR_N + (i) *DIR_N + (dir)])
+    (h_diff_table[(op) * STATE_N * DIR_N + (i) * DIR_N + (dir)])
 __host__ static void
 init_mdist(signed char h_diff_table[])
 {
@@ -1331,6 +1346,9 @@ main(int argc, char *argv[])
 
     load_state_from_file(argv[1], input[0].tiles);
 
+    init_mdist(h_diff_table);
+    init_movable_table(movable_table);
+
     {
         State init_state = state_init(input[0].tiles, 0);
         state_dump(init_state);
@@ -1342,9 +1360,6 @@ main(int argc, char *argv[])
         }
         state_fini(init_state);
     }
-
-    init_mdist(h_diff_table);
-    init_movable_table(movable_table);
 
     CUDA_CHECK(cudaMemcpy(d_movable_table, movable_table, MOVABLE_TABLE_SIZE,
                           cudaMemcpyHostToDevice));

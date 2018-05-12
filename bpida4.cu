@@ -1397,6 +1397,9 @@ main(int argc, char *argv[])
 
     load_state_from_file(argv[1], input[0].tiles);
 
+    init_mdist(h_diff_table);
+    init_movable_table(movable_table);
+
     {
         State init_state = state_init(input[0].tiles, 0);
         state_dump(init_state);
@@ -1408,9 +1411,6 @@ main(int argc, char *argv[])
         }
         state_fini(init_state);
     }
-
-    init_mdist(h_diff_table);
-    init_movable_table(movable_table);
 
     CUDA_CHECK(cudaMemcpy(d_movable_table, movable_table, MOVABLE_TABLE_SIZE,
                           cudaMemcpyHostToDevice));
