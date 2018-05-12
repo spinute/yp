@@ -1,0 +1,37 @@
+for i in `seq 43 49`; do time ./bpida5 ./benchmacks/yama24_50_hard_new/prob0${i} ; done
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob043 cannot be opened
+
+real	0m0.031s
+user	0m0.000s
+sys	0m0.028s
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob044 cannot be opened
+
+real	0m0.024s
+user	0m0.008s
+sys	0m0.016s
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob045 cannot be opened
+
+real	0m0.025s
+user	0m0.004s
+sys	0m0.020s
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob046 cannot be opened
+
+real	0m0.025s
+user	0m0.004s
+sys	0m0.020s
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob047 cannot be opened
+
+real	0m0.025s
+user	0m0.008s
+sys	0m0.016s
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob048 cannot be opened
+
+real	0m0.025s
+user	0m0.004s
+sys	0m0.020s
+load_state_from_file: ./benchmacks/yama24_50_hard_new/prob049 cannot be opened
+
+real	0m0.025s
+user	0m0.004s
+sys	0m0.020s
+make: *** [bench_bpida5] Error 1
