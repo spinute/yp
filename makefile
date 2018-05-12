@@ -5,11 +5,11 @@ CUDA_INC += -I$(CUDA_PATH)/include
 NVCC_FLAGS = -Xcompiler -O2 -Xptxas -O2 --compiler-options -Wall -arch=sm_30  --resource-usage
 CFLAGS = -O2 -std=c99 -Wall -Wextra
 
-all: pbida4 pbida5 c4 c5 c5_pdb
+all: bpida4 bpida5 c4 c5 c5_pdb
 
-pbida4: pbida4.cu
+bpida4: bpida4.cu
 	nvcc -o $@ $(NVCC_FLAGS) $<
-pbida5: pbida5.cu
+bpida5: bpida5.cu
 	nvcc -o $@ $(NVCC_FLAGS) $<
 
 c4: ida.c
@@ -19,10 +19,10 @@ c5: ida.c
 c5_pdb: ida_pdb.c
 	gcc -o $@ $(CFLAGS) $<
 
-bench_pbida4: pbida4
-	for fname in ./benchmarks/korf100/*; do time ./pbida4 $${fname} ; done
-bench_pbida5: pbida5
-	for fname in ./benchmarks/yama24_50_hard_new/*; do time ./pbida5 $${fname} ; done
+bench_bpida4: bpida4
+	for fname in ./benchmarks/korf100/*; do time ./bpida4 $${fname} ; done
+bench_bpida5: bpida5
+	for fname in ./benchmarks/yama24_50_hard_new/*; do time ./bpida5 $${fname} ; done
 
 bench_c4: c4
 	for fname in ./benchmarks/korf100/*; do time ./c4 $${fname} ; done
