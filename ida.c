@@ -7,7 +7,7 @@
 #endif
 
 #define USE_ORDER_BURNS
-#define FIND_ALL (false)
+#define FIND_ALL (true)
 #define PLAN_LEN_UB 255
 
 typedef unsigned char uchar;
