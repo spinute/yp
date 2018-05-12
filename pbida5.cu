@@ -52,7 +52,7 @@ typedef struct input_tag
 
 typedef struct state_tag
 {
-#if PACKED == true
+#if PACKED == false
     uchar tile[STATE_N];
 #else
     unsigned long long tile;
