@@ -89,8 +89,10 @@ def test_f_limit(log_file_name, ans_file_name, problems_nums):
     
 test_f_limit("log_pbida4", "15puzzle_answers.txt", 100)
 test_f_limit("log_pbida4_find_all", "15puzzle_answers.txt", 100)
+test_f_limit("log_pbida4_global_find_all", "15puzzle_answers.txt", 100)
 output_execute_time("log_pbida4", "15puzzle_bpida_korf100.txt")
 output_execute_time("log_pbida4_find_all", "15puzzle_bpida_findall_korf100.txt")
+output_execute_time("log_pbida4_global_find_all", "15puzzle_bpida_findall_korf100.txt")
 # test_f_limit("log_pbida4", "15puzzle_answers.txt", 100)
 # test_f_limit("log_pbida5_find_all", "15puzzle_answers.txt", 100)
 # test_f_limit("log_pbida5_find_all", "15puzzle_answers.txt", 100)
