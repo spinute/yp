@@ -1,21 +1,45 @@
 import commands
 import os
+import string
+
+def from_ms_format_to_s(st):
+    m_str = ""
+    s_str = ""
+    find_f = False
+    for s in st:
+        if find_f == True :
+            if s != 's' :
+                s_str = s_str + s
+            continue
+
+        if s != 'm' :
+            m_str = m_str + s
+        else :
+            find_f = True
+    return str( float(m_str) * 60.0 + float(s_str) )
 
 
-# class TestLog():
-#     ans_hash = {}
-#     ans_array = []
-    
-#     def __init__(self, arg):
-#         super(TestLog, self).__init__()
-#         self.arg = arg
+        
 
-#     def set_answers
-
-
-# TestLog tl = TestLog('15puzzle_answers.txt')
-
-
+def output_execute_time(log_file_name, write_file_name):
+    f = open("../results/" +  write_file_name, 'w')
+    results = commands.getoutput("grep ',' -v ../" + log_file_name + " | grep -v STAT | grep -v sys | sed '/^\s*$/d'")
+    results = results.split('\n')
+    for result in results:
+        if result.find("real") >= 0:
+            result = str(result).replace('real', '')
+            result = result.strip()
+            f.write(from_ms_format_to_s(result))
+            print( result + " " + from_ms_format_to_s(result))
+            f.write("\n")
+    # for res in results:
+    #     print res
+    #     res = res.replace('real', '')
+    #     print res
+    #     res = res.lstrip
+    #     print res
+    #     log_times.append(res  + '\n')
+    f.close() 
 
 def test_f_limit(log_file_name, ans_file_name, problems_nums):
     ans_hash = {}
@@ -60,9 +84,13 @@ def test_f_limit(log_file_name, ans_file_name, problems_nums):
     print "wrong cases are " + str(false_counts)
     print "--------------------------------"
 
+
+
     
 test_f_limit("log_pbida4", "15puzzle_answers.txt", 100)
 test_f_limit("log_pbida4_find_all", "15puzzle_answers.txt", 100)
+output_execute_time("log_pbida4", "15puzzle_bpida_korf100.txt")
+output_execute_time("log_pbida4_find_all", "15puzzle_bpida_findall_korf100.txt")
 # test_f_limit("log_pbida4", "15puzzle_answers.txt", 100)
 # test_f_limit("log_pbida5_find_all", "15puzzle_answers.txt", 100)
 # test_f_limit("log_pbida5_find_all", "15puzzle_answers.txt", 100)
