@@ -41,93 +41,93 @@ typedef struct state_tag
 
 /* PDB */
 #define TABLESIZE 244140625   /* bytes in direct-access database array (25^6) */
-static __device__ unsigned char *h0;        /* heuristic tables for pattern databases */
-static __device__ unsigned char *h1;
+static __device__ unsigned char *h0_d;        /* heuristic tables for pattern databases */
+static __device__ unsigned char *h1_d;
 
-static __device__ __constant__ const int whichpat[25] = {0,0,0,1,1,0,0,0,1,1,2,2,0,1,1,2,2,3,3,3,2,2,3,3,3};
-static __device__ __constant__ const int whichrefpat[25] = {0,0,2,2,2,0,0,2,2,2,0,0,0,3,3,1,1,1,3,3,1,1,1,3,3};
+static __device__ __constant__ const int whichpat_d[25] = {0,0,0,1,1,0,0,0,1,1,2,2,0,1,1,2,2,3,3,3,2,2,3,3,3};
+static __device__ __constant__ const int whichrefpat_d[25] = {0,0,2,2,2,0,0,2,2,2,0,0,0,3,3,1,1,1,3,3,1,1,1,3,3};
 #define inv (state->inv)
 /* the position of each tile in order, reflected about the main diagonal */
-static __device__ __constant__ const int ref[] = {0,5,10,15,20,1,6,11,16,21,2,7,12,17,22,3,8,13,18,23,4,9,14,19,24};
-static __device__ __constant__ const int rot90[] = {20,15,10,5,0,21,16,11,6,1,22,17,12,7,2,23,18,13,8,3,24,19,14,9,4};
-static __device__ __constant__ const int rot90ref[] = {20,21,22,23,24,15,16,17,18,19,10,11,12,13,14,5,6,7,8,9,0,1,2,3,4};
-static __device__ __constant__ const int rot180[] = {24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0};
-static __device__ __constant__ const int rot180ref[] = {24,19,14,9,4,23,18,13,8,3,22,17,12,7,2,21,16,11,6,1,20,15,10,5,0};
+static __device__ __constant__ const int ref_d[] = {0,5,10,15,20,1,6,11,16,21,2,7,12,17,22,3,8,13,18,23,4,9,14,19,24};
+static __device__ __constant__ const int rot90_d[] = {20,15,10,5,0,21,16,11,6,1,22,17,12,7,2,23,18,13,8,3,24,19,14,9,4};
+static __device__ __constant__ const int rot90ref_d[] = {20,21,22,23,24,15,16,17,18,19,10,11,12,13,14,5,6,7,8,9,0,1,2,3,4};
+static __device__ __constant__ const int rot180_d[] = {24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0};
+static __device__ __constant__ const int rot180ref_d[] = {24,19,14,9,4,23,18,13,8,3,22,17,12,7,2,21,16,11,6,1,20,15,10,5,0};
 
 static __device__ unsigned int
-hash0(d_State *state)
+hash0_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
 	hashval = ((((inv[1]*STATE_N+inv[2])*STATE_N+inv[5])*STATE_N+inv[6])*STATE_N+inv[7])*STATE_N+inv[12];
-	return (h0[hashval]);                       /* total moves for this pattern */
+	return (h0_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hashref0(d_State *state)
+hashref0_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
-	hashval = (((((ref[inv[5]] * STATE_N + ref[inv[10]]) * STATE_N + ref[inv[1]]) * STATE_N +
-					ref[inv[6]]) * STATE_N + ref[inv[11]]) * STATE_N + ref[inv[12]]);
-	return (h0[hashval]);                       /* total moves for this pattern */
+	hashval = (((((ref_d[inv[5]] * STATE_N + ref_d[inv[10]]) * STATE_N + ref_d[inv[1]]) * STATE_N +
+					ref_d[inv[6]]) * STATE_N + ref_d[inv[11]]) * STATE_N + ref_d[inv[12]]);
+	return (h0_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hash1(d_State *state)
+hash1_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
 	hashval = ((((inv[3]*STATE_N+inv[4])*STATE_N+inv[8])*STATE_N+inv[9])*STATE_N+inv[13])*STATE_N+inv[14];
-	return (h1[hashval]);                       /* total moves for this pattern */
+	return (h1_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hashref1(d_State *state)
+hashref1_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
-	hashval = (((((ref[inv[15]] * STATE_N + ref[inv[20]]) * STATE_N + ref[inv[16]]) * STATE_N +
-					ref[inv[21]]) * STATE_N + ref[inv[17]]) * STATE_N + ref[inv[22]]);
-	return (h1[hashval]);                       /* total moves for this pattern */
+	hashval = (((((ref_d[inv[15]] * STATE_N + ref_d[inv[20]]) * STATE_N + ref_d[inv[16]]) * STATE_N +
+					ref_d[inv[21]]) * STATE_N + ref_d[inv[17]]) * STATE_N + ref_d[inv[22]]);
+	return (h1_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hash2(d_State *state)
+hash2_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
-	hashval = ((((rot180[inv[21]] * STATE_N + rot180[inv[20]]) * STATE_N + rot180[inv[16]]) * STATE_N +
-				rot180[inv[15]]) * STATE_N + rot180[inv[11]]) * STATE_N + rot180[inv[10]];
-	return (h1[hashval]);                       /* total moves for this pattern */
+	hashval = ((((rot180_d[inv[21]] * STATE_N + rot180_d[inv[20]]) * STATE_N + rot180_d[inv[16]]) * STATE_N +
+				rot180_d[inv[15]]) * STATE_N + rot180_d[inv[11]]) * STATE_N + rot180_d[inv[10]];
+	return (h1_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hashref2(d_State *state)
+hashref2_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
-	hashval = (((((rot180ref[inv[9]] * STATE_N + rot180ref[inv[4]]) * STATE_N + rot180ref[inv[8]]) * STATE_N +
-					rot180ref[inv[3]]) * STATE_N + rot180ref[inv[7]]) * STATE_N + rot180ref[inv[2]]);
-	return (h1[hashval]);                       /* total moves for this pattern */
+	hashval = (((((rot180ref_d[inv[9]] * STATE_N + rot180ref_d[inv[4]]) * STATE_N + rot180ref_d[inv[8]]) * STATE_N +
+					rot180ref_d[inv[3]]) * STATE_N + rot180ref_d[inv[7]]) * STATE_N + rot180ref_d[inv[2]]);
+	return (h1_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hash3(d_State *state)
+hash3_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
-	hashval = ((((rot90[inv[19]] * STATE_N + rot90[inv[24]]) * STATE_N + rot90[inv[18]]) * STATE_N +
-				rot90[inv[23]]) * STATE_N + rot90[inv[17]]) * STATE_N + rot90[inv[22]];
-	return (h1[hashval]);                       /* total moves for this pattern */
+	hashval = ((((rot90_d[inv[19]] * STATE_N + rot90_d[inv[24]]) * STATE_N + rot90_d[inv[18]]) * STATE_N +
+				rot90_d[inv[23]]) * STATE_N + rot90_d[inv[17]]) * STATE_N + rot90_d[inv[22]];
+	return (h1_d[hashval]);                       /* total moves for this pattern */
 }
 
 static __device__ unsigned int
-hashref3(d_State *state)
+hashref3_d(d_State *state)
 {
 	int hashval;                                   /* index into heuristic table */
-	hashval = (((((rot90ref[inv[23]] * STATE_N + rot90ref[inv[24]]) * STATE_N + rot90ref[inv[18]]) * STATE_N
-					+ rot90ref[inv[19]]) * STATE_N + rot90ref[inv[13]]) * STATE_N + rot90ref[inv[14]]);
-	return (h1[hashval]);                       /* total moves for this pattern */
+	hashval = (((((rot90ref_d[inv[23]] * STATE_N + rot90ref_d[inv[24]]) * STATE_N + rot90ref_d[inv[18]]) * STATE_N
+					+ rot90ref_d[inv[19]]) * STATE_N + rot90ref_d[inv[13]]) * STATE_N + rot90ref_d[inv[14]]);
+	return (h1_d[hashval]);                       /* total moves for this pattern */
 }
 #undef inv
 
 typedef unsigned int (*HashFunc)(d_State *state);
-__device__ HashFunc hash[] = {hash0, hash1, hash2, hash3},
-		   rhash[] = {hashref0, hashref1, hashref2, hashref3};
+__device__ HashFunc hash[] = {hash0_d, hash1_d, hash2_d, hash3_d},
+		   rhash[] = {hashref0_d, hashref1_d, hashref2_d, hashref3_d};
 
 typedef struct search_stat_tag
 {
@@ -223,11 +223,11 @@ state_move(d_State *state, Direction dir, int f_limit)
     state_tile_set(state, state->empty, opponent);
     state_inv_set(state, opponent, state->empty);
 
-	int pat = whichpat[opponent];
+	int pat = whichpat_d[opponent];
 	state->h[pat] = hash[pat](state);
 	if (state->depth + 1 + state_get_h(state) <= f_limit)
 	{
-		int rpat = whichrefpat[opponent];
+		int rpat = whichrefpat_d[opponent];
 		HashFunc rh;
 		if (pat == 0)
 			rh = rpat == 0 ? rhash[0] : rhash[2];
@@ -374,8 +374,8 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
     //d_Stack *stack_p = &(stack_for_all[bid]);
 	if (tid == 0)
 	{
-		h0 = h0_ptr;
-		h1 = h1_ptr;
+		h0_d = h0_ptr;
+		h1_d = h1_ptr;
 		stat[bid].loads = 0;
 	}
 
@@ -445,26 +445,14 @@ pfree(void *ptr)
 #include <stdlib.h>
 #include <string.h>
 
-typedef unsigned char idx_t;
-/*
- *  [0,0] [1,0] [2,0] [3,0]
- *  [0,1] [1,1] [2,1] [3,1]
- *  [0,2] [1,2] [2,2] [3,2]
- *  [0,3] [1,3] [2,3] [3,3]
- */
-
-/*
- * goal state is
- * [0,1,2,...]
- */
-
 typedef struct state_tag_cpu
 {
     int       depth; /* XXX: needed? */
-    uchar     pos[STATE_WIDTH][STATE_WIDTH];
-    idx_t     i, j; /* pos of empty */
+    uchar tile[STATE_N];
+    uchar inv[STATE_N];
+    uchar empty;
+    uchar h[4], rh[4];
     Direction parent_dir;
-    int       h_value;
 } * State;
 
 #define v(state, i, j) ((state)->pos[i][j])
@@ -475,7 +463,7 @@ typedef struct state_tag_cpu
 #define uv(state) (v(state, state->i, state->j - 1))
 
 static uchar from_x[STATE_WIDTH * STATE_WIDTH],
-    from_y[STATE_WIDTH * STATE_WIDTH];
+	     from_y[STATE_WIDTH * STATE_WIDTH];
 
 static inline void
 fill_from_xy(State from)
@@ -488,26 +476,10 @@ fill_from_xy(State from)
         }
 }
 
-static inline int
-heuristic_manhattan_distance(State from)
-{
-    int h_value = 0;
-
-    fill_from_xy(from);
-
-    for (idx_t i = 1; i < STATE_N; ++i)
-    {
-        h_value += distance(from_x[i], POS_X(i));
-        h_value += distance(from_y[i], POS_Y(i));
-    }
-
-    return h_value;
-}
-
 bool
 state_is_goal(State state)
 {
-    return state->h_value == 0;
+    return state_calc_h(state) == 0;
 }
 
 static inline State
@@ -541,8 +513,6 @@ state_init(uchar v_list[STATE_WIDTH * STATE_WIDTH], int init_depth)
             }
             v(state, i, j) = v_list[cnt++];
         }
-
-    state->h_value = heuristic_manhattan_distance(state);
 
     return state;
 }
@@ -640,7 +610,6 @@ state_move(State state, Direction dir)
         assert(false);
     }
 
-    state->h_value += cal_h_diff(who, state->i + state->j * STATE_WIDTH, dir);
     state->parent_dir = dir;
 }
 
@@ -668,7 +637,7 @@ state_hash(State state)
 int
 state_get_hvalue(State state)
 {
-    return state->h_value;
+    return state_calc_h(state);
 }
 
 int
@@ -680,8 +649,7 @@ state_get_depth(State state)
 static void
 state_dump(State state)
 {
-    elog("LOG(state): depth=%d, h=%d, f=%d, ", state->depth, state->h_value,
-         state->depth + state->h_value);
+    //elog("LOG(state): depth=%d, h=%d, f=%d, ", state->depth, state->h_value, state->depth + state->h_value);
     for (int i = 0; i < STATE_N; ++i)
         elog("%d%c", i == state->i + STATE_WIDTH * state->j
                          ? 0
@@ -1182,7 +1150,6 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
                 minf = state_get_depth(state) + state_get_hvalue(state);
         }
         assert(pq_pop(q) == NULL);
-        // shuffle_input(input, cnt);
         *min_fvalue = minf;
     }
 
@@ -1364,34 +1331,6 @@ cudaPfree(void *ptr)
     CUDA_CHECK(cudaFree(ptr));
 }
 
-#define h_d_t(op, i, dir)                                                      \
-    (h_diff_table[(op) *STATE_N * DIR_N + (i) *DIR_N + (dir)])
-__host__ static void
-init_mdist(signed char h_diff_table[])
-{
-    for (int opponent = 0; opponent < STATE_N; ++opponent)
-    {
-        int goal_x = POS_X(opponent), goal_y = POS_Y(opponent);
-
-        for (int i = 0; i < STATE_N; ++i)
-        {
-            int from_x = POS_X(i), from_y = POS_Y(i);
-            for (uchar dir = 0; dir < DIR_N; ++dir)
-            {
-                if (dir == DIR_LEFT)
-                    h_d_t(opponent, i, dir) = goal_x > from_x ? -1 : 1;
-                if (dir == DIR_RIGHT)
-                    h_d_t(opponent, i, dir) = goal_x < from_x ? -1 : 1;
-                if (dir == DIR_UP)
-                    h_d_t(opponent, i, dir) = goal_y > from_y ? -1 : 1;
-                if (dir == DIR_DOWN)
-                    h_d_t(opponent, i, dir) = goal_y < from_y ? -1 : 1;
-            }
-        }
-    }
-}
-#undef h_d_t
-
 #define m_t(i, d) (movable_table[(i) *DIR_N + (d)])
 __host__ static void
 init_movable_table(bool movable_table[])
@@ -1480,7 +1419,9 @@ main(int argc, char *argv[])
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
 	unsigned char *d_h0 = (unsigned char *) cudaPalloc(TABLESIZE);
 	unsigned char *d_h1 = (unsigned char *) cudaPalloc(TABLESIZE);
-    d_Stack *stack_for_all = (d_Stack *) cudaPalloc(INIT_STACK_SIZE);
+// only used when putting stacks on global memory
+//    d_Stack *stack_for_all = (d_Stack *) cudaPalloc(INIT_STACK_SIZE);
+    d_Stack *stack_for_all;
 
     int min_fvalue = 0;
 
