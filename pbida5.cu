@@ -1,6 +1,5 @@
 #include <stdbool.h>
 
-#define STACK_ON_SHARED_MEMORY (true)
 #define FIND_ALL (true)
 #define PACKED (true)
 #define COLLECT_LOG (true)
@@ -277,11 +276,7 @@ __global__ void
 idas_kernel(Input *input, search_stat *stat, int f_limit,
             signed char *h_diff_table, bool *movable_table)
 {
-#if STACK_ON_SHARED_MEMORY == true
     __shared__ d_Stack     stack;
-#else
-    d_Stack     stack;
-#endif
 
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
