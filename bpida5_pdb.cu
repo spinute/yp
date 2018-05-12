@@ -462,24 +462,10 @@ typedef struct state_tag_cpu
 #define rv(state) (v(state, state->i + 1, state->j))
 #define uv(state) (v(state, state->i, state->j - 1))
 
-static uchar from_x[STATE_WIDTH * STATE_WIDTH],
-	     from_y[STATE_WIDTH * STATE_WIDTH];
-
-static inline void
-fill_from_xy(State from)
-{
-    for (idx_t x = 0; x < STATE_WIDTH; ++x)
-        for (idx_t y = 0; y < STATE_WIDTH; ++y)
-        {
-            from_x[v(from, x, y)] = x;
-            from_y[v(from, x, y)] = y;
-        }
-}
-
 bool
 state_is_goal(State state)
 {
-    return state_calc_h(state) == 0;
+    return state_get_h(state) == 0;
 }
 
 static inline State
@@ -503,16 +489,19 @@ state_init(uchar v_list[STATE_WIDTH * STATE_WIDTH], int init_depth)
     state->depth      = init_depth;
     state->parent_dir = (Direction) -1;
 
-    for (idx_t j = 0; j < STATE_WIDTH; ++j)
-        for (idx_t i = 0; i < STATE_WIDTH; ++i)
-        {
-            if (v_list[cnt] == 0)
-            {
-                state->i = i;
-                state->j = j;
-            }
-            v(state, i, j) = v_list[cnt++];
-        }
+    for (int i = 0; i < STATE_N; ++i)
+    {
+        if (v_list[i] == STATE_EMPTY)
+            state->empty = i;
+        state_tile_set(state, i, v_list[i]);
+        state_inv_set(state, v_list[i], i);
+    }
+
+	for (int i = 0; i < 4; i++)
+	{
+		state->h[i] = hash[i]();
+		state->rh[i] = rhash[i]();
+	}
 
     return state;
 }
@@ -584,31 +573,29 @@ cal_h_diff(int opponent, int from, int rev_dir)
 void
 state_move(State state, Direction dir)
 {
-    idx_t who;
-    assert(state_movable(state, dir));
+	int new_empty = state->empty + pos_diff_table[dir];
+	int opponent  = state_tile_get(new_empty);
 
-    switch (dir)
-    {
-    case DIR_LEFT:
-        who = ev(state) = lv(state);
-        state->i--;
-        break;
-    case DIR_DOWN:
-        who = ev(state) = dv(state);
-        state->j++;
-        break;
-    case DIR_RIGHT:
-        who = ev(state) = rv(state);
-        state->i++;
-        break;
-    case DIR_UP:
-        who = ev(state) = uv(state);
-        state->j--;
-        break;
-    default:
-        elog("unexpected direction");
-        assert(false);
-    }
+	state_tile_set(state, state.empty, opponent);
+	state_inv_set(state, opponent, state.empty);
+
+	int pat = whichpat[opponent];
+	int hash_old = state.h[pat];
+
+	state->h[pat] = hash[pat]();
+
+	int rpat = whichrefpat[opponent];
+	int rhash_old = state.rh[rpat];
+	HashFunc rh;
+	if (pat == 0)
+		rh = rpat == 0 ? rhash[0] : rhash[2];
+	else if (pat == 1)
+		rh = rpat == 2 ? rhash[2] : rhash[3];
+	else if (pat == 2)
+		rh = rpat == 0 ? rhash[0] : rhash[1];
+	else
+		rh = rpat == 1 ? rhash[1] : rhash[3];
+	state.rh[rpat] = rh();
 
     state->parent_dir = dir;
 }
