@@ -1,5 +1,5 @@
 #include <stdbool.h>
-
+#include <assert.h>
 #define PACKED
 #define SEARCH_ALL_THE_BEST
 #define COLLECT_LOG
@@ -9,6 +9,7 @@
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
 #define MAX_GPU_PLAN (24)
 #define MAX_BUF_RATIO (256)
+#define MAX_BLOCK_SIZE (64535)
 
 #define STATE_WIDTH 4
 #define STATE_N (STATE_WIDTH * STATE_WIDTH)
@@ -172,6 +173,8 @@ typedef struct div_stack_tag
     d_State      buf[STACK_BUF_LEN];
 } d_Stack;
 
+// d_Stack *global_st;
+
 __device__ static inline bool
 stack_is_empty(d_Stack *stack)
 {
@@ -185,7 +188,7 @@ stack_put(d_Stack *stack, d_State *state, bool put)
 {
 	if (put)
 	{
-		unsigned int i = atomicInc( &stack->n, UINT_MAX); /* slow? especially in old CC environment */
+		unsigned int i = atomicInc(&stack->n, UINT_MAX); /* slow? especially in old CC environment */
 		stack->buf[i] = *state;
 	}
 	__syncthreads();
@@ -280,9 +283,9 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 /* XXX: movable table is effective in this case? */
 __global__ void
 idas_kernel(Input *input, search_stat *stat, int f_limit,
-            signed char *h_diff_table, bool *movable_table)
+            signed char *h_diff_table, bool *movable_table, d_Stack *global_st)
 {
-    __shared__ d_Stack     stack;
+    // __shared__ d_Stack     stack;
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
 	if (tid == 0)
@@ -295,8 +298,8 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
 
 	if (tid == 0)
 	{
-		stack.buf[0] = state;
-		stack.n      = 1;
+		global_st[bid].buf[0] = state;
+		global_st[bid].n      = 1;
 	}
 
     for (int i = tid; i < STATE_N * DIR_N; i += blockDim.x)
@@ -312,7 +315,7 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
 #endif
 
 	__syncthreads();
-    idas_internal(&stack, f_limit, &stat[bid]);
+    idas_internal(&global_st[bid], f_limit, &stat[bid]);
 }
 
 /* host library implementation */
@@ -1390,6 +1393,10 @@ main(int argc, char *argv[])
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
 
+    d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
+
+
+
     int min_fvalue = 0;
 
     if (argc != 2)
@@ -1419,6 +1426,7 @@ main(int argc, char *argv[])
 
     CUDA_CHECK(cudaMemset(d_input, 0, INPUT_SIZE));
 
+
     for (uchar f_limit = min_fvalue;; f_limit += 2)
     {
         CUDA_CHECK(cudaMemset(d_stat, 0, STAT_SIZE));
@@ -1427,7 +1435,7 @@ main(int argc, char *argv[])
 
         elog("f_limit=%d\n", (int) f_limit);
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
-                                            d_h_diff_table, d_movable_table);
+                                            d_h_diff_table, d_movable_table, global_st);
         CUDA_CHECK(
             cudaGetLastError()); /* asm trap is called when find solution */
 
@@ -1524,6 +1532,7 @@ solution_found:
     cudaPfree(d_stat);
     cudaPfree(d_movable_table);
     cudaPfree(d_h_diff_table);
+    cudaPfree(global_st);
 
     CUDA_CHECK(cudaDeviceReset());
 
