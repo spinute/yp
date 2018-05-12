@@ -21,13 +21,11 @@ c5_pdb: ida_pdb.c
 
 bench_pbida4: pbida4
 	for fname in ./benchmarks/korf100/*; do time ./pbida4 $${fname} ; done
-bench_pbida5: pbida4
+bench_pbida5: pbida5
 	for fname in ./benchmarks/yama24_50_hard_new/*; do time ./pbida5 $${fname} ; done
 
 bench_c4: c4
 	for fname in ./benchmarks/korf100/*; do time ./c4 $${fname} ; done
-bench_pbida4: pbida4
-	for fname in ./benchmarks/korf100/*; do time ./pbida4 $${fname} ; done
 bench_c5: c5
 	for fname in ./benchmarks/yama24_50_hard_new/*; do time ./c5 $${fname} ; done
 bench_c5_pdb: c5
