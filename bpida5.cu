@@ -1,6 +1,6 @@
 #include <stdbool.h>
 
-#define FIND_ALL (true)
+// #define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
 #define COLLECT_LOG (true)
 

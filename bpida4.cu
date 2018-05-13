@@ -1,7 +1,7 @@
 #include <stdbool.h>
 
 #define PACKED
-#define SEARCH_ALL_THE_BEST
+// #define FIND_ALL
 #define COLLECT_LOG
 #undef USE_PRECOMPUTED_HDIFF
 
@@ -255,7 +255,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
                 {
                     if (state_is_goal(state))
 					{
-#ifndef SEARCH_ALL_THE_BEST
+#if FIND_ALL == false
 						asm("trap;");
 #else
 						stat->loads = loop_cnt;
@@ -1508,7 +1508,7 @@ main(int argc, char *argv[])
         n_roots += increased;
         elog("STAT: n_roots=%d(+%d)\n", n_roots, increased);
 
-#ifdef SEARCH_ALL_THE_BEST
+#if FIND_ALL == true
         for (int i = 0; i < n_roots; ++i)
             if (stat[i].solved)
             {

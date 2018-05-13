@@ -9,46 +9,46 @@ all: bpida4 bpida4_global bpida5 bpida5_global bpida5_pdb bpida5_pdb_global c4 c
 all_bench: bench_bpida4 bench_bpida4_global bench_bpida5 bench_bpida5_global bench_bpida5_pdb bench_c4 bench_c5 bench_c5_pdb bench_bpida4_fa bench_bpida4_global_fa bench_bpida5_fa bench_bpida5_global_fa bench_bpida5_pdb_fa bench_c4_fa bench_c5_fa bench_c5_pdb_fa
 
 bpida4: bpida4.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=false $<
 bpida4_global: bpida4_global.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=false $<
 bpida5: bpida5.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=false $<
 bpida5_global: bpida5_global.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=false $<
 bpida5_pdb: bpida5_pdb.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=false $<
 bpida5_pdb_global: bpida5_pdb_global.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=false $<
 
 bpida4_fa: bpida4.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=true $<
 bpida4_global_fa: bpida4_global.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=true $<
 bpida5_fa: bpida5.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=true $<
 bpida5_global_fa: bpida5_global.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=true $<
 bpida5_pdb_fa: bpida5_pdb.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=true $<
 bpida5_pdb_global_fa: bpida5_pdb_global.cu
-	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true $<
+	nvcc -o $@ $(NVCC_FLAGS)  -DFIND_ALL=true $<
 
 
 
 c4: ida.c
-	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=4 -DFIND_ALL=false $<
+	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=4  -DFIND_ALL=false $<
 c5: ida.c
-	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=5 -DFIND_ALL=false $<
+	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=5  -DFIND_ALL=false $<
 c5_pdb: ida_pdb.c
-	gcc -o $@ $(CFLAGS) -DFIND_ALL=false $<
+	gcc -o $@ $(CFLAGS)  -DFIND_ALL=false $<
 
 c4_fa: ida.c
-	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=4 -DFIND_ALL=true $<
+	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=4  -DFIND_ALL=true $<
 c5_fa: ida.c
-	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=5 -DFIND_ALL=true $<
+	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=5  -DFIND_ALL=true $<
 c5_pdb_fa: ida_pdb.c
-	gcc -o $@ $(CFLAGS) -DFIND_ALL=true $<
+	gcc -o $@ $(CFLAGS)  -DFIND_ALL=true $<
 
 bench_bpida4: bpida4
 	for fname in ./benchmarks/korf100/*; do time ./bpida4 $${fname} ; done
