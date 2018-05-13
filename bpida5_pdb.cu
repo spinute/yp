@@ -1,13 +1,13 @@
 #include <stdbool.h>
 
-#define FIND_ALL (true)
+//#define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
 #define COLLECT_LOG (false)
 
 #define BLOCK_DIM (32) /* NOTE: broken when more than 32 */
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
 //#define STACK_BUF_LEN (96 * (BLOCK_DIM/DIR_N))
-#define STACK_BUF_LEN (156)
+#define STACK_BUF_LEN (324)
 #define MAX_BUF_RATIO (256)
 
 #define STATE_WIDTH 5
