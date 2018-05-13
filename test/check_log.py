@@ -32,13 +32,6 @@ def output_execute_time(log_file_name, write_file_name):
             f.write(from_ms_format_to_s(result))
             print( result + " " + from_ms_format_to_s(result))
             f.write("\n")
-    # for res in results:
-    #     print res
-    #     res = res.replace('real', '')
-    #     print res
-    #     res = res.lstrip
-    #     print res
-    #     log_times.append(res  + '\n')
     f.close() 
 
 def test_f_limit(log_file_name, ans_file_name, problems_nums):
@@ -102,7 +95,17 @@ output_execute_time("log_pbida4_global_find_all", "15puzzle_bpida_global_findall
 
 
 # 24puzzle
-test_f_limit("log_pbida5_find_all", "24puzzle_yama_answers.txt", 100)
+test_f_limit("log_pbida5_find_all", "24puzzle_yama_answers.txt", 50)
+test_f_limit("log_pbida5_global_find_all", "24puzzle_yama_answers.txt", 50)
+
+test_f_limit("log_pbida5_pdb_find_all", "24puzzle_yama_answers.txt", 50)
+test_f_limit("log_c5_pdb_find_all", "24puzzle_yama_answers.txt", 50)
+
+output_execute_time("log_pbida5_find_all", "24puzzle_bpida_findall_yama.txt")
+output_execute_time("log_pbida5_global_find_all", "24puzzle_bpida_global_findall_yama.txt")
+output_execute_time("log_pbida5_pdb_find_all", "24puzzle_bpida_pdb_findall_yama.txt")
+
+output_execute_time("log_c5_pdb_find_all", "24puzzle_c5_pdb_findall_yama.txt")
 
 # test_f_limit("log_pbida4", "15puzzle_answers.txt", 100)
 # test_f_limit("log_pbida5_find_all", "15puzzle_answers.txt", 100)
