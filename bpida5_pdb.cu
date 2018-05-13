@@ -6,7 +6,8 @@
 
 #define BLOCK_DIM (32) /* NOTE: broken when more than 32 */
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define STACK_BUF_LEN (96 * (BLOCK_DIM/DIR_N))
+//#define STACK_BUF_LEN (96 * (BLOCK_DIM/DIR_N))
+#define STACK_BUF_LEN (324)
 #define MAX_BUF_RATIO (256)
 
 #define STATE_WIDTH 5
@@ -213,7 +214,7 @@ state_movable(d_State state, Direction dir)
 }
 
 __device__ __constant__ const static int pos_diff_table_d[DIR_N] = {
-    -STATE_WIDTH, -1, 1, +STATE_WIDTH};
+    -STATE_WIDTH, 1, -1, +STATE_WIDTH};
 
 __device__ static inline bool
 state_move(d_State *state, Direction dir, int f_limit)
@@ -614,11 +615,11 @@ static bool movable_table[STATE_N][DIR_N];
 bool
 state_movable(State state, Direction dir)
 {
-    return movable_table[state->empty][dir];
+	return movable_table[state->empty][dir];
 }
 
 const static int pos_diff_table[DIR_N] = {
-    -STATE_WIDTH, -1, 1, +STATE_WIDTH};
+    -STATE_WIDTH, 1, -1, +STATE_WIDTH};
 void
 state_move(State state, Direction dir)
 {
@@ -648,9 +649,12 @@ state_move(State state, Direction dir)
     state->empty = new_empty;
 }
 
+static void state_dump(State s);
 bool
 state_pos_equal(State s1, State s2)
 {
+    s1->tile[s1->empty] = STATE_EMPTY;
+    s2->tile[s2->empty] = STATE_EMPTY;
     for (int i = 0; i < STATE_N; ++i)
         if (s1->tile[i] != s2->tile[i])
 		return false;
@@ -663,12 +667,13 @@ state_hash(State state)
 {
     /* FIXME: for A* */
     size_t hash_value = 0;
-    for (int i = 0; i < STATE_N; ++i) {
-            uchar v = state->tile[i];
-            int x = v % STATE_WIDTH;
-            int y = v / STATE_WIDTH;
-	    hash_value ^= (v << ((x * 3 + y) << 2));
-    }
+    for (int i = 0; i < STATE_N; ++i) 
+        if (i != state-> empty) {
+		uchar v = state->tile[i];
+		int x = v % STATE_WIDTH;
+		int y = v / STATE_WIDTH;
+		hash_value ^= (v << ((x * 3 + y) << 2));
+	}
     return hash_value;
 }
 int
@@ -1123,7 +1128,6 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
-state_dump(state);
         --cnt;
         if (state_is_goal(state))
         {
@@ -1147,7 +1151,6 @@ state_dump(state);
             {
                 State next_state = state_copy(state);
                 state_move(next_state, (Direction) dir);
-state_dump(next_state);
                 next_state->depth++;
 
                 ht_status = ht_insert(closed, next_state, &ht_value);
@@ -1156,6 +1159,7 @@ state_dump(next_state);
                     state_fini(next_state);
                 else
                 {
+        printf("put\n");
                     ++cnt;
                     *ht_value = state_get_depth(next_state);
                     pq_put(q, next_state,
