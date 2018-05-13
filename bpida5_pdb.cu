@@ -22,6 +22,7 @@ typedef signed char   Direction;
 #define DIR_LEFT 2
 #define DIR_DOWN 3
 
+#define STATE_EMPTY 0
 #define POS_X(pos) ((pos) % STATE_WIDTH)
 #define POS_Y(pos) ((pos) / STATE_WIDTH)
 
@@ -125,9 +126,9 @@ hashref3_d(d_State *state)
 }
 #undef inv
 
-typedef unsigned int (*HashFunc)(d_State *state);
-__device__ HashFunc hash[] = {hash0_d, hash1_d, hash2_d, hash3_d},
-		   rhash[] = {hashref0_d, hashref1_d, hashref2_d, hashref3_d};
+typedef unsigned int (*HashFunc_d)(d_State *state);
+__device__ HashFunc_d hash_d[] = {hash0_d, hash1_d, hash2_d, hash3_d},
+		   rhash_d[] = {hashref0_d, hashref1_d, hashref2_d, hashref3_d};
 
 typedef struct search_stat_tag
 {
@@ -186,8 +187,8 @@ state_init(d_State *state, Input *input)
 
 	for (int i = 0; i < 4; i++)
 	{
-		state->h[i] = hash[i](state);
-		state->rh[i] = rhash[i](state);
+		state->h[i] = hash_d[i](state);
+		state->rh[i] = rhash_d[i](state);
 	}
 }
 
@@ -211,32 +212,32 @@ state_movable(d_State state, Direction dir)
     return movable_table_shared[state.empty][dir];
 }
 
-__device__ __constant__ const static int pos_diff_table[DIR_N] = {
+__device__ __constant__ const static int pos_diff_table_d[DIR_N] = {
     -STATE_WIDTH, -1, 1, +STATE_WIDTH};
 
 __device__ static inline bool
 state_move(d_State *state, Direction dir, int f_limit)
 {
-    int new_empty = state->empty + pos_diff_table[dir];
+    int new_empty = state->empty + pos_diff_table_d[dir];
     int opponent  = state_tile_get(state, new_empty);
 
     state_tile_set(state, state->empty, opponent);
     state_inv_set(state, opponent, state->empty);
 
 	int pat = whichpat_d[opponent];
-	state->h[pat] = hash[pat](state);
+	state->h[pat] = hash_d[pat](state);
 	if (state->depth + 1 + state_get_h(state) <= f_limit)
 	{
 		int rpat = whichrefpat_d[opponent];
-		HashFunc rh;
+		HashFunc_d rh;
 		if (pat == 0)
-			rh = rpat == 0 ? rhash[0] : rhash[2];
+			rh = rpat == 0 ? rhash_d[0] : rhash_d[2];
 		else if (pat == 1)
-			rh = rpat == 2 ? rhash[2] : rhash[3];
+			rh = rpat == 2 ? rhash_d[2] : rhash_d[3];
 		else if (pat == 2)
-			rh = rpat == 0 ? rhash[0] : rhash[1];
+			rh = rpat == 0 ? rhash_d[0] : rhash_d[1];
 		else
-			rh = rpat == 1 ? rhash[1] : rhash[3];
+			rh = rpat == 1 ? rhash_d[1] : rhash_d[3];
 		state->rh[rpat] = rh(state);
 
 		if (state->depth + 1 + state_get_rh(state) <= f_limit)
@@ -400,6 +401,103 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
 
 /* host library implementation */
 
+typedef struct state_tag_cpu
+{
+    int       depth; /* XXX: needed? */
+    uchar tile[STATE_N];
+    uchar inv[STATE_N];
+    uchar empty;
+    uchar h[4], rh[4];
+    Direction parent_dir;
+} * State;
+
+static unsigned char h0[TABLESIZE];        /* heuristic tables for pattern databases */
+static unsigned char h1[TABLESIZE];
+static int whichpat[25] = {0,0,0,1,1,0,0,0,1,1,2,2,0,1,1,2,2,3,3,3,2,2,3,3,3};
+static int whichrefpat[25] = {0,0,2,2,2,0,0,2,2,2,0,0,0,3,3,1,1,1,3,3,1,1,1,3,3};
+/* the position of each tile in order, reflected about the main diagonal */
+static int ref[] = {0,5,10,15,20,1,6,11,16,21,2,7,12,17,22,3,8,13,18,23,4,9,14,19,24};
+static int rot90[] = {20,15,10,5,0,21,16,11,6,1,22,17,12,7,2,23,18,13,8,3,24,19,14,9,4};
+static int rot90ref[] = {20,21,22,23,24,15,16,17,18,19,10,11,12,13,14,5,6,7,8,9,0,1,2,3,4};
+static int rot180[] = {24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0};
+static int rot180ref[] = {24,19,14,9,4,23,18,13,8,3,22,17,12,7,2,21,16,11,6,1,20,15,10,5,0};
+
+#define inv (state->inv)
+static unsigned int
+hash0(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = ((((inv[1]*STATE_N+inv[2])*STATE_N+inv[5])*STATE_N+inv[6])*STATE_N+inv[7])*STATE_N+inv[12];
+	return (h0[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hashref0(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = (((((ref[inv[5]] * STATE_N + ref[inv[10]]) * STATE_N + ref[inv[1]]) * STATE_N +
+					ref[inv[6]]) * STATE_N + ref[inv[11]]) * STATE_N + ref[inv[12]]);
+	return (h0[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hash1(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = ((((inv[3]*STATE_N+inv[4])*STATE_N+inv[8])*STATE_N+inv[9])*STATE_N+inv[13])*STATE_N+inv[14];
+	return (h1[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hashref1(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = (((((ref[inv[15]] * STATE_N + ref[inv[20]]) * STATE_N + ref[inv[16]]) * STATE_N +
+					ref[inv[21]]) * STATE_N + ref[inv[17]]) * STATE_N + ref[inv[22]]);
+	return (h1[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hash2(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = ((((rot180[inv[21]] * STATE_N + rot180[inv[20]]) * STATE_N + rot180[inv[16]]) * STATE_N +
+				rot180[inv[15]]) * STATE_N + rot180[inv[11]]) * STATE_N + rot180[inv[10]];
+	return (h1[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hashref2(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = (((((rot180ref[inv[9]] * STATE_N + rot180ref[inv[4]]) * STATE_N + rot180ref[inv[8]]) * STATE_N +
+					rot180ref[inv[3]]) * STATE_N + rot180ref[inv[7]]) * STATE_N + rot180ref[inv[2]]);
+	return (h1[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hash3(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = ((((rot90[inv[19]] * STATE_N + rot90[inv[24]]) * STATE_N + rot90[inv[18]]) * STATE_N +
+				rot90[inv[23]]) * STATE_N + rot90[inv[17]]) * STATE_N + rot90[inv[22]];
+	return (h1[hashval]);                       /* total moves for this pattern */
+}
+
+static unsigned int
+hashref3(State state)
+{
+	int hashval;                                   /* index into heuristic table */
+	hashval = (((((rot90ref[inv[23]] * STATE_N + rot90ref[inv[24]]) * STATE_N + rot90ref[inv[18]]) * STATE_N
+					+ rot90ref[inv[19]]) * STATE_N + rot90ref[inv[13]]) * STATE_N + rot90ref[inv[14]]);
+	return (h1[hashval]);                       /* total moves for this pattern */
+}
+#undef inv
+
+typedef unsigned int (*HashFunc)(State state);
+HashFunc hash[] = {hash0, hash1, hash2, hash3},
+		 rhash[] = {hashref0, hashref1, hashref2, hashref3};
+
 #include <errno.h>
 #include <limits.h>
 #include <stddef.h>
@@ -445,16 +543,6 @@ pfree(void *ptr)
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct state_tag_cpu
-{
-    int       depth; /* XXX: needed? */
-    uchar tile[STATE_N];
-    uchar inv[STATE_N];
-    uchar empty;
-    uchar h[4], rh[4];
-    Direction parent_dir;
-} * State;
-
 #define v(state, i, j) ((state)->pos[i][j])
 #define ev(state) (v(state, state->i, state->j))
 #define lv(state) (v(state, state->i - 1, state->j))
@@ -484,7 +572,6 @@ State
 state_init(uchar v_list[STATE_WIDTH * STATE_WIDTH], int init_depth)
 {
     State state = state_alloc();
-    int   cnt   = 0;
 
     state->depth      = init_depth;
     state->parent_dir = (Direction) -1;
@@ -499,8 +586,8 @@ state_init(uchar v_list[STATE_WIDTH * STATE_WIDTH], int init_depth)
 
 	for (int i = 0; i < 4; i++)
 	{
-		state->h[i] = hash[i]();
-		state->rh[i] = rhash[i]();
+		state->h[i] = hash[i](state);
+		state->rh[i] = rhash[i](state);
 	}
 
     return state;
@@ -522,70 +609,30 @@ state_copy(State src)
     return dst;
 }
 
-static inline bool
-state_left_movable(State state)
-{
-    return state->i != 0;
-}
-static inline bool
-state_down_movable(State state)
-{
-    return state->j != STATE_WIDTH - 1;
-}
-static inline bool
-state_right_movable(State state)
-{
-    return state->i != STATE_WIDTH - 1;
-}
-static inline bool
-state_up_movable(State state)
-{
-    return state->j != 0;
-}
+static bool movable_table[STATE_N][DIR_N];
 
 bool
 state_movable(State state, Direction dir)
 {
-    return (dir != DIR_LEFT || state_left_movable(state)) &&
-           (dir != DIR_DOWN || state_down_movable(state)) &&
-           (dir != DIR_RIGHT || state_right_movable(state)) &&
-           (dir != DIR_UP || state_up_movable(state));
+    return movable_table[state->empty][dir];
 }
 
-#define h_diff(who, opponent, dir)                                       \
-    (h_diff_table[((who) * STATE_N * DIR_N) + ((opponent) << 2) + (dir)])
-//static int h_diff_table[STATE_N * STATE_N * DIR_N];
-static inline int
-cal_h_diff(int opponent, int from, int rev_dir)
-{
-	int goal_x = POS_X(opponent), goal_y = POS_Y(opponent);
-	int from_x = POS_X(from), from_y = POS_Y(from);
-	if (rev_dir == DIR_LEFT)
-		return goal_x > from_x ? -1 : 1;
-	else if (rev_dir == DIR_RIGHT)
-		return goal_x < from_x ? -1 : 1;
-	else if (rev_dir == DIR_UP)
-		return goal_y > from_y ? -1 : 1;
-	else
-		return goal_y < from_y ? -1 : 1;
-}
-
+const static int pos_diff_table[DIR_N] = {
+    -STATE_WIDTH, -1, 1, +STATE_WIDTH};
 void
 state_move(State state, Direction dir)
 {
 	int new_empty = state->empty + pos_diff_table[dir];
-	int opponent  = state_tile_get(new_empty);
+	int opponent  = state_tile_get(state, new_empty);
 
-	state_tile_set(state, state.empty, opponent);
-	state_inv_set(state, opponent, state.empty);
+	state_tile_set(state, state->empty, opponent);
+	state_inv_set(state, opponent, state->empty);
 
 	int pat = whichpat[opponent];
-	int hash_old = state.h[pat];
 
-	state->h[pat] = hash[pat]();
+	state->h[pat] = hash[pat](state);
 
 	int rpat = whichrefpat[opponent];
-	int rhash_old = state.rh[rpat];
 	HashFunc rh;
 	if (pat == 0)
 		rh = rpat == 0 ? rhash[0] : rhash[2];
@@ -595,18 +642,18 @@ state_move(State state, Direction dir)
 		rh = rpat == 0 ? rhash[0] : rhash[1];
 	else
 		rh = rpat == 1 ? rhash[1] : rhash[3];
-	state.rh[rpat] = rh();
+	state->rh[rpat] = rh(state);
 
     state->parent_dir = dir;
+    state->empty = new_empty;
 }
 
 bool
 state_pos_equal(State s1, State s2)
 {
-    for (idx_t i = 0; i < STATE_WIDTH; ++i)
-        for (idx_t j = 0; j < STATE_WIDTH; ++j)
-            if (v(s1, i, j) != v(s2, i, j))
-                return false;
+    for (int i = 0; i < STATE_N; ++i)
+        if (s1->tile[i] != s2->tile[i])
+		return false;
 
     return true;
 }
@@ -616,9 +663,12 @@ state_hash(State state)
 {
     /* FIXME: for A* */
     size_t hash_value = 0;
-    for (idx_t i = 0; i < STATE_WIDTH; ++i)
-        for (idx_t j = 0; j < STATE_WIDTH; ++j)
-            hash_value ^= (v(state, i, j) << ((i * 3 + j) << 2));
+    for (int i = 0; i < STATE_N; ++i) {
+            uchar v = state->tile[i];
+            int x = v % STATE_WIDTH;
+            int y = v / STATE_WIDTH;
+	    hash_value ^= (v << ((x * 3 + y) << 2));
+    }
     return hash_value;
 }
 int
@@ -636,12 +686,14 @@ state_get_depth(State state)
 static void
 state_dump(State state)
 {
-    //elog("LOG(state): depth=%d, h=%d, f=%d, ", state->depth, state->h_value, state->depth + state->h_value);
+    printf("%s: d=%d, h=%d, (x,y)=(%u,%u)\n", __func__,
+		    state->depth, state_get_hvalue(state),
+		    POS_X(state->empty), POS_Y(state->empty));
+
     for (int i = 0; i < STATE_N; ++i)
-        elog("%d%c", i == state->i + STATE_WIDTH * state->j
-                         ? 0
-                         : state->pos[i % STATE_WIDTH][i / STATE_WIDTH],
-             i == STATE_N - 1 ? '\n' : ',');
+        printf("%d%c", i == state->empty ? 0 : (int) state_tile_get(state, i),
+               POS_X(i) == STATE_WIDTH - 1 ? '\n' : ' ');
+    printf("-----------\n");
 }
 
 #include <stddef.h>
@@ -1071,6 +1123,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
+state_dump(state);
         --cnt;
         if (state_is_goal(state))
         {
@@ -1094,6 +1147,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
             {
                 State next_state = state_copy(state);
                 state_move(next_state, (Direction) dir);
+state_dump(next_state);
                 next_state->depth++;
 
                 ht_status = ht_insert(closed, next_state, &ht_value);
@@ -1127,9 +1181,8 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
             assert(state);
 
             for (int i = 0; i < STATE_N; ++i)
-                input[id].tiles[i] =
-                    state->pos[i % STATE_WIDTH][i / STATE_WIDTH];
-            input[id].tiles[state->i + (state->j * STATE_WIDTH)] = 0;
+                input[id].tiles[i] = state->tile[i];
+            input[id].tiles[state->empty] = 0;
 
             input[id].init_depth = state_get_depth(state);
             input[id].parent_dir = state->parent_dir;
@@ -1228,8 +1281,8 @@ input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
         assert(state);
 
         for (int j              = 0; j < STATE_N; ++j)
-            input[ofs].tiles[j] = state->pos[j % STATE_WIDTH][j / STATE_WIDTH];
-        input[ofs].tiles[state->i + (state->j * STATE_WIDTH)] = 0;
+            input[ofs].tiles[j] = state->tile[j];
+        input[ofs].tiles[state->empty] = 0;
 
         input[ofs].init_depth = state_get_depth(state);
         input[ofs].parent_dir = state->parent_dir;
@@ -1318,9 +1371,9 @@ cudaPfree(void *ptr)
     CUDA_CHECK(cudaFree(ptr));
 }
 
-#define m_t(i, d) (movable_table[(i) *DIR_N + (d)])
+#define m_t(i, d) (movable_table[i][d])
 __host__ static void
-init_movable_table(bool movable_table[])
+init_movable_table(void)
 {
     for (int i = 0; i < STATE_N; ++i)
         for (unsigned int d = 0; d < DIR_N; ++d)
@@ -1338,8 +1391,6 @@ init_movable_table(bool movable_table[])
 #undef m_t
 
 static FILE *infile;                              /* pointer to heuristic table file */
-static unsigned char h_h0[TABLESIZE];
-static unsigned char h_h1[TABLESIZE];
 static __host__ void
 readfile(unsigned char table[])
 {
@@ -1372,12 +1423,12 @@ static __host__ void
 pdb_load(void)
 {
 	infile = fopen("pattern_1_2_5_6_7_12", "rb"); /* read 6-tile pattern database */
-	readfile (h_h0);         /* read database and expand into direct-access array */
+	readfile (h0);         /* read database and expand into direct-access array */
 	fclose(infile);
 	printf ("pattern 1 2 5 6 7 12 read in\n");
 
 	infile = fopen("pattern_3_4_8_9_13_14", "rb"); /* read 6-tile pattern database */
-	readfile (h_h1);         /* read database and expand into direct-access array */
+	readfile (h1);         /* read database and expand into direct-access array */
 	fclose(infile);
 	printf ("pattern 3 4 8 9 13 14 read in\n");
 }
@@ -1400,8 +1451,7 @@ main(int argc, char *argv[])
           *d_input              = (Input *) cudaPalloc(INPUT_SIZE);
     search_stat *stat           = (search_stat *) palloc(STAT_SIZE),
                 *d_stat         = (search_stat *) cudaPalloc(STAT_SIZE);
-    bool *movable_table         = (bool *) palloc(MOVABLE_TABLE_SIZE),
-         *d_movable_table       = (bool *) cudaPalloc(MOVABLE_TABLE_SIZE);
+    bool *d_movable_table       = (bool *) cudaPalloc(MOVABLE_TABLE_SIZE);
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
 	unsigned char *d_h0 = (unsigned char *) cudaPalloc(TABLESIZE);
@@ -1418,11 +1468,10 @@ main(int argc, char *argv[])
     load_state_from_file(argv[1], input[0].tiles);
 
 	pdb_load();
-    CUDA_CHECK(cudaMemcpy(d_h0, h_h0, TABLESIZE, cudaMemcpyHostToDevice));
-    CUDA_CHECK(cudaMemcpy(d_h1, h_h1, TABLESIZE, cudaMemcpyHostToDevice));
+    CUDA_CHECK(cudaMemcpy(d_h0, h0, TABLESIZE, cudaMemcpyHostToDevice));
+    CUDA_CHECK(cudaMemcpy(d_h1, h1, TABLESIZE, cudaMemcpyHostToDevice));
 
-    init_mdist(h_diff_table);
-    init_movable_table(movable_table);
+    init_movable_table();
 
     {
         State init_state = state_init(input[0].tiles, 0);
@@ -1554,7 +1603,6 @@ solution_found:
 
     pfree(input);
     pfree(stat);
-    pfree(movable_table);
     pfree(h_diff_table);
 
     return 0;
