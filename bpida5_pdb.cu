@@ -2,12 +2,12 @@
 
 #define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
-#define COLLECT_LOG (true)
+#define COLLECT_LOG (false)
 
 #define BLOCK_DIM (32) /* NOTE: broken when more than 32 */
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
 //#define STACK_BUF_LEN (96 * (BLOCK_DIM/DIR_N))
-#define STACK_BUF_LEN (324)
+#define STACK_BUF_LEN (156)
 #define MAX_BUF_RATIO (256)
 
 #define STATE_WIDTH 5
@@ -366,14 +366,11 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 
 __global__ void
 idas_kernel(Input *input, search_stat *stat, int f_limit,
-            signed char *h_diff_table, bool *movable_table,
-	unsigned char *h0_ptr, unsigned char *h1_ptr, d_Stack *stack_for_all)
+		bool *movable_table, unsigned char *h0_ptr, unsigned char *h1_ptr)
 {
     __shared__ d_Stack     stack;
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
-	d_Stack *stack_p = &stack;
-    //d_Stack *stack_p = &(stack_for_all[bid]);
 	if (tid == 0)
 	{
 		h0_d = h0_ptr;
@@ -397,7 +394,7 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
             movable_table_shared[i / DIR_N][i % DIR_N] = movable_table[i];
 
 	__syncthreads();
-    idas_internal(stack_p, f_limit, &stat[bid]);
+    idas_internal(&stack, f_limit, &stat[bid]);
 }
 
 /* host library implementation */
@@ -919,18 +916,22 @@ calc_init_capa(size_t capa_hint)
     return capa - 1;
 }
 
+PQ pq_cache = NULL;
+
 PQ
 pq_init(size_t init_capa_hint)
 {
-    PQ pq = (PQ) palloc(sizeof(*pq));
+    if (pq_cache == NULL) {
+	    pq_cache = (PQ) palloc(sizeof(*pq_cache));
+	    pq_cache->capa    = calc_init_capa(init_capa_hint);
+	    pq_cache->array = (PQEntryData *) palloc(sizeof(PQEntryData) * pq_cache->capa);
+    }
 
-    pq->n_elems = 0;
-    pq->capa    = calc_init_capa(init_capa_hint);
+    pq_cache->n_elems = 0;
 
-    assert(pq->capa <= SIZE_MAX / sizeof(PQEntryData));
-    pq->array = (PQEntryData *) palloc(sizeof(PQEntryData) * pq->capa);
+    assert(pq_cache->capa <= SIZE_MAX / sizeof(PQEntryData));
 
-    return pq;
+    return pq_cache;
 }
 
 void
@@ -939,8 +940,8 @@ pq_fini(PQ pq)
     for (size_t i = 0; i < pq->n_elems; ++i)
         state_fini(pq->array[i].state);
 
-    pfree(pq->array);
-    pfree(pq);
+//    pfree(pq->array);
+ //   pfree(pq);
 }
 
 static inline bool
@@ -1159,7 +1160,6 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
                     state_fini(next_state);
                 else
                 {
-        printf("put\n");
                     ++cnt;
                     *ht_value = state_get_depth(next_state);
                     pq_put(q, next_state,
@@ -1202,10 +1202,16 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
     return solved;
 }
 
+#include <sys/time.h>
 static int
 input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
              int *buf_len)
 {
+    //struct timeval s, e;
+    //gettimeofday(&s, NULL);
+
+    //gettimeofday(&e, NULL);
+    //printf("time0 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     int   cnt = 0;
     int * ht_value;
     State state       = state_init(input[i].tiles, input[i].init_depth);
@@ -1216,8 +1222,15 @@ input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
     ++cnt;
     assert(devide_n > 0);
 
+    //gettimeofday(&e, NULL);
+    //printf("time1 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
+
+//if (i % 1000 == 0) elog("here1\n");
+
     while ((state = pq_pop(pq)))
     {
+    //gettimeofday(&e, NULL);
+    //printf("time11 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
         --cnt;
         if (state_is_goal(state))
         {
@@ -1227,8 +1240,13 @@ input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
             ++cnt;
             break;
         }
+ //   gettimeofday(&e, NULL);
+ //   printf("time12 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
+/*
         ht_status = ht_insert(closed, state, &ht_value);
+    gettimeofday(&e, NULL);
+    printf("time13 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
         if (ht_status == HT_FAILED_FOUND && *ht_value < state_get_depth(state))
         {
             state_fini(state);
@@ -1236,7 +1254,12 @@ input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
         }
         else
             *ht_value = state_get_depth(state);
+*/
+ //   gettimeofday(&e, NULL);
+ //   printf("time14 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
+ //   gettimeofday(&e, NULL);
+ //   printf("time3 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
         for (int dir = 0; dir < DIR_N; ++dir)
         {
             if (state->parent_dir != dir_reverse(dir) &&
@@ -1245,26 +1268,44 @@ input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
                 State next_state = state_copy(state);
                 state_move(next_state, (Direction) dir);
                 next_state->depth++;
+    //gettimeofday(&e, NULL);
+    //printf("time31 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
+/*
                 ht_status = ht_insert(closed, next_state, &ht_value);
                 if (ht_status == HT_FAILED_FOUND &&
                     *ht_value < state_get_depth(next_state))
                     state_fini(next_state);
                 else
+*/
                 {
+    //gettimeofday(&e, NULL);
+    //printf("time32 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                     ++cnt;
+/*
                     *ht_value = state_get_depth(next_state);
                     pq_put(pq, next_state,
                            *ht_value + state_get_hvalue(next_state), *ht_value);
+*/
+                    int next_state_depth = state_get_depth(next_state);
+                    pq_put(pq, next_state,
+                           next_state_depth + state_get_hvalue(next_state),
+			   next_state_depth);
                 }
             }
         }
+    //gettimeofday(&e, NULL);
+    //printf("time33 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
         state_fini(state);
+    //gettimeofday(&e, NULL);
+    //printf("time34 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
         if (cnt >= devide_n)
             break;
     }
+    //gettimeofday(&e, NULL);
+    //printf("time4 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
     int new_buf_len = *buf_len;
     while (tail + cnt >= new_buf_len)
@@ -1293,6 +1334,8 @@ input_devide(Input input[], search_stat stat[], int i, int devide_n, int tail,
     }
 
     pq_fini(pq);
+    //gettimeofday(&e, NULL);
+    //printf("time5 = %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
     return cnt - 1;
 }
@@ -1443,7 +1486,6 @@ pdb_load(void)
 #define STAT_SIZE (sizeof(search_stat) * buf_len)
 #define MOVABLE_TABLE_SIZE (sizeof(bool) * STATE_N * DIR_N)
 #define H_DIFF_TABLE_SIZE (STATE_N * STATE_N * DIR_N)
-#define INIT_STACK_SIZE (sizeof(d_Stack) * 100000)
 int
 main(int argc, char *argv[])
 {
@@ -1456,13 +1498,9 @@ main(int argc, char *argv[])
     search_stat *stat           = (search_stat *) palloc(STAT_SIZE),
                 *d_stat         = (search_stat *) cudaPalloc(STAT_SIZE);
     bool *d_movable_table       = (bool *) cudaPalloc(MOVABLE_TABLE_SIZE);
-    signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
-                *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
+    signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE);
 	unsigned char *d_h0 = (unsigned char *) cudaPalloc(TABLESIZE);
 	unsigned char *d_h1 = (unsigned char *) cudaPalloc(TABLESIZE);
-// only used when putting stacks on global memory
-//    d_Stack *stack_for_all = (d_Stack *) cudaPalloc(INIT_STACK_SIZE);
-    d_Stack *stack_for_all;
 
     int min_fvalue = 0;
 
@@ -1491,8 +1529,6 @@ main(int argc, char *argv[])
 
     CUDA_CHECK(cudaMemcpy(d_movable_table, movable_table, MOVABLE_TABLE_SIZE,
                           cudaMemcpyHostToDevice));
-    CUDA_CHECK(cudaMemcpy(d_h_diff_table, h_diff_table, H_DIFF_TABLE_SIZE,
-                          cudaMemcpyHostToDevice));
 
     CUDA_CHECK(cudaMemset(d_input, 0, INPUT_SIZE));
 
@@ -1501,11 +1537,10 @@ main(int argc, char *argv[])
         CUDA_CHECK(cudaMemset(d_stat, 0, STAT_SIZE));
         CUDA_CHECK(
             cudaMemcpy(d_input, input, INPUT_SIZE, cudaMemcpyHostToDevice));
+        elog("0\n");
 
         elog("f_limit=%d\n", (int) f_limit);
-        idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
-                                            d_h_diff_table, d_movable_table,
-						d_h0, d_h1, stack_for_all);
+        idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit, d_movable_table, d_h0, d_h1);
         CUDA_CHECK(
             cudaGetLastError()); /* asm trap is called when find solution */
 
@@ -1599,7 +1634,6 @@ solution_found:
     cudaPfree(d_input);
     cudaPfree(d_stat);
     cudaPfree(d_movable_table);
-    cudaPfree(d_h_diff_table);
     cudaPfree(d_h0);
     cudaPfree(d_h1);
 

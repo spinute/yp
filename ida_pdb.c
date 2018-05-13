@@ -3,7 +3,7 @@
 
 #define USE_ORDER_KORFS
 #define PLAN_LEN_MAX 255
-#define FIND_ALL (true)
+//#define FIND_ALL (true)
 
 typedef unsigned char uchar;
 
@@ -29,7 +29,7 @@ typedef uchar Direction;
 static struct state_tag
 {
     uchar tile[STATE_N];
-	uchar inv[STATE_N];
+    uchar inv[STATE_N];
     uchar empty;
     uchar h[4], rh[4];
 } state;
