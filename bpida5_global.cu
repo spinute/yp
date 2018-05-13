@@ -1,16 +1,16 @@
 #include <stdbool.h>
 
-#define PACKED
-#define SEARCH_ALL_THE_BEST
-#define COLLECT_LOG
-#undef USE_PRECOMPUTED_HDIFF
+#define FIND_ALL (true)
+#define PACKED (false) // maybe needs debug in 24 puzzle
+#define COLLECT_LOG (true)
 
-#define BLOCK_DIM (32)
+#define BLOCK_DIM (32) /* NOTE: broken when more than 32 */
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define MAX_GPU_PLAN (24)
+#define STACK_BUF_LEN (96 * (BLOCK_DIM/DIR_N))
 #define MAX_BUF_RATIO (256)
+#define MAX_BLOCK_SIZE (64535)
 
-#define STATE_WIDTH 4
+#define STATE_WIDTH 5
 #define STATE_N (STATE_WIDTH * STATE_WIDTH)
 
 typedef unsigned char uchar;
@@ -22,18 +22,18 @@ typedef signed char   Direction;
 #define DIR_RIGHT 1
 #define DIR_LEFT 2
 #define DIR_DOWN 3
-#define POS_X(pos) ((pos) &3)
-#define POS_Y(pos) ((pos) >> 2)
+#define POS_X(pos) ((pos) % STATE_WIDTH)
+#define POS_Y(pos) ((pos) / STATE_WIDTH)
 
 typedef struct search_stat_tag
 {
     bool                   solved;
     int                    len;
     unsigned long long int loads;
-#ifdef COLLECT_LOG
+#if COLLECT_LOG == true
 	unsigned long long int nodes_expanded;
 #endif
-	//bool assert_failed;
+    //bool assert_failed;
 } search_stat;
 typedef struct input_tag
 {
@@ -48,13 +48,11 @@ typedef struct input_tag
  * goal: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
  */
 
-#ifdef USE_PRECOMPUTED_HDIFF
-__device__ __shared__ static signed char h_diff_table_shared[STATE_N][STATE_N] [DIR_N];
-#endif
+//__device__ __shared__ static signed char h_diff_table_shared[STATE_N][STATE_N] [DIR_N];
 
 typedef struct state_tag
 {
-#ifndef PACKED
+#if PACKED == false
     uchar tile[STATE_N];
 #else
     unsigned long long tile;
@@ -65,7 +63,7 @@ typedef struct state_tag
     uchar     h_value; /* ub of h_value is STATE_WIDTH*2*(STATE_N-1), e.g. 90 */
 } d_State;
 
-#ifndef PACKED
+#if PACKED == false
 #define state_tile_get(i) (state->tile[i])
 #define state_tile_set(i, v) (state->tile[i] = (v))
 
@@ -152,11 +150,8 @@ state_move(d_State *state, Direction dir)
     int new_empty = state->empty + pos_diff_table[dir];
     int opponent  = state_tile_get(new_empty);
 
-#ifdef USE_PRECOMPUTED_HDIFF
-    state->h_value += h_diff_table_shared[opponent][new_empty][dir];
-#else
+    //state->h_value += h_diff_table_shared[opponent][new_empty][dir];
     state->h_value += calc_h_diff(opponent, new_empty, dir);
-#endif
     state_tile_set(state->empty, opponent);
     state->empty      = new_empty;
     state->parent_dir = dir;
@@ -164,7 +159,6 @@ state_move(d_State *state, Direction dir)
 }
 
 /* stack implementation */
-#define STACK_BUF_LEN (MAX_GPU_PLAN * (BLOCK_DIM/DIR_N))
 
 typedef struct div_stack_tag
 {
@@ -215,7 +209,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 {
 	d_State state;
     unsigned long long int loop_cnt = 0;
-#ifdef COLLECT_LOG
+#if COLLECT_LOG == true
     unsigned long long int nodes_expanded = 0;
 #endif
 	if (threadIdx.x == 0)
@@ -226,7 +220,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
         if (stack_is_empty(stack))
 		{
 			stat->loads = loop_cnt;
-#ifdef COLLECT_LOG
+#if COLLECT_LOG == true
 			atomicAdd(&stat->nodes_expanded, nodes_expanded);
 #endif
 			break;
@@ -239,7 +233,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
         if (found)
         {
             Direction dir = threadIdx.x & 3;
-#ifdef COLLECT_LOG
+#if COLLECT_LOG == true
 			nodes_expanded++;
 #endif
 
@@ -255,7 +249,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
                 {
                     if (state_is_goal(state))
 					{
-#ifndef SEARCH_ALL_THE_BEST
+#if FIND_ALL == false
 						asm("trap;");
 #else
 						stat->loads = loop_cnt;
@@ -263,7 +257,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 						stat->solved = true;
 #endif
 
-#ifdef COLLECT_LOG
+#if COLLECT_LOG == true
 						atomicAdd(&stat->nodes_expanded, nodes_expanded);
 #endif
 					}
@@ -273,6 +267,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
             }
         }
 
+        //__syncthreads(); // maybe useless
 		stack_put(stack, &state, put);
     }
 }
@@ -280,9 +275,10 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 /* XXX: movable table is effective in this case? */
 __global__ void
 idas_kernel(Input *input, search_stat *stat, int f_limit,
-            signed char *h_diff_table, bool *movable_table)
+            signed char *h_diff_table, bool *movable_table, d_Stack *global_st)
 {
-    __shared__ d_Stack     stack;
+    // __shared__ d_Stack     stack;
+
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
 	if (tid == 0)
@@ -295,24 +291,16 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
 
 	if (tid == 0)
 	{
-		stack.buf[0] = state;
-		stack.n      = 1;
+		global_st[bid].buf[0] = state;
+		global_st[bid].n      = 1;
 	}
 
     for (int i = tid; i < STATE_N * DIR_N; i += blockDim.x)
         if (i < STATE_N * DIR_N)
             movable_table_shared[i / DIR_N][i % DIR_N] = movable_table[i];
 
-#ifdef USE_PRECOMPUTED_HDIFF
-    for (int dir = 0; dir < DIR_N; ++dir)
-        for (int j = tid; j < STATE_N * STATE_N; j += blockDim.x)
-            if (j < STATE_N * STATE_N)
-                h_diff_table_shared[j / STATE_N][j % STATE_N][dir] =
-                    h_diff_table[j * DIR_N + dir];
-#endif
-
 	__syncthreads();
-    idas_internal(&stack, f_limit, &stat[bid]);
+    idas_internal(&global_st[bid], f_limit, &stat[bid]);
 }
 
 /* host library implementation */
@@ -414,8 +402,8 @@ heuristic_manhattan_distance(State from)
 
     for (idx_t i = 1; i < STATE_N; ++i)
     {
-        h_value += distance(from_x[i], i & 3);
-        h_value += distance(from_y[i], i >> 2);
+        h_value += distance(from_x[i], POS_X(i));
+        h_value += distance(from_y[i], POS_Y(i));
     }
 
     return h_value;
@@ -510,63 +498,24 @@ state_movable(State state, Direction dir)
            (dir != DIR_UP || state_up_movable(state));
 }
 
-#define h_diff(who, from_i, from_j, dir)                                       \
-    (h_diff_table[((who) << 6) + ((from_j) << 4) + ((from_i) << 2) + (dir)])
-static int h_diff_table[STATE_N * STATE_N * DIR_N] = {
-    1,  1,  1,  1,  1,  1,  -1, 1,  1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  1,
-    1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,
-    -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1,
-    1,  -1, 1,  -1, 1,  -1, 1,  1,  -1, 1,  1,  1,  1,  1,  1,  1,  1,  -1, 1,
-    1,  1,  -1, 1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1,
-    1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, -1,
-    1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  -1, 1,  1,  1,
-    -1, 1,  1,  1,  1,  1,  1,  1,  1,  -1, 1,  -1, -1, 1,  1,  -1, -1, 1,  1,
-    -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,  1,
-    1,  -1, 1,  -1, 1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, 1,
-    -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  1,  1,  -1, 1,  1,  1,  1,  1,  1,  -1,
-    -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, -1, 1,  1,
-    -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, -1, 1,  1,  -1, -1, 1,
-    1,  -1, -1, 1,  1,  -1, 1,  1,  1,  1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,
-    -1, -1, 1,  1,  -1, -1, 1,  1,  1,  1,  1,  1,  -1, 1,  1,  1,  -1, 1,  1,
-    1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,
-    -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  -1, 1,
-    -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  -1, 1,  1,  1,  1,
-    1,  1,  1,  1,  -1, 1,  1,  1,  -1, 1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1,
-    1,  -1, 1,  -1, 1,  -1, 1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,
-    -1, 1,  -1, 1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  -1,
-    -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  1,  1,  1,  1,  1,  1,  -1, 1,  -1, -1,
-    1,  1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, -1, 1,  1,  -1,
-    -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  1,  -1, 1,  -1, 1,  -1, 1,  -1,
-    1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  1,  -1, 1,
-    1,  1,  1,  1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,
-    1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,  1,  1,  1,
-    1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  1,  -1,
-    1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  1,  1,  1,  1,  -1,
-    1,  1,  1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,
-    -1, 1,  -1, 1,  -1, 1,  1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,
-    1,  -1, -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1, -1,
-    1,  -1, 1,  1,  1,  1,  1,  1,  1,  1,  -1, 1,  1,  1,  -1, 1,  -1, -1, 1,
-    1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  -1, 1,  -1, 1,  -1,
-    1,  -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,
-    1,  1,  -1, 1,  1,  -1, -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  1,  1,  1,  1,
-    1,  1,  -1, 1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, 1,  1,  1,  -1, 1,  -1,
-    1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  -1,
-    1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  1,  1,
-    -1, 1,  1,  1,  -1, 1,  1,  1,  1,  1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,
-    -1, -1, 1,  1,  -1, 1,  1,  1,  1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1,
-    -1, 1,  1,  -1, -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,
-    -1, -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,
-    1,  1,  1,  1,  1,  -1, 1,  1,  1,  -1, 1,  1,  1,  -1, 1,  1,  -1, 1,  -1,
-    1,  1,  1,  -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  -1, 1,  -1, 1,  1,  1,
-    -1, 1,  1,  -1, -1, 1,  1,  -1, -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,
-    -1, -1, 1,  1,  -1, -1, 1,  -1, 1,  1,  1,  1,  1,  1,  1,  1,  -1, 1,  1,
-    1,  -1, 1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  -1, -1,
-    1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  -1, 1,
-    -1, 1,  -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  -1, -1, 1,  -1, 1,  1,  1,  -1,
-    1,  1,  1,  1,  1,  1,  1,  1,  -1, 1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,
-    -1, 1,  -1, 1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1,
-    1,  1,  1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  -1, 1,  1,  1,
-    -1, 1,  -1, 1,  1,  1,  -1, 1,  1,  1,  -1, 1,  1,  1,  1,  1,  1};
+#define h_diff(who, opponent, dir)                                       \
+    (h_diff_table[((opponent) * STATE_N * DIR_N) + ((who) << 2) + (dir)])
+//static int h_diff_table[STATE_N * STATE_N * DIR_N];
+
+static inline int
+cal_h_diff(int opponent, int from, int rev_dir)
+{
+	int goal_x = POS_X(opponent), goal_y = POS_Y(opponent);
+	int from_x = POS_X(from), from_y = POS_Y(from);
+	if (rev_dir == DIR_LEFT)
+		return goal_x > from_x ? -1 : 1;
+	else if (rev_dir == DIR_RIGHT)
+		return goal_x < from_x ? -1 : 1;
+	else if (rev_dir == DIR_UP)
+		return goal_y > from_y ? -1 : 1;
+	else
+		return goal_y < from_y ? -1 : 1;
+}
 
 void
 state_move(State state, Direction dir)
@@ -597,8 +546,7 @@ state_move(State state, Direction dir)
         assert(false);
     }
 
-    state->h_value =
-        state->h_value + h_diff(who, state->i, state->j, dir_reverse(dir));
+    state->h_value += cal_h_diff(who, state->i + state->j * STATE_WIDTH, dir);
     state->parent_dir = dir;
 }
 
@@ -616,11 +564,11 @@ state_pos_equal(State s1, State s2)
 size_t
 state_hash(State state)
 {
+    /* FIXME: for A* */
     size_t hash_value = 0;
     for (idx_t i = 0; i < STATE_WIDTH; ++i)
         for (idx_t j = 0; j < STATE_WIDTH; ++j)
-            if (i != state->i || j != state->j)
-		    hash_value ^= (v(state, i, j) << ((i * 3 + j) << 2));
+            hash_value ^= (v(state, i, j) << ((i * 3 + j) << 2));
     return hash_value;
 }
 int
@@ -702,7 +650,7 @@ typedef struct ht_tag
 static bool
 ht_rehash_required(HT ht)
 {
-    return ht->n_bins <= ht->n_elems;
+    return ht->n_bins <= ht->n_elems; /* TODO: local policy is also needed */
 }
 
 static size_t
@@ -1074,6 +1022,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
+        state_dump(state);
         --cnt;
         if (state_is_goal(state))
         {
@@ -1323,7 +1272,7 @@ cudaPfree(void *ptr)
 }
 
 #define h_d_t(op, i, dir)                                                      \
-    (h_diff_table[(op) *STATE_N * DIR_N + (i) *DIR_N + (dir)])
+    (h_diff_table[(op) * STATE_N * DIR_N + (i) * DIR_N + (dir)])
 __host__ static void
 init_mdist(signed char h_diff_table[])
 {
@@ -1391,10 +1340,12 @@ main(int argc, char *argv[])
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
 
+    d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
+
     int min_fvalue = 0;
 
     if (argc != 2)
-        exit_failure("usage: ./pbida <ifname>\n");
+        exit_failure("usage: bin/cumain <ifname>\n");
 
     load_state_from_file(argv[1], input[0].tiles);
 
@@ -1428,7 +1379,7 @@ main(int argc, char *argv[])
 
         elog("f_limit=%d\n", (int) f_limit);
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
-                                            d_h_diff_table, d_movable_table);
+                                            d_h_diff_table, d_movable_table, global_st);
         CUDA_CHECK(
             cudaGetLastError()); /* asm trap is called when find solution */
 
@@ -1438,7 +1389,7 @@ main(int argc, char *argv[])
         for (int i = 0; i < n_roots; ++i)
             loads_sum += stat[i].loads;
 
-#ifdef COLLECT_LOG
+#if COLLECT_LOG == true
         elog("STAT: loop\n");
         for (int i = 0; i < n_roots; ++i)
             elog("%lld, ", stat[i].loads);
@@ -1508,7 +1459,7 @@ main(int argc, char *argv[])
         n_roots += increased;
         elog("STAT: n_roots=%d(+%d)\n", n_roots, increased);
 
-#ifdef SEARCH_ALL_THE_BEST
+#if FIND_ALL == true
         for (int i = 0; i < n_roots; ++i)
             if (stat[i].solved)
             {
@@ -1516,8 +1467,6 @@ main(int argc, char *argv[])
                 goto solution_found;
             }
 #endif
-
-        // shuffle_input(input, n_roots); /* it may not be needed in case of idas_global */
     }
 
 solution_found:
@@ -1525,6 +1474,7 @@ solution_found:
     cudaPfree(d_stat);
     cudaPfree(d_movable_table);
     cudaPfree(d_h_diff_table);
+    cudaPfree(global_st);
 
     CUDA_CHECK(cudaDeviceReset());
 
