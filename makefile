@@ -6,7 +6,8 @@ NVCC_FLAGS = -Xcompiler -O2 -Xptxas -O2 --compiler-options -Wall -arch=sm_30  --
 CFLAGS = -O2 -std=c99 -Wall -Wextra
 
 BENCH4=korf100
-BENCH5=yama24_50_hard_new
+#BENCH5=yama24_50_hard_new
+BENCH5=try_difficult
 
 all: bpida4 bpida4_global bpida5 bpida5_global bpida5_pdb bpida5_pdb_global c4 c5 c5_pdb bpida4_fa bpida4_global_fa bpida5_fa bpida5_global_fa bpida5_pdb_fa bpida5_pdb_global_fa c4_fa c5_fa c5_pdb_fa
 all_bench: bench_bpida4 bench_bpida4_global bench_bpida5 bench_bpida5_global bench_bpida5_pdb bench_c4 bench_c5 bench_c5_pdb bench_bpida4_fa bench_bpida4_global_fa bench_bpida5_fa bench_bpida5_global_fa bench_bpida5_pdb_fa bench_c4_fa bench_c5_fa bench_c5_pdb_fa

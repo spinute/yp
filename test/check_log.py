@@ -72,10 +72,13 @@ def test_f_limit(log_file_name, ans_file_name, problems_nums):
             false_counts += 1
 
     print "--------------------------------"
+    print (log_file_name)
     print str(problems_nums) + " test cases"
     print "correct cases are " + str(true_counts)
     print "wrong cases are " + str(false_counts)
     print "--------------------------------"
+
+
 
 
 # 15puzzle
@@ -99,13 +102,21 @@ test_f_limit("log_pbida5_find_all", "24puzzle_yama_answers.txt", 50)
 test_f_limit("log_pbida5_global_find_all", "24puzzle_yama_answers.txt", 50)
 
 test_f_limit("log_pbida5_pdb_find_all", "24puzzle_yama_answers.txt", 50)
+
+test_f_limit("log_pbida5_pdb_global_find_all", "24puzzle_yama_answers.txt", 50)
+
 test_f_limit("log_c5_pdb_find_all", "24puzzle_yama_answers.txt", 50)
+
+
 
 output_execute_time("log_pbida5_find_all", "24puzzle_bpida_findall_yama.txt")
 output_execute_time("log_pbida5_global_find_all", "24puzzle_bpida_global_findall_yama.txt")
-output_execute_time("log_pbida5_pdb_find_all", "24puzzle_bpida_pdb_findall_yama.txt")
 
+output_execute_time("log_pbida5_pdb_global_find_all", "24puzzle_bpida_pdb_global_findall_yama.txt")
+
+output_execute_time("log_pbida5_pdb_find_all", "24puzzle_bpida_pdb_findall_yama.txt")
 output_execute_time("log_c5_pdb_find_all", "24puzzle_c5_pdb_findall_yama.txt")
+
 
 # test_f_limit("log_pbida4", "15puzzle_answers.txt", 100)
 # test_f_limit("log_pbida5_find_all", "15puzzle_answers.txt", 100)
