@@ -1023,7 +1023,6 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
-        state_dump(state);
         --cnt;
         if (state_is_goal(state))
         {
