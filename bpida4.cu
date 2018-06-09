@@ -1436,7 +1436,6 @@ main(int argc, char *argv[])
         elog("f_limit=%d\n", (int) f_limit);
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table);
-        CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
@@ -1537,18 +1536,6 @@ solution_found:
 	printf("[Stat:solution_depth]=%d\n", solution_depth);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
-
-    cudaPfree(d_input);
-    cudaPfree(d_stat);
-    cudaPfree(d_movable_table);
-    cudaPfree(d_h_diff_table);
-
-    CUDA_CHECK(cudaDeviceReset());
-
-    pfree(input);
-    pfree(stat);
-    pfree(movable_table);
-    pfree(h_diff_table);
 
     return 0;
 }
