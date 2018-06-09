@@ -12,3 +12,5 @@ fi
 for fname in ./benchmarks/$bench/*; do
 	(time ./$solver $fname) >> $log 2>&1
 done
+
+exit 0
