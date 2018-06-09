@@ -1029,7 +1029,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
         if (state_is_goal(state))
         {
             solved = true;
-			solution_depth = state_get_depth(state);
+	    *solution_depth = state_get_depth(state);
             break;
         }
 
