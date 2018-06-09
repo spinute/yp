@@ -418,13 +418,14 @@ idas_kernel(uchar *input)
 {
     long long nodes_expanded = 0;
     long long total_nodes_expanded = 0;
+	int f_limit;
 
     state_tile_fill(input);
     state_init_hvalue();
 	state_dump();
 	puts("search start.");
 
-	for (int f_limit = state_calc_h;; f_limit += 2)
+	for (f_limit = state_calc_h;; f_limit += 2)
 	{
 		nodes_expanded = 0;
 		bool found          = idas_internal(f_limit, &nodes_expanded);
@@ -434,6 +435,7 @@ idas_kernel(uchar *input)
 		if (found)
 			break;
 	}
+	printf("[Stat:solution_depth]=%d\n", f_limit);
 	printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded);
 }
 
