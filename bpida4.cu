@@ -239,13 +239,13 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
         if (found)
         {
             Direction dir = threadIdx.x & 3;
-#ifdef COLLECT_LOG
-			nodes_expanded++;
-#endif
-
 			/* NOTE: candidate_dir_table may be effective to avoid divergence */
             if (state.parent_dir == dir_reverse(dir))
                 continue;
+
+#ifdef COLLECT_LOG
+			nodes_expanded++;
+#endif
 
             if (state_movable(state, dir))
             {
