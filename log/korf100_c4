@@ -1,0 +1,3500 @@
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(3,2)
+14 1 9 6
+4 8 12 5
+7 2 3 0
+10 11 13 15
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 45
+[Stat:nodes_evaluated]45
+f_limit= 37, expanded nodes = 287
+[Stat:nodes_evaluated]287
+f_limit= 39, expanded nodes = 1995
+[Stat:nodes_evaluated]1995
+f_limit= 41, expanded nodes = 13615
+[Stat:nodes_evaluated]13615
+f_limit= 43, expanded nodes = 89247
+[Stat:nodes_evaluated]89247
+f_limit= 45, expanded nodes = 447843
+[Stat:nodes_evaluated]447843
+[Stat:solution_depth]=45
+[Stat:total_nodes_evaluated]553032
+[Timer:search] 0.007434
+len=45: 2 2 2 0 1 1 3 2 0 2 3 1 3 2 0 0 0 1 1 3 1 3 2 2 0 2 3 1 0 0 1 1 3 3 2 2 3 1 0 2 0 1 0 2 2 
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=30, (x,y)=(0,2)
+4 5 7 2
+9 14 12 13
+0 3 6 11
+8 1 15 10
+-----------
+f_limit= 30, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 31, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 32, expanded nodes = 140
+[Stat:nodes_evaluated]140
+f_limit= 34, expanded nodes = 729
+[Stat:nodes_evaluated]729
+f_limit= 36, expanded nodes = 4829
+[Stat:nodes_evaluated]4829
+f_limit= 38, expanded nodes = 28560
+[Stat:nodes_evaluated]28560
+f_limit= 40, expanded nodes = 159460
+[Stat:nodes_evaluated]159460
+f_limit= 42, expanded nodes = 635966
+[Stat:nodes_evaluated]635966
+[Stat:solution_depth]=42
+[Stat:total_nodes_evaluated]829691
+[Timer:search] 0.010910
+len=42: 1 1 0 1 3 3 2 0 0 2 3 2 0 1 3 3 1 0 0 2 3 2 3 1 1 0 1 0 2 0 2 3 2 0 1 1 1 3 2 2 0 2 
+
+real	0m0.012s
+user	0m0.008s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=28, (x,y)=(0,0)
+0 1 9 7
+11 13 5 3
+14 12 4 2
+8 6 10 15
+-----------
+f_limit= 28, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 29, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 30, expanded nodes = 8
+[Stat:nodes_evaluated]8
+f_limit= 32, expanded nodes = 171
+[Stat:nodes_evaluated]171
+f_limit= 34, expanded nodes = 1045
+[Stat:nodes_evaluated]1045
+f_limit= 36, expanded nodes = 6016
+[Stat:nodes_evaluated]6016
+f_limit= 38, expanded nodes = 33031
+[Stat:nodes_evaluated]33031
+f_limit= 40, expanded nodes = 176298
+[Stat:nodes_evaluated]176298
+f_limit= 42, expanded nodes = 341064
+[Stat:nodes_evaluated]341064
+[Stat:solution_depth]=42
+[Stat:total_nodes_evaluated]557635
+[Timer:search] 0.006814
+len=42: 1 1 3 3 3 2 0 2 3 1 0 0 2 3 1 0 1 3 2 2 0 1 1 1 3 2 3 2 0 0 0 1 3 1 0 2 3 3 2 0 0 2 
+
+real	0m0.007s
+user	0m0.004s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=39, (x,y)=(0,3)
+8 11 4 6
+7 3 10 9
+2 12 15 13
+0 1 5 14
+-----------
+f_limit= 39, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 40, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 41, expanded nodes = 627
+[Stat:nodes_evaluated]627
+f_limit= 43, expanded nodes = 5869
+[Stat:nodes_evaluated]5869
+f_limit= 45, expanded nodes = 53336
+[Stat:nodes_evaluated]53336
+f_limit= 47, expanded nodes = 409639
+[Stat:nodes_evaluated]409639
+f_limit= 49, expanded nodes = 1692632
+[Stat:nodes_evaluated]1692632
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]2162105
+[Timer:search] 0.026492
+len=49: 1 0 2 3 1 1 0 1 3 2 0 1 0 2 2 3 3 1 0 1 0 2 2 0 1 3 2 2 0 1 1 1 3 2 2 3 2 0 1 3 1 1 0 2 0 2 3 2 0 
+
+real	0m0.027s
+user	0m0.024s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=29, (x,y)=(2,1)
+13 8 14 3
+9 1 0 7
+15 5 4 10
+12 2 6 11
+-----------
+f_limit= 29, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 30, expanded nodes = 16
+[Stat:nodes_evaluated]16
+f_limit= 31, expanded nodes = 247
+[Stat:nodes_evaluated]247
+f_limit= 33, expanded nodes = 1357
+[Stat:nodes_evaluated]1357
+f_limit= 35, expanded nodes = 7421
+[Stat:nodes_evaluated]7421
+f_limit= 37, expanded nodes = 37497
+[Stat:nodes_evaluated]37497
+f_limit= 39, expanded nodes = 182869
+[Stat:nodes_evaluated]182869
+f_limit= 41, expanded nodes = 696955
+[Stat:nodes_evaluated]696955
+[Stat:solution_depth]=41
+[Stat:total_nodes_evaluated]926362
+[Timer:search] 0.011575
+len=41: 3 2 3 1 0 2 2 0 0 1 1 3 2 0 1 3 3 3 2 0 0 2 0 1 1 3 3 3 2 0 0 1 3 1 3 2 2 0 2 0 0 
+
+real	0m0.012s
+user	0m0.012s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(1,1)
+7 11 8 3
+14 0 6 15
+1 4 13 9
+5 12 2 10
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 188
+[Stat:nodes_evaluated]188
+f_limit= 38, expanded nodes = 2135
+[Stat:nodes_evaluated]2135
+f_limit= 40, expanded nodes = 17478
+[Stat:nodes_evaluated]17478
+f_limit= 42, expanded nodes = 115580
+[Stat:nodes_evaluated]115580
+f_limit= 44, expanded nodes = 719586
+[Stat:nodes_evaluated]719586
+f_limit= 46, expanded nodes = 202631
+[Stat:nodes_evaluated]202631
+[Stat:solution_depth]=46
+[Stat:total_nodes_evaluated]1057598
+[Timer:search] 0.013396
+len=46: 0 1 3 2 2 3 1 0 0 2 3 3 3 1 0 1 3 1 0 0 2 3 3 1 0 2 3 2 0 0 0 1 3 2 0 2 3 3 1 1 1 0 2 2 2 0 
+
+real	0m0.014s
+user	0m0.012s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=38, (x,y)=(1,1)
+12 8 15 13
+1 0 5 4
+6 3 2 11
+9 7 14 10
+-----------
+f_limit= 38, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 39, expanded nodes = 87
+[Stat:nodes_evaluated]87
+f_limit= 40, expanded nodes = 486
+[Stat:nodes_evaluated]486
+f_limit= 42, expanded nodes = 2929
+[Stat:nodes_evaluated]2929
+f_limit= 44, expanded nodes = 17913
+[Stat:nodes_evaluated]17913
+f_limit= 46, expanded nodes = 113371
+[Stat:nodes_evaluated]113371
+f_limit= 48, expanded nodes = 718293
+[Stat:nodes_evaluated]718293
+f_limit= 50, expanded nodes = 3037884
+[Stat:nodes_evaluated]3037884
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]3890963
+[Timer:search] 0.049892
+len=50: 2 0 1 3 3 2 0 0 1 3 1 1 0 2 2 3 1 3 1 0 0 2 3 3 1 3 2 0 2 3 2 0 0 1 3 1 1 0 2 2 3 3 1 1 0 0 2 2 0 2 
+
+real	0m0.050s
+user	0m0.048s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(1,0)
+6 0 5 10
+11 12 9 2
+1 7 4 3
+14 8 13 15
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 11
+[Stat:nodes_evaluated]11
+f_limit= 37, expanded nodes = 1528
+[Stat:nodes_evaluated]1528
+f_limit= 39, expanded nodes = 18069
+[Stat:nodes_evaluated]18069
+f_limit= 41, expanded nodes = 143331
+[Stat:nodes_evaluated]143331
+f_limit= 43, expanded nodes = 941851
+[Stat:nodes_evaluated]941851
+f_limit= 45, expanded nodes = 435770
+[Stat:nodes_evaluated]435770
+[Stat:solution_depth]=45
+[Stat:total_nodes_evaluated]1540560
+[Timer:search] 0.018861
+len=45: 1 1 3 2 3 2 0 2 3 3 1 0 0 0 2 3 1 1 1 3 2 2 2 0 1 1 0 1 3 3 2 2 0 0 2 3 3 3 1 1 0 0 2 2 0 
+
+real	0m0.019s
+user	0m0.016s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=32, (x,y)=(1,3)
+4 7 13 10
+1 2 9 6
+12 8 14 5
+3 0 11 15
+-----------
+f_limit= 32, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 33, expanded nodes = 11
+[Stat:nodes_evaluated]11
+f_limit= 34, expanded nodes = 327
+[Stat:nodes_evaluated]327
+f_limit= 36, expanded nodes = 2216
+[Stat:nodes_evaluated]2216
+f_limit= 38, expanded nodes = 16281
+[Stat:nodes_evaluated]16281
+f_limit= 40, expanded nodes = 99914
+[Stat:nodes_evaluated]99914
+f_limit= 42, expanded nodes = 575359
+[Stat:nodes_evaluated]575359
+f_limit= 44, expanded nodes = 2519776
+[Stat:nodes_evaluated]2519776
+[Stat:solution_depth]=44
+[Stat:total_nodes_evaluated]3213884
+[Timer:search] 0.040489
+len=44: 2 0 1 3 1 0 0 0 2 3 3 1 0 2 2 3 1 1 1 0 0 2 3 1 3 3 2 2 0 1 3 1 0 2 0 1 0 2 2 3 3 2 0 0 
+
+real	0m0.041s
+user	0m0.040s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=37, (x,y)=(3,2)
+6 14 10 5
+15 8 7 1
+3 4 2 0
+12 9 11 13
+-----------
+f_limit= 37, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 38, expanded nodes = 3
+[Stat:nodes_evaluated]3
+f_limit= 39, expanded nodes = 32
+[Stat:nodes_evaluated]32
+f_limit= 41, expanded nodes = 533
+[Stat:nodes_evaluated]533
+f_limit= 43, expanded nodes = 6655
+[Stat:nodes_evaluated]6655
+f_limit= 45, expanded nodes = 76452
+[Stat:nodes_evaluated]76452
+f_limit= 47, expanded nodes = 705214
+[Stat:nodes_evaluated]705214
+f_limit= 49, expanded nodes = 2108336
+[Stat:nodes_evaluated]2108336
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]2897225
+[Timer:search] 0.035488
+len=49: 2 0 0 1 3 3 2 2 2 0 1 3 1 0 2 3 2 0 1 0 1 1 3 2 3 2 0 0 2 3 1 0 1 1 3 3 2 3 1 0 2 2 3 1 0 0 2 2 0 
+
+real	0m0.036s
+user	0m0.032s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=32, (x,y)=(1,3)
+9 14 5 7
+8 15 1 2
+10 4 13 6
+12 0 11 3
+-----------
+f_limit= 32, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 33, expanded nodes = 3
+[Stat:nodes_evaluated]3
+f_limit= 34, expanded nodes = 178
+[Stat:nodes_evaluated]178
+f_limit= 36, expanded nodes = 2397
+[Stat:nodes_evaluated]2397
+f_limit= 38, expanded nodes = 19440
+[Stat:nodes_evaluated]19440
+f_limit= 40, expanded nodes = 122499
+[Stat:nodes_evaluated]122499
+f_limit= 42, expanded nodes = 706187
+[Stat:nodes_evaluated]706187
+f_limit= 44, expanded nodes = 100208
+[Stat:nodes_evaluated]100208
+[Stat:solution_depth]=44
+[Stat:total_nodes_evaluated]950912
+[Timer:search] 0.011991
+len=44: 0 0 0 1 1 3 3 3 2 0 2 3 1 0 2 0 1 3 2 2 0 1 1 1 3 3 2 0 0 0 2 2 3 1 0 1 1 3 2 3 2 0 0 2 
+
+real	0m0.013s
+user	0m0.012s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=45, (x,y)=(0,1)
+5 7 11 8
+0 14 9 13
+10 12 3 15
+6 1 4 2
+-----------
+f_limit= 45, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 46, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 47, expanded nodes = 553
+[Stat:nodes_evaluated]553
+f_limit= 49, expanded nodes = 9726
+[Stat:nodes_evaluated]9726
+f_limit= 51, expanded nodes = 126441
+[Stat:nodes_evaluated]126441
+f_limit= 53, expanded nodes = 1153118
+[Stat:nodes_evaluated]1153118
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]1289842
+[Timer:search] 0.015935
+len=53: 3 3 1 0 0 1 3 1 0 0 2 2 3 2 3 3 1 1 0 1 3 2 0 1 0 0 2 3 3 2 3 1 0 1 0 0 2 3 2 2 3 1 1 0 2 0 2 3 3 1 0 0 2 
+
+real	0m0.016s
+user	0m0.016s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(3,2)
+12 15 2 6
+1 14 4 8
+5 3 7 0
+10 13 9 11
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 63
+[Stat:nodes_evaluated]63
+f_limit= 37, expanded nodes = 454
+[Stat:nodes_evaluated]454
+f_limit= 39, expanded nodes = 3254
+[Stat:nodes_evaluated]3254
+f_limit= 41, expanded nodes = 21969
+[Stat:nodes_evaluated]21969
+f_limit= 43, expanded nodes = 141268
+[Stat:nodes_evaluated]141268
+f_limit= 45, expanded nodes = 843100
+[Stat:nodes_evaluated]843100
+f_limit= 47, expanded nodes = 1647241
+[Stat:nodes_evaluated]1647241
+[Stat:solution_depth]=47
+[Stat:total_nodes_evaluated]2657349
+[Timer:search] 0.034725
+len=47: 2 0 2 3 1 0 2 0 1 3 2 3 1 0 1 0 2 2 3 2 3 3 1 1 0 2 2 0 0 1 3 1 1 3 3 2 0 2 2 0 1 3 3 2 0 0 0 
+
+real	0m0.035s
+user	0m0.032s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=32, (x,y)=(3,3)
+3 14 9 11
+5 4 8 2
+13 12 6 7
+10 1 15 0
+-----------
+f_limit= 32, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 33, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 34, expanded nodes = 52
+[Stat:nodes_evaluated]52
+f_limit= 36, expanded nodes = 530
+[Stat:nodes_evaluated]530
+f_limit= 38, expanded nodes = 4590
+[Stat:nodes_evaluated]4590
+f_limit= 40, expanded nodes = 31650
+[Stat:nodes_evaluated]31650
+f_limit= 42, expanded nodes = 194724
+[Stat:nodes_evaluated]194724
+f_limit= 44, expanded nodes = 1109310
+[Stat:nodes_evaluated]1109310
+f_limit= 46, expanded nodes = 452492
+[Stat:nodes_evaluated]452492
+[Stat:solution_depth]=46
+[Stat:total_nodes_evaluated]1793352
+[Timer:search] 0.022951
+len=46: 0 2 0 2 3 3 2 0 1 0 0 2 3 3 1 0 1 0 2 2 3 1 1 1 0 2 3 1 3 3 2 2 0 1 0 1 3 2 3 2 2 0 1 0 0 2 
+
+real	0m0.024s
+user	0m0.020s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(2,2)
+13 9 14 6
+12 8 1 2
+3 4 0 7
+5 10 11 15
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 9
+[Stat:nodes_evaluated]9
+f_limit= 36, expanded nodes = 417
+[Stat:nodes_evaluated]417
+f_limit= 38, expanded nodes = 3695
+[Stat:nodes_evaluated]3695
+f_limit= 40, expanded nodes = 29954
+[Stat:nodes_evaluated]29954
+f_limit= 42, expanded nodes = 199881
+[Stat:nodes_evaluated]199881
+f_limit= 44, expanded nodes = 1235406
+[Stat:nodes_evaluated]1235406
+f_limit= 46, expanded nodes = 416029
+[Stat:nodes_evaluated]416029
+[Stat:solution_depth]=46
+[Stat:total_nodes_evaluated]1885391
+[Timer:search] 0.023485
+len=46: 0 0 2 3 2 3 1 0 1 3 3 2 0 0 0 2 3 3 3 1 0 0 0 2 3 3 1 0 1 0 2 3 1 1 0 2 3 1 3 2 3 2 0 0 2 0 
+
+real	0m0.024s
+user	0m0.020s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(3,1)
+5 11 6 9
+4 13 12 0
+8 2 15 10
+1 7 3 14
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 38, expanded nodes = 142
+[Stat:nodes_evaluated]142
+f_limit= 40, expanded nodes = 1026
+[Stat:nodes_evaluated]1026
+f_limit= 42, expanded nodes = 7645
+[Stat:nodes_evaluated]7645
+f_limit= 44, expanded nodes = 53738
+[Stat:nodes_evaluated]53738
+f_limit= 46, expanded nodes = 358244
+[Stat:nodes_evaluated]358244
+f_limit= 48, expanded nodes = 2279917
+[Stat:nodes_evaluated]2279917
+f_limit= 50, expanded nodes = 6384560
+[Stat:nodes_evaluated]6384560
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]9085276
+[Timer:search] 0.114434
+len=50: 3 2 0 2 3 3 1 0 0 1 0 2 2 3 3 3 1 0 2 2 3 1 1 1 0 0 2 3 1 0 2 0 1 3 2 2 2 3 1 1 1 0 2 0 2 2 3 1 0 2 
+
+real	0m0.115s
+user	0m0.112s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=31, (x,y)=(2,3)
+6 13 3 2
+11 9 5 10
+1 7 12 14
+8 4 0 15
+-----------
+f_limit= 31, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 32, expanded nodes = 58
+[Stat:nodes_evaluated]58
+f_limit= 33, expanded nodes = 357
+[Stat:nodes_evaluated]357
+f_limit= 35, expanded nodes = 2514
+[Stat:nodes_evaluated]2514
+f_limit= 37, expanded nodes = 15366
+[Stat:nodes_evaluated]15366
+f_limit= 39, expanded nodes = 86888
+[Stat:nodes_evaluated]86888
+f_limit= 41, expanded nodes = 471150
+[Stat:nodes_evaluated]471150
+f_limit= 43, expanded nodes = 2488958
+[Stat:nodes_evaluated]2488958
+f_limit= 45, expanded nodes = 2337107
+[Stat:nodes_evaluated]2337107
+[Stat:solution_depth]=45
+[Stat:total_nodes_evaluated]5402398
+[Timer:search] 0.067501
+len=45: 0 1 0 0 2 3 2 2 3 1 3 1 0 0 2 0 1 1 3 2 0 2 2 3 3 1 0 2 3 3 1 0 1 1 0 2 2 0 1 1 3 2 2 0 2 
+
+real	0m0.068s
+user	0m0.064s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=30, (x,y)=(2,0)
+5 7 0 11
+12 1 9 10
+15 6 2 3
+8 4 13 14
+-----------
+f_limit= 30, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 31, expanded nodes = 74
+[Stat:nodes_evaluated]74
+f_limit= 32, expanded nodes = 596
+[Stat:nodes_evaluated]596
+f_limit= 34, expanded nodes = 3690
+[Stat:nodes_evaluated]3690
+f_limit= 36, expanded nodes = 21292
+[Stat:nodes_evaluated]21292
+f_limit= 38, expanded nodes = 113184
+[Stat:nodes_evaluated]113184
+f_limit= 40, expanded nodes = 579613
+[Stat:nodes_evaluated]579613
+f_limit= 42, expanded nodes = 2873786
+[Stat:nodes_evaluated]2873786
+f_limit= 44, expanded nodes = 7112563
+[Stat:nodes_evaluated]7112563
+[Stat:solution_depth]=44
+[Stat:total_nodes_evaluated]10704798
+[Timer:search] 0.140014
+len=44: 2 3 3 2 0 0 1 3 1 3 2 0 1 1 3 2 0 1 0 2 3 3 2 3 2 0 1 3 1 1 0 0 0 2 2 3 2 3 1 1 0 0 2 2 
+
+real	0m0.141s
+user	0m0.140s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=37, (x,y)=(1,0)
+5 0 15 8
+4 6 1 14
+10 11 3 9
+7 12 2 13
+-----------
+f_limit= 37, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 38, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 39, expanded nodes = 159
+[Stat:nodes_evaluated]159
+f_limit= 41, expanded nodes = 1470
+[Stat:nodes_evaluated]1470
+f_limit= 43, expanded nodes = 9524
+[Stat:nodes_evaluated]9524
+f_limit= 45, expanded nodes = 64692
+[Stat:nodes_evaluated]64692
+f_limit= 47, expanded nodes = 421521
+[Stat:nodes_evaluated]421521
+f_limit= 49, expanded nodes = 2612351
+[Stat:nodes_evaluated]2612351
+f_limit= 51, expanded nodes = 8305856
+[Stat:nodes_evaluated]8305856
+[Stat:solution_depth]=51
+[Stat:total_nodes_evaluated]11415577
+[Timer:search] 0.147902
+len=51: 3 1 3 1 0 0 2 3 1 0 2 2 3 3 2 3 1 0 1 3 2 0 1 0 2 3 2 0 0 1 3 3 1 3 1 0 0 2 2 2 3 1 3 1 1 0 0 2 0 2 2 
+
+real	0m0.149s
+user	0m0.148s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(3,2)
+3 14 13 6
+4 15 8 9
+5 12 10 0
+2 7 1 11
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 43, expanded nodes = 288
+[Stat:nodes_evaluated]288
+f_limit= 45, expanded nodes = 4366
+[Stat:nodes_evaluated]4366
+f_limit= 47, expanded nodes = 40422
+[Stat:nodes_evaluated]40422
+f_limit= 49, expanded nodes = 339170
+[Stat:nodes_evaluated]339170
+f_limit= 51, expanded nodes = 2496659
+[Stat:nodes_evaluated]2496659
+f_limit= 53, expanded nodes = 8660585
+[Stat:nodes_evaluated]8660585
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]11541497
+[Timer:search] 0.142916
+len=53: 2 3 2 0 0 0 2 3 3 3 1 0 2 0 1 1 3 2 0 1 0 2 3 2 3 1 0 1 1 3 2 3 2 0 0 1 1 3 2 0 1 0 2 3 1 3 3 2 2 0 0 2 0 
+
+real	0m0.143s
+user	0m0.140s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(3,1)
+4 3 6 13
+7 15 9 0
+10 5 8 11
+2 12 1 14
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 36, expanded nodes = 52
+[Stat:nodes_evaluated]52
+f_limit= 38, expanded nodes = 387
+[Stat:nodes_evaluated]387
+f_limit= 40, expanded nodes = 2351
+[Stat:nodes_evaluated]2351
+f_limit= 42, expanded nodes = 15200
+[Stat:nodes_evaluated]15200
+f_limit= 44, expanded nodes = 90917
+[Stat:nodes_evaluated]90917
+f_limit= 46, expanded nodes = 542613
+[Stat:nodes_evaluated]542613
+f_limit= 48, expanded nodes = 3219560
+[Stat:nodes_evaluated]3219560
+f_limit= 50, expanded nodes = 4471664
+[Stat:nodes_evaluated]4471664
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]8342748
+[Timer:search] 0.107077
+len=50: 0 2 3 2 3 2 3 1 0 0 2 3 1 1 0 1 3 2 0 0 2 3 2 3 1 1 3 2 0 1 0 0 2 3 3 1 3 1 0 0 0 2 3 1 0 2 2 3 2 0 
+
+real	0m0.108s
+user	0m0.104s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(1,1)
+3 6 5 2
+10 0 15 14
+1 4 13 12
+9 8 11 7
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 795
+[Stat:nodes_evaluated]795
+f_limit= 38, expanded nodes = 11725
+[Stat:nodes_evaluated]11725
+f_limit= 40, expanded nodes = 96414
+[Stat:nodes_evaluated]96414
+f_limit= 42, expanded nodes = 626690
+[Stat:nodes_evaluated]626690
+f_limit= 44, expanded nodes = 3633889
+[Stat:nodes_evaluated]3633889
+f_limit= 46, expanded nodes = 9149371
+[Stat:nodes_evaluated]9149371
+[Stat:solution_depth]=46
+[Stat:total_nodes_evaluated]13518884
+[Timer:search] 0.165672
+len=46: 2 3 1 1 1 3 2 0 2 3 1 0 0 0 2 2 3 3 1 0 1 1 0 2 2 2 3 3 3 1 1 0 0 1 0 2 3 1 3 3 2 0 2 2 0 0 
+
+real	0m0.166s
+user	0m0.164s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(1,2)
+7 15 8 2
+13 6 3 12
+11 0 4 10
+9 5 1 14
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 79
+[Stat:nodes_evaluated]79
+f_limit= 43, expanded nodes = 985
+[Stat:nodes_evaluated]985
+f_limit= 45, expanded nodes = 8245
+[Stat:nodes_evaluated]8245
+f_limit= 47, expanded nodes = 66567
+[Stat:nodes_evaluated]66567
+f_limit= 49, expanded nodes = 496833
+[Stat:nodes_evaluated]496833
+f_limit= 51, expanded nodes = 3545920
+[Stat:nodes_evaluated]3545920
+f_limit= 53, expanded nodes = 14289816
+[Stat:nodes_evaluated]14289816
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]18408445
+[Timer:search] 0.227207
+len=53: 1 3 1 0 0 2 2 3 2 0 1 1 3 1 3 2 0 2 0 0 1 3 2 0 2 3 1 0 1 1 3 2 3 1 0 2 2 3 3 1 1 0 0 2 2 3 2 3 1 0 2 0 0 
+
+real	0m0.228s
+user	0m0.224s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=39, (x,y)=(1,0)
+13 0 9 12
+11 6 3 5
+15 8 1 10
+4 14 2 7
+-----------
+f_limit= 39, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 40, expanded nodes = 34
+[Stat:nodes_evaluated]34
+f_limit= 41, expanded nodes = 231
+[Stat:nodes_evaluated]231
+f_limit= 43, expanded nodes = 1533
+[Stat:nodes_evaluated]1533
+f_limit= 45, expanded nodes = 12107
+[Stat:nodes_evaluated]12107
+f_limit= 47, expanded nodes = 85591
+[Stat:nodes_evaluated]85591
+f_limit= 49, expanded nodes = 551564
+[Stat:nodes_evaluated]551564
+f_limit= 51, expanded nodes = 3438262
+[Stat:nodes_evaluated]3438262
+f_limit= 53, expanded nodes = 5205693
+[Stat:nodes_evaluated]5205693
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]9295015
+[Timer:search] 0.117080
+len=53: 1 1 3 2 3 3 2 0 2 0 0 1 1 3 2 0 1 1 3 2 3 2 2 3 1 1 0 1 3 2 0 2 0 2 0 1 1 3 1 3 2 3 2 0 0 2 3 3 1 0 0 0 2 
+
+real	0m0.118s
+user	0m0.116s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(1,3)
+5 4 7 1
+11 12 14 15
+10 13 8 6
+2 0 9 3
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 50
+[Stat:nodes_evaluated]50
+f_limit= 38, expanded nodes = 259
+[Stat:nodes_evaluated]259
+f_limit= 40, expanded nodes = 1985
+[Stat:nodes_evaluated]1985
+f_limit= 42, expanded nodes = 14649
+[Stat:nodes_evaluated]14649
+f_limit= 44, expanded nodes = 104419
+[Stat:nodes_evaluated]104419
+f_limit= 46, expanded nodes = 697910
+[Stat:nodes_evaluated]697910
+f_limit= 48, expanded nodes = 4415745
+[Stat:nodes_evaluated]4415745
+f_limit= 50, expanded nodes = 2607788
+[Stat:nodes_evaluated]2607788
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]7842805
+[Timer:search] 0.097097
+len=50: 0 0 2 3 1 1 0 1 3 2 3 2 2 0 1 1 0 2 2 3 1 3 1 0 1 3 2 0 0 1 3 2 2 0 1 0 1 3 2 3 2 2 0 0 1 1 3 2 2 0 
+
+real	0m0.098s
+user	0m0.096s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(3,1)
+13 14 6 12
+4 5 1 0
+9 3 10 2
+15 11 8 7
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 38, expanded nodes = 58
+[Stat:nodes_evaluated]58
+f_limit= 40, expanded nodes = 369
+[Stat:nodes_evaluated]369
+f_limit= 42, expanded nodes = 2166
+[Stat:nodes_evaluated]2166
+f_limit= 44, expanded nodes = 15635
+[Stat:nodes_evaluated]15635
+f_limit= 46, expanded nodes = 106609
+[Stat:nodes_evaluated]106609
+f_limit= 48, expanded nodes = 702196
+[Stat:nodes_evaluated]702196
+f_limit= 50, expanded nodes = 4432237
+[Stat:nodes_evaluated]4432237
+f_limit= 52, expanded nodes = 1875665
+[Stat:nodes_evaluated]1875665
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]7134942
+[Timer:search] 0.089892
+len=52: 0 2 2 3 2 0 1 3 3 2 0 0 1 3 1 1 3 2 0 0 2 3 3 1 3 2 2 0 1 1 1 3 2 2 2 0 1 1 0 1 0 2 3 1 3 3 2 0 2 0 2 0 
+
+real	0m0.090s
+user	0m0.088s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(1,3)
+14 7 1 9
+12 3 6 15
+8 11 2 5
+10 0 4 13
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 38, expanded nodes = 34
+[Stat:nodes_evaluated]34
+f_limit= 40, expanded nodes = 301
+[Stat:nodes_evaluated]301
+f_limit= 42, expanded nodes = 2084
+[Stat:nodes_evaluated]2084
+f_limit= 44, expanded nodes = 15796
+[Stat:nodes_evaluated]15796
+f_limit= 46, expanded nodes = 113627
+[Stat:nodes_evaluated]113627
+f_limit= 48, expanded nodes = 764967
+[Stat:nodes_evaluated]764967
+f_limit= 50, expanded nodes = 4924170
+[Stat:nodes_evaluated]4924170
+f_limit= 52, expanded nodes = 20854281
+[Stat:nodes_evaluated]20854281
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]26675267
+[Timer:search] 0.343921
+len=52: 1 1 0 0 2 2 0 1 1 3 2 3 2 2 0 0 1 1 3 2 3 3 1 1 0 2 3 2 2 0 0 1 3 2 0 1 0 1 1 3 2 3 2 3 1 0 2 0 1 0 2 2 
+
+real	0m0.344s
+user	0m0.344s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=24, (x,y)=(3,3)
+1 3 2 5
+10 9 15 6
+8 14 13 11
+12 4 7 0
+-----------
+f_limit= 24, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 25, expanded nodes = 34
+[Stat:nodes_evaluated]34
+f_limit= 26, expanded nodes = 170
+[Stat:nodes_evaluated]170
+f_limit= 28, expanded nodes = 670
+[Stat:nodes_evaluated]670
+f_limit= 30, expanded nodes = 2875
+[Stat:nodes_evaluated]2875
+f_limit= 32, expanded nodes = 11938
+[Stat:nodes_evaluated]11938
+f_limit= 34, expanded nodes = 49691
+[Stat:nodes_evaluated]49691
+f_limit= 36, expanded nodes = 209727
+[Stat:nodes_evaluated]209727
+f_limit= 38, expanded nodes = 891268
+[Stat:nodes_evaluated]891268
+f_limit= 40, expanded nodes = 3786634
+[Stat:nodes_evaluated]3786634
+f_limit= 42, expanded nodes = 12992575
+[Stat:nodes_evaluated]12992575
+[Stat:solution_depth]=42
+[Stat:total_nodes_evaluated]17945582
+[Timer:search] 0.233758
+len=42: 2 2 0 0 0 1 1 3 2 2 2 3 1 1 3 1 0 0 2 3 3 1 0 2 3 2 0 0 1 0 1 3 3 2 2 2 0 1 1 0 2 2 
+
+real	0m0.234s
+user	0m0.232s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(1,0)
+9 0 4 10
+1 14 15 3
+12 6 5 7
+11 13 8 2
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 214
+[Stat:nodes_evaluated]214
+f_limit= 37, expanded nodes = 1397
+[Stat:nodes_evaluated]1397
+f_limit= 39, expanded nodes = 8970
+[Stat:nodes_evaluated]8970
+f_limit= 41, expanded nodes = 52552
+[Stat:nodes_evaluated]52552
+f_limit= 43, expanded nodes = 295424
+[Stat:nodes_evaluated]295424
+f_limit= 45, expanded nodes = 1627530
+[Stat:nodes_evaluated]1627530
+f_limit= 47, expanded nodes = 8712044
+[Stat:nodes_evaluated]8712044
+f_limit= 49, expanded nodes = 2858578
+[Stat:nodes_evaluated]2858578
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]13556709
+[Timer:search] 0.177159
+len=49: 1 1 3 2 2 2 0 1 3 3 1 0 1 3 2 3 2 2 0 1 1 0 2 2 3 1 3 1 0 1 3 2 0 2 0 1 0 1 3 3 2 0 1 0 2 3 2 2 0 
+
+real	0m0.178s
+user	0m0.176s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(1,0)
+6 0 14 12
+1 15 9 10
+11 4 7 2
+8 3 5 13
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 45, expanded nodes = 697
+[Stat:nodes_evaluated]697
+f_limit= 47, expanded nodes = 7165
+[Stat:nodes_evaluated]7165
+f_limit= 49, expanded nodes = 69078
+[Stat:nodes_evaluated]69078
+f_limit= 51, expanded nodes = 616148
+[Stat:nodes_evaluated]616148
+f_limit= 53, expanded nodes = 4924806
+[Stat:nodes_evaluated]4924806
+f_limit= 55, expanded nodes = 1569606
+[Stat:nodes_evaluated]1569606
+[Stat:solution_depth]=55
+[Stat:total_nodes_evaluated]7187506
+[Timer:search] 0.087642
+len=55: 1 1 3 3 2 0 0 2 2 3 3 1 1 0 2 2 3 1 3 1 0 0 1 3 2 2 0 1 3 2 3 1 1 0 0 2 0 1 3 3 2 0 0 2 3 3 2 3 1 1 0 0 0 2 2 
+
+real	0m0.088s
+user	0m0.088s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(0,3)
+1 7 15 14
+2 6 4 9
+12 11 13 3
+0 8 5 10
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 20
+[Stat:nodes_evaluated]20
+f_limit= 37, expanded nodes = 321
+[Stat:nodes_evaluated]321
+f_limit= 39, expanded nodes = 4088
+[Stat:nodes_evaluated]4088
+f_limit= 41, expanded nodes = 33361
+[Stat:nodes_evaluated]33361
+f_limit= 43, expanded nodes = 228687
+[Stat:nodes_evaluated]228687
+f_limit= 45, expanded nodes = 1425847
+[Stat:nodes_evaluated]1425847
+f_limit= 47, expanded nodes = 8310902
+[Stat:nodes_evaluated]8310902
+f_limit= 49, expanded nodes = 5677032
+[Stat:nodes_evaluated]5677032
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]15680258
+[Timer:search] 0.194933
+len=49: 0 1 0 2 3 1 1 1 0 0 2 2 3 1 3 2 0 2 3 1 3 1 0 1 0 0 2 3 2 2 3 1 3 1 1 0 0 2 2 3 1 3 1 0 0 0 2 2 2 
+
+real	0m0.196s
+user	0m0.192s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=46, (x,y)=(0,2)
+14 13 4 11
+15 8 6 9
+0 7 3 1
+2 10 12 5
+-----------
+f_limit= 46, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 47, expanded nodes = 35
+[Stat:nodes_evaluated]35
+f_limit= 48, expanded nodes = 540
+[Stat:nodes_evaluated]540
+f_limit= 50, expanded nodes = 9243
+[Stat:nodes_evaluated]9243
+f_limit= 52, expanded nodes = 100036
+[Stat:nodes_evaluated]100036
+f_limit= 54, expanded nodes = 948572
+[Stat:nodes_evaluated]948572
+f_limit= 56, expanded nodes = 1107460
+[Stat:nodes_evaluated]1107460
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]2165886
+[Timer:search] 0.026874
+len=56: 0 0 1 1 3 3 2 2 3 1 0 2 0 0 1 1 3 3 3 2 2 0 0 1 3 1 1 3 2 2 2 0 1 1 1 0 0 2 2 3 3 1 1 0 2 0 2 3 3 1 3 2 2 0 0 0 
+
+real	0m0.027s
+user	0m0.024s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=33, (x,y)=(0,1)
+10 9 3 11
+0 13 2 14
+5 6 4 7
+8 15 1 12
+-----------
+f_limit= 33, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 34, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 35, expanded nodes = 60
+[Stat:nodes_evaluated]60
+f_limit= 37, expanded nodes = 923
+[Stat:nodes_evaluated]923
+f_limit= 39, expanded nodes = 6535
+[Stat:nodes_evaluated]6535
+f_limit= 41, expanded nodes = 41724
+[Stat:nodes_evaluated]41724
+f_limit= 43, expanded nodes = 248697
+[Stat:nodes_evaluated]248697
+f_limit= 45, expanded nodes = 1409495
+[Stat:nodes_evaluated]1409495
+f_limit= 47, expanded nodes = 7745255
+[Stat:nodes_evaluated]7745255
+f_limit= 49, expanded nodes = 6575074
+[Stat:nodes_evaluated]6575074
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]16027770
+[Timer:search] 0.206650
+len=49: 0 1 3 3 1 3 2 0 1 1 0 0 2 3 2 2 3 1 0 1 3 3 1 0 2 2 3 1 1 0 0 2 2 0 2 3 3 1 0 0 2 3 3 3 1 0 0 0 2 
+
+real	0m0.207s
+user	0m0.204s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(2,3)
+8 4 6 1
+14 12 2 15
+13 10 9 5
+3 7 0 11
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 18
+[Stat:nodes_evaluated]18
+f_limit= 37, expanded nodes = 268
+[Stat:nodes_evaluated]268
+f_limit= 39, expanded nodes = 2745
+[Stat:nodes_evaluated]2745
+f_limit= 41, expanded nodes = 27653
+[Stat:nodes_evaluated]27653
+f_limit= 43, expanded nodes = 201444
+[Stat:nodes_evaluated]201444
+f_limit= 45, expanded nodes = 1310438
+[Stat:nodes_evaluated]1310438
+f_limit= 47, expanded nodes = 7893309
+[Stat:nodes_evaluated]7893309
+f_limit= 49, expanded nodes = 3430503
+[Stat:nodes_evaluated]3430503
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]12866378
+[Timer:search] 0.160022
+len=49: 0 1 0 2 3 2 3 2 0 0 1 3 2 0 0 1 3 1 3 3 2 0 1 3 1 0 2 3 2 2 0 0 1 0 1 1 3 3 2 0 2 0 1 1 3 2 2 2 0 
+
+real	0m0.161s
+user	0m0.160s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(3,0)
+4 6 12 0
+14 2 9 13
+11 8 3 15
+7 10 1 5
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 45, expanded nodes = 59
+[Stat:nodes_evaluated]59
+f_limit= 47, expanded nodes = 1432
+[Stat:nodes_evaluated]1432
+f_limit= 49, expanded nodes = 15271
+[Stat:nodes_evaluated]15271
+f_limit= 51, expanded nodes = 150036
+[Stat:nodes_evaluated]150036
+f_limit= 53, expanded nodes = 1284627
+[Stat:nodes_evaluated]1284627
+f_limit= 55, expanded nodes = 10004063
+[Stat:nodes_evaluated]10004063
+f_limit= 57, expanded nodes = 5056055
+[Stat:nodes_evaluated]5056055
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]16511545
+[Timer:search] 0.207027
+len=57: 2 2 3 1 3 3 1 0 0 0 2 3 3 2 2 0 1 1 1 0 2 2 3 1 3 2 0 1 3 3 2 0 2 3 1 0 2 0 1 3 1 1 0 2 2 3 1 1 0 2 3 3 2 0 2 0 0 
+
+real	0m0.208s
+user	0m0.204s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=31, (x,y)=(3,2)
+12 3 9 1
+4 5 10 2
+6 11 15 0
+14 7 13 8
+-----------
+f_limit= 31, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 32, expanded nodes = 54
+[Stat:nodes_evaluated]54
+f_limit= 33, expanded nodes = 193
+[Stat:nodes_evaluated]193
+f_limit= 35, expanded nodes = 1000
+[Stat:nodes_evaluated]1000
+f_limit= 37, expanded nodes = 5159
+[Stat:nodes_evaluated]5159
+f_limit= 39, expanded nodes = 24659
+[Stat:nodes_evaluated]24659
+f_limit= 41, expanded nodes = 124691
+[Stat:nodes_evaluated]124691
+f_limit= 43, expanded nodes = 619213
+[Stat:nodes_evaluated]619213
+f_limit= 45, expanded nodes = 3046602
+[Stat:nodes_evaluated]3046602
+f_limit= 47, expanded nodes = 14908703
+[Stat:nodes_evaluated]14908703
+f_limit= 49, expanded nodes = 46322338
+[Stat:nodes_evaluated]46322338
+[Stat:solution_depth]=49
+[Stat:total_nodes_evaluated]65052612
+[Timer:search] 0.851864
+len=49: 2 2 3 1 1 0 2 0 0 2 2 3 1 3 2 3 1 1 0 0 0 1 3 2 2 0 1 1 3 2 3 2 2 3 1 0 0 1 3 3 2 0 2 3 1 0 0 2 0 
+
+real	0m0.853s
+user	0m0.852s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(3,3)
+6 12 11 3
+13 7 9 15
+2 14 8 10
+4 1 5 0
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 38, expanded nodes = 8
+[Stat:nodes_evaluated]8
+f_limit= 40, expanded nodes = 408
+[Stat:nodes_evaluated]408
+f_limit= 42, expanded nodes = 3977
+[Stat:nodes_evaluated]3977
+f_limit= 44, expanded nodes = 33934
+[Stat:nodes_evaluated]33934
+f_limit= 46, expanded nodes = 239600
+[Stat:nodes_evaluated]239600
+f_limit= 48, expanded nodes = 1602438
+[Stat:nodes_evaluated]1602438
+f_limit= 50, expanded nodes = 10118748
+[Stat:nodes_evaluated]10118748
+f_limit= 52, expanded nodes = 6004913
+[Stat:nodes_evaluated]6004913
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]18004028
+[Timer:search] 0.231299
+len=52: 0 0 2 2 2 3 3 1 0 0 0 2 3 3 1 1 3 2 2 0 1 0 1 0 2 2 3 3 1 3 1 1 0 0 2 2 3 1 1 0 2 0 2 3 3 1 3 2 2 0 0 0 
+
+real	0m0.232s
+user	0m0.228s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=42, (x,y)=(3,3)
+4 7 14 13
+10 3 9 12
+11 5 6 15
+1 2 8 0
+-----------
+f_limit= 42, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 43, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 44, expanded nodes = 261
+[Stat:nodes_evaluated]261
+f_limit= 46, expanded nodes = 2494
+[Stat:nodes_evaluated]2494
+f_limit= 48, expanded nodes = 20278
+[Stat:nodes_evaluated]20278
+f_limit= 50, expanded nodes = 158486
+[Stat:nodes_evaluated]158486
+f_limit= 52, expanded nodes = 1223663
+[Stat:nodes_evaluated]1223663
+f_limit= 54, expanded nodes = 9076121
+[Stat:nodes_evaluated]9076121
+f_limit= 56, expanded nodes = 2143383
+[Stat:nodes_evaluated]2143383
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]12624693
+[Timer:search] 0.152817
+len=56: 0 0 0 2 2 3 1 3 1 0 0 2 3 2 2 3 1 1 0 2 2 3 1 3 1 0 1 0 2 2 3 3 2 0 1 3 1 0 1 0 2 0 2 3 3 3 1 0 1 0 0 2 2 3 2 0 
+
+real	0m0.153s
+user	0m0.152s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(0,0)
+0 13 2 4
+12 14 6 9
+15 1 10 3
+11 5 8 7
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 36, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 38, expanded nodes = 58
+[Stat:nodes_evaluated]58
+f_limit= 40, expanded nodes = 307
+[Stat:nodes_evaluated]307
+f_limit= 42, expanded nodes = 1509
+[Stat:nodes_evaluated]1509
+f_limit= 44, expanded nodes = 8811
+[Stat:nodes_evaluated]8811
+f_limit= 46, expanded nodes = 55905
+[Stat:nodes_evaluated]55905
+f_limit= 48, expanded nodes = 338835
+[Stat:nodes_evaluated]338835
+f_limit= 50, expanded nodes = 2067136
+[Stat:nodes_evaluated]2067136
+f_limit= 52, expanded nodes = 12517040
+[Stat:nodes_evaluated]12517040
+f_limit= 54, expanded nodes = 3955191
+[Stat:nodes_evaluated]3955191
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]18944800
+[Timer:search] 0.245475
+len=54: 1 1 1 3 3 2 2 0 0 1 1 3 2 3 2 3 2 0 0 0 1 1 3 3 3 2 2 0 1 1 0 2 2 3 1 1 1 3 2 2 0 0 0 1 3 1 3 3 2 2 0 0 2 0 
+
+real	0m0.246s
+user	0m0.244s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(1,2)
+6 10 1 14
+15 8 3 5
+13 0 2 7
+4 9 11 12
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 74
+[Stat:nodes_evaluated]74
+f_limit= 37, expanded nodes = 568
+[Stat:nodes_evaluated]568
+f_limit= 39, expanded nodes = 3629
+[Stat:nodes_evaluated]3629
+f_limit= 41, expanded nodes = 22635
+[Stat:nodes_evaluated]22635
+f_limit= 43, expanded nodes = 135739
+[Stat:nodes_evaluated]135739
+f_limit= 45, expanded nodes = 768599
+[Stat:nodes_evaluated]768599
+f_limit= 47, expanded nodes = 233020
+[Stat:nodes_evaluated]233020
+[Stat:solution_depth]=47
+[Stat:total_nodes_evaluated]1164264
+[Timer:search] 0.015718
+len=47: 0 0 1 3 1 0 2 3 3 2 0 2 0 1 1 3 2 3 1 0 1 3 2 3 1 0 2 0 2 3 3 1 0 2 2 3 1 0 0 2 3 1 1 0 2 0 2 
+
+real	0m0.016s
+user	0m0.016s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=39, (x,y)=(2,1)
+3 14 9 7
+12 15 0 4
+1 8 5 6
+11 10 2 13
+-----------
+f_limit= 39, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 40, expanded nodes = 33
+[Stat:nodes_evaluated]33
+f_limit= 41, expanded nodes = 722
+[Stat:nodes_evaluated]722
+f_limit= 43, expanded nodes = 6251
+[Stat:nodes_evaluated]6251
+f_limit= 45, expanded nodes = 49386
+[Stat:nodes_evaluated]49386
+f_limit= 47, expanded nodes = 340232
+[Stat:nodes_evaluated]340232
+f_limit= 49, expanded nodes = 2200221
+[Stat:nodes_evaluated]2200221
+f_limit= 51, expanded nodes = 5298573
+[Stat:nodes_evaluated]5298573
+[Stat:solution_depth]=51
+[Stat:total_nodes_evaluated]7895418
+[Timer:search] 0.101508
+len=51: 2 2 3 1 0 0 2 3 3 1 3 2 0 1 1 0 1 3 2 3 2 0 0 1 3 3 1 0 2 2 2 0 1 1 0 2 3 3 3 1 0 0 2 3 1 0 1 0 2 2 2 
+
+real	0m0.102s
+user	0m0.100s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(2,0)
+12 6 0 4
+7 3 15 1
+13 9 8 11
+2 14 5 10
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 60
+[Stat:nodes_evaluated]60
+f_limit= 38, expanded nodes = 448
+[Stat:nodes_evaluated]448
+f_limit= 40, expanded nodes = 2807
+[Stat:nodes_evaluated]2807
+f_limit= 42, expanded nodes = 17416
+[Stat:nodes_evaluated]17416
+f_limit= 44, expanded nodes = 97333
+[Stat:nodes_evaluated]97333
+f_limit= 46, expanded nodes = 539010
+[Stat:nodes_evaluated]539010
+f_limit= 48, expanded nodes = 2948039
+[Stat:nodes_evaluated]2948039
+f_limit= 50, expanded nodes = 15916126
+[Stat:nodes_evaluated]15916126
+f_limit= 52, expanded nodes = 17388436
+[Stat:nodes_evaluated]17388436
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]36909675
+[Timer:search] 0.485343
+len=52: 1 3 2 2 2 3 1 1 1 0 2 2 0 1 1 3 2 3 3 2 2 0 0 0 1 3 3 3 2 0 0 1 3 1 0 2 0 1 3 2 3 3 1 1 0 2 3 2 2 0 0 0 
+
+real	0m0.486s
+user	0m0.484s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(1,3)
+6 11 7 8
+13 2 5 4
+1 10 3 9
+14 0 12 15
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 38, expanded nodes = 33
+[Stat:nodes_evaluated]33
+f_limit= 40, expanded nodes = 507
+[Stat:nodes_evaluated]507
+f_limit= 42, expanded nodes = 4252
+[Stat:nodes_evaluated]4252
+f_limit= 44, expanded nodes = 33018
+[Stat:nodes_evaluated]33018
+f_limit= 46, expanded nodes = 236681
+[Stat:nodes_evaluated]236681
+f_limit= 48, expanded nodes = 1609173
+[Stat:nodes_evaluated]1609173
+f_limit= 50, expanded nodes = 10479092
+[Stat:nodes_evaluated]10479092
+f_limit= 52, expanded nodes = 6884129
+[Stat:nodes_evaluated]6884129
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]19246891
+[Timer:search] 0.241562
+len=52: 0 0 1 1 0 2 3 3 2 2 0 1 0 1 3 2 3 1 3 2 2 0 0 0 1 3 3 1 1 0 2 2 2 3 1 1 1 0 0 2 3 2 3 1 3 2 2 0 1 0 2 0 
+
+real	0m0.242s
+user	0m0.240s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=31, (x,y)=(0,3)
+7 8 3 2
+10 12 4 6
+11 13 5 15
+0 1 9 14
+-----------
+f_limit= 31, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 32, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 33, expanded nodes = 119
+[Stat:nodes_evaluated]119
+f_limit= 35, expanded nodes = 858
+[Stat:nodes_evaluated]858
+f_limit= 37, expanded nodes = 6470
+[Stat:nodes_evaluated]6470
+f_limit= 39, expanded nodes = 39959
+[Stat:nodes_evaluated]39959
+f_limit= 41, expanded nodes = 226123
+[Stat:nodes_evaluated]226123
+f_limit= 43, expanded nodes = 1208049
+[Stat:nodes_evaluated]1208049
+f_limit= 45, expanded nodes = 6260108
+[Stat:nodes_evaluated]6260108
+f_limit= 47, expanded nodes = 12188447
+[Stat:nodes_evaluated]12188447
+[Stat:solution_depth]=47
+[Stat:total_nodes_evaluated]19930135
+[Timer:search] 0.245168
+len=47: 0 1 3 2 0 0 1 3 2 0 1 1 0 2 2 3 1 0 1 1 3 2 2 0 1 1 3 2 3 2 0 1 3 3 2 2 0 1 1 3 1 0 2 0 0 2 2 
+
+real	0m0.246s
+user	0m0.244s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=32, (x,y)=(2,0)
+12 9 0 6
+8 3 5 14
+2 4 11 7
+10 1 15 13
+-----------
+f_limit= 32, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 33, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 34, expanded nodes = 225
+[Stat:nodes_evaluated]225
+f_limit= 36, expanded nodes = 1444
+[Stat:nodes_evaluated]1444
+f_limit= 38, expanded nodes = 7790
+[Stat:nodes_evaluated]7790
+f_limit= 40, expanded nodes = 41311
+[Stat:nodes_evaluated]41311
+f_limit= 42, expanded nodes = 214511
+[Stat:nodes_evaluated]214511
+f_limit= 44, expanded nodes = 1082331
+[Stat:nodes_evaluated]1082331
+f_limit= 46, expanded nodes = 5372348
+[Stat:nodes_evaluated]5372348
+f_limit= 48, expanded nodes = 26377481
+[Stat:nodes_evaluated]26377481
+f_limit= 50, expanded nodes = 84350508
+[Stat:nodes_evaluated]84350508
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]117447953
+[Timer:search] 1.558032
+len=50: 3 2 2 0 1 1 3 1 0 2 2 3 3 2 0 0 1 3 3 3 2 0 0 0 1 3 3 1 0 0 2 3 1 1 3 2 3 1 0 2 2 3 1 1 0 2 2 2 0 0 
+
+real	0m1.559s
+user	0m1.556s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=44, (x,y)=(1,1)
+10 2 8 4
+15 0 1 14
+11 13 3 6
+9 7 5 12
+-----------
+f_limit= 44, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 45, expanded nodes = 467
+[Stat:nodes_evaluated]467
+f_limit= 46, expanded nodes = 5052
+[Stat:nodes_evaluated]5052
+f_limit= 48, expanded nodes = 48170
+[Stat:nodes_evaluated]48170
+f_limit= 50, expanded nodes = 402321
+[Stat:nodes_evaluated]402321
+f_limit= 52, expanded nodes = 3055170
+[Stat:nodes_evaluated]3055170
+f_limit= 54, expanded nodes = 21540929
+[Stat:nodes_evaluated]21540929
+f_limit= 56, expanded nodes = 441908
+[Stat:nodes_evaluated]441908
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]25494017
+[Timer:search] 0.320203
+len=56: 0 1 1 3 2 2 2 0 1 1 3 1 0 2 3 3 1 0 2 2 2 0 1 1 1 3 2 3 3 1 0 0 2 3 2 3 1 0 2 2 3 1 1 1 0 2 2 0 1 1 3 2 2 2 0 0 
+
+real	0m0.321s
+user	0m0.320s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=30, (x,y)=(2,0)
+14 4 0 10
+6 5 1 3
+9 2 13 15
+12 7 8 11
+-----------
+f_limit= 30, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 31, expanded nodes = 9
+[Stat:nodes_evaluated]9
+f_limit= 32, expanded nodes = 98
+[Stat:nodes_evaluated]98
+f_limit= 34, expanded nodes = 973
+[Stat:nodes_evaluated]973
+f_limit= 36, expanded nodes = 6857
+[Stat:nodes_evaluated]6857
+f_limit= 38, expanded nodes = 42054
+[Stat:nodes_evaluated]42054
+f_limit= 40, expanded nodes = 235696
+[Stat:nodes_evaluated]235696
+f_limit= 42, expanded nodes = 1268863
+[Stat:nodes_evaluated]1268863
+f_limit= 44, expanded nodes = 6579173
+[Stat:nodes_evaluated]6579173
+f_limit= 46, expanded nodes = 33333029
+[Stat:nodes_evaluated]33333029
+f_limit= 48, expanded nodes = 10247179
+[Stat:nodes_evaluated]10247179
+[Stat:solution_depth]=48
+[Stat:total_nodes_evaluated]51713931
+[Timer:search] 0.659548
+len=48: 1 3 2 2 3 1 3 2 0 1 3 1 0 2 3 2 2 0 0 0 1 3 2 3 1 0 1 1 3 2 2 0 1 0 2 3 2 3 3 1 1 0 0 2 3 2 0 0 
+
+real	0m0.660s
+user	0m0.660s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(1,0)
+11 0 15 8
+13 12 3 5
+10 1 4 6
+14 9 7 2
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 45, expanded nodes = 102
+[Stat:nodes_evaluated]102
+f_limit= 47, expanded nodes = 2283
+[Stat:nodes_evaluated]2283
+f_limit= 49, expanded nodes = 28984
+[Stat:nodes_evaluated]28984
+f_limit= 51, expanded nodes = 293157
+[Stat:nodes_evaluated]293157
+f_limit= 53, expanded nodes = 2581597
+[Stat:nodes_evaluated]2581597
+f_limit= 55, expanded nodes = 20494715
+[Stat:nodes_evaluated]20494715
+f_limit= 57, expanded nodes = 102820307
+[Stat:nodes_evaluated]102820307
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]126221149
+[Timer:search] 1.559304
+len=57: 3 1 0 1 3 3 2 0 2 3 2 0 0 1 3 2 0 1 1 1 3 3 3 2 0 2 0 0 1 3 1 3 3 2 0 2 3 2 0 0 1 1 1 0 2 3 1 3 2 3 2 2 0 0 1 0 2 
+
+real	0m1.560s
+user	0m1.556s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=38, (x,y)=(2,2)
+11 1 7 4
+10 13 3 8
+9 14 0 15
+6 5 2 12
+-----------
+f_limit= 38, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 39, expanded nodes = 143
+[Stat:nodes_evaluated]143
+f_limit= 40, expanded nodes = 681
+[Stat:nodes_evaluated]681
+f_limit= 42, expanded nodes = 4529
+[Stat:nodes_evaluated]4529
+f_limit= 44, expanded nodes = 28364
+[Stat:nodes_evaluated]28364
+f_limit= 46, expanded nodes = 179224
+[Stat:nodes_evaluated]179224
+f_limit= 48, expanded nodes = 1114415
+[Stat:nodes_evaluated]1114415
+f_limit= 50, expanded nodes = 6590797
+[Stat:nodes_evaluated]6590797
+f_limit= 52, expanded nodes = 37854726
+[Stat:nodes_evaluated]37854726
+f_limit= 54, expanded nodes = 98992172
+[Stat:nodes_evaluated]98992172
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]144765051
+[Timer:search] 1.798368
+len=54: 3 1 0 0 2 0 1 3 2 3 1 0 2 3 2 3 1 0 2 0 2 0 1 3 2 3 3 1 0 0 1 3 2 2 0 1 0 1 3 1 3 2 2 0 0 1 3 3 2 2 0 1 0 2 
+
+real	0m1.800s
+user	0m1.796s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(0,3)
+13 5 4 10
+9 12 8 14
+2 3 7 1
+0 15 11 6
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 45, expanded nodes = 793
+[Stat:nodes_evaluated]793
+f_limit= 47, expanded nodes = 12110
+[Stat:nodes_evaluated]12110
+f_limit= 49, expanded nodes = 133616
+[Stat:nodes_evaluated]133616
+f_limit= 51, expanded nodes = 1217371
+[Stat:nodes_evaluated]1217371
+f_limit= 53, expanded nodes = 9705876
+[Stat:nodes_evaluated]9705876
+f_limit= 55, expanded nodes = 4697233
+[Stat:nodes_evaluated]4697233
+[Stat:solution_depth]=55
+[Stat:total_nodes_evaluated]15767001
+[Timer:search] 0.195188
+len=55: 0 0 0 1 3 1 3 2 0 0 1 3 3 1 0 0 2 3 3 1 3 2 2 0 0 2 3 3 1 0 0 2 3 3 1 0 0 2 0 1 3 1 1 3 3 2 0 0 1 0 2 2 3 2 0 
+
+real	0m0.196s
+user	0m0.192s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=39, (x,y)=(0,3)
+1 6 12 14
+3 2 15 8
+4 5 13 9
+0 7 11 10
+-----------
+f_limit= 39, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 40, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 41, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 43, expanded nodes = 997
+[Stat:nodes_evaluated]997
+f_limit= 45, expanded nodes = 10456
+[Stat:nodes_evaluated]10456
+f_limit= 47, expanded nodes = 87831
+[Stat:nodes_evaluated]87831
+f_limit= 49, expanded nodes = 651203
+[Stat:nodes_evaluated]651203
+f_limit= 51, expanded nodes = 4361372
+[Stat:nodes_evaluated]4361372
+f_limit= 53, expanded nodes = 27608527
+[Stat:nodes_evaluated]27608527
+f_limit= 55, expanded nodes = 24977222
+[Stat:nodes_evaluated]24977222
+[Stat:solution_depth]=55
+[Stat:total_nodes_evaluated]57697616
+[Timer:search] 0.703419
+len=55: 0 1 1 0 0 2 3 2 3 1 1 0 1 3 3 2 0 2 3 1 0 0 2 0 1 3 1 0 2 2 3 3 2 3 1 0 1 0 2 2 3 1 1 1 0 2 3 1 3 2 0 0 0 2 2 
+
+real	0m0.704s
+user	0m0.700s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=37, (x,y)=(1,0)
+6 0 5 15
+1 14 4 9
+2 13 8 10
+11 12 7 3
+-----------
+f_limit= 37, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 38, expanded nodes = 67
+[Stat:nodes_evaluated]67
+f_limit= 39, expanded nodes = 514
+[Stat:nodes_evaluated]514
+f_limit= 41, expanded nodes = 4100
+[Stat:nodes_evaluated]4100
+f_limit= 43, expanded nodes = 27957
+[Stat:nodes_evaluated]27957
+f_limit= 45, expanded nodes = 178573
+[Stat:nodes_evaluated]178573
+f_limit= 47, expanded nodes = 1090297
+[Stat:nodes_evaluated]1090297
+f_limit= 49, expanded nodes = 6357606
+[Stat:nodes_evaluated]6357606
+f_limit= 51, expanded nodes = 35662108
+[Stat:nodes_evaluated]35662108
+f_limit= 53, expanded nodes = 105223392
+[Stat:nodes_evaluated]105223392
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]148544614
+[Timer:search] 1.858120
+len=53: 2 3 3 1 3 2 0 1 0 2 0 1 3 1 0 2 2 3 1 1 1 0 2 2 3 1 1 3 3 2 2 0 1 0 1 3 3 2 0 0 0 1 3 3 3 2 2 2 0 1 0 0 2 
+
+real	0m1.859s
+user	0m1.856s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=38, (x,y)=(2,0)
+9 8 0 2
+15 1 4 14
+3 10 7 5
+11 13 6 12
+-----------
+f_limit= 38, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 39, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 40, expanded nodes = 314
+[Stat:nodes_evaluated]314
+f_limit= 42, expanded nodes = 2670
+[Stat:nodes_evaluated]2670
+f_limit= 44, expanded nodes = 20817
+[Stat:nodes_evaluated]20817
+f_limit= 46, expanded nodes = 142859
+[Stat:nodes_evaluated]142859
+f_limit= 48, expanded nodes = 911014
+[Stat:nodes_evaluated]911014
+f_limit= 50, expanded nodes = 5609334
+[Stat:nodes_evaluated]5609334
+f_limit= 52, expanded nodes = 33380789
+[Stat:nodes_evaluated]33380789
+f_limit= 54, expanded nodes = 101854677
+[Stat:nodes_evaluated]101854677
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]141922478
+[Timer:search] 1.813647
+len=54: 3 2 2 0 1 1 3 2 3 2 0 1 3 1 1 0 2 2 3 1 3 1 0 0 2 2 3 3 2 0 0 0 1 1 1 3 2 3 2 3 1 0 2 2 3 1 1 1 0 2 2 2 0 0 
+
+real	0m1.814s
+user	0m1.812s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(3,3)
+7 3 14 13
+4 1 10 8
+5 12 9 11
+2 15 6 0
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 36, expanded nodes = 38
+[Stat:nodes_evaluated]38
+f_limit= 38, expanded nodes = 235
+[Stat:nodes_evaluated]235
+f_limit= 40, expanded nodes = 1274
+[Stat:nodes_evaluated]1274
+f_limit= 42, expanded nodes = 6482
+[Stat:nodes_evaluated]6482
+f_limit= 44, expanded nodes = 35458
+[Stat:nodes_evaluated]35458
+f_limit= 46, expanded nodes = 192052
+[Stat:nodes_evaluated]192052
+f_limit= 48, expanded nodes = 1060946
+[Stat:nodes_evaluated]1060946
+f_limit= 50, expanded nodes = 5835898
+[Stat:nodes_evaluated]5835898
+f_limit= 52, expanded nodes = 32148323
+[Stat:nodes_evaluated]32148323
+f_limit= 54, expanded nodes = 3425310
+[Stat:nodes_evaluated]3425310
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]42706018
+[Timer:search] 0.552453
+len=54: 0 0 0 2 2 2 3 3 1 1 1 0 0 2 2 3 3 1 3 2 2 0 1 1 1 3 2 0 0 1 3 2 0 2 3 3 1 0 0 0 2 3 3 1 1 0 2 2 0 1 3 2 2 0 
+
+real	0m0.553s
+user	0m0.552s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(1,1)
+9 5 11 10
+13 0 2 1
+8 6 14 12
+4 7 3 15
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 15
+[Stat:nodes_evaluated]15
+f_limit= 36, expanded nodes = 125
+[Stat:nodes_evaluated]125
+f_limit= 38, expanded nodes = 838
+[Stat:nodes_evaluated]838
+f_limit= 40, expanded nodes = 5805
+[Stat:nodes_evaluated]5805
+f_limit= 42, expanded nodes = 36138
+[Stat:nodes_evaluated]36138
+f_limit= 44, expanded nodes = 217202
+[Stat:nodes_evaluated]217202
+f_limit= 46, expanded nodes = 1281028
+[Stat:nodes_evaluated]1281028
+f_limit= 48, expanded nodes = 7438154
+[Stat:nodes_evaluated]7438154
+f_limit= 50, expanded nodes = 42393041
+[Stat:nodes_evaluated]42393041
+f_limit= 52, expanded nodes = 3787599
+[Stat:nodes_evaluated]3787599
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]55159945
+[Timer:search] 0.700693
+len=52: 0 1 3 1 0 2 2 3 3 1 3 2 0 0 1 3 1 0 2 0 2 3 3 1 3 2 0 2 0 0 1 1 1 3 2 3 1 0 2 2 3 2 3 1 0 0 2 3 1 0 0 2 
+
+real	0m0.701s
+user	0m0.700s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=31, (x,y)=(3,0)
+5 2 14 0
+7 8 6 3
+11 12 13 15
+4 10 9 1
+-----------
+f_limit= 31, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 32, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 33, expanded nodes = 20
+[Stat:nodes_evaluated]20
+f_limit= 35, expanded nodes = 192
+[Stat:nodes_evaluated]192
+f_limit= 37, expanded nodes = 2032
+[Stat:nodes_evaluated]2032
+f_limit= 39, expanded nodes = 12050
+[Stat:nodes_evaluated]12050
+f_limit= 41, expanded nodes = 69491
+[Stat:nodes_evaluated]69491
+f_limit= 43, expanded nodes = 382841
+[Stat:nodes_evaluated]382841
+f_limit= 45, expanded nodes = 2046280
+[Stat:nodes_evaluated]2046280
+f_limit= 47, expanded nodes = 10631254
+[Stat:nodes_evaluated]10631254
+f_limit= 49, expanded nodes = 54205758
+[Stat:nodes_evaluated]54205758
+f_limit= 51, expanded nodes = 167519256
+[Stat:nodes_evaluated]167519256
+[Stat:solution_depth]=51
+[Stat:total_nodes_evaluated]234869178
+[Timer:search] 2.987092
+len=51: 3 2 3 3 1 0 2 3 2 0 1 0 2 2 3 1 0 2 3 3 1 1 0 0 2 3 1 1 0 2 0 2 2 3 3 1 1 0 2 3 3 1 0 1 0 2 3 2 0 0 2 
+
+real	0m2.988s
+user	0m2.984s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=38, (x,y)=(2,0)
+11 4 0 8
+6 10 5 13
+12 7 14 3
+1 2 9 15
+-----------
+f_limit= 38, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 39, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 40, expanded nodes = 93
+[Stat:nodes_evaluated]93
+f_limit= 42, expanded nodes = 1305
+[Stat:nodes_evaluated]1305
+f_limit= 44, expanded nodes = 12452
+[Stat:nodes_evaluated]12452
+f_limit= 46, expanded nodes = 99237
+[Stat:nodes_evaluated]99237
+f_limit= 48, expanded nodes = 706297
+[Stat:nodes_evaluated]706297
+f_limit= 50, expanded nodes = 4700707
+[Stat:nodes_evaluated]4700707
+f_limit= 52, expanded nodes = 29662470
+[Stat:nodes_evaluated]29662470
+f_limit= 54, expanded nodes = 16925813
+[Stat:nodes_evaluated]16925813
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]52108378
+[Timer:search] 0.655513
+len=54: 1 3 3 2 0 2 0 2 3 1 0 1 3 2 0 1 1 3 2 0 2 2 3 1 3 1 0 2 3 3 2 0 0 1 3 3 1 0 1 0 2 0 2 3 3 3 1 0 0 0 2 3 2 0 
+
+real	0m0.656s
+user	0m0.656s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=31, (x,y)=(1,2)
+7 3 1 13
+12 10 5 2
+8 0 6 11
+14 15 4 9
+-----------
+f_limit= 31, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 32, expanded nodes = 25
+[Stat:nodes_evaluated]25
+f_limit= 33, expanded nodes = 119
+[Stat:nodes_evaluated]119
+f_limit= 35, expanded nodes = 545
+[Stat:nodes_evaluated]545
+f_limit= 37, expanded nodes = 2726
+[Stat:nodes_evaluated]2726
+f_limit= 39, expanded nodes = 13130
+[Stat:nodes_evaluated]13130
+f_limit= 41, expanded nodes = 64860
+[Stat:nodes_evaluated]64860
+f_limit= 43, expanded nodes = 329294
+[Stat:nodes_evaluated]329294
+f_limit= 45, expanded nodes = 1684237
+[Stat:nodes_evaluated]1684237
+f_limit= 47, expanded nodes = 8643310
+[Stat:nodes_evaluated]8643310
+f_limit= 49, expanded nodes = 44194619
+[Stat:nodes_evaluated]44194619
+f_limit= 51, expanded nodes = 7132579
+[Stat:nodes_evaluated]7132579
+[Stat:solution_depth]=51
+[Stat:total_nodes_evaluated]62065444
+[Timer:search] 0.824701
+len=51: 0 0 1 1 3 3 2 3 2 0 2 0 0 1 1 3 2 3 1 1 3 2 2 2 0 1 0 2 3 1 1 1 0 2 2 0 1 1 3 2 3 2 0 1 3 3 2 0 0 0 2 
+
+real	0m0.825s
+user	0m0.824s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(0,2)
+8 13 10 9
+11 3 15 6
+0 1 2 14
+12 5 4 7
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 38, expanded nodes = 45
+[Stat:nodes_evaluated]45
+f_limit= 40, expanded nodes = 373
+[Stat:nodes_evaluated]373
+f_limit= 42, expanded nodes = 2855
+[Stat:nodes_evaluated]2855
+f_limit= 44, expanded nodes = 20578
+[Stat:nodes_evaluated]20578
+f_limit= 46, expanded nodes = 144890
+[Stat:nodes_evaluated]144890
+f_limit= 48, expanded nodes = 964212
+[Stat:nodes_evaluated]964212
+f_limit= 50, expanded nodes = 6218231
+[Stat:nodes_evaluated]6218231
+f_limit= 52, expanded nodes = 38781644
+[Stat:nodes_evaluated]38781644
+f_limit= 54, expanded nodes = 4322751
+[Stat:nodes_evaluated]4322751
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]50455585
+[Timer:search] 0.642373
+len=54: 0 0 1 1 1 3 2 2 3 1 3 1 0 0 2 0 2 3 3 2 0 0 1 3 1 3 3 1 0 2 2 0 1 0 1 3 3 2 2 3 2 0 0 1 3 2 3 1 0 1 0 0 2 2 
+
+real	0m0.643s
+user	0m0.640s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=39, (x,y)=(3,0)
+7 15 4 0
+10 9 2 5
+12 11 13 6
+1 3 14 8
+-----------
+f_limit= 39, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 40, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 41, expanded nodes = 21
+[Stat:nodes_evaluated]21
+f_limit= 43, expanded nodes = 269
+[Stat:nodes_evaluated]269
+f_limit= 45, expanded nodes = 2059
+[Stat:nodes_evaluated]2059
+f_limit= 47, expanded nodes = 14507
+[Stat:nodes_evaluated]14507
+f_limit= 49, expanded nodes = 101923
+[Stat:nodes_evaluated]101923
+f_limit= 51, expanded nodes = 700514
+[Stat:nodes_evaluated]700514
+f_limit= 53, expanded nodes = 4673915
+[Stat:nodes_evaluated]4673915
+f_limit= 55, expanded nodes = 30382956
+[Stat:nodes_evaluated]30382956
+f_limit= 57, expanded nodes = 55039683
+[Stat:nodes_evaluated]55039683
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]90915849
+[Timer:search] 1.130175
+len=57: 3 2 0 2 3 1 0 1 3 3 3 2 0 2 3 2 0 0 1 0 2 3 1 3 3 1 0 1 0 2 2 3 1 1 0 2 0 2 3 3 2 0 1 1 0 1 3 2 3 3 1 0 2 2 2 0 0 
+
+real	0m1.131s
+user	0m1.128s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=36, (x,y)=(3,1)
+11 5 1 14
+4 12 10 0
+2 7 13 3
+9 15 6 8
+-----------
+f_limit= 36, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 37, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 38, expanded nodes = 74
+[Stat:nodes_evaluated]74
+f_limit= 40, expanded nodes = 770
+[Stat:nodes_evaluated]770
+f_limit= 42, expanded nodes = 5814
+[Stat:nodes_evaluated]5814
+f_limit= 44, expanded nodes = 38062
+[Stat:nodes_evaluated]38062
+f_limit= 46, expanded nodes = 241608
+[Stat:nodes_evaluated]241608
+f_limit= 48, expanded nodes = 1477194
+[Stat:nodes_evaluated]1477194
+f_limit= 50, expanded nodes = 8801586
+[Stat:nodes_evaluated]8801586
+f_limit= 52, expanded nodes = 51195292
+[Stat:nodes_evaluated]51195292
+f_limit= 54, expanded nodes = 590248
+[Stat:nodes_evaluated]590248
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]62350655
+[Timer:search] 0.834826
+len=54: 0 2 2 2 3 1 0 1 3 1 3 2 2 3 1 1 0 2 2 0 0 1 1 3 3 2 2 2 0 1 3 3 1 1 0 2 0 2 0 1 3 2 3 3 2 0 1 3 1 0 0 2 2 0 
+
+real	0m0.836s
+user	0m0.832s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=32, (x,y)=(1,1)
+11 4 2 7
+1 0 10 15
+6 9 14 8
+3 13 5 12
+-----------
+f_limit= 32, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 33, expanded nodes = 35
+[Stat:nodes_evaluated]35
+f_limit= 34, expanded nodes = 149
+[Stat:nodes_evaluated]149
+f_limit= 36, expanded nodes = 783
+[Stat:nodes_evaluated]783
+f_limit= 38, expanded nodes = 3407
+[Stat:nodes_evaluated]3407
+f_limit= 40, expanded nodes = 17165
+[Stat:nodes_evaluated]17165
+f_limit= 42, expanded nodes = 88262
+[Stat:nodes_evaluated]88262
+f_limit= 44, expanded nodes = 448504
+[Stat:nodes_evaluated]448504
+f_limit= 46, expanded nodes = 2317951
+[Stat:nodes_evaluated]2317951
+f_limit= 48, expanded nodes = 12082457
+[Stat:nodes_evaluated]12082457
+f_limit= 50, expanded nodes = 62924032
+[Stat:nodes_evaluated]62924032
+f_limit= 52, expanded nodes = 35072006
+[Stat:nodes_evaluated]35072006
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]112954751
+[Timer:search] 1.444332
+len=52: 0 2 3 1 3 2 3 1 0 2 0 1 3 3 1 1 0 0 2 2 0 1 3 2 3 3 1 1 0 0 2 2 3 3 1 0 1 0 0 2 2 3 2 3 1 3 2 0 1 0 0 2 
+
+real	0m1.445s
+user	0m1.444s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(3,1)
+12 8 14 6
+11 4 7 0
+5 1 10 15
+3 13 9 2
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 10
+[Stat:nodes_evaluated]10
+f_limit= 36, expanded nodes = 69
+[Stat:nodes_evaluated]69
+f_limit= 38, expanded nodes = 343
+[Stat:nodes_evaluated]343
+f_limit= 40, expanded nodes = 1819
+[Stat:nodes_evaluated]1819
+f_limit= 42, expanded nodes = 9600
+[Stat:nodes_evaluated]9600
+f_limit= 44, expanded nodes = 49359
+[Stat:nodes_evaluated]49359
+f_limit= 46, expanded nodes = 262917
+[Stat:nodes_evaluated]262917
+f_limit= 48, expanded nodes = 1398661
+[Stat:nodes_evaluated]1398661
+f_limit= 50, expanded nodes = 7448900
+[Stat:nodes_evaluated]7448900
+f_limit= 52, expanded nodes = 39731532
+[Stat:nodes_evaluated]39731532
+f_limit= 54, expanded nodes = 206667590
+[Stat:nodes_evaluated]206667590
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]255570800
+[Timer:search] 3.291003
+len=54: 3 3 2 0 1 0 2 3 2 2 3 1 0 2 0 0 1 3 1 3 2 2 0 0 1 3 1 3 2 3 1 1 0 0 2 0 1 3 3 2 0 0 2 3 3 3 1 0 2 3 2 0 0 0 
+
+real	0m3.292s
+user	0m3.288s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=48, (x,y)=(3,3)
+11 15 14 13
+1 9 10 4
+3 6 2 12
+7 5 8 0
+-----------
+f_limit= 48, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 49, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 50, expanded nodes = 63
+[Stat:nodes_evaluated]63
+f_limit= 52, expanded nodes = 490
+[Stat:nodes_evaluated]490
+f_limit= 54, expanded nodes = 3845
+[Stat:nodes_evaluated]3845
+f_limit= 56, expanded nodes = 36143
+[Stat:nodes_evaluated]36143
+f_limit= 58, expanded nodes = 370097
+[Stat:nodes_evaluated]370097
+f_limit= 60, expanded nodes = 3657904
+[Stat:nodes_evaluated]3657904
+f_limit= 62, expanded nodes = 34551698
+[Stat:nodes_evaluated]34551698
+f_limit= 64, expanded nodes = 3154390
+[Stat:nodes_evaluated]3154390
+[Stat:solution_depth]=64
+[Stat:total_nodes_evaluated]41774634
+[Timer:search] 0.494530
+len=64: 0 0 0 2 2 2 3 1 1 3 1 0 0 2 3 2 3 2 3 1 1 1 0 0 0 2 2 3 3 1 0 2 2 3 1 0 2 3 3 1 1 1 0 0 2 0 1 3 2 2 0 2 3 3 3 1 1 1 0 0 2 2 2 0 
+
+real	0m0.495s
+user	0m0.492s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=30, (x,y)=(3,3)
+2 11 15 5
+13 4 6 7
+12 8 10 1
+9 3 14 0
+-----------
+f_limit= 30, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 31, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 32, expanded nodes = 24
+[Stat:nodes_evaluated]24
+f_limit= 34, expanded nodes = 85
+[Stat:nodes_evaluated]85
+f_limit= 36, expanded nodes = 440
+[Stat:nodes_evaluated]440
+f_limit= 38, expanded nodes = 2090
+[Stat:nodes_evaluated]2090
+f_limit= 40, expanded nodes = 11432
+[Stat:nodes_evaluated]11432
+f_limit= 42, expanded nodes = 64138
+[Stat:nodes_evaluated]64138
+f_limit= 44, expanded nodes = 364951
+[Stat:nodes_evaluated]364951
+f_limit= 46, expanded nodes = 2097006
+[Stat:nodes_evaluated]2097006
+f_limit= 48, expanded nodes = 11936243
+[Stat:nodes_evaluated]11936243
+f_limit= 50, expanded nodes = 66505441
+[Stat:nodes_evaluated]66505441
+f_limit= 52, expanded nodes = 303520712
+[Stat:nodes_evaluated]303520712
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]384502564
+[Timer:search] 4.928880
+len=52: 2 2 2 0 0 1 3 1 1 0 0 2 3 1 0 2 2 2 3 1 1 3 3 2 0 2 0 1 1 3 1 0 2 0 1 3 2 3 3 2 0 1 3 1 0 0 2 0 2 3 2 0 
+
+real	0m4.930s
+user	0m4.928s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(0,1)
+15 10 8 3
+0 6 9 5
+1 14 13 11
+7 2 12 4
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 43, expanded nodes = 348
+[Stat:nodes_evaluated]348
+f_limit= 45, expanded nodes = 4339
+[Stat:nodes_evaluated]4339
+f_limit= 47, expanded nodes = 38228
+[Stat:nodes_evaluated]38228
+f_limit= 49, expanded nodes = 277797
+[Stat:nodes_evaluated]277797
+f_limit= 51, expanded nodes = 1846116
+[Stat:nodes_evaluated]1846116
+f_limit= 53, expanded nodes = 11552555
+[Stat:nodes_evaluated]11552555
+f_limit= 55, expanded nodes = 69838849
+[Stat:nodes_evaluated]69838849
+f_limit= 57, expanded nodes = 54786256
+[Stat:nodes_evaluated]54786256
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]138344495
+[Timer:search] 1.703236
+len=57: 0 1 3 2 3 3 1 1 0 2 0 1 0 2 2 3 1 1 1 3 2 2 2 3 1 1 0 1 3 2 0 2 2 0 1 0 1 3 3 1 0 2 2 3 1 0 0 2 3 3 2 0 1 1 0 2 2 
+
+real	0m1.704s
+user	0m1.700s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=40, (x,y)=(2,0)
+12 11 0 8
+10 2 13 15
+5 4 7 3
+6 9 14 1
+-----------
+f_limit= 40, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 41, expanded nodes = 102
+[Stat:nodes_evaluated]102
+f_limit= 42, expanded nodes = 1234
+[Stat:nodes_evaluated]1234
+f_limit= 44, expanded nodes = 8779
+[Stat:nodes_evaluated]8779
+f_limit= 46, expanded nodes = 56241
+[Stat:nodes_evaluated]56241
+f_limit= 48, expanded nodes = 341025
+[Stat:nodes_evaluated]341025
+f_limit= 50, expanded nodes = 2024318
+[Stat:nodes_evaluated]2024318
+f_limit= 52, expanded nodes = 11726732
+[Stat:nodes_evaluated]11726732
+f_limit= 54, expanded nodes = 67010082
+[Stat:nodes_evaluated]67010082
+f_limit= 56, expanded nodes = 157901128
+[Stat:nodes_evaluated]157901128
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]239069641
+[Timer:search] 3.035910
+len=56: 2 3 1 3 1 3 2 2 2 0 0 1 1 3 1 0 0 2 3 2 3 1 0 1 0 2 2 3 3 2 0 0 1 3 1 3 2 3 2 0 0 1 3 3 1 1 0 0 2 2 3 3 2 0 0 0 
+
+real	0m3.037s
+user	0m3.036s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=32, (x,y)=(1,1)
+12 11 15 3
+8 0 4 2
+6 13 9 5
+14 1 10 7
+-----------
+f_limit= 32, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 33, expanded nodes = 18
+[Stat:nodes_evaluated]18
+f_limit= 34, expanded nodes = 81
+[Stat:nodes_evaluated]81
+f_limit= 36, expanded nodes = 511
+[Stat:nodes_evaluated]511
+f_limit= 38, expanded nodes = 3135
+[Stat:nodes_evaluated]3135
+f_limit= 40, expanded nodes = 17168
+[Stat:nodes_evaluated]17168
+f_limit= 42, expanded nodes = 95363
+[Stat:nodes_evaluated]95363
+f_limit= 44, expanded nodes = 517329
+[Stat:nodes_evaluated]517329
+f_limit= 46, expanded nodes = 2771388
+[Stat:nodes_evaluated]2771388
+f_limit= 48, expanded nodes = 14679469
+[Stat:nodes_evaluated]14679469
+f_limit= 50, expanded nodes = 20231578
+[Stat:nodes_evaluated]20231578
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]38316040
+[Timer:search] 0.493769
+len=50: 1 0 2 3 2 3 1 1 0 0 2 3 3 3 1 0 0 1 3 3 2 2 2 0 0 0 1 1 3 2 3 2 0 0 1 3 1 1 3 2 2 0 1 3 3 2 2 0 0 0 
+
+real	0m0.495s
+user	0m0.492s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=30, (x,y)=(1,1)
+15 1 3 12
+4 0 6 5
+2 8 14 9
+13 10 7 11
+-----------
+f_limit= 30, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 31, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 32, expanded nodes = 34
+[Stat:nodes_evaluated]34
+f_limit= 34, expanded nodes = 217
+[Stat:nodes_evaluated]217
+f_limit= 36, expanded nodes = 1000
+[Stat:nodes_evaluated]1000
+f_limit= 38, expanded nodes = 4781
+[Stat:nodes_evaluated]4781
+f_limit= 40, expanded nodes = 24086
+[Stat:nodes_evaluated]24086
+f_limit= 42, expanded nodes = 123437
+[Stat:nodes_evaluated]123437
+f_limit= 44, expanded nodes = 641061
+[Stat:nodes_evaluated]641061
+f_limit= 46, expanded nodes = 3373368
+[Stat:nodes_evaluated]3373368
+f_limit= 48, expanded nodes = 17860203
+[Stat:nodes_evaluated]17860203
+f_limit= 50, expanded nodes = 94422429
+[Stat:nodes_evaluated]94422429
+f_limit= 52, expanded nodes = 52913239
+[Stat:nodes_evaluated]52913239
+[Stat:solution_depth]=52
+[Stat:total_nodes_evaluated]169363859
+[Timer:search] 2.199104
+len=52: 0 2 3 3 1 1 0 1 0 2 3 2 0 1 3 1 3 2 3 2 0 0 1 1 3 2 2 0 2 3 1 3 1 0 0 2 0 1 3 1 3 3 2 2 0 1 3 2 2 0 0 0 
+
+real	0m2.200s
+user	0m2.196s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=28, (x,y)=(2,2)
+7 1 2 4
+8 3 6 11
+10 15 0 5
+14 12 13 9
+-----------
+f_limit= 28, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 29, expanded nodes = 18
+[Stat:nodes_evaluated]18
+f_limit= 30, expanded nodes = 103
+[Stat:nodes_evaluated]103
+f_limit= 32, expanded nodes = 493
+[Stat:nodes_evaluated]493
+f_limit= 34, expanded nodes = 2237
+[Stat:nodes_evaluated]2237
+f_limit= 36, expanded nodes = 10221
+[Stat:nodes_evaluated]10221
+f_limit= 38, expanded nodes = 47527
+[Stat:nodes_evaluated]47527
+f_limit= 40, expanded nodes = 218414
+[Stat:nodes_evaluated]218414
+f_limit= 42, expanded nodes = 996976
+[Stat:nodes_evaluated]996976
+f_limit= 44, expanded nodes = 4556717
+[Stat:nodes_evaluated]4556717
+f_limit= 46, expanded nodes = 20834683
+[Stat:nodes_evaluated]20834683
+f_limit= 48, expanded nodes = 95274111
+[Stat:nodes_evaluated]95274111
+f_limit= 50, expanded nodes = 242108204
+[Stat:nodes_evaluated]242108204
+[Stat:solution_depth]=50
+[Stat:total_nodes_evaluated]364049704
+[Timer:search] 4.755989
+len=50: 2 2 0 0 1 1 3 1 3 2 3 1 0 0 2 2 2 3 3 1 1 0 1 0 2 2 0 1 1 3 2 0 2 3 1 3 2 2 0 1 1 3 2 3 1 0 0 0 2 2 
+
+real	0m4.757s
+user	0m4.756s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(3,2)
+5 9 13 14
+6 3 7 12
+10 8 4 0
+15 2 11 1
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 101
+[Stat:nodes_evaluated]101
+f_limit= 45, expanded nodes = 991
+[Stat:nodes_evaluated]991
+f_limit= 47, expanded nodes = 7668
+[Stat:nodes_evaluated]7668
+f_limit= 49, expanded nodes = 58556
+[Stat:nodes_evaluated]58556
+f_limit= 51, expanded nodes = 429856
+[Stat:nodes_evaluated]429856
+f_limit= 53, expanded nodes = 2983083
+[Stat:nodes_evaluated]2983083
+f_limit= 55, expanded nodes = 20034424
+[Stat:nodes_evaluated]20034424
+f_limit= 57, expanded nodes = 126798719
+[Stat:nodes_evaluated]126798719
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]150313398
+[Timer:search] 1.924759
+len=57: 3 2 2 2 0 1 1 1 0 2 2 3 1 3 2 2 0 1 0 2 0 1 1 3 3 1 0 0 2 3 1 3 3 2 0 0 2 0 2 3 3 1 3 1 0 2 0 0 2 3 3 3 1 0 0 0 2 
+
+real	0m1.926s
+user	0m1.924s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=37, (x,y)=(0,1)
+15 8 10 7
+0 12 14 1
+5 9 6 3
+13 11 4 2
+-----------
+f_limit= 37, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 38, expanded nodes = 14
+[Stat:nodes_evaluated]14
+f_limit= 39, expanded nodes = 94
+[Stat:nodes_evaluated]94
+f_limit= 41, expanded nodes = 609
+[Stat:nodes_evaluated]609
+f_limit= 43, expanded nodes = 4642
+[Stat:nodes_evaluated]4642
+f_limit= 45, expanded nodes = 36739
+[Stat:nodes_evaluated]36739
+f_limit= 47, expanded nodes = 277757
+[Stat:nodes_evaluated]277757
+f_limit= 49, expanded nodes = 2001477
+[Stat:nodes_evaluated]2001477
+f_limit= 51, expanded nodes = 13504194
+[Stat:nodes_evaluated]13504194
+f_limit= 53, expanded nodes = 85870997
+[Stat:nodes_evaluated]85870997
+f_limit= 55, expanded nodes = 4749545
+[Stat:nodes_evaluated]4749545
+[Stat:solution_depth]=55
+[Stat:total_nodes_evaluated]106446068
+[Timer:search] 1.339362
+len=55: 0 1 1 1 3 2 3 3 2 0 0 2 3 1 0 1 3 2 0 0 1 3 1 3 3 2 0 0 1 3 3 2 0 2 0 0 1 1 3 2 2 2 0 1 1 1 3 2 3 2 3 2 0 0 0 
+
+real	0m1.340s
+user	0m1.336s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=33, (x,y)=(2,1)
+14 1 8 15
+2 6 0 3
+9 12 10 13
+4 7 5 11
+-----------
+f_limit= 33, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 34, expanded nodes = 12
+[Stat:nodes_evaluated]12
+f_limit= 35, expanded nodes = 130
+[Stat:nodes_evaluated]130
+f_limit= 37, expanded nodes = 702
+[Stat:nodes_evaluated]702
+f_limit= 39, expanded nodes = 4201
+[Stat:nodes_evaluated]4201
+f_limit= 41, expanded nodes = 23992
+[Stat:nodes_evaluated]23992
+f_limit= 43, expanded nodes = 139130
+[Stat:nodes_evaluated]139130
+f_limit= 45, expanded nodes = 798783
+[Stat:nodes_evaluated]798783
+f_limit= 47, expanded nodes = 4483271
+[Stat:nodes_evaluated]4483271
+f_limit= 49, expanded nodes = 24607554
+[Stat:nodes_evaluated]24607554
+f_limit= 51, expanded nodes = 132670587
+[Stat:nodes_evaluated]132670587
+f_limit= 53, expanded nodes = 43910400
+[Stat:nodes_evaluated]43910400
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]206638762
+[Timer:search] 2.681138
+len=53: 0 1 3 3 2 3 2 0 2 3 1 0 0 1 3 3 2 0 0 2 0 1 3 1 1 3 2 0 0 2 3 2 3 1 3 1 0 0 2 3 3 1 0 0 1 3 3 2 0 0 2 0 2 
+
+real	0m2.682s
+user	0m2.680s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=34, (x,y)=(0,0)
+0 11 3 12
+5 2 1 9
+8 10 14 15
+7 4 13 6
+-----------
+f_limit= 34, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 35, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 36, expanded nodes = 34
+[Stat:nodes_evaluated]34
+f_limit= 38, expanded nodes = 373
+[Stat:nodes_evaluated]373
+f_limit= 40, expanded nodes = 2953
+[Stat:nodes_evaluated]2953
+f_limit= 42, expanded nodes = 17955
+[Stat:nodes_evaluated]17955
+f_limit= 44, expanded nodes = 103581
+[Stat:nodes_evaluated]103581
+f_limit= 46, expanded nodes = 583251
+[Stat:nodes_evaluated]583251
+f_limit= 48, expanded nodes = 3226335
+[Stat:nodes_evaluated]3226335
+f_limit= 50, expanded nodes = 17528562
+[Stat:nodes_evaluated]17528562
+f_limit= 52, expanded nodes = 94027391
+[Stat:nodes_evaluated]94027391
+f_limit= 54, expanded nodes = 39843452
+[Stat:nodes_evaluated]39843452
+[Stat:solution_depth]=54
+[Stat:total_nodes_evaluated]155333889
+[Timer:search] 2.043029
+len=54: 1 3 1 1 0 2 2 2 3 1 0 1 3 1 3 2 0 2 3 3 2 0 1 1 3 2 0 1 3 1 0 0 2 0 2 2 3 3 3 1 0 0 1 3 3 1 0 0 2 3 2 0 0 2 
+
+real	0m2.044s
+user	0m2.040s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(0,3)
+14 3 9 1
+15 8 4 5
+11 7 10 13
+0 2 12 6
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 43, expanded nodes = 50
+[Stat:nodes_evaluated]50
+f_limit= 45, expanded nodes = 678
+[Stat:nodes_evaluated]678
+f_limit= 47, expanded nodes = 6733
+[Stat:nodes_evaluated]6733
+f_limit= 49, expanded nodes = 54928
+[Stat:nodes_evaluated]54928
+f_limit= 51, expanded nodes = 412512
+[Stat:nodes_evaluated]412512
+f_limit= 53, expanded nodes = 2897621
+[Stat:nodes_evaluated]2897621
+f_limit= 55, expanded nodes = 19390376
+[Stat:nodes_evaluated]19390376
+f_limit= 57, expanded nodes = 125058647
+[Stat:nodes_evaluated]125058647
+f_limit= 59, expanded nodes = 638195624
+[Stat:nodes_evaluated]638195624
+[Stat:solution_depth]=59
+[Stat:total_nodes_evaluated]786017171
+[Timer:search] 10.039004
+len=59: 1 1 0 2 2 3 1 0 0 0 1 3 2 2 0 1 1 1 3 2 2 2 3 1 0 2 0 1 1 1 3 2 2 2 0 1 1 3 3 1 3 2 2 0 1 1 0 2 3 3 1 0 2 3 2 0 0 0 2 
+
+real	0m10.040s
+user	0m10.036s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=39, (x,y)=(2,1)
+12 5 13 11
+2 10 0 9
+7 8 4 3
+14 6 15 1
+-----------
+f_limit= 39, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 40, expanded nodes = 87
+[Stat:nodes_evaluated]87
+f_limit= 41, expanded nodes = 806
+[Stat:nodes_evaluated]806
+f_limit= 43, expanded nodes = 5451
+[Stat:nodes_evaluated]5451
+f_limit= 45, expanded nodes = 36776
+[Stat:nodes_evaluated]36776
+f_limit= 47, expanded nodes = 236176
+[Stat:nodes_evaluated]236176
+f_limit= 49, expanded nodes = 1479580
+[Stat:nodes_evaluated]1479580
+f_limit= 51, expanded nodes = 9074587
+[Stat:nodes_evaluated]9074587
+f_limit= 53, expanded nodes = 48829921
+[Stat:nodes_evaluated]48829921
+[Stat:solution_depth]=53
+[Stat:total_nodes_evaluated]59663384
+[Timer:search] 0.784701
+len=53: 3 1 3 2 2 0 2 0 0 1 1 3 3 2 2 0 1 0 1 3 1 0 2 3 3 1 0 2 3 2 3 2 0 1 0 2 0 1 1 3 3 3 2 0 0 0 1 3 3 2 0 2 0 
+
+real	0m0.785s
+user	0m0.784s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=38, (x,y)=(2,0)
+10 8 0 12
+3 7 6 2
+1 14 4 11
+15 13 9 5
+-----------
+f_limit= 38, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 39, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 40, expanded nodes = 121
+[Stat:nodes_evaluated]121
+f_limit= 42, expanded nodes = 1484
+[Stat:nodes_evaluated]1484
+f_limit= 44, expanded nodes = 11637
+[Stat:nodes_evaluated]11637
+f_limit= 46, expanded nodes = 86271
+[Stat:nodes_evaluated]86271
+f_limit= 48, expanded nodes = 569082
+[Stat:nodes_evaluated]569082
+f_limit= 50, expanded nodes = 3551290
+[Stat:nodes_evaluated]3551290
+f_limit= 52, expanded nodes = 21239629
+[Stat:nodes_evaluated]21239629
+f_limit= 54, expanded nodes = 122919062
+[Stat:nodes_evaluated]122919062
+f_limit= 56, expanded nodes = 153301811
+[Stat:nodes_evaluated]153301811
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]301680393
+[Timer:search] 3.893045
+len=56: 1 3 2 2 2 3 1 1 3 1 0 0 2 0 1 3 3 2 0 2 0 2 3 1 0 1 3 2 3 1 3 2 2 0 1 1 3 2 2 0 0 1 3 1 1 3 2 2 0 1 0 1 0 2 2 2 
+
+real	0m3.894s
+user	0m3.892s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=42, (x,y)=(3,1)
+5 12 10 7
+15 11 14 0
+8 2 1 13
+3 4 9 6
+-----------
+f_limit= 42, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 43, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 44, expanded nodes = 330
+[Stat:nodes_evaluated]330
+f_limit= 46, expanded nodes = 5616
+[Stat:nodes_evaluated]5616
+f_limit= 48, expanded nodes = 66234
+[Stat:nodes_evaluated]66234
+f_limit= 50, expanded nodes = 601587
+[Stat:nodes_evaluated]601587
+f_limit= 52, expanded nodes = 4791280
+[Stat:nodes_evaluated]4791280
+f_limit= 54, expanded nodes = 34782319
+[Stat:nodes_evaluated]34782319
+f_limit= 56, expanded nodes = 19474341
+[Stat:nodes_evaluated]19474341
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]59721711
+[Timer:search] 0.756126
+len=56: 2 2 0 1 3 3 2 0 2 3 1 0 1 3 2 3 2 0 0 1 1 0 2 3 3 3 1 0 1 3 2 0 0 1 3 2 0 0 2 2 3 1 3 3 1 0 0 2 0 1 3 1 0 2 2 2 
+
+real	0m0.757s
+user	0m0.756s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(2,3)
+9 7 5 2
+14 15 12 10
+11 3 6 1
+8 13 0 4
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 43, expanded nodes = 749
+[Stat:nodes_evaluated]749
+f_limit= 45, expanded nodes = 8421
+[Stat:nodes_evaluated]8421
+f_limit= 47, expanded nodes = 73628
+[Stat:nodes_evaluated]73628
+f_limit= 49, expanded nodes = 562365
+[Stat:nodes_evaluated]562365
+f_limit= 51, expanded nodes = 3991072
+[Stat:nodes_evaluated]3991072
+f_limit= 53, expanded nodes = 26733539
+[Stat:nodes_evaluated]26733539
+f_limit= 55, expanded nodes = 170405848
+[Stat:nodes_evaluated]170405848
+f_limit= 57, expanded nodes = 325730121
+[Stat:nodes_evaluated]325730121
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]527505747
+[Timer:search] 6.523953
+len=57: 0 1 0 2 3 2 0 1 1 3 2 2 2 0 1 1 1 3 2 2 2 3 1 1 1 0 2 3 2 0 0 0 2 3 3 1 1 0 2 3 1 3 2 2 0 0 1 0 1 1 3 2 3 2 0 0 2 
+
+real	0m6.525s
+user	0m6.524s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=42, (x,y)=(0,2)
+14 3 5 15
+11 6 13 9
+0 10 2 12
+4 1 7 8
+-----------
+f_limit= 42, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 43, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 44, expanded nodes = 113
+[Stat:nodes_evaluated]113
+f_limit= 46, expanded nodes = 1245
+[Stat:nodes_evaluated]1245
+f_limit= 48, expanded nodes = 9514
+[Stat:nodes_evaluated]9514
+f_limit= 50, expanded nodes = 69817
+[Stat:nodes_evaluated]69817
+f_limit= 52, expanded nodes = 491037
+[Stat:nodes_evaluated]491037
+f_limit= 54, expanded nodes = 3346362
+[Stat:nodes_evaluated]3346362
+f_limit= 56, expanded nodes = 22294993
+[Stat:nodes_evaluated]22294993
+f_limit= 58, expanded nodes = 145403298
+[Stat:nodes_evaluated]145403298
+f_limit= 60, expanded nodes = 293345906
+[Stat:nodes_evaluated]293345906
+[Stat:solution_depth]=60
+[Stat:total_nodes_evaluated]464962292
+[Timer:search] 5.890262
+len=60: 0 1 3 1 3 1 0 0 2 0 2 3 3 3 1 1 0 0 0 2 2 3 2 0 1 3 3 2 0 1 1 3 2 2 3 1 1 1 0 0 2 0 2 2 3 3 3 1 1 1 0 2 2 3 1 0 0 0 2 2 
+
+real	0m5.891s
+user	0m5.888s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=40, (x,y)=(1,1)
+8 1 7 12
+11 0 10 5
+9 15 6 13
+14 2 3 4
+-----------
+f_limit= 40, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 41, expanded nodes = 7
+[Stat:nodes_evaluated]7
+f_limit= 42, expanded nodes = 243
+[Stat:nodes_evaluated]243
+f_limit= 44, expanded nodes = 1813
+[Stat:nodes_evaluated]1813
+f_limit= 46, expanded nodes = 15170
+[Stat:nodes_evaluated]15170
+f_limit= 48, expanded nodes = 118324
+[Stat:nodes_evaluated]118324
+f_limit= 50, expanded nodes = 818930
+[Stat:nodes_evaluated]818930
+f_limit= 52, expanded nodes = 5487584
+[Stat:nodes_evaluated]5487584
+f_limit= 54, expanded nodes = 35615131
+[Stat:nodes_evaluated]35615131
+f_limit= 56, expanded nodes = 225188195
+[Stat:nodes_evaluated]225188195
+f_limit= 58, expanded nodes = 5735633
+[Stat:nodes_evaluated]5735633
+[Stat:solution_depth]=58
+[Stat:total_nodes_evaluated]272981030
+[Timer:search] 3.402243
+len=58: 0 1 1 3 2 0 2 3 1 3 3 1 0 2 2 0 2 3 1 0 1 1 3 2 2 3 2 0 0 0 1 3 3 3 1 1 0 2 2 3 1 0 0 0 1 3 2 0 2 3 3 2 0 1 1 0 2 2 
+
+real	0m3.403s
+user	0m3.400s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(0,1)
+13 11 8 9
+0 15 7 10
+4 3 6 14
+5 12 2 1
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 9
+[Stat:nodes_evaluated]9
+f_limit= 45, expanded nodes = 117
+[Stat:nodes_evaluated]117
+f_limit= 47, expanded nodes = 2099
+[Stat:nodes_evaluated]2099
+f_limit= 49, expanded nodes = 25065
+[Stat:nodes_evaluated]25065
+f_limit= 51, expanded nodes = 248968
+[Stat:nodes_evaluated]248968
+f_limit= 53, expanded nodes = 2272696
+[Stat:nodes_evaluated]2272696
+f_limit= 55, expanded nodes = 18415821
+[Stat:nodes_evaluated]18415821
+f_limit= 57, expanded nodes = 136960269
+[Stat:nodes_evaluated]136960269
+f_limit= 59, expanded nodes = 48256093
+[Stat:nodes_evaluated]48256093
+[Stat:solution_depth]=59
+[Stat:total_nodes_evaluated]206181137
+[Timer:search] 2.584923
+len=59: 0 1 1 3 2 2 3 1 0 0 2 3 3 3 1 0 0 2 3 1 1 3 1 0 0 0 2 2 3 3 1 0 1 3 2 0 0 2 3 3 1 3 1 0 0 2 3 1 0 0 2 2 3 1 0 2 3 2 0 
+
+real	0m2.586s
+user	0m2.584s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(1,2)
+14 13 15 7
+11 12 9 5
+6 0 2 1
+4 8 10 3
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 212
+[Stat:nodes_evaluated]212
+f_limit= 43, expanded nodes = 1494
+[Stat:nodes_evaluated]1494
+f_limit= 45, expanded nodes = 10832
+[Stat:nodes_evaluated]10832
+f_limit= 47, expanded nodes = 72600
+[Stat:nodes_evaluated]72600
+f_limit= 49, expanded nodes = 451935
+[Stat:nodes_evaluated]451935
+f_limit= 51, expanded nodes = 2757821
+[Stat:nodes_evaluated]2757821
+f_limit= 53, expanded nodes = 16555422
+[Stat:nodes_evaluated]16555422
+f_limit= 55, expanded nodes = 97657441
+[Stat:nodes_evaluated]97657441
+f_limit= 57, expanded nodes = 270428693
+[Stat:nodes_evaluated]270428693
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]387936450
+[Timer:search] 4.788891
+len=57: 0 2 3 3 1 0 0 0 2 3 3 3 1 0 0 1 1 3 2 3 2 0 0 1 0 2 2 3 1 3 1 0 0 1 3 3 3 2 0 0 0 1 3 3 3 2 0 2 0 0 1 1 3 2 2 2 0 
+
+real	0m4.790s
+user	0m4.788s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=40, (x,y)=(2,2)
+8 10 9 11
+14 1 7 15
+13 4 0 12
+6 2 5 3
+-----------
+f_limit= 40, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 41, expanded nodes = 603
+[Stat:nodes_evaluated]603
+f_limit= 42, expanded nodes = 6262
+[Stat:nodes_evaluated]6262
+f_limit= 44, expanded nodes = 47924
+[Stat:nodes_evaluated]47924
+f_limit= 46, expanded nodes = 313550
+[Stat:nodes_evaluated]313550
+f_limit= 48, expanded nodes = 1920231
+[Stat:nodes_evaluated]1920231
+f_limit= 50, expanded nodes = 11094011
+[Stat:nodes_evaluated]11094011
+f_limit= 52, expanded nodes = 61776507
+[Stat:nodes_evaluated]61776507
+f_limit= 54, expanded nodes = 335244471
+[Stat:nodes_evaluated]335244471
+f_limit= 56, expanded nodes = 331025090
+[Stat:nodes_evaluated]331025090
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]741428649
+[Timer:search] 9.571535
+len=56: 1 0 0 2 2 3 3 1 3 1 0 0 2 3 3 2 0 2 0 0 1 1 1 3 2 3 2 2 3 1 0 1 3 2 0 2 0 1 0 1 3 1 0 2 3 3 2 0 0 1 3 3 2 0 0 2 
+
+real	0m9.572s
+user	0m9.572s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=40, (x,y)=(0,2)
+5 7 3 12
+15 13 14 8
+0 10 9 6
+1 4 2 11
+-----------
+f_limit= 40, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 41, expanded nodes = 9
+[Stat:nodes_evaluated]9
+f_limit= 42, expanded nodes = 117
+[Stat:nodes_evaluated]117
+f_limit= 44, expanded nodes = 1051
+[Stat:nodes_evaluated]1051
+f_limit= 46, expanded nodes = 7491
+[Stat:nodes_evaluated]7491
+f_limit= 48, expanded nodes = 59617
+[Stat:nodes_evaluated]59617
+f_limit= 50, expanded nodes = 476584
+[Stat:nodes_evaluated]476584
+f_limit= 52, expanded nodes = 3556427
+[Stat:nodes_evaluated]3556427
+f_limit= 54, expanded nodes = 25182472
+[Stat:nodes_evaluated]25182472
+f_limit= 56, expanded nodes = 170175660
+[Stat:nodes_evaluated]170175660
+f_limit= 58, expanded nodes = 26009923
+[Stat:nodes_evaluated]26009923
+[Stat:solution_depth]=58
+[Stat:total_nodes_evaluated]225469351
+[Timer:search] 2.757158
+len=58: 0 1 1 0 1 3 2 0 2 3 1 0 1 3 2 3 2 2 3 1 0 0 0 1 3 3 3 2 0 0 2 3 3 1 0 0 1 3 1 3 2 2 0 0 0 1 3 3 2 0 0 2 3 3 1 0 0 2 
+
+real	0m2.758s
+user	0m2.756s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(3,2)
+14 10 9 4
+13 6 5 8
+2 12 7 0
+1 3 11 15
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 25
+[Stat:nodes_evaluated]25
+f_limit= 45, expanded nodes = 343
+[Stat:nodes_evaluated]343
+f_limit= 47, expanded nodes = 4654
+[Stat:nodes_evaluated]4654
+f_limit= 49, expanded nodes = 44082
+[Stat:nodes_evaluated]44082
+f_limit= 51, expanded nodes = 364806
+[Stat:nodes_evaluated]364806
+f_limit= 53, expanded nodes = 2733781
+[Stat:nodes_evaluated]2733781
+f_limit= 55, expanded nodes = 19165689
+[Stat:nodes_evaluated]19165689
+f_limit= 57, expanded nodes = 127783336
+[Stat:nodes_evaluated]127783336
+f_limit= 59, expanded nodes = 508336008
+[Stat:nodes_evaluated]508336008
+[Stat:solution_depth]=59
+[Stat:total_nodes_evaluated]658432724
+[Timer:search] 8.000948
+len=59: 2 3 2 0 0 0 1 3 1 3 2 2 0 2 0 1 3 2 3 3 1 0 0 1 3 3 2 0 0 0 2 3 3 1 0 0 1 1 3 2 3 3 2 0 0 0 1 3 2 0 2 3 1 1 1 0 2 2 2 
+
+real	0m8.002s
+user	0m8.000s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=38, (x,y)=(3,1)
+12 15 11 10
+4 5 14 0
+13 7 1 2
+9 8 3 6
+-----------
+f_limit= 38, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 39, expanded nodes = 13
+[Stat:nodes_evaluated]13
+f_limit= 40, expanded nodes = 913
+[Stat:nodes_evaluated]913
+f_limit= 42, expanded nodes = 11624
+[Stat:nodes_evaluated]11624
+f_limit= 44, expanded nodes = 105916
+[Stat:nodes_evaluated]105916
+f_limit= 46, expanded nodes = 752384
+[Stat:nodes_evaluated]752384
+f_limit= 48, expanded nodes = 4751355
+[Stat:nodes_evaluated]4751355
+f_limit= 50, expanded nodes = 27618279
+[Stat:nodes_evaluated]27618279
+f_limit= 52, expanded nodes = 152623348
+[Stat:nodes_evaluated]152623348
+f_limit= 54, expanded nodes = 813364696
+[Stat:nodes_evaluated]813364696
+f_limit= 56, expanded nodes = 24659968
+[Stat:nodes_evaluated]24659968
+[Stat:solution_depth]=56
+[Stat:total_nodes_evaluated]1023888496
+[Timer:search] 12.406169
+len=56: 0 2 2 2 3 1 3 1 0 1 3 2 0 0 1 3 2 0 2 3 3 1 3 1 0 0 2 0 2 3 1 3 3 1 0 0 2 0 1 3 2 3 2 3 2 0 1 0 2 3 1 3 2 0 0 0 
+
+real	0m12.407s
+user	0m12.404s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(2,3)
+7 6 8 1
+11 5 14 10
+3 4 9 13
+15 2 0 12
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 11
+[Stat:nodes_evaluated]11
+f_limit= 43, expanded nodes = 122
+[Stat:nodes_evaluated]122
+f_limit= 45, expanded nodes = 2195
+[Stat:nodes_evaluated]2195
+f_limit= 47, expanded nodes = 18962
+[Stat:nodes_evaluated]18962
+f_limit= 49, expanded nodes = 148956
+[Stat:nodes_evaluated]148956
+f_limit= 51, expanded nodes = 1038423
+[Stat:nodes_evaluated]1038423
+f_limit= 53, expanded nodes = 6766673
+[Stat:nodes_evaluated]6766673
+f_limit= 55, expanded nodes = 42018287
+[Stat:nodes_evaluated]42018287
+f_limit= 57, expanded nodes = 251568263
+[Stat:nodes_evaluated]251568263
+f_limit= 59, expanded nodes = 857356673
+[Stat:nodes_evaluated]857356673
+[Stat:solution_depth]=59
+[Stat:total_nodes_evaluated]1158918565
+[Timer:search] 14.354874
+len=59: 1 0 0 2 0 2 3 3 2 3 1 1 0 2 2 0 0 1 3 1 3 1 0 2 3 2 2 3 1 1 1 0 2 2 0 2 3 1 3 1 1 0 2 0 2 2 0 1 1 1 3 2 2 0 1 3 2 2 0 
+
+real	0m14.356s
+user	0m14.352s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=37, (x,y)=(0,1)
+3 2 7 9
+0 15 12 4
+6 11 5 14
+8 13 10 1
+-----------
+f_limit= 37, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 38, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 39, expanded nodes = 257
+[Stat:nodes_evaluated]257
+f_limit= 41, expanded nodes = 2302
+[Stat:nodes_evaluated]2302
+f_limit= 43, expanded nodes = 16619
+[Stat:nodes_evaluated]16619
+f_limit= 45, expanded nodes = 112893
+[Stat:nodes_evaluated]112893
+f_limit= 47, expanded nodes = 717442
+[Stat:nodes_evaluated]717442
+f_limit= 49, expanded nodes = 4331251
+[Stat:nodes_evaluated]4331251
+f_limit= 51, expanded nodes = 25093369
+[Stat:nodes_evaluated]25093369
+f_limit= 53, expanded nodes = 141114760
+[Stat:nodes_evaluated]141114760
+f_limit= 55, expanded nodes = 775486668
+[Stat:nodes_evaluated]775486668
+f_limit= 57, expanded nodes = 144315756
+[Stat:nodes_evaluated]144315756
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]1091191323
+[Timer:search] 14.019122
+len=57: 0 1 3 1 3 2 2 3 1 1 1 0 2 3 2 0 0 2 3 1 1 0 1 0 2 2 3 3 3 2 0 0 1 1 0 2 2 3 1 3 1 0 1 3 2 0 2 3 1 3 1 0 0 0 2 2 2 
+
+real	0m14.020s
+user	0m14.016s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(3,2)
+14 7 8 2
+13 11 10 4
+9 12 5 0
+3 6 1 15
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 3
+[Stat:nodes_evaluated]3
+f_limit= 43, expanded nodes = 105
+[Stat:nodes_evaluated]105
+f_limit= 45, expanded nodes = 1257
+[Stat:nodes_evaluated]1257
+f_limit= 47, expanded nodes = 12913
+[Stat:nodes_evaluated]12913
+f_limit= 49, expanded nodes = 115243
+[Stat:nodes_evaluated]115243
+f_limit= 51, expanded nodes = 928740
+[Stat:nodes_evaluated]928740
+f_limit= 53, expanded nodes = 6884950
+[Stat:nodes_evaluated]6884950
+f_limit= 55, expanded nodes = 47787332
+[Stat:nodes_evaluated]47787332
+f_limit= 57, expanded nodes = 315200343
+[Stat:nodes_evaluated]315200343
+f_limit= 59, expanded nodes = 194962835
+[Stat:nodes_evaluated]194962835
+[Stat:solution_depth]=59
+[Stat:total_nodes_evaluated]565893721
+[Timer:search] 6.905283
+len=59: 0 2 2 2 3 1 1 1 0 2 2 3 1 0 0 2 3 3 3 2 0 0 0 1 3 2 3 1 3 1 0 2 0 1 3 2 2 0 1 3 3 1 0 1 0 2 0 1 3 2 2 3 2 0 0 1 3 2 0 
+
+real	0m6.906s
+user	0m6.904s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=29, (x,y)=(3,2)
+3 15 2 5
+11 6 4 7
+12 9 1 0
+13 14 10 8
+-----------
+f_limit= 29, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 30, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f_limit= 31, expanded nodes = 29
+[Stat:nodes_evaluated]29
+f_limit= 33, expanded nodes = 130
+[Stat:nodes_evaluated]130
+f_limit= 35, expanded nodes = 659
+[Stat:nodes_evaluated]659
+f_limit= 37, expanded nodes = 2605
+[Stat:nodes_evaluated]2605
+f_limit= 39, expanded nodes = 12921
+[Stat:nodes_evaluated]12921
+f_limit= 41, expanded nodes = 62052
+[Stat:nodes_evaluated]62052
+f_limit= 43, expanded nodes = 303564
+[Stat:nodes_evaluated]303564
+f_limit= 45, expanded nodes = 1480621
+[Stat:nodes_evaluated]1480621
+f_limit= 47, expanded nodes = 7220965
+[Stat:nodes_evaluated]7220965
+f_limit= 49, expanded nodes = 34967391
+[Stat:nodes_evaluated]34967391
+f_limit= 51, expanded nodes = 168700650
+[Stat:nodes_evaluated]168700650
+f_limit= 53, expanded nodes = 810556150
+[Stat:nodes_evaluated]810556150
+f_limit= 55, expanded nodes = 130767944
+[Stat:nodes_evaluated]130767944
+[Stat:solution_depth]=55
+[Stat:total_nodes_evaluated]1154075685
+[Timer:search] 14.901516
+len=55: 0 0 2 2 3 1 0 2 3 3 1 0 1 3 2 3 1 0 2 3 2 2 0 1 1 0 2 2 3 1 1 0 2 0 1 1 3 2 0 2 2 3 1 1 0 2 3 3 1 1 0 0 2 2 2 
+
+real	0m14.902s
+user	0m14.900s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=35, (x,y)=(2,1)
+15 14 6 7
+10 1 0 11
+12 8 4 9
+2 5 13 3
+-----------
+f_limit= 35, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 36, expanded nodes = 24
+[Stat:nodes_evaluated]24
+f_limit= 37, expanded nodes = 172
+[Stat:nodes_evaluated]172
+f_limit= 39, expanded nodes = 1060
+[Stat:nodes_evaluated]1060
+f_limit= 41, expanded nodes = 6259
+[Stat:nodes_evaluated]6259
+f_limit= 43, expanded nodes = 35953
+[Stat:nodes_evaluated]35953
+f_limit= 45, expanded nodes = 199538
+[Stat:nodes_evaluated]199538
+f_limit= 47, expanded nodes = 1097015
+[Stat:nodes_evaluated]1097015
+f_limit= 49, expanded nodes = 5967654
+[Stat:nodes_evaluated]5967654
+f_limit= 51, expanded nodes = 32036451
+[Stat:nodes_evaluated]32036451
+f_limit= 53, expanded nodes = 169630586
+[Stat:nodes_evaluated]169630586
+f_limit= 55, expanded nodes = 886017863
+[Stat:nodes_evaluated]886017863
+f_limit= 57, expanded nodes = 155943842
+[Stat:nodes_evaluated]155943842
+[Stat:solution_depth]=57
+[Stat:total_nodes_evaluated]1250936417
+[Timer:search] 16.032373
+len=57: 0 2 2 3 1 1 3 1 3 2 2 2 0 1 0 1 0 2 2 3 1 3 3 1 0 0 1 3 2 0 0 1 3 2 0 2 3 3 3 1 1 0 0 2 0 2 3 3 3 1 1 0 2 0 0 2 2 
+
+real	0m16.033s
+user	0m16.032s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=44, (x,y)=(3,3)
+13 11 4 12
+1 8 9 15
+6 5 14 2
+7 3 10 0
+-----------
+f_limit= 44, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 45, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 46, expanded nodes = 69
+[Stat:nodes_evaluated]69
+f_limit= 48, expanded nodes = 975
+[Stat:nodes_evaluated]975
+f_limit= 50, expanded nodes = 7988
+[Stat:nodes_evaluated]7988
+f_limit= 52, expanded nodes = 64812
+[Stat:nodes_evaluated]64812
+f_limit= 54, expanded nodes = 495119
+[Stat:nodes_evaluated]495119
+f_limit= 56, expanded nodes = 3660822
+[Stat:nodes_evaluated]3660822
+f_limit= 58, expanded nodes = 26286726
+[Stat:nodes_evaluated]26286726
+f_limit= 60, expanded nodes = 183139862
+[Stat:nodes_evaluated]183139862
+f_limit= 62, expanded nodes = 363381455
+[Stat:nodes_evaluated]363381455
+[Stat:solution_depth]=62
+[Stat:total_nodes_evaluated]577037830
+[Timer:search] 7.189680
+len=62: 2 0 0 0 2 3 2 0 1 3 3 3 1 0 2 2 3 1 0 2 0 1 1 3 1 0 0 2 3 1 0 2 2 3 1 3 2 0 2 0 1 1 3 3 3 2 2 0 1 1 3 1 0 0 2 3 3 2 2 0 0 0 
+
+real	0m7.191s
+user	0m7.188s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=33, (x,y)=(1,0)
+10 0 2 4
+5 1 6 12
+11 13 9 7
+15 3 14 8
+-----------
+f_limit= 33, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 34, expanded nodes = 10
+[Stat:nodes_evaluated]10
+f_limit= 35, expanded nodes = 39
+[Stat:nodes_evaluated]39
+f_limit= 37, expanded nodes = 163
+[Stat:nodes_evaluated]163
+f_limit= 39, expanded nodes = 715
+[Stat:nodes_evaluated]715
+f_limit= 41, expanded nodes = 3186
+[Stat:nodes_evaluated]3186
+f_limit= 43, expanded nodes = 14272
+[Stat:nodes_evaluated]14272
+f_limit= 45, expanded nodes = 68444
+[Stat:nodes_evaluated]68444
+f_limit= 47, expanded nodes = 335272
+[Stat:nodes_evaluated]335272
+f_limit= 49, expanded nodes = 1664982
+[Stat:nodes_evaluated]1664982
+f_limit= 51, expanded nodes = 8376876
+[Stat:nodes_evaluated]8376876
+f_limit= 53, expanded nodes = 42573813
+[Stat:nodes_evaluated]42573813
+f_limit= 55, expanded nodes = 217706106
+[Stat:nodes_evaluated]217706106
+f_limit= 57, expanded nodes = 1119571438
+[Stat:nodes_evaluated]1119571438
+f_limit= 59, expanded nodes = 293612314
+[Stat:nodes_evaluated]293612314
+[Stat:solution_depth]=59
+[Stat:total_nodes_evaluated]1683927630
+[Timer:search] 21.457739
+len=59: 1 3 1 0 2 2 2 3 1 1 1 0 2 2 2 3 1 1 3 3 2 2 0 0 1 1 3 3 1 0 2 3 2 0 1 0 1 3 3 2 2 2 0 1 3 1 0 2 0 1 0 1 3 3 2 0 2 0 2 
+
+real	0m21.459s
+user	0m21.456s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=50, (x,y)=(0,2)
+14 9 12 13
+15 4 8 10
+0 2 1 7
+3 11 5 6
+-----------
+f_limit= 50, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 51, expanded nodes = 262
+[Stat:nodes_evaluated]262
+f_limit= 52, expanded nodes = 3060
+[Stat:nodes_evaluated]3060
+f_limit= 54, expanded nodes = 54322
+[Stat:nodes_evaluated]54322
+f_limit= 56, expanded nodes = 617320
+[Stat:nodes_evaluated]617320
+f_limit= 58, expanded nodes = 5853180
+[Stat:nodes_evaluated]5853180
+f_limit= 60, expanded nodes = 48501133
+[Stat:nodes_evaluated]48501133
+f_limit= 62, expanded nodes = 369346314
+[Stat:nodes_evaluated]369346314
+f_limit= 64, expanded nodes = 40867050
+[Stat:nodes_evaluated]40867050
+[Stat:solution_depth]=64
+[Stat:total_nodes_evaluated]465242641
+[Timer:search] 5.846488
+len=64: 0 0 1 1 1 3 3 3 2 2 2 0 0 0 1 3 3 3 2 0 0 0 1 3 1 3 2 2 0 1 1 3 1 0 2 0 1 3 3 3 2 2 2 0 1 1 0 0 2 3 3 1 1 3 2 2 0 1 0 2 3 2 0 0 
+
+real	0m5.847s
+user	0m5.844s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=46, (x,y)=(2,0)
+15 14 0 4
+11 1 6 13
+7 5 8 9
+3 2 10 12
+-----------
+f_limit= 46, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 47, expanded nodes = 42
+[Stat:nodes_evaluated]42
+f_limit= 48, expanded nodes = 180
+[Stat:nodes_evaluated]180
+f_limit= 50, expanded nodes = 1076
+[Stat:nodes_evaluated]1076
+f_limit= 52, expanded nodes = 5699
+[Stat:nodes_evaluated]5699
+f_limit= 54, expanded nodes = 33803
+[Stat:nodes_evaluated]33803
+f_limit= 56, expanded nodes = 201626
+[Stat:nodes_evaluated]201626
+f_limit= 58, expanded nodes = 1236510
+[Stat:nodes_evaluated]1236510
+f_limit= 60, expanded nodes = 7746429
+[Stat:nodes_evaluated]7746429
+f_limit= 62, expanded nodes = 49556088
+[Stat:nodes_evaluated]49556088
+f_limit= 64, expanded nodes = 322267476
+[Stat:nodes_evaluated]322267476
+f_limit= 66, expanded nodes = 410353419
+[Stat:nodes_evaluated]410353419
+[Stat:solution_depth]=66
+[Stat:total_nodes_evaluated]791402348
+[Timer:search] 9.559342
+len=66: 2 2 3 3 1 1 3 1 0 0 0 2 3 1 0 2 2 2 3 1 1 0 2 2 3 3 1 3 2 0 0 1 3 3 1 1 0 0 2 0 2 3 3 2 3 1 1 1 0 0 2 2 3 3 1 1 0 0 0 2 3 1 0 2 2 2 
+
+real	0m9.560s
+user	0m9.556s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=48, (x,y)=(3,3)
+11 14 13 1
+2 3 12 4
+15 7 9 5
+10 6 8 0
+-----------
+f_limit= 48, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 49, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 50, expanded nodes = 11
+[Stat:nodes_evaluated]11
+f_limit= 52, expanded nodes = 1659
+[Stat:nodes_evaluated]1659
+f_limit= 54, expanded nodes = 25807
+[Stat:nodes_evaluated]25807
+f_limit= 56, expanded nodes = 307745
+[Stat:nodes_evaluated]307745
+f_limit= 58, expanded nodes = 3076664
+[Stat:nodes_evaluated]3076664
+f_limit= 60, expanded nodes = 27610665
+[Stat:nodes_evaluated]27610665
+f_limit= 62, expanded nodes = 229237508
+[Stat:nodes_evaluated]229237508
+f_limit= 64, expanded nodes = 1784841518
+[Stat:nodes_evaluated]1784841518
+f_limit= 66, expanded nodes = 1362928733
+[Stat:nodes_evaluated]1362928733
+[Stat:solution_depth]=66
+[Stat:total_nodes_evaluated]3408030312
+[Timer:search] 41.933677
+len=66: 0 2 0 0 2 3 1 1 0 2 2 2 3 1 1 3 2 2 0 1 1 1 0 2 2 2 3 1 1 3 2 3 1 1 0 0 2 0 2 3 3 3 1 1 0 2 0 2 3 3 2 0 0 1 3 3 1 1 0 2 2 3 2 0 0 0 
+
+real	0m41.935s
+user	0m41.932s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=41, (x,y)=(1,2)
+11 6 14 12
+3 5 1 15
+8 0 10 13
+9 7 4 2
+-----------
+f_limit= 41, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 42, expanded nodes = 15
+[Stat:nodes_evaluated]15
+f_limit= 43, expanded nodes = 135
+[Stat:nodes_evaluated]135
+f_limit= 45, expanded nodes = 1130
+[Stat:nodes_evaluated]1130
+f_limit= 47, expanded nodes = 8313
+[Stat:nodes_evaluated]8313
+f_limit= 49, expanded nodes = 62013
+[Stat:nodes_evaluated]62013
+f_limit= 51, expanded nodes = 444757
+[Stat:nodes_evaluated]444757
+f_limit= 53, expanded nodes = 3116459
+[Stat:nodes_evaluated]3116459
+f_limit= 55, expanded nodes = 21398104
+[Stat:nodes_evaluated]21398104
+f_limit= 57, expanded nodes = 142715578
+[Stat:nodes_evaluated]142715578
+f_limit= 59, expanded nodes = 924074078
+[Stat:nodes_evaluated]924074078
+f_limit= 61, expanded nodes = 388062593
+[Stat:nodes_evaluated]388062593
+[Stat:solution_depth]=61
+[Stat:total_nodes_evaluated]1479883175
+[Timer:search] 19.045505
+len=61: 0 1 0 1 3 2 0 2 2 3 1 3 1 0 0 2 2 3 3 1 1 3 1 0 0 0 2 2 3 1 3 3 2 0 0 1 3 3 1 0 0 0 2 3 3 2 2 3 1 1 1 0 0 2 3 2 2 0 1 0 2 
+
+real	0m19.046s
+user	0m19.044s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=40, (x,y)=(3,3)
+14 10 2 1
+13 9 8 11
+7 3 6 12
+15 5 4 0
+-----------
+f_limit= 40, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 41, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f_limit= 42, expanded nodes = 99
+[Stat:nodes_evaluated]99
+f_limit= 44, expanded nodes = 880
+[Stat:nodes_evaluated]880
+f_limit= 46, expanded nodes = 6941
+[Stat:nodes_evaluated]6941
+f_limit= 48, expanded nodes = 52635
+[Stat:nodes_evaluated]52635
+f_limit= 50, expanded nodes = 357127
+[Stat:nodes_evaluated]357127
+f_limit= 52, expanded nodes = 2293869
+[Stat:nodes_evaluated]2293869
+f_limit= 54, expanded nodes = 14109683
+[Stat:nodes_evaluated]14109683
+f_limit= 56, expanded nodes = 84027082
+[Stat:nodes_evaluated]84027082
+f_limit= 58, expanded nodes = 488654300
+[Stat:nodes_evaluated]488654300
+f_limit= 60, expanded nodes = 2790393006
+[Stat:nodes_evaluated]2790393006
+f_limit= 62, expanded nodes = 2113682872
+[Stat:nodes_evaluated]2113682872
+[Stat:solution_depth]=62
+[Stat:total_nodes_evaluated]5493578500
+[Timer:search] 68.866717
+len=62: 0 0 2 3 2 3 1 1 0 2 0 1 3 2 2 2 3 1 1 0 2 2 3 1 0 0 2 3 1 0 1 0 2 2 3 1 0 1 1 3 3 2 3 2 0 0 0 1 3 3 2 0 1 1 3 3 2 0 2 2 0 0 
+
+real	1m8.867s
+user	1m8.864s
+sys	0m0.000s
+[Start] STATE_WIDTH = 4, FIND_ALL_SOLUTIONS = false
+state_dump: h_value=43, (x,y)=(0,3)
+15 2 12 11
+14 13 9 5
+1 3 8 7
+0 10 6 4
+-----------
+f_limit= 43, expanded nodes = 0
+[Stat:nodes_evaluated]0
+f_limit= 44, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f_limit= 45, expanded nodes = 9
+[Stat:nodes_evaluated]9
+f_limit= 47, expanded nodes = 212
+[Stat:nodes_evaluated]212
+f_limit= 49, expanded nodes = 3261
+[Stat:nodes_evaluated]3261
+f_limit= 51, expanded nodes = 33461
+[Stat:nodes_evaluated]33461
+f_limit= 53, expanded nodes = 301997
+[Stat:nodes_evaluated]301997
+f_limit= 55, expanded nodes = 2413578
+[Stat:nodes_evaluated]2413578
+f_limit= 57, expanded nodes = 17692401
+[Stat:nodes_evaluated]17692401
+f_limit= 59, expanded nodes = 122245184
+[Stat:nodes_evaluated]122245184
+f_limit= 61, expanded nodes = 807544527
+[Stat:nodes_evaluated]807544527
+f_limit= 63, expanded nodes = 5156184394
+[Stat:nodes_evaluated]5156184394
+f_limit= 65, expanded nodes = 413909341
+[Stat:nodes_evaluated]413909341
+[Stat:solution_depth]=65
+[Stat:total_nodes_evaluated]6520328367
+[Timer:search] 82.155681
+len=65: 0 0 0 1 1 3 2 3 1 3 1 0 2 3 2 0 2 3 1 0 1 0 2 2 3 1 0 0 1 3 3 2 0 1 1 3 2 3 1 0 2 3 2 0 0 0 2 3 3 3 1 0 0 1 1 0 2 3 3 1 0 2 0 2 2 
+
+real	1m22.157s
+user	1m22.152s
+sys	0m0.000s

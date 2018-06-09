@@ -1,0 +1,4632 @@
+LOG(state): depth=0, h=35, f=35, 14,1,9,6,4,8,12,5,7,2,3,0,10,11,13,15
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 2398
+[Stat:nodes_evaluated] 12882
+STAT: loads: sum=2398, av=1
+STAT: distr: av=1425, 2av=155, 4av=234, 8av=162, 16av=67, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=2482(+434)
+f_limit=43
+[Stat:loop] 13089
+[Stat:nodes_evaluated] 116985
+STAT: loads: sum=13089, av=5
+STAT: distr: av=1511, 2av=553, 4av=347, 8av=70, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3440(+958)
+f_limit=45
+[Stat:loop] 49349
+[Stat:nodes_evaluated] 764949
+STAT: loads: sum=49349, av=14
+STAT: distr: av=2211, 2av=811, 4av=343, 8av=69, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5602(+2162)
+find all the optimal solution(s), at depth=45
+[Stat:cpu_nodes_evaluated]=2034
+[Stat:solution_depth]=45
+[Timer:search] 0.038566
+[Stat:total_nodes_evaluated]894816
+
+real	0m0.072s
+user	0m0.040s
+sys	0m0.032s
+LOG(state): depth=0, h=30, f=30, 4,5,7,2,9,14,12,13,0,3,6,11,8,1,15,10
+LOG: init_distr, cnt=2049
+f_limit=38
+[Stat:loop] 6291
+[Stat:nodes_evaluated] 31254
+STAT: loads: sum=6291, av=3
+STAT: distr: av=1205, 2av=539, 4av=255, 8av=49, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2311(+262)
+f_limit=40
+[Stat:loop] 19054
+[Stat:nodes_evaluated] 207435
+STAT: loads: sum=19054, av=8
+STAT: distr: av=1240, 2av=856, 4av=191, 8av=21, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3362(+1051)
+f_limit=42
+[Stat:loop] 65916
+[Stat:nodes_evaluated] 1152214
+STAT: loads: sum=65916, av=19
+STAT: distr: av=2151, 2av=864, 4av=289, 8av=55, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5419(+2057)
+find all the optimal solution(s), at depth=42
+[Stat:cpu_nodes_evaluated]=2202
+[Stat:solution_depth]=42
+[Timer:search] 0.042416
+[Stat:total_nodes_evaluated]1390903
+
+real	0m0.070s
+user	0m0.040s
+sys	0m0.028s
+LOG(state): depth=0, h=28, f=28, 0,1,9,7,11,13,5,3,14,12,4,2,8,6,10,15
+LOG: init_distr, cnt=2048
+f_limit=36
+[Stat:loop] 367
+[Stat:nodes_evaluated] 2262
+STAT: loads: sum=367, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2162(+114)
+f_limit=38
+[Stat:loop] 6831
+[Stat:nodes_evaluated] 39750
+STAT: loads: sum=6831, av=3
+STAT: distr: av=1253, 2av=618, 4av=215, 8av=71, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2571(+409)
+f_limit=40
+[Stat:loop] 21398
+[Stat:nodes_evaluated] 237828
+STAT: loads: sum=21398, av=8
+STAT: distr: av=1462, 2av=868, 4av=203, 8av=36, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3735(+1164)
+f_limit=42
+[Stat:loop] 72490
+[Stat:nodes_evaluated] 1266658
+STAT: loads: sum=72490, av=19
+STAT: distr: av=2358, 2av=1024, 4av=300, 8av=50, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6030(+2295)
+find all the optimal solution(s), at depth=42
+[Stat:cpu_nodes_evaluated]=2040
+[Stat:solution_depth]=42
+[Timer:search] 0.053121
+[Stat:total_nodes_evaluated]1546498
+
+real	0m0.081s
+user	0m0.052s
+sys	0m0.028s
+LOG(state): depth=0, h=39, f=39, 8,11,4,6,7,3,10,9,2,12,15,13,0,1,5,14
+LOG: init_distr, cnt=2048
+f_limit=43
+[Stat:loop] 222
+[Stat:nodes_evaluated] 2133
+STAT: loads: sum=222, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2185(+137)
+f_limit=45
+[Stat:loop] 10321
+[Stat:nodes_evaluated] 66258
+STAT: loads: sum=10321, av=4
+STAT: distr: av=1218, 2av=558, 4av=343, 8av=54, 16av=10, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=3024(+839)
+f_limit=47
+[Stat:loop] 38796
+[Stat:nodes_evaluated] 543366
+STAT: loads: sum=38796, av=12
+STAT: distr: av=1781, 2av=928, 4av=241, 8av=56, 16av=16, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=5200(+2176)
+f_limit=49
+[Stat:loop] 187839
+[Stat:nodes_evaluated] 3735305
+STAT: loads: sum=187839, av=36
+STAT: distr: av=3681, 2av=924, 4av=429, 8av=144, 16av=16, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=8509(+3309)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2178
+[Stat:solution_depth]=49
+[Timer:search] 0.057475
+[Stat:total_nodes_evaluated]4347062
+
+real	0m0.085s
+user	0m0.048s
+sys	0m0.036s
+LOG(state): depth=0, h=29, f=29, 13,8,14,3,9,1,0,7,15,5,4,10,12,2,6,11
+LOG: init_distr, cnt=2048
+f_limit=35
+[Stat:loop] 701
+[Stat:nodes_evaluated] 4080
+STAT: loads: sum=701, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2205(+157)
+f_limit=37
+[Stat:loop] 6933
+[Stat:nodes_evaluated] 45525
+STAT: loads: sum=6933, av=3
+STAT: distr: av=1415, 2av=441, 4av=253, 8av=92, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2733(+528)
+f_limit=39
+[Stat:loop] 21955
+[Stat:nodes_evaluated] 244614
+STAT: loads: sum=21955, av=8
+STAT: distr: av=1606, 2av=835, 4av=242, 8av=49, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3993(+1260)
+f_limit=41
+[Stat:loop] 68984
+[Stat:nodes_evaluated] 1158717
+STAT: loads: sum=68984, av=17
+STAT: distr: av=2613, 2av=923, 4av=371, 8av=81, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6344(+2351)
+find all the optimal solution(s), at depth=41
+[Stat:cpu_nodes_evaluated]=2108
+[Stat:solution_depth]=41
+[Timer:search] 0.053443
+[Stat:total_nodes_evaluated]1452936
+
+real	0m0.083s
+user	0m0.048s
+sys	0m0.032s
+LOG(state): depth=0, h=36, f=36, 7,11,8,3,14,0,6,15,1,4,13,9,5,12,2,10
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 2081
+[Stat:nodes_evaluated] 14118
+STAT: loads: sum=2081, av=1
+STAT: distr: av=1575, 2av=155, 4av=123, 8av=108, 16av=70, 32av=17, 64av=0, 128av=0, more=0
+STAT: n_roots=2700(+652)
+f_limit=42
+[Stat:loop] 13346
+[Stat:nodes_evaluated] 128697
+STAT: loads: sum=13346, av=4
+STAT: distr: av=1633, 2av=518, 4av=388, 8av=136, 16av=23, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=4087(+1387)
+f_limit=44
+[Stat:loop] 54041
+[Stat:nodes_evaluated] 827697
+STAT: loads: sum=54041, av=13
+STAT: distr: av=2679, 2av=943, 4av=355, 8av=95, 16av=14, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=6689(+2602)
+f_limit=46
+[Stat:loop] 240954
+[Stat:nodes_evaluated] 4878374
+STAT: loads: sum=240954, av=36
+STAT: distr: av=4574, 2av=1304, 4av=612, 8av=171, 16av=26, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=11073(+4384)
+find all the optimal solution(s), at depth=46
+[Stat:cpu_nodes_evaluated]=2081
+[Stat:solution_depth]=46
+[Timer:search] 0.070405
+[Stat:total_nodes_evaluated]5848886
+
+real	0m0.100s
+user	0m0.064s
+sys	0m0.032s
+LOG(state): depth=0, h=38, f=38, 12,8,15,13,1,0,5,4,6,3,2,11,9,7,14,10
+LOG: init_distr, cnt=2049
+f_limit=44
+[Stat:loop] 3606
+[Stat:nodes_evaluated] 18681
+STAT: loads: sum=3606, av=1
+STAT: distr: av=1057, 2av=240, 4av=404, 8av=242, 16av=103, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=2527(+478)
+f_limit=46
+[Stat:loop] 15441
+[Stat:nodes_evaluated] 149787
+STAT: loads: sum=15441, av=6
+STAT: distr: av=1473, 2av=696, 4av=311, 8av=44, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3511(+984)
+f_limit=48
+[Stat:loop] 58364
+[Stat:nodes_evaluated] 960090
+STAT: loads: sum=58364, av=16
+STAT: distr: av=2232, 2av=862, 4av=342, 8av=66, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5719(+2208)
+f_limit=50
+[Stat:loop] 278605
+[Stat:nodes_evaluated] 5928143
+STAT: loads: sum=278605, av=48
+STAT: distr: av=3684, 2av=1352, 4av=556, 8av=116, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=9522(+3803)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2236
+[Stat:solution_depth]=50
+[Timer:search] 0.065757
+[Stat:total_nodes_evaluated]7056701
+
+real	0m0.095s
+user	0m0.056s
+sys	0m0.036s
+LOG(state): depth=0, h=35, f=35, 6,0,5,10,11,12,9,2,1,7,4,3,14,8,13,15
+LOG: init_distr, cnt=2048
+f_limit=39
+[Stat:loop] 2091
+[Stat:nodes_evaluated] 18030
+STAT: loads: sum=2091, av=1
+STAT: distr: av=1662, 2av=148, 4av=64, 8av=80, 16av=68, 32av=24, 64av=1, 128av=1, more=0
+STAT: n_roots=3020(+972)
+f_limit=41
+[Stat:loop] 17331
+[Stat:nodes_evaluated] 179793
+STAT: loads: sum=17331, av=5
+STAT: distr: av=1987, 2av=504, 4av=388, 8av=113, 16av=21, 32av=4, 64av=3, 128av=0, more=0
+STAT: n_roots=4684(+1664)
+f_limit=43
+[Stat:loop] 73725
+[Stat:nodes_evaluated] 1203384
+STAT: loads: sum=73725, av=15
+STAT: distr: av=3228, 2av=933, 4av=363, 8av=121, 16av=30, 32av=5, 64av=4, 128av=0, more=0
+STAT: n_roots=7849(+3165)
+f_limit=45
+[Stat:loop] 340649
+[Stat:nodes_evaluated] 7079547
+STAT: loads: sum=340649, av=43
+STAT: distr: av=5503, 2av=1445, 4av=631, 8av=207, 16av=55, 32av=7, 64av=1, 128av=0, more=0
+STAT: n_roots=12962(+5113)
+find all the optimal solution(s), at depth=45
+[Stat:cpu_nodes_evaluated]=2065
+[Stat:solution_depth]=45
+[Timer:search] 0.077900
+[Stat:total_nodes_evaluated]8480754
+
+real	0m0.108s
+user	0m0.060s
+sys	0m0.040s
+LOG(state): depth=0, h=32, f=32, 4,7,13,10,1,2,9,6,12,8,14,5,3,0,11,15
+LOG: init_distr, cnt=2048
+f_limit=38
+[Stat:loop] 2809
+[Stat:nodes_evaluated] 16590
+STAT: loads: sum=2809, av=1
+STAT: distr: av=1282, 2av=243, 4av=241, 8av=196, 16av=75, 32av=11, 64av=0, 128av=0, more=0
+STAT: n_roots=2510(+462)
+f_limit=40
+[Stat:loop] 13036
+[Stat:nodes_evaluated] 129405
+STAT: loads: sum=13036, av=5
+STAT: distr: av=1584, 2av=538, 4av=320, 8av=61, 16av=5, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=3523(+1013)
+f_limit=42
+[Stat:loop] 47702
+[Stat:nodes_evaluated] 756474
+STAT: loads: sum=47702, av=13
+STAT: distr: av=2261, 2av=783, 4av=382, 8av=90, 16av=6, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=5826(+2303)
+f_limit=44
+[Stat:loop] 198394
+[Stat:nodes_evaluated] 4014498
+STAT: loads: sum=198394, av=34
+STAT: distr: av=3812, 2av=1301, 4av=585, 8av=118, 16av=9, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=9560(+3734)
+find all the optimal solution(s), at depth=44
+[Stat:cpu_nodes_evaluated]=2060
+[Stat:solution_depth]=44
+[Timer:search] 0.062700
+[Stat:total_nodes_evaluated]4916967
+
+real	0m0.091s
+user	0m0.052s
+sys	0m0.036s
+LOG(state): depth=0, h=37, f=37, 6,14,10,5,15,8,7,1,3,4,2,0,12,9,11,13
+LOG: init_distr, cnt=2048
+f_limit=43
+[Stat:loop] 182
+[Stat:nodes_evaluated] 2187
+STAT: loads: sum=182, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2143(+95)
+f_limit=45
+[Stat:loop] 10284
+[Stat:nodes_evaluated] 95490
+STAT: loads: sum=10284, av=4
+STAT: distr: av=1384, 2av=437, 4av=228, 8av=72, 16av=17, 32av=4, 64av=0, 128av=0, more=1
+STAT: n_roots=3213(+1070)
+f_limit=47
+[Stat:loop] 54679
+[Stat:nodes_evaluated] 929346
+STAT: loads: sum=54679, av=17
+STAT: distr: av=2378, 2av=533, 4av=190, 8av=78, 16av=25, 32av=7, 64av=1, 128av=1, more=0
+STAT: n_roots=5267(+2054)
+f_limit=49
+[Stat:loop] 318519
+[Stat:nodes_evaluated] 6906589
+STAT: loads: sum=318519, av=60
+STAT: distr: av=3820, 2av=826, 4av=405, 8av=165, 16av=39, 32av=9, 64av=2, 128av=1, more=0
+STAT: n_roots=8888(+3621)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2229
+[Stat:solution_depth]=49
+[Timer:search] 0.085234
+[Stat:total_nodes_evaluated]7933612
+
+real	0m0.115s
+user	0m0.056s
+sys	0m0.056s
+LOG(state): depth=0, h=32, f=32, 9,14,5,7,8,15,1,2,10,4,13,6,12,0,11,3
+LOG: init_distr, cnt=2048
+f_limit=38
+[Stat:loop] 3531
+[Stat:nodes_evaluated] 20550
+STAT: loads: sum=3531, av=1
+STAT: distr: av=1300, 2av=235, 4av=173, 8av=163, 16av=147, 32av=30, 64av=0, 128av=0, more=0
+STAT: n_roots=3245(+1197)
+f_limit=40
+[Stat:loop] 17706
+[Stat:nodes_evaluated] 158541
+STAT: loads: sum=17706, av=5
+STAT: distr: av=2054, 2av=518, 4av=565, 8av=101, 16av=6, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4893(+1648)
+f_limit=42
+[Stat:loop] 64723
+[Stat:nodes_evaluated] 931911
+STAT: loads: sum=64723, av=13
+STAT: distr: av=2910, 2av=1447, 4av=433, 8av=95, 16av=7, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=8145(+3252)
+f_limit=44
+[Stat:loop] 255823
+[Stat:nodes_evaluated] 4979366
+STAT: loads: sum=255823, av=31
+STAT: distr: av=5339, 2av=1843, 4av=773, 8av=176, 16av=10, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=13314(+5169)
+find all the optimal solution(s), at depth=44
+[Stat:cpu_nodes_evaluated]=2040
+[Stat:solution_depth]=44
+[Timer:search] 0.070087
+[Stat:total_nodes_evaluated]6090368
+
+real	0m0.098s
+user	0m0.064s
+sys	0m0.032s
+LOG(state): depth=0, h=45, f=45, 5,7,11,8,0,14,9,13,10,12,3,15,6,1,4,2
+LOG: init_distr, cnt=2048
+f_limit=49
+[Stat:loop] 476
+[Stat:nodes_evaluated] 6741
+STAT: loads: sum=476, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2424(+376)
+f_limit=51
+[Stat:loop] 15892
+[Stat:nodes_evaluated] 171390
+STAT: loads: sum=15892, av=6
+STAT: distr: av=1590, 2av=480, 4av=279, 8av=54, 16av=17, 32av=2, 64av=0, 128av=1, more=1
+STAT: n_roots=3809(+1385)
+f_limit=53
+[Stat:loop] 98620
+[Stat:nodes_evaluated] 1863964
+STAT: loads: sum=98620, av=25
+STAT: distr: av=2916, 2av=495, 4av=239, 8av=107, 16av=39, 32av=11, 64av=1, 128av=0, more=1
+STAT: n_roots=6450(+2641)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2278
+[Stat:solution_depth]=53
+[Timer:search] 0.061894
+[Stat:total_nodes_evaluated]2042095
+
+real	0m0.091s
+user	0m0.052s
+sys	0m0.036s
+LOG(state): depth=0, h=35, f=35, 12,15,2,6,1,14,4,8,5,3,7,0,10,13,9,11
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 4386
+[Stat:nodes_evaluated] 22143
+STAT: loads: sum=4386, av=2
+STAT: distr: av=1103, 2av=486, 4av=332, 8av=122, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2239(+191)
+f_limit=43
+[Stat:loop] 15447
+[Stat:nodes_evaluated] 174900
+STAT: loads: sum=15447, av=6
+STAT: distr: av=1212, 2av=628, 4av=343, 8av=52, 16av=3, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3407(+1168)
+f_limit=45
+[Stat:loop] 60637
+[Stat:nodes_evaluated] 1051317
+STAT: loads: sum=60637, av=17
+STAT: distr: av=2157, 2av=819, 4av=351, 8av=71, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5640(+2233)
+f_limit=47
+[Stat:loop] 279002
+[Stat:nodes_evaluated] 5966028
+STAT: loads: sum=279002, av=49
+STAT: distr: av=3596, 2av=1358, 4av=559, 8av=117, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9318(+3678)
+find all the optimal solution(s), at depth=47
+[Stat:cpu_nodes_evaluated]=2181
+[Stat:solution_depth]=47
+[Timer:search] 0.068672
+[Stat:total_nodes_evaluated]7214388
+
+real	0m0.098s
+user	0m0.048s
+sys	0m0.048s
+LOG(state): depth=0, h=32, f=32, 3,14,9,11,5,4,8,2,13,12,6,7,10,1,15,0
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 6635
+[Stat:nodes_evaluated] 35307
+STAT: loads: sum=6635, av=3
+STAT: distr: av=1129, 2av=559, 4av=302, 8av=58, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2370(+322)
+f_limit=42
+[Stat:loop] 20444
+[Stat:nodes_evaluated] 251823
+STAT: loads: sum=20444, av=8
+STAT: distr: av=1247, 2av=794, 4av=297, 8av=31, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3780(+1410)
+f_limit=44
+[Stat:loop] 79870
+[Stat:nodes_evaluated] 1454472
+STAT: loads: sum=79870, av=21
+STAT: distr: av=2435, 2av=894, 4av=383, 8av=61, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6172(+2392)
+f_limit=46
+[Stat:loop] 362762
+[Stat:nodes_evaluated] 7877359
+STAT: loads: sum=362762, av=58
+STAT: distr: av=3863, 2av=1582, 4av=603, 8av=112, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10395(+4223)
+find all the optimal solution(s), at depth=46
+[Stat:cpu_nodes_evaluated]=2046
+[Stat:solution_depth]=46
+[Timer:search] 0.065018
+[Stat:total_nodes_evaluated]9618961
+
+real	0m0.092s
+user	0m0.060s
+sys	0m0.032s
+LOG(state): depth=0, h=34, f=34, 13,9,14,6,12,8,1,2,3,4,0,7,5,10,11,15
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 5784
+[Stat:nodes_evaluated] 34320
+STAT: loads: sum=5784, av=2
+STAT: distr: av=1138, 2av=367, 4av=309, 8av=203, 16av=28, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=2879(+831)
+f_limit=42
+[Stat:loop] 22323
+[Stat:nodes_evaluated] 261906
+STAT: loads: sum=22323, av=7
+STAT: distr: av=1606, 2av=813, 4av=384, 8av=62, 16av=10, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=4604(+1725)
+f_limit=44
+[Stat:loop] 91336
+[Stat:nodes_evaluated] 1609725
+STAT: loads: sum=91336, av=19
+STAT: distr: av=3024, 2av=1045, 4av=405, 8av=109, 16av=14, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=7665(+3061)
+f_limit=46
+[Stat:loop] 426634
+[Stat:nodes_evaluated] 9171302
+STAT: loads: sum=426634, av=55
+STAT: distr: av=5038, 2av=1748, 4av=676, 8av=167, 16av=32, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=12725(+5060)
+find all the optimal solution(s), at depth=46
+[Stat:cpu_nodes_evaluated]=2138
+[Stat:solution_depth]=46
+[Timer:search] 0.083535
+[Stat:total_nodes_evaluated]11077253
+
+real	0m0.113s
+user	0m0.084s
+sys	0m0.028s
+LOG(state): depth=0, h=36, f=36, 5,11,6,9,4,13,12,0,8,2,15,10,1,7,3,14
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 454
+[Stat:nodes_evaluated] 3207
+STAT: loads: sum=454, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2224(+176)
+f_limit=44
+[Stat:loop] 9342
+[Stat:nodes_evaluated] 62814
+STAT: loads: sum=9342, av=4
+STAT: distr: av=1378, 2av=498, 4av=291, 8av=50, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2831(+607)
+f_limit=46
+[Stat:loop] 33267
+[Stat:nodes_evaluated] 457380
+STAT: loads: sum=33267, av=11
+STAT: distr: av=1649, 2av=890, 4av=231, 8av=49, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4713(+1882)
+f_limit=48
+[Stat:loop] 149231
+[Stat:nodes_evaluated] 2942733
+STAT: loads: sum=149231, av=31
+STAT: distr: av=3195, 2av=975, 4av=401, 8av=125, 16av=17, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7743(+3030)
+f_limit=50
+[Stat:loop] 783976
+[Stat:nodes_evaluated] 17733092
+STAT: loads: sum=783976, av=101
+STAT: distr: av=4947, 2av=1897, 4av=737, 8av=147, 16av=14, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=12916(+5173)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2219
+[Stat:solution_depth]=50
+[Timer:search] 0.098691
+[Stat:total_nodes_evaluated]21199226
+
+real	0m0.127s
+user	0m0.076s
+sys	0m0.048s
+LOG(state): depth=0, h=31, f=31, 6,13,3,2,11,9,5,10,1,7,12,14,8,4,0,15
+LOG: init_distr, cnt=2048
+f_limit=37
+[Stat:loop] 2555
+[Stat:nodes_evaluated] 13455
+STAT: loads: sum=2555, av=1
+STAT: distr: av=1296, 2av=198, 4av=312, 8av=172, 16av=63, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=2433(+385)
+f_limit=39
+[Stat:loop] 12094
+[Stat:nodes_evaluated] 104595
+STAT: loads: sum=12094, av=4
+STAT: distr: av=1309, 2av=622, 4av=407, 8av=87, 16av=7, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3400(+967)
+f_limit=41
+[Stat:loop] 40569
+[Stat:nodes_evaluated] 590874
+STAT: loads: sum=40569, av=11
+STAT: distr: av=2049, 2av=916, 4av=360, 8av=68, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5659(+2259)
+f_limit=43
+[Stat:loop] 159345
+[Stat:nodes_evaluated] 3099000
+STAT: loads: sum=159345, av=28
+STAT: distr: av=3660, 2av=1344, 4av=557, 8av=89, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9181(+3522)
+f_limit=45
+[Stat:loop] 700839
+[Stat:nodes_evaluated] 15598352
+STAT: loads: sum=700839, av=76
+STAT: distr: av=5754, 2av=2430, 4av=856, 8av=126, 16av=15, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=15032(+5851)
+find all the optimal solution(s), at depth=45
+[Stat:cpu_nodes_evaluated]=2165
+[Stat:solution_depth]=45
+[Timer:search] 0.104497
+[Stat:total_nodes_evaluated]19406276
+
+real	0m0.134s
+user	0m0.092s
+sys	0m0.040s
+LOG(state): depth=0, h=30, f=30, 5,7,0,11,12,1,9,10,15,6,2,3,8,4,13,14
+LOG: init_distr, cnt=2048
+f_limit=36
+[Stat:loop] 4669
+[Stat:nodes_evaluated] 21633
+STAT: loads: sum=4669, av=2
+STAT: distr: av=1043, 2av=527, 4av=352, 8av=123, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2246(+198)
+f_limit=38
+[Stat:loop] 14493
+[Stat:nodes_evaluated] 143886
+STAT: loads: sum=14493, av=6
+STAT: distr: av=1176, 2av=741, 4av=300, 8av=23, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3130(+884)
+f_limit=40
+[Stat:loop] 46388
+[Stat:nodes_evaluated] 748665
+STAT: loads: sum=46388, av=14
+STAT: distr: av=1854, 2av=895, 4av=332, 8av=44, 16av=4, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=5159(+2029)
+f_limit=42
+[Stat:loop] 177553
+[Stat:nodes_evaluated] 3606402
+STAT: loads: sum=177553, av=34
+STAT: distr: av=3224, 2av=1348, 4av=496, 8av=84, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8496(+3337)
+f_limit=44
+[Stat:loop] 754443
+[Stat:nodes_evaluated] 16989162
+STAT: loads: sum=754443, av=88
+STAT: distr: av=5077, 2av=2539, 4av=770, 8av=100, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=14179(+5683)
+find all the optimal solution(s), at depth=44
+[Stat:cpu_nodes_evaluated]=2104
+[Stat:solution_depth]=44
+[Timer:search] 0.099751
+[Stat:total_nodes_evaluated]21509748
+
+real	0m0.128s
+user	0m0.076s
+sys	0m0.048s
+LOG(state): depth=0, h=37, f=37, 5,0,15,8,4,6,1,14,10,11,3,9,7,12,2,13
+LOG: init_distr, cnt=2048
+f_limit=43
+[Stat:loop] 1107
+[Stat:nodes_evaluated] 5658
+STAT: loads: sum=1107, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2303(+255)
+f_limit=45
+[Stat:loop] 10270
+[Stat:nodes_evaluated] 74343
+STAT: loads: sum=10270, av=4
+STAT: distr: av=1454, 2av=465, 4av=290, 8av=90, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3169(+866)
+f_limit=47
+[Stat:loop] 38301
+[Stat:nodes_evaluated] 525837
+STAT: loads: sum=38301, av=12
+STAT: distr: av=1934, 2av=912, 4av=258, 8av=53, 16av=11, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=5215(+2046)
+f_limit=49
+[Stat:loop] 166947
+[Stat:nodes_evaluated] 3264705
+STAT: loads: sum=166947, av=32
+STAT: distr: av=3579, 2av=1034, 4av=453, 8av=131, 16av=18, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8423(+3208)
+f_limit=51
+[Stat:loop] 851928
+[Stat:nodes_evaluated] 19225187
+STAT: loads: sum=851928, av=101
+STAT: distr: av=5475, 2av=1973, 4av=789, 8av=165, 16av=21, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=14010(+5587)
+find all the optimal solution(s), at depth=51
+[Stat:cpu_nodes_evaluated]=2115
+[Stat:solution_depth]=51
+[Timer:search] 0.105964
+[Stat:total_nodes_evaluated]23095730
+
+real	0m0.135s
+user	0m0.068s
+sys	0m0.064s
+LOG(state): depth=0, h=41, f=41, 3,14,13,6,4,15,8,9,5,12,10,0,2,7,1,11
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 7121
+[Stat:nodes_evaluated] 49089
+STAT: loads: sum=7121, av=3
+STAT: distr: av=1121, 2av=470, 4av=342, 8av=111, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2651(+603)
+f_limit=49
+[Stat:loop] 31084
+[Stat:nodes_evaluated] 460161
+STAT: loads: sum=31084, av=11
+STAT: distr: av=1545, 2av=762, 4av=272, 8av=62, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4581(+1930)
+f_limit=51
+[Stat:loop] 167076
+[Stat:nodes_evaluated] 3399261
+STAT: loads: sum=167076, av=36
+STAT: distr: av=3067, 2av=948, 4av=409, 8av=143, 16av=13, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=7687(+3106)
+f_limit=53
+[Stat:loop] 1001758
+[Stat:nodes_evaluated] 22969933
+STAT: loads: sum=1001758, av=130
+STAT: distr: av=4989, 2av=1735, 4av=764, 8av=179, 16av=18, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=13021(+5334)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2320
+[Stat:solution_depth]=53
+[Timer:search] 0.099000
+[Stat:total_nodes_evaluated]26878444
+
+real	0m0.127s
+user	0m0.076s
+sys	0m0.048s
+LOG(state): depth=0, h=34, f=34, 4,3,6,13,7,15,9,0,10,5,8,11,2,12,1,14
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 2826
+[Stat:nodes_evaluated] 15018
+STAT: loads: sum=2826, av=1
+STAT: distr: av=1327, 2av=215, 4av=224, 8av=182, 16av=92, 32av=8, 64av=0, 128av=0, more=0
+STAT: n_roots=2501(+453)
+f_limit=44
+[Stat:loop] 13295
+[Stat:nodes_evaluated] 121227
+STAT: loads: sum=13295, av=5
+STAT: distr: av=1513, 2av=535, 4av=400, 8av=51, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3509(+1008)
+f_limit=46
+[Stat:loop] 48277
+[Stat:nodes_evaluated] 740736
+STAT: loads: sum=48277, av=13
+STAT: distr: av=2112, 2av=946, 4av=384, 8av=62, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5872(+2363)
+f_limit=48
+[Stat:loop] 212808
+[Stat:nodes_evaluated] 4322310
+STAT: loads: sum=212808, av=36
+STAT: distr: av=3812, 2av=1363, 4av=593, 8av=92, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9610(+3738)
+f_limit=50
+[Stat:loop] 1076884
+[Stat:nodes_evaluated] 24512561
+STAT: loads: sum=1076884, av=112
+STAT: distr: av=5969, 2av=2517, 4av=992, 8av=127, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=15944(+6334)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2263
+[Stat:solution_depth]=50
+[Timer:search] 0.120786
+[Stat:total_nodes_evaluated]29711852
+
+real	0m0.151s
+user	0m0.104s
+sys	0m0.044s
+LOG(state): depth=0, h=36, f=36, 3,6,5,2,10,0,15,14,1,4,13,12,9,8,11,7
+LOG: init_distr, cnt=2048
+f_limit=38
+[Stat:loop] 981
+[Stat:nodes_evaluated] 9807
+STAT: loads: sum=981, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2746(+698)
+f_limit=40
+[Stat:loop] 14274
+[Stat:nodes_evaluated] 125037
+STAT: loads: sum=14274, av=5
+STAT: distr: av=1856, 2av=462, 4av=334, 8av=70, 16av=18, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=4031(+1285)
+f_limit=42
+[Stat:loop] 57036
+[Stat:nodes_evaluated] 855690
+STAT: loads: sum=57036, av=14
+STAT: distr: av=2732, 2av=886, 4av=310, 8av=74, 16av=25, 32av=2, 64av=1, 128av=1, more=0
+STAT: n_roots=6503(+2472)
+f_limit=44
+[Stat:loop] 237007
+[Stat:nodes_evaluated] 4753224
+STAT: loads: sum=237007, av=36
+STAT: distr: av=4572, 2av=1170, 4av=568, 8av=156, 16av=26, 32av=9, 64av=2, 128av=0, more=0
+STAT: n_roots=10601(+4098)
+f_limit=46
+[Stat:loop] 1086811
+[Stat:nodes_evaluated] 24535870
+STAT: loads: sum=1086811, av=102
+STAT: distr: av=6931, 2av=2439, 4av=996, 8av=192, 16av=37, 32av=3, 64av=2, 128av=1, more=0
+STAT: n_roots=17514(+6913)
+find all the optimal solution(s), at depth=46
+[Stat:cpu_nodes_evaluated]=2176
+[Stat:solution_depth]=46
+[Timer:search] 0.127493
+[Stat:total_nodes_evaluated]30279628
+
+real	0m0.155s
+user	0m0.104s
+sys	0m0.048s
+LOG(state): depth=0, h=41, f=41, 7,15,8,2,13,6,3,12,11,0,4,10,9,5,1,14
+LOG: init_distr, cnt=2048
+f_limit=45
+[Stat:loop] 582
+[Stat:nodes_evaluated] 5070
+STAT: loads: sum=582, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2302(+254)
+f_limit=47
+[Stat:loop] 10872
+[Stat:nodes_evaluated] 89148
+STAT: loads: sum=10872, av=4
+STAT: distr: av=1186, 2av=740, 4av=305, 8av=54, 16av=14, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=3047(+745)
+f_limit=49
+[Stat:loop] 44064
+[Stat:nodes_evaluated] 702618
+STAT: loads: sum=44064, av=14
+STAT: distr: av=1989, 2av=753, 4av=232, 8av=60, 16av=11, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=4943(+1896)
+f_limit=51
+[Stat:loop] 232246
+[Stat:nodes_evaluated] 4939530
+STAT: loads: sum=232246, av=46
+STAT: distr: av=3308, 2av=1071, 4av=417, 8av=128, 16av=17, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=8269(+3326)
+f_limit=53
+[Stat:loop] 1428049
+[Stat:nodes_evaluated] 33166125
+STAT: loads: sum=1428049, av=172
+STAT: distr: av=5345, 2av=1994, 4av=714, 8av=205, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=13792(+5523)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2374
+[Stat:solution_depth]=53
+[Timer:search] 0.130955
+[Stat:total_nodes_evaluated]38902491
+
+real	0m0.161s
+user	0m0.108s
+sys	0m0.052s
+LOG(state): depth=0, h=39, f=39, 13,0,9,12,11,6,3,5,15,8,1,10,4,14,2,7
+LOG: init_distr, cnt=2048
+f_limit=45
+[Stat:loop] 1671
+[Stat:nodes_evaluated] 10530
+STAT: loads: sum=1671, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2334(+286)
+f_limit=47
+[Stat:loop] 11753
+[Stat:nodes_evaluated] 113319
+STAT: loads: sum=11753, av=5
+STAT: distr: av=1491, 2av=504, 4av=273, 8av=61, 16av=4, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3225(+891)
+f_limit=49
+[Stat:loop] 46421
+[Stat:nodes_evaluated] 754974
+STAT: loads: sum=46421, av=14
+STAT: distr: av=2115, 2av=714, 4av=309, 8av=79, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5297(+2072)
+f_limit=51
+[Stat:loop] 221960
+[Stat:nodes_evaluated] 4641714
+STAT: loads: sum=221960, av=41
+STAT: distr: av=3465, 2av=1164, 4av=540, 8av=114, 16av=14, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8845(+3548)
+f_limit=53
+[Stat:loop] 1184852
+[Stat:nodes_evaluated] 27249067
+STAT: loads: sum=1184852, av=133
+STAT: distr: av=5483, 2av=2313, 4av=896, 8av=148, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=14803(+5958)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2258
+[Stat:solution_depth]=53
+[Timer:search] 0.113352
+[Stat:total_nodes_evaluated]32769604
+
+real	0m0.142s
+user	0m0.100s
+sys	0m0.040s
+LOG(state): depth=0, h=36, f=36, 5,4,7,1,11,12,14,15,10,13,8,6,2,0,9,3
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 2363
+[Stat:nodes_evaluated] 14121
+STAT: loads: sum=2363, av=1
+STAT: distr: av=1420, 2av=97, 4av=307, 8av=173, 16av=42, 32av=9, 64av=0, 128av=0, more=0
+STAT: n_roots=2343(+295)
+f_limit=44
+[Stat:loop] 13701
+[Stat:nodes_evaluated] 138150
+STAT: loads: sum=13701, av=5
+STAT: distr: av=1297, 2av=633, 4av=338, 8av=63, 16av=11, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3396(+1053)
+f_limit=46
+[Stat:loop] 55438
+[Stat:nodes_evaluated] 926889
+STAT: loads: sum=55438, av=16
+STAT: distr: av=2220, 2av=784, 4av=321, 8av=61, 16av=8, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=5471(+2075)
+f_limit=48
+[Stat:loop] 269538
+[Stat:nodes_evaluated] 5763072
+STAT: loads: sum=269538, av=49
+STAT: distr: av=3587, 2av=1282, 4av=474, 8av=112, 16av=14, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=9042(+3571)
+f_limit=50
+[Stat:loop] 1458888
+[Stat:nodes_evaluated] 33807487
+STAT: loads: sum=1458888, av=161
+STAT: distr: av=5711, 2av=2369, 4av=790, 8av=156, 16av=14, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=15042(+6000)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2266
+[Stat:solution_depth]=50
+[Timer:search] 0.134218
+[Stat:total_nodes_evaluated]40649719
+
+real	0m0.164s
+user	0m0.112s
+sys	0m0.052s
+LOG(state): depth=0, h=36, f=36, 13,14,6,12,4,5,1,0,9,3,10,2,15,11,8,7
+LOG: init_distr, cnt=2049
+f_limit=44
+[Stat:loop] 2545
+[Stat:nodes_evaluated] 16152
+STAT: loads: sum=2545, av=1
+STAT: distr: av=1381, 2av=188, 4av=208, 8av=192, 16av=72, 32av=8, 64av=0, 128av=0, more=0
+STAT: n_roots=2424(+375)
+f_limit=46
+[Stat:loop] 14164
+[Stat:nodes_evaluated] 149157
+STAT: loads: sum=14164, av=5
+STAT: distr: av=1436, 2av=518, 4av=370, 8av=88, 16av=11, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3661(+1237)
+f_limit=48
+[Stat:loop] 60148
+[Stat:nodes_evaluated] 997260
+STAT: loads: sum=60148, av=16
+STAT: distr: av=2452, 2av=752, 4av=347, 8av=99, 16av=9, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=6012(+2351)
+f_limit=50
+[Stat:loop] 292069
+[Stat:nodes_evaluated] 6194175
+STAT: loads: sum=292069, av=48
+STAT: distr: av=3950, 2av=1344, 4av=555, 8av=139, 16av=22, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=10068(+4056)
+f_limit=52
+[Stat:loop] 1602491
+[Stat:nodes_evaluated] 37038491
+STAT: loads: sum=1602491, av=159
+STAT: distr: av=6359, 2av=2554, 4av=943, 8av=196, 16av=15, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=16899(+6831)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2342
+[Stat:solution_depth]=52
+[Timer:search] 0.137567
+[Stat:total_nodes_evaluated]44395235
+
+real	0m0.166s
+user	0m0.128s
+sys	0m0.036s
+LOG(state): depth=0, h=36, f=36, 14,7,1,9,12,3,6,15,8,11,2,5,10,0,4,13
+LOG: init_distr, cnt=2049
+f_limit=44
+[Stat:loop] 2917
+[Stat:nodes_evaluated] 15741
+STAT: loads: sum=2917, av=1
+STAT: distr: av=1385, 2av=119, 4av=240, 8av=190, 16av=109, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=2772(+723)
+f_limit=46
+[Stat:loop] 16027
+[Stat:nodes_evaluated] 149490
+STAT: loads: sum=16027, av=5
+STAT: distr: av=1657, 2av=555, 4av=472, 8av=81, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4172(+1400)
+f_limit=48
+[Stat:loop] 65312
+[Stat:nodes_evaluated] 1032846
+STAT: loads: sum=65312, av=15
+STAT: distr: av=2666, 2av=971, 4av=447, 8av=75, 16av=12, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=6868(+2696)
+f_limit=50
+[Stat:loop] 314794
+[Stat:nodes_evaluated] 6595023
+STAT: loads: sum=314794, av=45
+STAT: distr: av=4471, 2av=1528, 4av=703, 8av=148, 16av=16, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=11501(+4633)
+f_limit=52
+[Stat:loop] 1735963
+[Stat:nodes_evaluated] 40004036
+STAT: loads: sum=1735963, av=150
+STAT: distr: av=7114, 2av=3097, 4av=1100, 8av=170, 16av=20, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=19341(+7840)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2138
+[Stat:solution_depth]=52
+[Timer:search] 0.155313
+[Stat:total_nodes_evaluated]47797136
+
+real	0m0.185s
+user	0m0.124s
+sys	0m0.056s
+LOG(state): depth=0, h=24, f=24, 1,3,2,5,10,9,15,6,8,14,13,11,12,4,7,0
+LOG: init_distr, cnt=2049
+f_limit=32
+[Stat:loop] 1850
+[Stat:nodes_evaluated] 7149
+STAT: loads: sum=1850, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2192(+143)
+f_limit=34
+[Stat:loop] 7838
+[Stat:nodes_evaluated] 49305
+STAT: loads: sum=7838, av=3
+STAT: distr: av=1196, 2av=545, 4av=359, 8av=91, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2665(+473)
+f_limit=36
+[Stat:loop] 20906
+[Stat:nodes_evaluated] 231369
+STAT: loads: sum=20906, av=7
+STAT: distr: av=1416, 2av=868, 4av=351, 8av=30, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3905(+1240)
+f_limit=38
+[Stat:loop] 60920
+[Stat:nodes_evaluated] 984225
+STAT: loads: sum=60920, av=15
+STAT: distr: av=2330, 2av=1154, 4av=394, 8av=27, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6276(+2371)
+f_limit=40
+[Stat:loop] 207384
+[Stat:nodes_evaluated] 4157100
+STAT: loads: sum=207384, av=33
+STAT: distr: av=3834, 2av=1832, 4av=577, 8av=33, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10030(+3754)
+f_limit=42
+[Stat:loop] 779292
+[Stat:nodes_evaluated] 17349838
+STAT: loads: sum=779292, av=77
+STAT: distr: av=5780, 2av=3376, 4av=825, 8av=49, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=16434(+6404)
+find all the optimal solution(s), at depth=42
+[Stat:cpu_nodes_evaluated]=2123
+[Stat:solution_depth]=42
+[Timer:search] 0.120117
+[Stat:total_nodes_evaluated]22778986
+
+real	0m0.150s
+user	0m0.100s
+sys	0m0.048s
+LOG(state): depth=0, h=35, f=35, 9,0,4,10,1,14,15,3,12,6,5,7,11,13,8,2
+LOG: init_distr, cnt=2048
+f_limit=39
+[Stat:loop] 412
+[Stat:nodes_evaluated] 2793
+STAT: loads: sum=412, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2172(+124)
+f_limit=41
+[Stat:loop] 7889
+[Stat:nodes_evaluated] 50457
+STAT: loads: sum=7889, av=3
+STAT: distr: av=1161, 2av=632, 4av=279, 8av=83, 16av=15, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=2790(+618)
+f_limit=43
+[Stat:loop] 27167
+[Stat:nodes_evaluated] 331074
+STAT: loads: sum=27167, av=9
+STAT: distr: av=1541, 2av=987, 4av=203, 8av=42, 16av=17, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4437(+1647)
+f_limit=45
+[Stat:loop] 103583
+[Stat:nodes_evaluated] 1892898
+STAT: loads: sum=103583, av=23
+STAT: distr: av=3012, 2av=952, 4av=372, 8av=78, 16av=22, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=7086(+2649)
+f_limit=47
+[Stat:loop] 462734
+[Stat:nodes_evaluated] 10130235
+STAT: loads: sum=462734, av=65
+STAT: distr: av=4551, 2av=1767, 4av=612, 8av=148, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=11627(+4541)
+f_limit=49
+[Stat:loop] 2231012
+[Stat:nodes_evaluated] 51904096
+STAT: loads: sum=2231012, av=191
+STAT: distr: av=7075, 2av=3347, 4av=1064, 8av=127, 16av=12, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=19256(+7629)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2257
+[Stat:solution_depth]=49
+[Timer:search] 0.181916
+[Stat:total_nodes_evaluated]64311553
+
+real	0m0.210s
+user	0m0.128s
+sys	0m0.080s
+LOG(state): depth=0, h=43, f=43, 6,0,14,12,1,15,9,10,11,4,7,2,8,3,5,13
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 253
+[Stat:nodes_evaluated] 2844
+STAT: loads: sum=253, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2202(+154)
+f_limit=49
+[Stat:loop] 10336
+[Stat:nodes_evaluated] 91566
+STAT: loads: sum=10336, av=4
+STAT: distr: av=1227, 2av=622, 4av=275, 8av=59, 16av=13, 32av=5, 64av=1, 128av=0, more=0
+STAT: n_roots=3044(+842)
+f_limit=51
+[Stat:loop] 50735
+[Stat:nodes_evaluated] 879939
+STAT: loads: sum=50735, av=16
+STAT: distr: av=2151, 2av=570, 4av=211, 8av=76, 16av=29, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=5118(+2074)
+f_limit=53
+[Stat:loop] 319648
+[Stat:nodes_evaluated] 7009983
+STAT: loads: sum=319648, av=62
+STAT: distr: av=3701, 2av=838, 4av=382, 8av=150, 16av=39, 32av=5, 64av=3, 128av=0, more=0
+STAT: n_roots=8684(+3566)
+f_limit=55
+[Stat:loop] 2181277
+[Stat:nodes_evaluated] 51151046
+STAT: loads: sum=2181277, av=251
+STAT: distr: av=5875, 2av=1740, 4av=798, 8av=216, 16av=43, 32av=11, 64av=1, 128av=0, more=0
+STAT: n_roots=14738(+6054)
+find all the optimal solution(s), at depth=55
+[Stat:cpu_nodes_evaluated]=2461
+[Stat:solution_depth]=55
+[Timer:search] 0.193555
+[Stat:total_nodes_evaluated]59135378
+
+real	0m0.224s
+user	0m0.156s
+sys	0m0.064s
+LOG(state): depth=0, h=35, f=35, 1,7,15,14,2,6,4,9,12,11,13,3,0,8,5,10
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 5534
+[Stat:nodes_evaluated] 32973
+STAT: loads: sum=5534, av=2
+STAT: distr: av=1049, 2av=499, 4av=298, 8av=152, 16av=49, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2914(+866)
+f_limit=43
+[Stat:loop] 23209
+[Stat:nodes_evaluated] 270021
+STAT: loads: sum=23209, av=7
+STAT: distr: av=1682, 2av=725, 4av=403, 8av=86, 16av=17, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=4777(+1863)
+f_limit=45
+[Stat:loop] 99269
+[Stat:nodes_evaluated] 1741137
+STAT: loads: sum=99269, av=20
+STAT: distr: av=3179, 2av=1017, 4av=436, 8av=120, 16av=23, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=8004(+3227)
+f_limit=47
+[Stat:loop] 476554
+[Stat:nodes_evaluated] 10290777
+STAT: loads: sum=476554, av=59
+STAT: distr: av=5378, 2av=1681, 4av=713, 8av=187, 16av=40, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=13404(+5400)
+f_limit=49
+[Stat:loop] 2427664
+[Stat:nodes_evaluated] 56304129
+STAT: loads: sum=2427664, av=181
+STAT: distr: av=8700, 2av=3080, 4av=1273, 8av=309, 16av=39, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=22347(+8943)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2148
+[Stat:solution_depth]=49
+[Timer:search] 0.195772
+[Stat:total_nodes_evaluated]68639037
+
+real	0m0.225s
+user	0m0.156s
+sys	0m0.068s
+LOG(state): depth=0, h=46, f=46, 14,13,4,11,15,8,6,9,0,7,3,1,2,10,12,5
+LOG: init_distr, cnt=2048
+f_limit=50
+[Stat:loop] 673
+[Stat:nodes_evaluated] 6663
+STAT: loads: sum=673, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2385(+337)
+f_limit=52
+[Stat:loop] 14067
+[Stat:nodes_evaluated] 135561
+STAT: loads: sum=14067, av=5
+STAT: distr: av=1495, 2av=535, 4av=273, 8av=56, 16av=18, 32av=7, 64av=1, 128av=0, more=0
+STAT: n_roots=3548(+1163)
+f_limit=54
+[Stat:loop] 75575
+[Stat:nodes_evaluated] 1353060
+STAT: loads: sum=75575, av=21
+STAT: distr: av=2628, 2av=559, 4av=240, 8av=88, 16av=25, 32av=6, 64av=2, 128av=0, more=0
+STAT: n_roots=5821(+2273)
+f_limit=56
+[Stat:loop] 512203
+[Stat:nodes_evaluated] 11475754
+STAT: loads: sum=512203, av=87
+STAT: distr: av=4156, 2av=950, 4av=488, 8av=177, 16av=40, 32av=9, 64av=1, 128av=0, more=0
+STAT: n_roots=9829(+4008)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2263
+[Stat:solution_depth]=56
+[Timer:search] 0.081747
+[Stat:total_nodes_evaluated]12971038
+
+real	0m0.111s
+user	0m0.064s
+sys	0m0.044s
+LOG(state): depth=0, h=33, f=33, 10,9,3,11,0,13,2,14,5,6,4,7,8,15,1,12
+LOG: init_distr, cnt=2048
+f_limit=39
+[Stat:loop] 403
+[Stat:nodes_evaluated] 2790
+STAT: loads: sum=403, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2172(+124)
+f_limit=41
+[Stat:loop] 8056
+[Stat:nodes_evaluated] 53073
+STAT: loads: sum=8056, av=3
+STAT: distr: av=1092, 2av=674, 4av=306, 8av=86, 16av=12, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=2751(+579)
+f_limit=43
+[Stat:loop] 27257
+[Stat:nodes_evaluated] 347190
+STAT: loads: sum=27257, av=9
+STAT: distr: av=1535, 2av=919, 4av=232, 8av=55, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4492(+1741)
+f_limit=45
+[Stat:loop] 105221
+[Stat:nodes_evaluated] 1963266
+STAT: loads: sum=105221, av=23
+STAT: distr: av=2957, 2av=1047, 4av=374, 8av=104, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7330(+2838)
+f_limit=47
+[Stat:loop] 483347
+[Stat:nodes_evaluated] 10611894
+STAT: loads: sum=483347, av=65
+STAT: distr: av=4572, 2av=1924, 4av=680, 8av=152, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12258(+4928)
+f_limit=49
+[Stat:loop] 2380481
+[Stat:nodes_evaluated] 55432566
+STAT: loads: sum=2380481, av=194
+STAT: distr: av=7407, 2av=3549, 4av=1162, 8av=138, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=20393(+8135)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2196
+[Stat:solution_depth]=49
+[Timer:search] 0.194476
+[Stat:total_nodes_evaluated]68410779
+
+real	0m0.225s
+user	0m0.168s
+sys	0m0.052s
+LOG(state): depth=0, h=35, f=35, 8,4,6,1,14,12,2,15,13,10,9,5,3,7,0,11
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 5052
+[Stat:nodes_evaluated] 32202
+STAT: loads: sum=5052, av=2
+STAT: distr: av=1299, 2av=298, 4av=191, 8av=222, 16av=35, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=2933(+885)
+f_limit=43
+[Stat:loop] 23500
+[Stat:nodes_evaluated] 270828
+STAT: loads: sum=23500, av=8
+STAT: distr: av=1752, 2av=767, 4av=357, 8av=50, 16av=6, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4672(+1739)
+f_limit=45
+[Stat:loop] 98910
+[Stat:nodes_evaluated] 1761897
+STAT: loads: sum=98910, av=21
+STAT: distr: av=3117, 2av=964, 4av=476, 8av=99, 16av=15, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=7716(+3044)
+f_limit=47
+[Stat:loop] 480053
+[Stat:nodes_evaluated] 10420539
+STAT: loads: sum=480053, av=62
+STAT: distr: av=4892, 2av=1839, 4av=824, 8av=146, 16av=13, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=13061(+5345)
+f_limit=49
+[Stat:loop] 2490435
+[Stat:nodes_evaluated] 57883326
+STAT: loads: sum=2490435, av=190
+STAT: distr: av=7944, 2av=3488, 4av=1447, 8av=171, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=22040(+8979)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2075
+[Stat:solution_depth]=49
+[Timer:search] 0.182856
+[Stat:total_nodes_evaluated]70368792
+
+real	0m0.212s
+user	0m0.152s
+sys	0m0.056s
+LOG(state): depth=0, h=43, f=43, 4,6,12,0,14,2,9,13,11,8,3,15,7,10,1,5
+LOG: init_distr, cnt=2048
+f_limit=49
+[Stat:loop] 1736
+[Stat:nodes_evaluated] 14241
+STAT: loads: sum=1736, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2794(+746)
+f_limit=51
+[Stat:loop] 17879
+[Stat:nodes_evaluated] 197202
+STAT: loads: sum=17879, av=6
+STAT: distr: av=1798, 2av=585, 4av=321, 8av=70, 16av=13, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=4256(+1462)
+f_limit=53
+[Stat:loop] 94866
+[Stat:nodes_evaluated] 1748259
+STAT: loads: sum=94866, av=22
+STAT: distr: av=3051, 2av=694, 4av=354, 8av=124, 16av=27, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=7050(+2794)
+f_limit=55
+[Stat:loop] 603709
+[Stat:nodes_evaluated] 13532427
+STAT: loads: sum=603709, av=85
+STAT: distr: av=4815, 2av=1374, 4av=612, 8av=189, 16av=54, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=12008(+4958)
+f_limit=57
+[Stat:loop] 4055239
+[Stat:nodes_evaluated] 95637616
+STAT: loads: sum=4055239, av=337
+STAT: distr: av=7722, 2av=2779, 4av=1199, 8av=260, 16av=47, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=20473(+8465)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2260
+[Stat:solution_depth]=57
+[Timer:search] 0.246046
+[Stat:total_nodes_evaluated]111129745
+
+real	0m0.276s
+user	0m0.176s
+sys	0m0.096s
+LOG(state): depth=0, h=31, f=31, 12,3,9,1,4,5,10,2,6,11,15,0,14,7,13,8
+LOG: init_distr, cnt=2048
+f_limit=37
+[Stat:loop] 59
+[Stat:nodes_evaluated] 318
+STAT: loads: sum=59, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2072(+24)
+f_limit=39
+[Stat:loop] 5610
+[Stat:nodes_evaluated] 24408
+STAT: loads: sum=5610, av=2
+STAT: distr: av=744, 2av=827, 4av=404, 8av=91, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2279(+207)
+f_limit=41
+[Stat:loop] 15981
+[Stat:nodes_evaluated] 148347
+STAT: loads: sum=15981, av=7
+STAT: distr: av=1271, 2av=833, 4av=165, 8av=10, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3014(+735)
+f_limit=43
+[Stat:loop] 47148
+[Stat:nodes_evaluated] 757668
+STAT: loads: sum=47148, av=15
+STAT: distr: av=1776, 2av=954, 4av=253, 8av=30, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4806(+1792)
+f_limit=45
+[Stat:loop] 179946
+[Stat:nodes_evaluated] 3675516
+STAT: loads: sum=179946, av=37
+STAT: distr: av=2915, 2av=1450, 4av=382, 8av=58, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7835(+3029)
+f_limit=47
+[Stat:loop] 777977
+[Stat:nodes_evaluated] 17598462
+STAT: loads: sum=777977, av=99
+STAT: distr: av=4668, 2av=2426, 4av=683, 8av=57, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12933(+5098)
+f_limit=49
+[Stat:loop] 3567713
+[Stat:nodes_evaluated] 83817655
+STAT: loads: sum=3567713, av=275
+STAT: distr: av=7500, 2av=4267, 4av=1100, 8av=66, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=21296(+8363)
+find all the optimal solution(s), at depth=49
+[Stat:cpu_nodes_evaluated]=2074
+[Stat:solution_depth]=49
+[Timer:search] 0.254999
+[Stat:total_nodes_evaluated]106022374
+
+real	0m0.285s
+user	0m0.204s
+sys	0m0.080s
+LOG(state): depth=0, h=36, f=36, 6,12,11,3,13,7,9,15,2,14,8,10,4,1,5,0
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 6819
+[Stat:nodes_evaluated] 40491
+STAT: loads: sum=6819, av=3
+STAT: distr: av=1294, 2av=331, 4av=299, 8av=122, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2694(+646)
+f_limit=46
+[Stat:loop] 26189
+[Stat:nodes_evaluated] 323244
+STAT: loads: sum=26189, av=9
+STAT: distr: av=1492, 2av=819, 4av=310, 8av=70, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4504(+1810)
+f_limit=48
+[Stat:loop] 116492
+[Stat:nodes_evaluated] 2160525
+STAT: loads: sum=116492, av=25
+STAT: distr: av=3019, 2av=925, 4av=425, 8av=118, 16av=15, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=7470(+2966)
+f_limit=50
+[Stat:loop] 610328
+[Stat:nodes_evaluated] 13547925
+STAT: loads: sum=610328, av=81
+STAT: distr: av=4857, 2av=1651, 4av=782, 8av=165, 16av=14, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=12506(+5036)
+f_limit=52
+[Stat:loop] 3441812
+[Stat:nodes_evaluated] 80750684
+STAT: loads: sum=3441812, av=275
+STAT: distr: av=7749, 2av=3306, 4av=1241, 8av=194, 16av=16, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=20822(+8316)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2189
+[Stat:solution_depth]=52
+[Timer:search] 0.223028
+[Stat:total_nodes_evaluated]96822869
+
+real	0m0.252s
+user	0m0.160s
+sys	0m0.088s
+LOG(state): depth=0, h=42, f=42, 4,7,14,13,10,3,9,12,11,5,6,15,1,2,8,0
+LOG: init_distr, cnt=2048
+f_limit=48
+[Stat:loop] 3110
+[Stat:nodes_evaluated] 22344
+STAT: loads: sum=3110, av=1
+STAT: distr: av=1300, 2av=230, 4av=192, 8av=217, 16av=98, 32av=11, 64av=0, 128av=0, more=0
+STAT: n_roots=2663(+615)
+f_limit=50
+[Stat:loop] 18332
+[Stat:nodes_evaluated] 218457
+STAT: loads: sum=18332, av=6
+STAT: distr: av=1572, 2av=619, 4av=364, 8av=96, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4146(+1483)
+f_limit=52
+[Stat:loop] 91770
+[Stat:nodes_evaluated] 1712544
+STAT: loads: sum=91770, av=22
+STAT: distr: av=2816, 2av=796, 4av=417, 8av=97, 16av=18, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=6828(+2682)
+f_limit=54
+[Stat:loop] 560692
+[Stat:nodes_evaluated] 12570060
+STAT: loads: sum=560692, av=82
+STAT: distr: av=4532, 2av=1452, 4av=645, 8av=172, 16av=22, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=11563(+4735)
+f_limit=56
+[Stat:loop] 3715944
+[Stat:nodes_evaluated] 87622776
+STAT: loads: sum=3715944, av=321
+STAT: distr: av=7298, 2av=2884, 4av=1124, 8av=231, 16av=23, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=19565(+8002)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2389
+[Stat:solution_depth]=56
+[Timer:search] 0.237468
+[Stat:total_nodes_evaluated]102146181
+
+real	0m0.268s
+user	0m0.188s
+sys	0m0.076s
+LOG(state): depth=0, h=34, f=34, 0,13,2,4,12,14,6,9,15,1,10,3,11,5,8,7
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 1195
+[Stat:nodes_evaluated] 6282
+STAT: loads: sum=1195, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2291(+243)
+f_limit=46
+[Stat:loop] 10131
+[Stat:nodes_evaluated] 75162
+STAT: loads: sum=10131, av=4
+STAT: distr: av=1319, 2av=576, 4av=324, 8av=71, 16av=0, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2981(+690)
+f_limit=48
+[Stat:loop] 35262
+[Stat:nodes_evaluated] 488625
+STAT: loads: sum=35262, av=11
+STAT: distr: av=1734, 2av=891, 4av=287, 8av=64, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5012(+2031)
+f_limit=50
+[Stat:loop] 151723
+[Stat:nodes_evaluated] 2975526
+STAT: loads: sum=151723, av=30
+STAT: distr: av=3405, 2av=1014, 4av=469, 8av=106, 16av=18, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8187(+3175)
+f_limit=52
+[Stat:loop] 777434
+[Stat:nodes_evaluated] 17520066
+STAT: loads: sum=777434, av=94
+STAT: distr: av=5144, 2av=2047, 4av=836, 8av=152, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=13740(+5553)
+f_limit=54
+[Stat:loop] 4323631
+[Stat:nodes_evaluated] 101808475
+STAT: loads: sum=4323631, av=314
+STAT: distr: av=8365, 2av=3782, 4av=1382, 8av=209, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=23032(+9292)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2349
+[Stat:solution_depth]=54
+[Timer:search] 0.267698
+[Stat:total_nodes_evaluated]122874136
+
+real	0m0.298s
+user	0m0.212s
+sys	0m0.084s
+LOG(state): depth=0, h=35, f=35, 6,10,1,14,15,8,3,5,13,0,2,7,4,9,11,12
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 4742
+[Stat:nodes_evaluated] 22959
+STAT: loads: sum=4742, av=2
+STAT: distr: av=978, 2av=560, 4av=394, 8av=108, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2309(+261)
+f_limit=43
+[Stat:loop] 16084
+[Stat:nodes_evaluated] 165855
+STAT: loads: sum=16084, av=6
+STAT: distr: av=1152, 2av=734, 4av=384, 8av=38, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3444(+1135)
+f_limit=45
+[Stat:loop] 57477
+[Stat:nodes_evaluated] 961386
+STAT: loads: sum=57477, av=16
+STAT: distr: av=2055, 2av=977, 4av=361, 8av=48, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5688(+2244)
+f_limit=47
+[Stat:loop] 247533
+[Stat:nodes_evaluated] 5172895
+STAT: loads: sum=247533, av=43
+STAT: distr: av=3443, 2av=1612, 4av=559, 8av=73, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9471(+3783)
+find all the optimal solution(s), at depth=47
+[Stat:cpu_nodes_evaluated]=2138
+[Stat:solution_depth]=47
+[Timer:search] 0.058774
+[Stat:total_nodes_evaluated]6323095
+
+real	0m0.086s
+user	0m0.048s
+sys	0m0.036s
+LOG(state): depth=0, h=39, f=39, 3,14,9,7,12,15,0,4,1,8,5,6,11,10,2,13
+LOG: init_distr, cnt=2048
+f_limit=43
+[Stat:loop] 366
+[Stat:nodes_evaluated] 2598
+STAT: loads: sum=366, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2147(+99)
+f_limit=45
+[Stat:loop] 8767
+[Stat:nodes_evaluated] 64791
+STAT: loads: sum=8767, av=4
+STAT: distr: av=1381, 2av=438, 4av=262, 8av=58, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2748(+601)
+f_limit=47
+[Stat:loop] 32911
+[Stat:nodes_evaluated] 476532
+STAT: loads: sum=32911, av=11
+STAT: distr: av=1644, 2av=775, 4av=255, 8av=65, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4704(+1956)
+f_limit=49
+[Stat:loop] 153943
+[Stat:nodes_evaluated] 3070827
+STAT: loads: sum=153943, av=32
+STAT: distr: av=3296, 2av=866, 4av=391, 8av=123, 16av=24, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=7760(+3056)
+f_limit=51
+[Stat:loop] 807692
+[Stat:nodes_evaluated] 18312471
+STAT: loads: sum=807692, av=104
+STAT: distr: av=5056, 2av=1790, 4av=744, 8av=146, 16av=24, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12879(+5119)
+find all the optimal solution(s), at depth=51
+[Stat:cpu_nodes_evaluated]=2219
+[Stat:solution_depth]=51
+[Timer:search] 0.103113
+[Stat:total_nodes_evaluated]21927219
+
+real	0m0.133s
+user	0m0.072s
+sys	0m0.060s
+LOG(state): depth=0, h=36, f=36, 12,6,0,4,7,3,15,1,13,9,8,11,2,14,5,10
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 3007
+[Stat:nodes_evaluated] 16533
+STAT: loads: sum=3007, av=1
+STAT: distr: av=1306, 2av=181, 4av=262, 8av=177, 16av=114, 32av=8, 64av=0, 128av=0, more=0
+STAT: n_roots=2696(+648)
+f_limit=44
+[Stat:loop] 13744
+[Stat:nodes_evaluated] 121686
+STAT: loads: sum=13744, av=5
+STAT: distr: av=1677, 2av=557, 4av=420, 8av=39, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3688(+992)
+f_limit=46
+[Stat:loop] 47890
+[Stat:nodes_evaluated] 717357
+STAT: loads: sum=47890, av=12
+STAT: distr: av=2183, 2av=1027, 4av=386, 8av=88, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6129(+2441)
+f_limit=48
+[Stat:loop] 194487
+[Stat:nodes_evaluated] 3869538
+STAT: loads: sum=194487, av=31
+STAT: distr: av=3995, 2av=1388, 4av=617, 8av=121, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10009(+3880)
+f_limit=50
+[Stat:loop] 906568
+[Stat:nodes_evaluated] 20416620
+STAT: loads: sum=906568, av=90
+STAT: distr: av=6172, 2av=2712, 4av=988, 8av=131, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=16471(+6462)
+f_limit=52
+[Stat:loop] 4508768
+[Stat:nodes_evaluated] 105950415
+STAT: loads: sum=4508768, av=273
+STAT: distr: av=9766, 2av=5012, 4av=1543, 8av=149, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=27137(+10666)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2355
+[Stat:solution_depth]=52
+[Timer:search] 0.287068
+[Stat:total_nodes_evaluated]131092149
+
+real	0m0.316s
+user	0m0.224s
+sys	0m0.092s
+LOG(state): depth=0, h=36, f=36, 6,11,7,8,13,2,5,4,1,10,3,9,14,0,12,15
+LOG: init_distr, cnt=2049
+f_limit=44
+[Stat:loop] 7302
+[Stat:nodes_evaluated] 41886
+STAT: loads: sum=7302, av=3
+STAT: distr: av=1052, 2av=586, 4av=349, 8av=60, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2396(+347)
+f_limit=46
+[Stat:loop] 25386
+[Stat:nodes_evaluated] 336684
+STAT: loads: sum=25386, av=10
+STAT: distr: av=1347, 2av=795, 4av=220, 8av=28, 16av=5, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4034(+1638)
+f_limit=48
+[Stat:loop] 117118
+[Stat:nodes_evaluated] 2279571
+STAT: loads: sum=117118, av=29
+STAT: distr: av=2709, 2av=886, 4av=345, 8av=79, 16av=13, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=6590(+2556)
+f_limit=50
+[Stat:loop] 645249
+[Stat:nodes_evaluated] 14571819
+STAT: loads: sum=645249, av=97
+STAT: distr: av=4241, 2av=1588, 4av=610, 8av=136, 16av=14, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=10966(+4376)
+f_limit=52
+[Stat:loop] 3776697
+[Stat:nodes_evaluated] 89095568
+STAT: loads: sum=3776697, av=344
+STAT: distr: av=6819, 2av=2941, 4av=1025, 8av=163, 16av=17, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=18340(+7374)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2229
+[Stat:solution_depth]=52
+[Timer:search] 0.253240
+[Stat:total_nodes_evaluated]106325528
+
+real	0m0.286s
+user	0m0.196s
+sys	0m0.084s
+LOG(state): depth=0, h=31, f=31, 7,8,3,2,10,12,4,6,11,13,5,15,0,1,9,14
+LOG: init_distr, cnt=2049
+f_limit=37
+[Stat:loop] 350
+[Stat:nodes_evaluated] 2943
+STAT: loads: sum=350, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2180(+131)
+f_limit=39
+[Stat:loop] 7671
+[Stat:nodes_evaluated] 47742
+STAT: loads: sum=7671, av=3
+STAT: distr: av=1241, 2av=554, 4av=294, 8av=79, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2720(+540)
+f_limit=41
+[Stat:loop] 24804
+[Stat:nodes_evaluated] 297021
+STAT: loads: sum=24804, av=9
+STAT: distr: av=1639, 2av=833, 4av=199, 8av=45, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4171(+1451)
+f_limit=43
+[Stat:loop] 87636
+[Stat:nodes_evaluated] 1561698
+STAT: loads: sum=87636, av=21
+STAT: distr: av=2808, 2av=950, 4av=317, 8av=83, 16av=13, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6668(+2497)
+f_limit=45
+[Stat:loop] 367870
+[Stat:nodes_evaluated] 7923546
+STAT: loads: sum=367870, av=55
+STAT: distr: av=4263, 2av=1698, 4av=579, 8av=113, 16av=14, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=10928(+4260)
+f_limit=47
+[Stat:loop] 1673549
+[Stat:nodes_evaluated] 38660979
+STAT: loads: sum=1673549, av=153
+STAT: distr: av=6629, 2av=3190, 4av=975, 8av=119, 16av=13, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=18113(+7185)
+find all the optimal solution(s), at depth=47
+[Stat:cpu_nodes_evaluated]=2113
+[Stat:solution_depth]=47
+[Timer:search] 0.158350
+[Stat:total_nodes_evaluated]48493929
+
+real	0m0.189s
+user	0m0.124s
+sys	0m0.060s
+LOG(state): depth=0, h=32, f=32, 12,9,0,6,8,3,5,14,2,4,11,7,10,1,15,13
+LOG: init_distr, cnt=2049
+f_limit=38
+[Stat:loop] 186
+[Stat:nodes_evaluated] 1062
+STAT: loads: sum=186, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2102(+53)
+f_limit=40
+[Stat:loop] 7036
+[Stat:nodes_evaluated] 35616
+STAT: loads: sum=7036, av=3
+STAT: distr: av=1209, 2av=533, 4av=299, 8av=57, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2440(+338)
+f_limit=42
+[Stat:loop] 20671
+[Stat:nodes_evaluated] 222861
+STAT: loads: sum=20671, av=8
+STAT: distr: av=1309, 2av=888, 4av=216, 8av=25, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3608(+1168)
+f_limit=44
+[Stat:loop] 67526
+[Stat:nodes_evaluated] 1159149
+STAT: loads: sum=67526, av=18
+STAT: distr: av=2315, 2av=932, 4av=297, 8av=59, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5816(+2208)
+f_limit=46
+[Stat:loop] 274088
+[Stat:nodes_evaluated] 5790552
+STAT: loads: sum=274088, av=47
+STAT: distr: av=3680, 2av=1555, 4av=502, 8av=75, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9383(+3567)
+f_limit=48
+[Stat:loop] 1229963
+[Stat:nodes_evaluated] 28239978
+STAT: loads: sum=1229963, av=131
+STAT: distr: av=5622, 2av=2858, 4av=818, 8av=83, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=15356(+5973)
+f_limit=50
+[Stat:loop] 5737282
+[Stat:nodes_evaluated] 135555871
+STAT: loads: sum=5737282, av=373
+STAT: distr: av=8954, 2av=5033, 4av=1283, 8av=86, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=25267(+9911)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2249
+[Stat:solution_depth]=50
+[Timer:search] 0.342687
+[Stat:total_nodes_evaluated]171005089
+
+real	0m0.372s
+user	0m0.260s
+sys	0m0.108s
+LOG(state): depth=0, h=44, f=44, 10,2,8,4,15,0,1,14,11,13,3,6,9,7,5,12
+LOG: init_distr, cnt=2049
+f_limit=48
+[Stat:loop] 6661
+[Stat:nodes_evaluated] 50016
+STAT: loads: sum=6661, av=3
+STAT: distr: av=1346, 2av=311, 4av=262, 8av=114, 16av=12, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=2817(+768)
+f_limit=50
+[Stat:loop] 33215
+[Stat:nodes_evaluated] 486669
+STAT: loads: sum=33215, av=11
+STAT: distr: av=1750, 2av=696, 4av=273, 8av=73, 16av=20, 32av=4, 64av=1, 128av=0, more=0
+STAT: n_roots=4844(+2027)
+f_limit=52
+[Stat:loop] 186041
+[Stat:nodes_evaluated] 3782817
+STAT: loads: sum=186041, av=38
+STAT: distr: av=3439, 2av=832, 4av=391, 8av=135, 16av=42, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=8158(+3314)
+f_limit=54
+[Stat:loop] 1163798
+[Stat:nodes_evaluated] 26729370
+STAT: loads: sum=1163798, av=142
+STAT: distr: av=5431, 2av=1695, 4av=773, 8av=221, 16av=35, 32av=2, 64av=1, 128av=0, more=0
+STAT: n_roots=13848(+5690)
+f_limit=56
+[Stat:loop] 7326954
+[Stat:nodes_evaluated] 173787091
+STAT: loads: sum=7326954, av=529
+STAT: distr: av=8810, 2av=3333, 4av=1384, 8av=292, 16av=28, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=23427(+9579)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2341
+[Stat:solution_depth]=56
+[Timer:search] 0.400048
+[Stat:total_nodes_evaluated]204835963
+
+real	0m0.430s
+user	0m0.284s
+sys	0m0.140s
+LOG(state): depth=0, h=30, f=30, 14,4,0,10,6,5,1,3,9,2,13,15,12,7,8,11
+LOG: init_distr, cnt=2048
+f_limit=36
+[Stat:loop] 372
+[Stat:nodes_evaluated] 2364
+STAT: loads: sum=372, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2132(+84)
+f_limit=38
+[Stat:loop] 7235
+[Stat:nodes_evaluated] 45393
+STAT: loads: sum=7235, av=3
+STAT: distr: av=1174, 2av=631, 4av=247, 8av=71, 16av=8, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=2597(+465)
+f_limit=40
+[Stat:loop] 23588
+[Stat:nodes_evaluated] 285438
+STAT: loads: sum=23588, av=9
+STAT: distr: av=1611, 2av=746, 4av=195, 8av=42, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3847(+1250)
+f_limit=42
+[Stat:loop] 84490
+[Stat:nodes_evaluated] 1537074
+STAT: loads: sum=84490, av=21
+STAT: distr: av=2502, 2av=927, 4av=319, 8av=93, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6208(+2361)
+f_limit=44
+[Stat:loop] 359616
+[Stat:nodes_evaluated] 7806804
+STAT: loads: sum=359616, av=57
+STAT: distr: av=3859, 2av=1672, 4av=567, 8av=104, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10208(+4000)
+f_limit=46
+[Stat:loop] 1659714
+[Stat:nodes_evaluated] 38436453
+STAT: loads: sum=1659714, av=162
+STAT: distr: av=6100, 2av=3061, 4av=941, 8av=102, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=16881(+6673)
+f_limit=48
+[Stat:loop] 7809671
+[Stat:nodes_evaluated] 185074253
+STAT: loads: sum=7809671, av=462
+STAT: distr: av=9846, 2av=5471, 4av=1445, 8av=117, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=27787(+10906)
+find all the optimal solution(s), at depth=48
+[Stat:cpu_nodes_evaluated]=2069
+[Stat:solution_depth]=48
+[Timer:search] 0.442080
+[Stat:total_nodes_evaluated]233187779
+
+real	0m0.472s
+user	0m0.332s
+sys	0m0.140s
+LOG(state): depth=0, h=43, f=43, 11,0,15,8,13,12,3,5,10,1,4,6,14,9,7,2
+LOG: init_distr, cnt=2048
+f_limit=49
+[Stat:loop] 4234
+[Stat:nodes_evaluated] 35997
+STAT: loads: sum=4234, av=2
+STAT: distr: av=1495, 2av=193, 4av=178, 8av=109, 16av=70, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=3129(+1081)
+f_limit=51
+[Stat:loop] 30451
+[Stat:nodes_evaluated] 425892
+STAT: loads: sum=30451, av=9
+STAT: distr: av=2110, 2av=513, 4av=365, 8av=114, 16av=18, 32av=8, 64av=1, 128av=0, more=0
+STAT: n_roots=5465(+2336)
+f_limit=53
+[Stat:loop] 188039
+[Stat:nodes_evaluated] 3749811
+STAT: loads: sum=188039, av=34
+STAT: distr: av=3968, 2av=808, 4av=442, 8av=194, 16av=45, 32av=8, 64av=0, 128av=0, more=0
+STAT: n_roots=9197(+3732)
+f_limit=55
+[Stat:loop] 1263188
+[Stat:nodes_evaluated] 28952967
+STAT: loads: sum=1263188, av=137
+STAT: distr: av=6288, 2av=1710, 4av=875, 8av=250, 16av=66, 32av=8, 64av=0, 128av=0, more=0
+STAT: n_roots=15709(+6512)
+f_limit=57
+[Stat:loop] 8605995
+[Stat:nodes_evaluated] 204208699
+STAT: loads: sum=8605995, av=547
+STAT: distr: av=10159, 2av=3628, 4av=1489, 8av=357, 16av=71, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=26752(+11043)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2331
+[Stat:solution_depth]=57
+[Timer:search] 0.456545
+[Stat:total_nodes_evaluated]237373366
+
+real	0m0.487s
+user	0m0.316s
+sys	0m0.168s
+LOG(state): depth=0, h=38, f=38, 11,1,7,4,10,13,3,8,9,14,0,15,6,5,2,12
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 5366
+[Stat:nodes_evaluated] 27882
+STAT: loads: sum=5366, av=2
+STAT: distr: av=1048, 2av=469, 4av=362, 8av=148, 16av=21, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2517(+469)
+f_limit=46
+[Stat:loop] 19210
+[Stat:nodes_evaluated] 210474
+STAT: loads: sum=19210, av=7
+STAT: distr: av=1335, 2av=778, 4av=362, 8av=39, 16av=2, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3867(+1350)
+f_limit=48
+[Stat:loop] 74851
+[Stat:nodes_evaluated] 1308126
+STAT: loads: sum=74851, av=19
+STAT: distr: av=2420, 2av=1002, 4av=358, 8av=83, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6297(+2430)
+f_limit=50
+[Stat:loop] 345238
+[Stat:nodes_evaluated] 7413600
+STAT: loads: sum=345238, av=54
+STAT: distr: av=3873, 2av=1694, 4av=595, 8av=129, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10586(+4289)
+f_limit=52
+[Stat:loop] 1789506
+[Stat:nodes_evaluated] 41433402
+STAT: loads: sum=1789506, av=169
+STAT: distr: av=6342, 2av=3047, 4av=1064, 8av=128, 16av=4, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=17751(+7165)
+f_limit=54
+[Stat:loop] 9542748
+[Stat:nodes_evaluated] 226474142
+STAT: loads: sum=9542748, av=537
+STAT: distr: av=10384, 2av=5397, 4av=1833, 8av=132, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=29630(+11879)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2235
+[Stat:solution_depth]=54
+[Timer:search] 0.484027
+[Stat:total_nodes_evaluated]276867626
+
+real	0m0.513s
+user	0m0.332s
+sys	0m0.180s
+LOG(state): depth=0, h=43, f=43, 13,5,4,10,9,12,8,14,2,3,7,1,0,15,11,6
+LOG: init_distr, cnt=2049
+f_limit=47
+[Stat:loop] 572
+[Stat:nodes_evaluated] 9375
+STAT: loads: sum=572, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2560(+511)
+f_limit=49
+[Stat:loop] 17640
+[Stat:nodes_evaluated] 183399
+STAT: loads: sum=17640, av=6
+STAT: distr: av=1729, 2av=527, 4av=241, 8av=46, 16av=8, 32av=4, 64av=2, 128av=2, more=1
+STAT: n_roots=4028(+1468)
+f_limit=51
+[Stat:loop] 96993
+[Stat:nodes_evaluated] 1755555
+STAT: loads: sum=96993, av=24
+STAT: distr: av=3278, 2av=471, 4av=167, 8av=72, 16av=23, 32av=10, 64av=1, 128av=4, more=2
+STAT: n_roots=6588(+2560)
+f_limit=53
+[Stat:loop] 630048
+[Stat:nodes_evaluated] 14142870
+STAT: loads: sum=630048, av=95
+STAT: distr: av=5067, 2av=897, 4av=375, 8av=163, 16av=57, 32av=18, 64av=6, 128av=4, more=1
+STAT: n_roots=11151(+4563)
+f_limit=55
+[Stat:loop] 4297840
+[Stat:nodes_evaluated] 101502757
+STAT: loads: sum=4297840, av=385
+STAT: distr: av=7956, 2av=2015, 4av=849, 8av=220, 16av=80, 32av=18, 64av=10, 128av=3, more=0
+STAT: n_roots=19023(+7872)
+find all the optimal solution(s), at depth=55
+[Stat:cpu_nodes_evaluated]=2439
+[Stat:solution_depth]=55
+[Timer:search] 0.373317
+[Stat:total_nodes_evaluated]117593956
+
+real	0m0.402s
+user	0m0.268s
+sys	0m0.132s
+LOG(state): depth=0, h=39, f=39, 1,6,12,14,3,2,15,8,4,5,13,9,0,7,11,10
+LOG: init_distr, cnt=2048
+f_limit=45
+[Stat:loop] 754
+[Stat:nodes_evaluated] 8073
+STAT: loads: sum=754, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2476(+428)
+f_limit=47
+[Stat:loop] 12844
+[Stat:nodes_evaluated] 121095
+STAT: loads: sum=12844, av=5
+STAT: distr: av=1623, 2av=539, 4av=236, 8av=57, 16av=16, 32av=3, 64av=2, 128av=0, more=0
+STAT: n_roots=3458(+982)
+f_limit=49
+[Stat:loop] 56890
+[Stat:nodes_evaluated] 939879
+STAT: loads: sum=56890, av=16
+STAT: distr: av=2507, 2av=613, 4av=218, 8av=101, 16av=11, 32av=6, 64av=2, 128av=0, more=0
+STAT: n_roots=5623(+2165)
+f_limit=51
+[Stat:loop] 292610
+[Stat:nodes_evaluated] 6278274
+STAT: loads: sum=292610, av=52
+STAT: distr: av=3969, 2av=1030, 4av=434, 8av=150, 16av=33, 32av=5, 64av=2, 128av=0, more=0
+STAT: n_roots=9165(+3542)
+f_limit=53
+[Stat:loop] 1654099
+[Stat:nodes_evaluated] 38433198
+STAT: loads: sum=1654099, av=180
+STAT: distr: av=6037, 2av=2099, 4av=789, 8av=203, 16av=31, 32av=4, 64av=2, 128av=0, more=0
+STAT: n_roots=15297(+6132)
+f_limit=55
+[Stat:loop] 9513645
+[Stat:nodes_evaluated] 226156283
+STAT: loads: sum=9513645, av=621
+STAT: distr: av=9558, 2av=4149, 4av=1311, 8av=237, 16av=37, 32av=3, 64av=2, 128av=0, more=0
+STAT: n_roots=25459(+10162)
+find all the optimal solution(s), at depth=55
+[Stat:cpu_nodes_evaluated]=2370
+[Stat:solution_depth]=55
+[Timer:search] 0.599701
+[Stat:total_nodes_evaluated]271936802
+
+real	0m0.630s
+user	0m0.388s
+sys	0m0.240s
+LOG(state): depth=0, h=37, f=37, 6,0,5,15,1,14,4,9,2,13,8,10,11,12,7,3
+LOG: init_distr, cnt=2048
+f_limit=43
+[Stat:loop] 6191
+[Stat:nodes_evaluated] 33192
+STAT: loads: sum=6191, av=3
+STAT: distr: av=1240, 2av=466, 4av=255, 8av=85, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2497(+449)
+f_limit=45
+[Stat:loop] 20833
+[Stat:nodes_evaluated] 241944
+STAT: loads: sum=20833, av=8
+STAT: distr: av=1413, 2av=756, 4av=283, 8av=42, 16av=2, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3908(+1411)
+f_limit=47
+[Stat:loop] 83190
+[Stat:nodes_evaluated] 1496214
+STAT: loads: sum=83190, av=21
+STAT: distr: av=2544, 2av=927, 4av=368, 8av=56, 16av=12, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=6458(+2550)
+f_limit=49
+[Stat:loop] 397982
+[Stat:nodes_evaluated] 8663364
+STAT: loads: sum=397982, av=61
+STAT: distr: av=4101, 2av=1619, 4av=612, 8av=106, 16av=19, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=10809(+4351)
+f_limit=51
+[Stat:loop] 2047918
+[Stat:nodes_evaluated] 47620182
+STAT: loads: sum=2047918, av=189
+STAT: distr: av=6612, 2av=3012, 4av=1022, 8av=150, 16av=12, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=18062(+7253)
+f_limit=53
+[Stat:loop] 10518733
+[Stat:nodes_evaluated] 249854600
+STAT: loads: sum=10518733, av=582
+STAT: distr: av=10762, 2av=5435, 4av=1680, 8av=180, 16av=4, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=29926(+11864)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2171
+[Stat:solution_depth]=53
+[Timer:search] 0.564262
+[Stat:total_nodes_evaluated]307909496
+
+real	0m0.595s
+user	0m0.348s
+sys	0m0.244s
+LOG(state): depth=0, h=38, f=38, 9,8,0,2,15,1,4,14,3,10,7,5,11,13,6,12
+LOG: init_distr, cnt=2049
+f_limit=44
+[Stat:loop] 3095
+[Stat:nodes_evaluated] 20958
+STAT: loads: sum=3095, av=1
+STAT: distr: av=1338, 2av=195, 4av=239, 8av=147, 16av=114, 32av=14, 64av=1, 128av=1, more=0
+STAT: n_roots=2972(+923)
+f_limit=46
+[Stat:loop] 17172
+[Stat:nodes_evaluated] 175653
+STAT: loads: sum=17172, av=5
+STAT: distr: av=1775, 2av=653, 4av=445, 8av=77, 16av=18, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=4456(+1484)
+f_limit=48
+[Stat:loop] 69939
+[Stat:nodes_evaluated] 1158450
+STAT: loads: sum=69939, av=15
+STAT: distr: av=2939, 2av=987, 4av=403, 8av=99, 16av=23, 32av=4, 64av=1, 128av=0, more=0
+STAT: n_roots=7389(+2933)
+f_limit=50
+[Stat:loop] 335278
+[Stat:nodes_evaluated] 7057779
+STAT: loads: sum=335278, av=45
+STAT: distr: av=4991, 2av=1508, 4av=667, 8av=185, 16av=33, 32av=4, 64av=1, 128av=0, more=0
+STAT: n_roots=12228(+4839)
+f_limit=52
+[Stat:loop] 1763300
+[Stat:nodes_evaluated] 40611288
+STAT: loads: sum=1763300, av=144
+STAT: distr: av=7790, 2av=3023, 4av=1149, 8av=233, 16av=32, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=20289(+8061)
+f_limit=54
+[Stat:loop] 9552048
+[Stat:nodes_evaluated] 226375632
+STAT: loads: sum=9552048, av=470
+STAT: distr: av=12410, 2av=5680, 4av=1876, 8av=297, 16av=26, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=33838(+13549)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2269
+[Stat:solution_depth]=54
+[Timer:search] 0.509321
+[Stat:total_nodes_evaluated]275399760
+
+real	0m0.540s
+user	0m0.380s
+sys	0m0.156s
+LOG(state): depth=0, h=34, f=34, 7,3,14,13,4,1,10,8,5,12,9,11,2,15,6,0
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 610
+[Stat:nodes_evaluated] 2859
+STAT: loads: sum=610, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2120(+72)
+f_limit=44
+[Stat:loop] 7716
+[Stat:nodes_evaluated] 44496
+STAT: loads: sum=7716, av=3
+STAT: distr: av=1117, 2av=618, 4av=314, 8av=68, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2507(+387)
+f_limit=46
+[Stat:loop] 23459
+[Stat:nodes_evaluated] 270537
+STAT: loads: sum=23459, av=9
+STAT: distr: av=1405, 2av=905, 4av=169, 8av=27, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3844(+1337)
+f_limit=48
+[Stat:loop] 82556
+[Stat:nodes_evaluated] 1491972
+STAT: loads: sum=82556, av=21
+STAT: distr: av=2496, 2av=956, 4av=323, 8av=67, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6177(+2333)
+f_limit=50
+[Stat:loop] 368986
+[Stat:nodes_evaluated] 8024604
+STAT: loads: sum=368986, av=59
+STAT: distr: av=3781, 2av=1788, 4av=530, 8av=76, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10193(+4016)
+f_limit=52
+[Stat:loop] 1858235
+[Stat:nodes_evaluated] 43179084
+STAT: loads: sum=1858235, av=182
+STAT: distr: av=6024, 2av=3188, 4av=898, 8av=82, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=16849(+6656)
+f_limit=54
+[Stat:loop] 9712163
+[Stat:nodes_evaluated] 230698610
+STAT: loads: sum=9712163, av=576
+STAT: distr: av=9684, 2av=5656, 4av=1441, 8av=68, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=27894(+11045)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2210
+[Stat:solution_depth]=54
+[Timer:search] 0.523113
+[Stat:total_nodes_evaluated]283712162
+
+real	0m0.557s
+user	0m0.360s
+sys	0m0.196s
+LOG(state): depth=0, h=34, f=34, 9,5,11,10,13,0,2,1,8,6,14,12,4,7,3,15
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 93
+[Stat:nodes_evaluated] 660
+STAT: loads: sum=93, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2095(+47)
+f_limit=42
+[Stat:loop] 6620
+[Stat:nodes_evaluated] 37245
+STAT: loads: sum=6620, av=3
+STAT: distr: av=1013, 2av=813, 4av=222, 8av=45, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2369(+274)
+f_limit=44
+[Stat:loop] 21103
+[Stat:nodes_evaluated] 261018
+STAT: loads: sum=21103, av=8
+STAT: distr: av=1235, 2av=860, 4av=254, 8av=15, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3582(+1213)
+f_limit=46
+[Stat:loop] 82988
+[Stat:nodes_evaluated] 1555158
+STAT: loads: sum=82988, av=23
+STAT: distr: av=2285, 2av=931, 4av=315, 8av=45, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5723(+2141)
+f_limit=48
+[Stat:loop] 404216
+[Stat:nodes_evaluated] 8948718
+STAT: loads: sum=404216, av=70
+STAT: distr: av=3486, 2av=1648, 4av=508, 8av=78, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9406(+3683)
+f_limit=50
+[Stat:loop] 2134860
+[Stat:nodes_evaluated] 49958550
+STAT: loads: sum=2134860, av=226
+STAT: distr: av=5629, 2av=2841, 4av=843, 8av=87, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=15498(+6092)
+f_limit=52
+[Stat:loop] 11460192
+[Stat:nodes_evaluated] 272911819
+STAT: loads: sum=11460192, av=739
+STAT: distr: av=9031, 2av=5028, 4av=1342, 8av=97, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=25469(+9971)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2193
+[Stat:solution_depth]=52
+[Timer:search] 0.571095
+[Stat:total_nodes_evaluated]333673168
+
+real	0m0.602s
+user	0m0.352s
+sys	0m0.248s
+LOG(state): depth=0, h=31, f=31, 5,2,14,0,7,8,6,3,11,12,13,15,4,10,9,1
+LOG: init_distr, cnt=2049
+f_limit=39
+[Stat:loop] 1901
+[Stat:nodes_evaluated] 10332
+STAT: loads: sum=1901, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2318(+269)
+f_limit=41
+[Stat:loop] 10608
+[Stat:nodes_evaluated] 88686
+STAT: loads: sum=10608, av=4
+STAT: distr: av=1294, 2av=567, 4av=376, 8av=71, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3101(+783)
+f_limit=43
+[Stat:loop] 36010
+[Stat:nodes_evaluated] 514800
+STAT: loads: sum=36010, av=11
+STAT: distr: av=1827, 2av=869, 4av=343, 8av=60, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5152(+2051)
+f_limit=45
+[Stat:loop] 139692
+[Stat:nodes_evaluated] 2688033
+STAT: loads: sum=139692, av=27
+STAT: distr: av=3378, 2av=1136, 4av=539, 8av=93, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8298(+3146)
+f_limit=47
+[Stat:loop] 606891
+[Stat:nodes_evaluated] 13447482
+STAT: loads: sum=606891, av=73
+STAT: distr: av=5127, 2av=2214, 4av=857, 8av=95, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=13708(+5410)
+f_limit=49
+[Stat:loop] 2841449
+[Stat:nodes_evaluated] 66305556
+STAT: loads: sum=2841449, av=207
+STAT: distr: av=8097, 2av=4157, 4av=1337, 8av=113, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=22710(+9002)
+f_limit=51
+[Stat:loop] 13492695
+[Stat:nodes_evaluated] 320623964
+STAT: loads: sum=13492695, av=594
+STAT: distr: av=13069, 2av=7409, 4av=2126, 8av=106, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37477(+14767)
+find all the optimal solution(s), at depth=51
+[Stat:cpu_nodes_evaluated]=2216
+[Stat:solution_depth]=51
+[Timer:search] 0.696215
+[Stat:total_nodes_evaluated]403678853
+
+real	0m0.726s
+user	0m0.436s
+sys	0m0.288s
+LOG(state): depth=0, h=38, f=38, 11,4,0,8,6,10,5,13,12,7,14,3,1,2,9,15
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 1490
+[Stat:nodes_evaluated] 11520
+STAT: loads: sum=1490, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2628(+580)
+f_limit=46
+[Stat:loop] 14136
+[Stat:nodes_evaluated] 133479
+STAT: loads: sum=14136, av=5
+STAT: distr: av=1698, 2av=507, 4av=319, 8av=88, 16av=15, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3863(+1235)
+f_limit=48
+[Stat:loop] 60241
+[Stat:nodes_evaluated] 973440
+STAT: loads: sum=60241, av=15
+STAT: distr: av=2546, 2av=882, 4av=309, 8av=111, 16av=13, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=6468(+2605)
+f_limit=50
+[Stat:loop] 300850
+[Stat:nodes_evaluated] 6322014
+STAT: loads: sum=300850, av=46
+STAT: distr: av=4391, 2av=1287, 4av=587, 8av=172, 16av=29, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=10778(+4310)
+f_limit=52
+[Stat:loop] 1665871
+[Stat:nodes_evaluated] 38438562
+STAT: loads: sum=1665871, av=154
+STAT: distr: av=6886, 2av=2609, 4av=1022, 8av=223, 16av=35, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=18230(+7452)
+f_limit=54
+[Stat:loop] 9503307
+[Stat:nodes_evaluated] 225429008
+STAT: loads: sum=9503307, av=521
+STAT: distr: av=11233, 2av=4942, 4av=1764, 8av=258, 16av=32, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=30532(+12302)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2205
+[Stat:solution_depth]=54
+[Timer:search] 0.505123
+[Stat:total_nodes_evaluated]271308023
+
+real	0m0.536s
+user	0m0.408s
+sys	0m0.128s
+LOG(state): depth=0, h=31, f=31, 7,3,1,13,12,10,5,2,8,0,6,11,14,15,4,9
+LOG: init_distr, cnt=2048
+f_limit=39
+[Stat:loop] 2707
+[Stat:nodes_evaluated] 11274
+STAT: loads: sum=2707, av=1
+STAT: distr: av=1194, 2av=208, 4av=374, 8av=224, 16av=47, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2211(+163)
+f_limit=41
+[Stat:loop] 10793
+[Stat:nodes_evaluated] 81357
+STAT: loads: sum=10793, av=4
+STAT: distr: av=1092, 2av=629, 4av=449, 8av=39, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2862(+651)
+f_limit=43
+[Stat:loop] 32232
+[Stat:nodes_evaluated] 439599
+STAT: loads: sum=32232, av=11
+STAT: distr: av=1673, 2av=877, 4av=291, 8av=21, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4639(+1777)
+f_limit=45
+[Stat:loop] 117811
+[Stat:nodes_evaluated] 2228817
+STAT: loads: sum=117811, av=25
+STAT: distr: av=2927, 2av=1184, 4av=480, 8av=46, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7471(+2832)
+f_limit=47
+[Stat:loop] 512563
+[Stat:nodes_evaluated] 11288688
+STAT: loads: sum=512563, av=68
+STAT: distr: av=4374, 2av=2391, 4av=652, 8av=51, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12376(+4905)
+f_limit=49
+[Stat:loop] 2420414
+[Stat:nodes_evaluated] 56368674
+STAT: loads: sum=2420414, av=195
+STAT: distr: av=7144, 2av=4173, 4av=1025, 8av=33, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=20390(+8014)
+f_limit=51
+[Stat:loop] 11746002
+[Stat:nodes_evaluated] 279022771
+STAT: loads: sum=11746002, av=576
+STAT: distr: av=11524, 2av=7357, 4av=1466, 8av=43, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=33465(+13075)
+find all the optimal solution(s), at depth=51
+[Stat:cpu_nodes_evaluated]=2216
+[Stat:solution_depth]=51
+[Timer:search] 0.614028
+[Stat:total_nodes_evaluated]349441180
+
+real	0m0.644s
+user	0m0.416s
+sys	0m0.228s
+LOG(state): depth=0, h=36, f=36, 8,13,10,9,11,3,15,6,0,1,2,14,12,5,4,7
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 4526
+[Stat:nodes_evaluated] 24108
+STAT: loads: sum=4526, av=2
+STAT: distr: av=1223, 2av=366, 4av=315, 8av=121, 16av=23, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2549(+501)
+f_limit=46
+[Stat:loop] 18535
+[Stat:nodes_evaluated] 203844
+STAT: loads: sum=18535, av=7
+STAT: distr: av=1502, 2av=639, 4av=357, 8av=49, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3927(+1378)
+f_limit=48
+[Stat:loop] 78317
+[Stat:nodes_evaluated] 1372065
+STAT: loads: sum=78317, av=19
+STAT: distr: av=2484, 2av=933, 4av=413, 8av=87, 16av=9, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=6633(+2706)
+f_limit=50
+[Stat:loop] 400093
+[Stat:nodes_evaluated] 8668980
+STAT: loads: sum=400093, av=60
+STAT: distr: av=4237, 2av=1585, 4av=653, 8av=143, 16av=15, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=11125(+4492)
+f_limit=52
+[Stat:loop] 2263624
+[Stat:nodes_evaluated] 52733850
+STAT: loads: sum=2263624, av=203
+STAT: distr: av=6845, 2av=2979, 4av=1088, 8av=201, 16av=11, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=18729(+7604)
+f_limit=54
+[Stat:loop] 12990772
+[Stat:nodes_evaluated] 309040759
+STAT: loads: sum=12990772, av=693
+STAT: distr: av=11325, 2av=5300, 4av=1872, 8av=216, 16av=15, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=31371(+12642)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2105
+[Stat:solution_depth]=54
+[Timer:search] 0.653031
+[Stat:total_nodes_evaluated]372043606
+
+real	0m0.686s
+user	0m0.472s
+sys	0m0.212s
+LOG(state): depth=0, h=39, f=39, 7,15,4,0,10,9,2,5,12,11,13,6,1,3,14,8
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 2554
+[Stat:nodes_evaluated] 14943
+STAT: loads: sum=2554, av=1
+STAT: distr: av=1474, 2av=113, 4av=190, 8av=183, 16av=81, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=2576(+528)
+f_limit=49
+[Stat:loop] 15120
+[Stat:nodes_evaluated] 145083
+STAT: loads: sum=15120, av=5
+STAT: distr: av=1428, 2av=662, 4av=393, 8av=86, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3800(+1224)
+f_limit=51
+[Stat:loop] 62010
+[Stat:nodes_evaluated] 1027182
+STAT: loads: sum=62010, av=16
+STAT: distr: av=2561, 2av=803, 4av=339, 8av=88, 16av=7, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=6145(+2345)
+f_limit=53
+[Stat:loop] 315697
+[Stat:nodes_evaluated] 6772827
+STAT: loads: sum=315697, av=51
+STAT: distr: av=4075, 2av=1337, 4av=591, 8av=125, 16av=13, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=10172(+4027)
+f_limit=55
+[Stat:loop] 1851720
+[Stat:nodes_evaluated] 43066050
+STAT: loads: sum=1851720, av=182
+STAT: distr: av=6407, 2av=2673, 4av=912, 8av=161, 16av=16, 32av=2, 64av=1, 128av=0, more=0
+STAT: n_roots=16963(+6791)
+f_limit=57
+[Stat:loop] 11139199
+[Stat:nodes_evaluated] 264980445
+STAT: loads: sum=11139199, av=656
+STAT: distr: av=10364, 2av=4873, 4av=1494, 8av=213, 16av=17, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=28239(+11276)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2371
+[Stat:solution_depth]=57
+[Timer:search] 0.618128
+[Stat:total_nodes_evaluated]316006530
+
+real	0m0.649s
+user	0m0.436s
+sys	0m0.208s
+LOG(state): depth=0, h=36, f=36, 11,5,1,14,4,12,10,0,2,7,13,3,9,15,6,8
+LOG: init_distr, cnt=2049
+f_limit=42
+[Stat:loop] 217
+[Stat:nodes_evaluated] 1410
+STAT: loads: sum=217, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2132(+83)
+f_limit=44
+[Stat:loop] 8532
+[Stat:nodes_evaluated] 45522
+STAT: loads: sum=8532, av=4
+STAT: distr: av=1356, 2av=473, 4av=264, 8av=37, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2610(+478)
+f_limit=46
+[Stat:loop] 27316
+[Stat:nodes_evaluated] 324756
+STAT: loads: sum=27316, av=10
+STAT: distr: av=1486, 2av=905, 4av=177, 8av=35, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4283(+1673)
+f_limit=48
+[Stat:loop] 108713
+[Stat:nodes_evaluated] 2003181
+STAT: loads: sum=108713, av=25
+STAT: distr: av=2906, 2av=939, 4av=340, 8av=86, 16av=10, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=6838(+2555)
+f_limit=50
+[Stat:loop] 533818
+[Stat:nodes_evaluated] 11828805
+STAT: loads: sum=533818, av=78
+STAT: distr: av=4332, 2av=1759, 4av=625, 8av=110, 16av=10, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=11283(+4445)
+f_limit=52
+[Stat:loop] 2869916
+[Stat:nodes_evaluated] 67235715
+STAT: loads: sum=2869916, av=254
+STAT: distr: av=6845, 2av=3277, 4av=1035, 8av=120, 16av=4, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=18739(+7456)
+f_limit=54
+[Stat:loop] 15709376
+[Stat:nodes_evaluated] 374283233
+STAT: loads: sum=15709376, av=838
+STAT: distr: av=11029, 2av=5923, 4av=1659, 8av=125, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=31010(+12271)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2226
+[Stat:solution_depth]=54
+[Timer:search] 0.761164
+[Stat:total_nodes_evaluated]455722622
+
+real	0m0.792s
+user	0m0.516s
+sys	0m0.272s
+LOG(state): depth=0, h=32, f=32, 11,4,2,7,1,0,10,15,6,9,14,8,3,13,5,12
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 3114
+[Stat:nodes_evaluated] 14874
+STAT: loads: sum=3114, av=1
+STAT: distr: av=1006, 2av=458, 4av=261, 8av=250, 16av=72, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2256(+208)
+f_limit=42
+[Stat:loop] 11925
+[Stat:nodes_evaluated] 107373
+STAT: loads: sum=11925, av=5
+STAT: distr: av=1215, 2av=678, 4av=328, 8av=32, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2989(+733)
+f_limit=44
+[Stat:loop] 37807
+[Stat:nodes_evaluated] 566544
+STAT: loads: sum=37807, av=12
+STAT: distr: av=1723, 2av=887, 4av=341, 8av=37, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4951(+1962)
+f_limit=46
+[Stat:loop] 147367
+[Stat:nodes_evaluated] 2894508
+STAT: loads: sum=147367, av=29
+STAT: distr: av=3074, 2av=1263, 4av=538, 8av=76, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8177(+3226)
+f_limit=48
+[Stat:loop] 665354
+[Stat:nodes_evaluated] 14872143
+STAT: loads: sum=665354, av=81
+STAT: distr: av=4937, 2av=2341, 4av=805, 8av=90, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=13502(+5325)
+f_limit=50
+[Stat:loop] 3218769
+[Stat:nodes_evaluated] 75363237
+STAT: loads: sum=3218769, av=238
+STAT: distr: av=7896, 2av=4181, 4av=1327, 8av=96, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=22506(+9004)
+f_limit=52
+[Stat:loop] 15963807
+[Stat:nodes_evaluated] 379970027
+STAT: loads: sum=15963807, av=709
+STAT: distr: av=12961, 2av=7375, 4av=2064, 8av=104, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37410(+14904)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2305
+[Stat:solution_depth]=52
+[Timer:search] 0.786522
+[Stat:total_nodes_evaluated]473788706
+
+real	0m0.817s
+user	0m0.520s
+sys	0m0.296s
+LOG(state): depth=0, h=34, f=34, 12,8,14,6,11,4,7,0,5,1,10,15,3,13,9,2
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 1454
+[Stat:nodes_evaluated] 6948
+STAT: loads: sum=1454, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2297(+249)
+f_limit=44
+[Stat:loop] 9406
+[Stat:nodes_evaluated] 63090
+STAT: loads: sum=9406, av=4
+STAT: distr: av=1311, 2av=647, 4av=306, 8av=33, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2815(+518)
+f_limit=46
+[Stat:loop] 29001
+[Stat:nodes_evaluated] 365754
+STAT: loads: sum=29001, av=10
+STAT: distr: av=1613, 2av=920, 4av=249, 8av=33, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4552(+1737)
+f_limit=48
+[Stat:loop] 105456
+[Stat:nodes_evaluated] 1933479
+STAT: loads: sum=105456, av=23
+STAT: distr: av=2987, 2av=1053, 4av=441, 8av=70, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7261(+2709)
+f_limit=50
+[Stat:loop] 463477
+[Stat:nodes_evaluated] 10139406
+STAT: loads: sum=463477, av=63
+STAT: distr: av=4433, 2av=2045, 4av=702, 8av=80, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12010(+4749)
+f_limit=52
+[Stat:loop] 2270470
+[Stat:nodes_evaluated] 52806678
+STAT: loads: sum=2270470, av=189
+STAT: distr: av=7032, 2av=3834, 4av=1048, 8av=94, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=19950(+7940)
+f_limit=54
+[Stat:loop] 11499527
+[Stat:nodes_evaluated] 273149016
+STAT: loads: sum=11499527, av=576
+STAT: distr: av=11385, 2av=6799, 4av=1687, 8av=79, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=33136(+13186)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2341
+[Stat:solution_depth]=54
+[Timer:search] 0.592179
+[Stat:total_nodes_evaluated]338464371
+
+real	0m0.623s
+user	0m0.396s
+sys	0m0.224s
+LOG(state): depth=0, h=48, f=48, 11,15,14,13,1,9,10,4,3,6,2,12,7,5,8,0
+LOG: init_distr, cnt=2048
+f_limit=56
+[Stat:loop] 6855
+[Stat:nodes_evaluated] 47352
+STAT: loads: sum=6855, av=3
+STAT: distr: av=1094, 2av=509, 4av=369, 8av=69, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2539(+491)
+f_limit=58
+[Stat:loop] 34130
+[Stat:nodes_evaluated] 544791
+STAT: loads: sum=34130, av=13
+STAT: distr: av=1648, 2av=587, 4av=231, 8av=59, 16av=11, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=4333(+1794)
+f_limit=60
+[Stat:loop] 248127
+[Stat:nodes_evaluated] 5370225
+STAT: loads: sum=248127, av=57
+STAT: distr: av=3011, 2av=782, 4av=389, 8av=115, 16av=33, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=7322(+2989)
+f_limit=62
+[Stat:loop] 2130039
+[Stat:nodes_evaluated] 50063400
+STAT: loads: sum=2130039, av=290
+STAT: distr: av=4751, 2av=1607, 4av=769, 8av=169, 16av=24, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=12485(+5163)
+f_limit=64
+[Stat:loop] 18483444
+[Stat:nodes_evaluated] 441935326
+STAT: loads: sum=18483444, av=1480
+STAT: distr: av=7811, 2av=3192, 4av=1224, 8av=235, 16av=21, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=21226(+8741)
+find all the optimal solution(s), at depth=64
+[Stat:cpu_nodes_evaluated]=2543
+[Stat:solution_depth]=64
+[Timer:search] 0.860350
+[Stat:total_nodes_evaluated]497961094
+
+real	0m0.891s
+user	0m0.580s
+sys	0m0.308s
+LOG(state): depth=0, h=30, f=30, 2,11,15,5,13,4,6,7,12,8,10,1,9,3,14,0
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 2003
+[Stat:nodes_evaluated] 9303
+STAT: loads: sum=2003, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2321(+273)
+f_limit=42
+[Stat:loop] 10350
+[Stat:nodes_evaluated] 81840
+STAT: loads: sum=10350, av=4
+STAT: distr: av=1309, 2av=592, 4av=351, 8av=66, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3047(+726)
+f_limit=44
+[Stat:loop] 35179
+[Stat:nodes_evaluated] 496488
+STAT: loads: sum=35179, av=11
+STAT: distr: av=1822, 2av=840, 4av=331, 8av=51, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4976(+1929)
+f_limit=46
+[Stat:loop] 143893
+[Stat:nodes_evaluated] 2808855
+STAT: loads: sum=143893, av=28
+STAT: distr: av=3236, 2av=1149, 4av=486, 8av=94, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=8212(+3236)
+f_limit=48
+[Stat:loop] 700384
+[Stat:nodes_evaluated] 15706266
+STAT: loads: sum=700384, av=85
+STAT: distr: av=5158, 2av=2089, 4av=833, 8av=121, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=13615(+5403)
+f_limit=50
+[Stat:loop] 3623750
+[Stat:nodes_evaluated] 85088211
+STAT: loads: sum=3623750, av=266
+STAT: distr: av=8346, 2av=3812, 4av=1279, 8av=172, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=22438(+8823)
+f_limit=52
+[Stat:loop] 18834048
+[Stat:nodes_evaluated] 448850316
+STAT: loads: sum=18834048, av=839
+STAT: distr: av=13221, 2av=7023, 4av=1991, 8av=197, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37271(+14833)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2258
+[Stat:solution_depth]=52
+[Timer:search] 0.919531
+[Stat:total_nodes_evaluated]553041279
+
+real	0m0.955s
+user	0m0.576s
+sys	0m0.376s
+LOG(state): depth=0, h=41, f=41, 15,10,8,3,0,6,9,5,1,14,13,11,7,2,12,4
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 6168
+[Stat:nodes_evaluated] 43110
+STAT: loads: sum=6168, av=3
+STAT: distr: av=1407, 2av=303, 4av=234, 8av=92, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2641(+593)
+f_limit=49
+[Stat:loop] 25829
+[Stat:nodes_evaluated] 360825
+STAT: loads: sum=25829, av=9
+STAT: distr: av=1598, 2av=664, 4av=282, 8av=77, 16av=19, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4500(+1859)
+f_limit=51
+[Stat:loop] 125164
+[Stat:nodes_evaluated] 2422821
+STAT: loads: sum=125164, av=27
+STAT: distr: av=3102, 2av=795, 4av=442, 8av=140, 16av=20, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=7523(+3023)
+f_limit=53
+[Stat:loop] 663681
+[Stat:nodes_evaluated] 14900535
+STAT: loads: sum=663681, av=88
+STAT: distr: av=4992, 2av=1516, 4av=779, 8av=212, 16av=24, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12709(+5186)
+f_limit=55
+[Stat:loop] 3743426
+[Stat:nodes_evaluated] 88057593
+STAT: loads: sum=3743426, av=294
+STAT: distr: av=8007, 2av=3118, 4av=1285, 8av=280, 16av=17, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=21487(+8778)
+f_limit=57
+[Stat:loop] 21459758
+[Stat:nodes_evaluated] 511975579
+STAT: loads: sum=21459758, av=998
+STAT: distr: av=13253, 2av=5676, 4av=2180, 8av=360, 16av=18, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=36027(+14540)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2139
+[Stat:solution_depth]=57
+[Timer:search] 0.999288
+[Stat:total_nodes_evaluated]617760463
+
+real	0m1.033s
+user	0m0.692s
+sys	0m0.340s
+LOG(state): depth=0, h=40, f=40, 12,11,0,8,10,2,13,15,5,4,7,3,6,9,14,1
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 471
+[Stat:nodes_evaluated] 4506
+STAT: loads: sum=471, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2255(+207)
+f_limit=46
+[Stat:loop] 8728
+[Stat:nodes_evaluated] 65127
+STAT: loads: sum=8728, av=3
+STAT: distr: av=1195, 2av=648, 4av=310, 8av=77, 16av=23, 32av=0, 64av=1, 128av=1, more=0
+STAT: n_roots=2993(+738)
+f_limit=48
+[Stat:loop] 31757
+[Stat:nodes_evaluated] 423966
+STAT: loads: sum=31757, av=10
+STAT: distr: av=1829, 2av=873, 4av=216, 8av=59, 16av=12, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=4753(+1760)
+f_limit=50
+[Stat:loop] 129291
+[Stat:nodes_evaluated] 2503032
+STAT: loads: sum=129291, av=27
+STAT: distr: av=3322, 2av=914, 4av=382, 8av=110, 16av=23, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=7634(+2881)
+f_limit=52
+[Stat:loop] 647111
+[Stat:nodes_evaluated] 14510670
+STAT: loads: sum=647111, av=84
+STAT: distr: av=4974, 2av=1816, 4av=678, 8av=137, 16av=27, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=12621(+4987)
+f_limit=54
+[Stat:loop] 3477022
+[Stat:nodes_evaluated] 81706110
+STAT: loads: sum=3477022, av=275
+STAT: distr: av=7786, 2av=3527, 4av=1114, 8av=172, 16av=21, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=21030(+8409)
+f_limit=56
+[Stat:loop] 19026178
+[Stat:nodes_evaluated] 453659027
+STAT: loads: sum=19026178, av=904
+STAT: distr: av=12562, 2av=6453, 4av=1772, 8av=217, 16av=25, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=35023(+13993)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2352
+[Stat:solution_depth]=56
+[Timer:search] 0.900932
+[Stat:total_nodes_evaluated]552872438
+
+real	0m0.933s
+user	0m0.600s
+sys	0m0.332s
+LOG(state): depth=0, h=32, f=32, 12,11,15,3,8,0,4,2,6,13,9,5,14,1,10,7
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 3650
+[Stat:nodes_evaluated] 17442
+STAT: loads: sum=3650, av=1
+STAT: distr: av=843, 2av=457, 4av=371, 8av=289, 16av=84, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=2398(+350)
+f_limit=42
+[Stat:loop] 13324
+[Stat:nodes_evaluated] 124389
+STAT: loads: sum=13324, av=5
+STAT: distr: av=1273, 2av=700, 4av=377, 8av=48, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3270(+872)
+f_limit=44
+[Stat:loop] 44100
+[Stat:nodes_evaluated] 685950
+STAT: loads: sum=44100, av=13
+STAT: distr: av=1906, 2av=963, 4av=360, 8av=40, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5390(+2120)
+f_limit=46
+[Stat:loop] 178151
+[Stat:nodes_evaluated] 3582819
+STAT: loads: sum=178151, av=33
+STAT: distr: av=3384, 2av=1403, 4av=533, 8av=67, 16av=2, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=8800(+3410)
+f_limit=48
+[Stat:loop] 819987
+[Stat:nodes_evaluated] 18499260
+STAT: loads: sum=819987, av=93
+STAT: distr: av=5338, 2av=2488, 4av=877, 8av=94, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=14566(+5766)
+f_limit=50
+[Stat:loop] 3999007
+[Stat:nodes_evaluated] 93959215
+STAT: loads: sum=3999007, av=274
+STAT: distr: av=8522, 2av=4605, 4av=1328, 8av=108, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=24263(+9697)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2116
+[Stat:solution_depth]=50
+[Timer:search] 0.266262
+[Stat:total_nodes_evaluated]116869075
+
+real	0m0.300s
+user	0m0.196s
+sys	0m0.100s
+LOG(state): depth=0, h=30, f=30, 15,1,3,12,4,0,6,5,2,8,14,9,13,10,7,11
+LOG: init_distr, cnt=2048
+f_limit=40
+[Stat:loop] 5573
+[Stat:nodes_evaluated] 23559
+STAT: loads: sum=5573, av=2
+STAT: distr: av=749, 2av=746, 4av=441, 8av=109, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2283(+235)
+f_limit=42
+[Stat:loop] 15937
+[Stat:nodes_evaluated] 151374
+STAT: loads: sum=15937, av=6
+STAT: distr: av=1041, 2av=871, 4av=360, 8av=11, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3236(+953)
+f_limit=44
+[Stat:loop] 50659
+[Stat:nodes_evaluated] 813483
+STAT: loads: sum=50659, av=15
+STAT: distr: av=1842, 2av=1054, 4av=316, 8av=24, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5330(+2094)
+f_limit=46
+[Stat:loop] 207713
+[Stat:nodes_evaluated] 4265781
+STAT: loads: sum=207713, av=38
+STAT: distr: av=3210, 2av=1573, 4av=483, 8av=62, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8781(+3451)
+f_limit=48
+[Stat:loop] 967621
+[Stat:nodes_evaluated] 22003962
+STAT: loads: sum=967621, av=110
+STAT: distr: av=5245, 2av=2628, 4av=830, 8av=77, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=14508(+5727)
+f_limit=50
+[Stat:loop] 4786459
+[Stat:nodes_evaluated] 112829745
+STAT: loads: sum=4786459, av=329
+STAT: distr: av=8440, 2av=4661, 4av=1297, 8av=110, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=24056(+9548)
+f_limit=52
+[Stat:loop] 24070951
+[Stat:nodes_evaluated] 574324750
+STAT: loads: sum=24070951, av=1000
+STAT: distr: av=13764, 2av=8054, 4av=2106, 8av=131, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=39801(+15745)
+find all the optimal solution(s), at depth=52
+[Stat:cpu_nodes_evaluated]=2288
+[Stat:solution_depth]=52
+[Timer:search] 1.127885
+[Stat:total_nodes_evaluated]714412654
+
+real	0m1.161s
+user	0m0.800s
+sys	0m0.360s
+LOG(state): depth=0, h=28, f=28, 7,1,2,4,8,3,6,11,10,15,0,5,14,12,13,9
+LOG: init_distr, cnt=2048
+f_limit=36
+[Stat:loop] 1803
+[Stat:nodes_evaluated] 7209
+STAT: loads: sum=1803, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2161(+113)
+f_limit=38
+[Stat:loop] 8757
+[Stat:nodes_evaluated] 56436
+STAT: loads: sum=8757, av=4
+STAT: distr: av=1307, 2av=519, 4av=312, 8av=23, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2567(+406)
+f_limit=40
+[Stat:loop] 23584
+[Stat:nodes_evaluated] 278955
+STAT: loads: sum=23584, av=9
+STAT: distr: av=1473, 2av=833, 4av=245, 8av=16, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3860(+1293)
+f_limit=42
+[Stat:loop] 73365
+[Stat:nodes_evaluated] 1267728
+STAT: loads: sum=73365, av=19
+STAT: distr: av=2502, 2av=978, 4av=350, 8av=28, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5987(+2127)
+f_limit=44
+[Stat:loop] 269233
+[Stat:nodes_evaluated] 5674908
+STAT: loads: sum=269233, av=44
+STAT: distr: av=3528, 2av=1900, 4av=521, 8av=38, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9798(+3811)
+f_limit=46
+[Stat:loop] 1109714
+[Stat:nodes_evaluated] 25315587
+STAT: loads: sum=1109714, av=113
+STAT: distr: av=5622, 2av=3348, 4av=799, 8av=29, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=16031(+6233)
+f_limit=48
+[Stat:loop] 4760358
+[Stat:nodes_evaluated] 112052556
+STAT: loads: sum=4760358, av=296
+STAT: distr: av=8991, 2av=5890, 4av=1121, 8av=29, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=26284(+10253)
+f_limit=50
+[Stat:loop] 20857491
+[Stat:nodes_evaluated] 496933242
+STAT: loads: sum=20857491, av=793
+STAT: distr: av=14672, 2av=9916, 4av=1666, 8av=30, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=43020(+16736)
+find all the optimal solution(s), at depth=50
+[Stat:cpu_nodes_evaluated]=2147
+[Stat:solution_depth]=50
+[Timer:search] 1.042676
+[Stat:total_nodes_evaluated]641586621
+
+real	0m1.074s
+user	0m0.652s
+sys	0m0.420s
+LOG(state): depth=0, h=43, f=43, 5,9,13,14,6,3,7,12,10,8,4,0,15,2,11,1
+LOG: init_distr, cnt=2049
+f_limit=47
+[Stat:loop] 446
+[Stat:nodes_evaluated] 3954
+STAT: loads: sum=446, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2245(+196)
+f_limit=49
+[Stat:loop] 9630
+[Stat:nodes_evaluated] 74043
+STAT: loads: sum=9630, av=4
+STAT: distr: av=1431, 2av=473, 4av=279, 8av=50, 16av=10, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=2936(+691)
+f_limit=51
+[Stat:loop] 39278
+[Stat:nodes_evaluated] 594267
+STAT: loads: sum=39278, av=13
+STAT: distr: av=1940, 2av=703, 4av=221, 8av=60, 16av=9, 32av=2, 64av=1, 128av=0, more=0
+STAT: n_roots=4718(+1782)
+f_limit=53
+[Stat:loop] 195916
+[Stat:nodes_evaluated] 4090260
+STAT: loads: sum=195916, av=41
+STAT: distr: av=3221, 2av=965, 4av=412, 8av=92, 16av=25, 32av=1, 64av=2, 128av=0, more=0
+STAT: n_roots=7760(+3042)
+f_limit=55
+[Stat:loop] 1167001
+[Stat:nodes_evaluated] 26949024
+STAT: loads: sum=1167001, av=150
+STAT: distr: av=5061, 2av=1808, 4av=724, 8av=144, 16av=18, 32av=4, 64av=1, 128av=0, more=0
+STAT: n_roots=12949(+5189)
+f_limit=57
+[Stat:loop] 7283905
+[Stat:nodes_evaluated] 173000764
+STAT: loads: sum=7283905, av=562
+STAT: distr: av=8122, 2av=3443, 4av=1154, 8av=210, 16av=18, 32av=1, 64av=1, 128av=0, more=0
+STAT: n_roots=21531(+8582)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2368
+[Stat:solution_depth]=57
+[Timer:search] 0.432615
+[Stat:total_nodes_evaluated]204712312
+
+real	0m0.463s
+user	0m0.300s
+sys	0m0.156s
+LOG(state): depth=0, h=37, f=37, 15,8,10,7,0,12,14,1,5,9,6,3,13,11,4,2
+LOG: init_distr, cnt=2048
+f_limit=45
+[Stat:loop] 8177
+[Stat:nodes_evaluated] 46731
+STAT: loads: sum=8177, av=3
+STAT: distr: av=867, 2av=671, 4av=420, 8av=90, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2515(+467)
+f_limit=47
+[Stat:loop] 28943
+[Stat:nodes_evaluated] 395739
+STAT: loads: sum=28943, av=11
+STAT: distr: av=1422, 2av=837, 4av=223, 8av=33, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4175(+1660)
+f_limit=49
+[Stat:loop] 140724
+[Stat:nodes_evaluated] 2817828
+STAT: loads: sum=140724, av=33
+STAT: distr: av=2647, 2av=1052, 4av=396, 8av=72, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6925(+2750)
+f_limit=51
+[Stat:loop] 808964
+[Stat:nodes_evaluated] 18451608
+STAT: loads: sum=808964, av=116
+STAT: distr: av=4247, 2av=1881, 4av=693, 8av=101, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=11600(+4675)
+f_limit=53
+[Stat:loop] 4834017
+[Stat:nodes_evaluated] 114378444
+STAT: loads: sum=4834017, av=416
+STAT: distr: av=6912, 2av=3449, 4av=1108, 8av=127, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=19354(+7754)
+f_limit=55
+[Stat:loop] 28096879
+[Stat:nodes_evaluated] 671566870
+STAT: loads: sum=28096879, av=1451
+STAT: distr: av=11230, 2av=6242, 4av=1729, 8av=150, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=32309(+12955)
+find all the optimal solution(s), at depth=55
+[Stat:cpu_nodes_evaluated]=2374
+[Stat:solution_depth]=55
+[Timer:search] 1.277446
+[Stat:total_nodes_evaluated]807657220
+
+real	0m1.308s
+user	0m0.812s
+sys	0m0.492s
+LOG(state): depth=0, h=33, f=33, 14,1,8,15,2,6,0,3,9,12,10,13,4,7,5,11
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 4968
+[Stat:nodes_evaluated] 22827
+STAT: loads: sum=4968, av=2
+STAT: distr: av=911, 2av=670, 4av=331, 8av=126, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2362(+314)
+f_limit=43
+[Stat:loop] 16473
+[Stat:nodes_evaluated] 165330
+STAT: loads: sum=16473, av=6
+STAT: distr: av=1143, 2av=789, 4av=396, 8av=33, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3475(+1113)
+f_limit=45
+[Stat:loop] 58700
+[Stat:nodes_evaluated] 977730
+STAT: loads: sum=58700, av=16
+STAT: distr: av=2033, 2av=1016, 4av=372, 8av=53, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5735(+2260)
+f_limit=47
+[Stat:loop] 259600
+[Stat:nodes_evaluated] 5456121
+STAT: loads: sum=259600, av=45
+STAT: distr: av=3521, 2av=1595, 4av=547, 8av=67, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9362(+3627)
+f_limit=49
+[Stat:loop] 1270900
+[Stat:nodes_evaluated] 29207586
+STAT: loads: sum=1270900, av=135
+STAT: distr: av=5566, 2av=2803, 4av=904, 8av=87, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=15540(+6178)
+f_limit=51
+[Stat:loop] 6489171
+[Stat:nodes_evaluated] 153539991
+STAT: loads: sum=6489171, av=417
+STAT: distr: av=8966, 2av=5129, 4av=1337, 8av=104, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=25763(+10223)
+f_limit=53
+[Stat:loop] 33163855
+[Stat:nodes_evaluated] 792299594
+STAT: loads: sum=33163855, av=1287
+STAT: distr: av=14780, 2av=8710, 4av=2161, 8av=111, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=42494(+16731)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2211
+[Stat:solution_depth]=53
+[Timer:search] 1.502554
+[Stat:total_nodes_evaluated]981669179
+
+real	0m1.536s
+user	0m1.000s
+sys	0m0.532s
+LOG(state): depth=0, h=34, f=34, 0,11,3,12,5,2,1,9,8,10,14,15,7,4,13,6
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 3890
+[Stat:nodes_evaluated] 18489
+STAT: loads: sum=3890, av=1
+STAT: distr: av=1022, 2av=287, 4av=376, 8av=220, 16av=132, 32av=11, 64av=0, 128av=0, more=0
+STAT: n_roots=2776(+728)
+f_limit=44
+[Stat:loop] 14785
+[Stat:nodes_evaluated] 132915
+STAT: loads: sum=14785, av=5
+STAT: distr: av=1616, 2av=646, 4av=457, 8av=53, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3847(+1071)
+f_limit=46
+[Stat:loop] 51477
+[Stat:nodes_evaluated] 778254
+STAT: loads: sum=51477, av=13
+STAT: distr: av=2275, 2av=1113, 4av=395, 8av=61, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6352(+2505)
+f_limit=48
+[Stat:loop] 213554
+[Stat:nodes_evaluated] 4291638
+STAT: loads: sum=213554, av=33
+STAT: distr: av=3990, 2av=1617, 4av=636, 8av=98, 16av=11, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=10535(+4183)
+f_limit=50
+[Stat:loop] 1007642
+[Stat:nodes_evaluated] 22733568
+STAT: loads: sum=1007642, av=95
+STAT: distr: av=6348, 2av=3030, 4av=1033, 8av=118, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=17639(+7104)
+f_limit=52
+[Stat:loop] 5054870
+[Stat:nodes_evaluated] 118833549
+STAT: loads: sum=5054870, av=286
+STAT: distr: av=10425, 2av=5416, 4av=1663, 8av=130, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=29213(+11574)
+f_limit=54
+[Stat:loop] 25591536
+[Stat:nodes_evaluated] 610042618
+STAT: loads: sum=25591536, av=876
+STAT: distr: av=16984, 2av=9563, 4av=2515, 8av=150, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=48263(+19050)
+find all the optimal solution(s), at depth=54
+[Stat:cpu_nodes_evaluated]=2108
+[Stat:solution_depth]=54
+[Timer:search] 1.207295
+[Stat:total_nodes_evaluated]756831031
+
+real	0m1.240s
+user	0m0.884s
+sys	0m0.356s
+LOG(state): depth=0, h=41, f=41, 14,3,9,1,15,8,4,5,11,7,10,13,0,2,12,6
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 408
+[Stat:nodes_evaluated] 3198
+STAT: loads: sum=408, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2223(+175)
+f_limit=49
+[Stat:loop] 9688
+[Stat:nodes_evaluated] 71202
+STAT: loads: sum=9688, av=4
+STAT: distr: av=1371, 2av=488, 4av=298, 8av=54, 16av=10, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=2932(+709)
+f_limit=51
+[Stat:loop] 38803
+[Stat:nodes_evaluated] 569280
+STAT: loads: sum=38803, av=13
+STAT: distr: av=1859, 2av=768, 4av=233, 8av=63, 16av=7, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=4759(+1827)
+f_limit=53
+[Stat:loop] 190960
+[Stat:nodes_evaluated] 3919677
+STAT: loads: sum=190960, av=40
+STAT: distr: av=3298, 2av=918, 4av=393, 8av=127, 16av=21, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=7803(+3044)
+f_limit=55
+[Stat:loop] 1113501
+[Stat:nodes_evaluated] 25606809
+STAT: loads: sum=1113501, av=142
+STAT: distr: av=5082, 2av=1804, 4av=718, 8av=174, 16av=24, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=12976(+5173)
+f_limit=57
+[Stat:loop] 6748686
+[Stat:nodes_evaluated] 160087296
+STAT: loads: sum=6748686, av=520
+STAT: distr: av=8194, 2av=3299, 4av=1253, 8av=220, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=21485(+8509)
+f_limit=59
+[Stat:loop] 40619530
+[Stat:nodes_evaluated] 971717480
+STAT: loads: sum=40619530, av=1890
+STAT: distr: av=13141, 2av=6055, 4av=2007, 8av=265, 16av=17, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=35693(+14208)
+find all the optimal solution(s), at depth=59
+[Stat:cpu_nodes_evaluated]=2191
+[Stat:solution_depth]=59
+[Timer:search] 1.789132
+[Stat:total_nodes_evaluated]1161974942
+
+real	0m1.820s
+user	0m1.196s
+sys	0m0.620s
+LOG(state): depth=0, h=39, f=39, 12,5,13,11,2,10,0,9,7,8,4,3,14,6,15,1
+LOG: init_distr, cnt=2049
+f_limit=43
+[Stat:loop] 109
+[Stat:nodes_evaluated] 1002
+STAT: loads: sum=109, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2115(+66)
+f_limit=45
+[Stat:loop] 7646
+[Stat:nodes_evaluated] 44676
+STAT: loads: sum=7646, av=3
+STAT: distr: av=1135, 2av=552, 4av=350, 8av=72, 16av=4, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=2586(+471)
+f_limit=47
+[Stat:loop] 25549
+[Stat:nodes_evaluated] 320643
+STAT: loads: sum=25549, av=9
+STAT: distr: av=1425, 2av=870, 4av=241, 8av=44, 16av=3, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=4141(+1555)
+f_limit=49
+[Stat:loop] 106633
+[Stat:nodes_evaluated] 2014239
+STAT: loads: sum=106633, av=25
+STAT: distr: av=2768, 2av=900, 4av=364, 8av=96, 16av=10, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=6792(+2651)
+f_limit=51
+[Stat:loop] 548974
+[Stat:nodes_evaluated] 12231771
+STAT: loads: sum=548974, av=80
+STAT: distr: av=4373, 2av=1627, 4av=661, 8av=114, 16av=15, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=11282(+4490)
+f_limit=53
+[Stat:loop] 3082114
+[Stat:nodes_evaluated] 72350876
+STAT: loads: sum=3082114, av=273
+STAT: distr: av=6935, 2av=3139, 4av=1058, 8av=140, 16av=10, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=18737(+7455)
+find all the optimal solution(s), at depth=53
+[Stat:cpu_nodes_evaluated]=2192
+[Stat:solution_depth]=53
+[Timer:search] 0.216669
+[Stat:total_nodes_evaluated]86963207
+
+real	0m0.247s
+user	0m0.148s
+sys	0m0.096s
+LOG(state): depth=0, h=38, f=38, 10,8,0,12,3,7,6,2,1,14,4,11,15,13,9,5
+LOG: init_distr, cnt=2048
+f_limit=44
+[Stat:loop] 1549
+[Stat:nodes_evaluated] 10125
+STAT: loads: sum=1549, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2473(+425)
+f_limit=46
+[Stat:loop] 12520
+[Stat:nodes_evaluated] 114204
+STAT: loads: sum=12520, av=5
+STAT: distr: av=1663, 2av=433, 4av=304, 8av=60, 16av=13, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3485(+1012)
+f_limit=48
+[Stat:loop] 49813
+[Stat:nodes_evaluated] 779193
+STAT: loads: sum=49813, av=14
+STAT: distr: av=2379, 2av=718, 4av=288, 8av=81, 16av=14, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=5616(+2131)
+f_limit=50
+[Stat:loop] 227187
+[Stat:nodes_evaluated] 4699848
+STAT: loads: sum=227187, av=40
+STAT: distr: av=3899, 2av=1037, 4av=499, 8av=151, 16av=25, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=9288(+3672)
+f_limit=52
+[Stat:loop] 1197322
+[Stat:nodes_evaluated] 27432870
+STAT: loads: sum=1197322, av=128
+STAT: distr: av=5991, 2av=2193, 4av=872, 8av=206, 16av=24, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=15624(+6336)
+f_limit=54
+[Stat:loop] 6546939
+[Stat:nodes_evaluated] 154910442
+STAT: loads: sum=6546939, av=419
+STAT: distr: av=9739, 2av=4164, 4av=1464, 8av=228, 16av=28, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=26073(+10449)
+f_limit=56
+[Stat:loop] 35571631
+[Stat:nodes_evaluated] 849965573
+STAT: loads: sum=35571631, av=1364
+STAT: distr: av=15656, 2av=7733, 4av=2375, 8av=291, 16av=18, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=43340(+17267)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2136
+[Stat:solution_depth]=56
+[Timer:search] 1.601800
+[Stat:total_nodes_evaluated]1037912255
+
+real	0m1.635s
+user	0m1.084s
+sys	0m0.548s
+LOG(state): depth=0, h=42, f=42, 5,12,10,7,15,11,14,0,8,2,1,13,3,4,9,6
+LOG: init_distr, cnt=2049
+f_limit=46
+[Stat:loop] 70
+[Stat:nodes_evaluated] 762
+STAT: loads: sum=70, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2095(+46)
+f_limit=48
+[Stat:loop] 11409
+[Stat:nodes_evaluated] 87846
+STAT: loads: sum=11409, av=5
+STAT: distr: av=1227, 2av=555, 4av=269, 8av=34, 16av=7, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=2959(+864)
+f_limit=50
+[Stat:loop] 50439
+[Stat:nodes_evaluated] 849087
+STAT: loads: sum=50439, av=17
+STAT: distr: av=2186, 2av=506, 4av=172, 8av=62, 16av=26, 32av=5, 64av=2, 128av=0, more=0
+STAT: n_roots=4777(+1818)
+f_limit=52
+[Stat:loop] 309704
+[Stat:nodes_evaluated] 6769524
+STAT: loads: sum=309704, av=64
+STAT: distr: av=3468, 2av=782, 4av=349, 8av=128, 16av=36, 32av=11, 64av=3, 128av=0, more=0
+STAT: n_roots=8068(+3291)
+f_limit=54
+[Stat:loop] 2046473
+[Stat:nodes_evaluated] 47958129
+STAT: loads: sum=2046473, av=253
+STAT: distr: av=5535, 2av=1594, 4av=676, 8av=195, 16av=58, 32av=7, 64av=3, 128av=0, more=0
+STAT: n_roots=13737(+5669)
+f_limit=56
+[Stat:loop] 13248696
+[Stat:nodes_evaluated] 315994317
+STAT: loads: sum=13248696, av=964
+STAT: distr: av=8867, 2av=3287, 4av=1242, 8av=282, 16av=48, 32av=10, 64av=1, 128av=0, more=0
+STAT: n_roots=23292(+9555)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2311
+[Stat:solution_depth]=56
+[Timer:search] 0.714619
+[Stat:total_nodes_evaluated]371659665
+
+real	0m0.746s
+user	0m0.504s
+sys	0m0.240s
+LOG(state): depth=0, h=41, f=41, 9,7,5,2,14,15,12,10,11,3,6,1,8,13,0,4
+LOG: init_distr, cnt=2048
+f_limit=45
+[Stat:loop] 198
+[Stat:nodes_evaluated] 2940
+STAT: loads: sum=198, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2177(+129)
+f_limit=47
+[Stat:loop] 10273
+[Stat:nodes_evaluated] 87126
+STAT: loads: sum=10273, av=4
+STAT: distr: av=1232, 2av=611, 4av=263, 8av=48, 16av=19, 32av=3, 64av=0, 128av=1, more=0
+STAT: n_roots=3065(+888)
+f_limit=49
+[Stat:loop] 46912
+[Stat:nodes_evaluated] 742941
+STAT: loads: sum=46912, av=15
+STAT: distr: av=2173, 2av=623, 4av=181, 8av=60, 16av=19, 32av=9, 64av=0, 128av=0, more=0
+STAT: n_roots=4884(+1819)
+f_limit=51
+[Stat:loop] 249832
+[Stat:nodes_evaluated] 5338089
+STAT: loads: sum=249832, av=51
+STAT: distr: av=3441, 2av=883, 4av=410, 8av=114, 16av=30, 32av=5, 64av=1, 128av=0, more=0
+STAT: n_roots=7987(+3103)
+f_limit=53
+[Stat:loop] 1507090
+[Stat:nodes_evaluated] 35055741
+STAT: loads: sum=1507090, av=188
+STAT: distr: av=5256, 2av=1765, 4av=763, 8av=177, 16av=23, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=13369(+5382)
+f_limit=55
+[Stat:loop] 9189800
+[Stat:nodes_evaluated] 218667018
+STAT: loads: sum=9189800, av=687
+STAT: distr: av=8320, 2av=3536, 4av=1288, 8av=202, 16av=21, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=22256(+8887)
+f_limit=57
+[Stat:loop] 54537146
+[Stat:nodes_evaluated] 1305689542
+STAT: loads: sum=54537146, av=2450
+STAT: distr: av=13363, 2av=6681, 4av=1932, 8av=261, 16av=17, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=36970(+14714)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2458
+[Stat:solution_depth]=57
+[Timer:search] 2.383855
+[Stat:total_nodes_evaluated]1565583397
+
+real	0m2.417s
+user	0m1.548s
+sys	0m0.864s
+LOG(state): depth=0, h=42, f=42, 14,3,5,15,11,6,13,9,0,10,2,12,4,1,7,8
+LOG: init_distr, cnt=2048
+f_limit=48
+[Stat:loop] 700
+[Stat:nodes_evaluated] 6414
+STAT: loads: sum=700, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2343(+295)
+f_limit=50
+[Stat:loop] 10769
+[Stat:nodes_evaluated] 91374
+STAT: loads: sum=10769, av=4
+STAT: distr: av=1374, 2av=572, 4av=311, 8av=73, 16av=9, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=3170(+827)
+f_limit=52
+[Stat:loop] 43883
+[Stat:nodes_evaluated] 685197
+STAT: loads: sum=43883, av=13
+STAT: distr: av=2060, 2av=763, 4av=250, 8av=81, 16av=14, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=5219(+2049)
+f_limit=54
+[Stat:loop] 221820
+[Stat:nodes_evaluated] 4640190
+STAT: loads: sum=221820, av=42
+STAT: distr: av=3569, 2av=1045, 4av=450, 8av=132, 16av=20, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=8646(+3427)
+f_limit=56
+[Stat:loop] 1326117
+[Stat:nodes_evaluated] 30631881
+STAT: loads: sum=1326117, av=153
+STAT: distr: av=5493, 2av=2159, 4av=807, 8av=170, 16av=17, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=14441(+5795)
+f_limit=58
+[Stat:loop] 8283079
+[Stat:nodes_evaluated] 196740753
+STAT: loads: sum=8283079, av=573
+STAT: distr: av=8736, 2av=4132, 4av=1372, 8av=190, 16av=11, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=24056(+9615)
+f_limit=60
+[Stat:loop] 51252793
+[Stat:nodes_evaluated] 1226624335
+STAT: loads: sum=51252793, av=2130
+STAT: distr: av=14251, 2av=7448, 4av=2129, 8av=216, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=40080(+16024)
+find all the optimal solution(s), at depth=60
+[Stat:cpu_nodes_evaluated]=2413
+[Stat:solution_depth]=60
+[Timer:search] 2.182190
+[Stat:total_nodes_evaluated]1459420144
+
+real	0m2.215s
+user	0m1.356s
+sys	0m0.856s
+LOG(state): depth=0, h=40, f=40, 8,1,7,12,11,0,10,5,9,15,6,13,14,2,3,4
+LOG: init_distr, cnt=2048
+f_limit=46
+[Stat:loop] 1667
+[Stat:nodes_evaluated] 14331
+STAT: loads: sum=1667, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2514(+466)
+f_limit=48
+[Stat:loop] 13898
+[Stat:nodes_evaluated] 156345
+STAT: loads: sum=13898, av=5
+STAT: distr: av=1580, 2av=553, 4av=272, 8av=84, 16av=18, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=3694(+1180)
+f_limit=50
+[Stat:loop] 62761
+[Stat:nodes_evaluated] 1088547
+STAT: loads: sum=62761, av=16
+STAT: distr: av=2619, 2av=607, 4av=334, 8av=98, 16av=31, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=6147(+2453)
+f_limit=52
+[Stat:loop] 332796
+[Stat:nodes_evaluated] 7197582
+STAT: loads: sum=332796, av=54
+STAT: distr: av=4284, 2av=1111, 4av=536, 8av=177, 16av=35, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=10201(+4054)
+f_limit=54
+[Stat:loop] 1949333
+[Stat:nodes_evaluated] 45417783
+STAT: loads: sum=1949333, av=191
+STAT: distr: av=6659, 2av=2290, 4av=989, 8av=226, 16av=34, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=17128(+6927)
+f_limit=56
+[Stat:loop] 11758445
+[Stat:nodes_evaluated] 279824517
+STAT: loads: sum=11758445, av=686
+STAT: distr: av=10637, 2av=4428, 4av=1742, 8av=296, 16av=24, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=28820(+11692)
+f_limit=58
+[Stat:loop] 70142909
+[Stat:nodes_evaluated] 1679483766
+STAT: loads: sum=70142909, av=2433
+STAT: distr: av=17294, 2av=8406, 4av=2765, 8av=338, 16av=17, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=48063(+19243)
+find all the optimal solution(s), at depth=58
+[Stat:cpu_nodes_evaluated]=2341
+[Stat:solution_depth]=58
+[Timer:search] 2.959091
+[Stat:total_nodes_evaluated]2013182871
+
+real	0m2.990s
+user	0m1.868s
+sys	0m1.120s
+LOG(state): depth=0, h=43, f=43, 13,11,8,9,0,15,7,10,4,3,6,14,5,12,2,1
+LOG: init_distr, cnt=2048
+f_limit=49
+[Stat:loop] 3892
+[Stat:nodes_evaluated] 30180
+STAT: loads: sum=3892, av=1
+STAT: distr: av=1305, 2av=133, 4av=232, 8av=209, 16av=141, 32av=24, 64av=4, 128av=0, more=0
+STAT: n_roots=3478(+1430)
+f_limit=51
+[Stat:loop] 28009
+[Stat:nodes_evaluated] 353694
+STAT: loads: sum=28009, av=8
+STAT: distr: av=2319, 2av=680, 4av=371, 8av=84, 16av=20, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=5484(+2006)
+f_limit=53
+[Stat:loop] 165124
+[Stat:nodes_evaluated] 3264849
+STAT: loads: sum=165124, av=30
+STAT: distr: av=3950, 2av=822, 4av=483, 8av=187, 16av=36, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=9161(+3677)
+f_limit=55
+[Stat:loop] 1140258
+[Stat:nodes_evaluated] 26098395
+STAT: loads: sum=1140258, av=124
+STAT: distr: av=6141, 2av=1737, 4av=989, 8av=255, 16av=33, 32av=5, 64av=1, 128av=0, more=0
+STAT: n_roots=15783(+6622)
+f_limit=57
+[Stat:loop] 7978834
+[Stat:nodes_evaluated] 189224571
+STAT: loads: sum=7978834, av=505
+STAT: distr: av=9957, 2av=3814, 4av=1651, 8av=326, 16av=33, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=26919(+11136)
+f_limit=59
+[Stat:loop] 53311968
+[Stat:nodes_evaluated] 1275644495
+STAT: loads: sum=53311968, av=1980
+STAT: distr: av=16215, 2av=7513, 4av=2827, 8av=343, 16av=21, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=45650(+18731)
+find all the optimal solution(s), at depth=59
+[Stat:cpu_nodes_evaluated]=2168
+[Stat:solution_depth]=59
+[Timer:search] 2.209975
+[Stat:total_nodes_evaluated]1494616184
+
+real	0m2.241s
+user	0m1.472s
+sys	0m0.768s
+LOG(state): depth=0, h=41, f=41, 14,13,15,7,11,12,9,5,6,0,2,1,4,8,10,3
+LOG: init_distr, cnt=2048
+f_limit=45
+[Stat:loop] 1182
+[Stat:nodes_evaluated] 8379
+STAT: loads: sum=1182, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2364(+316)
+f_limit=47
+[Stat:loop] 10503
+[Stat:nodes_evaluated] 93567
+STAT: loads: sum=10503, av=4
+STAT: distr: av=1475, 2av=467, 4av=324, 8av=84, 16av=14, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3305(+941)
+f_limit=49
+[Stat:loop] 41102
+[Stat:nodes_evaluated] 616902
+STAT: loads: sum=41102, av=12
+STAT: distr: av=2123, 2av=816, 4av=264, 8av=89, 16av=11, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=5392(+2087)
+f_limit=51
+[Stat:loop] 184237
+[Stat:nodes_evaluated] 3730908
+STAT: loads: sum=184237, av=34
+STAT: distr: av=3678, 2av=1079, 4av=493, 8av=119, 16av=22, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=8841(+3449)
+f_limit=53
+[Stat:loop] 963390
+[Stat:nodes_evaluated] 21943236
+STAT: loads: sum=963390, av=108
+STAT: distr: av=5631, 2av=2147, 4av=864, 8av=181, 16av=17, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=14733(+5892)
+f_limit=55
+[Stat:loop] 5314599
+[Stat:nodes_evaluated] 125520495
+STAT: loads: sum=5314599, av=360
+STAT: distr: av=8998, 2av=4091, 4av=1418, 8av=215, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=24599(+9866)
+f_limit=57
+[Stat:loop] 29824454
+[Stat:nodes_evaluated] 712340602
+STAT: loads: sum=29824454, av=1212
+STAT: distr: av=14517, 2av=7599, 4av=2228, 8av=246, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=41065(+16466)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2243
+[Stat:solution_depth]=57
+[Timer:search] 1.334249
+[Stat:total_nodes_evaluated]864254089
+
+real	0m1.363s
+user	0m0.864s
+sys	0m0.496s
+LOG(state): depth=0, h=40, f=40, 8,10,9,11,14,1,7,15,13,4,0,12,6,2,5,3
+LOG: init_distr, cnt=2048
+f_limit=42
+[Stat:loop] 94
+[Stat:nodes_evaluated] 774
+STAT: loads: sum=94, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2106(+58)
+f_limit=44
+[Stat:loop] 7361
+[Stat:nodes_evaluated] 50910
+STAT: loads: sum=7361, av=3
+STAT: distr: av=1401, 2av=365, 4av=231, 8av=94, 16av=11, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=2776(+670)
+f_limit=46
+[Stat:loop] 27958
+[Stat:nodes_evaluated] 373791
+STAT: loads: sum=27958, av=10
+STAT: distr: av=1821, 2av=672, 4av=220, 8av=44, 16av=14, 32av=4, 64av=1, 128av=0, more=0
+STAT: n_roots=4514(+1738)
+f_limit=48
+[Stat:loop] 121855
+[Stat:nodes_evaluated] 2324610
+STAT: loads: sum=121855, av=26
+STAT: distr: av=3166, 2av=832, 4av=371, 8av=113, 16av=24, 32av=6, 64av=2, 128av=0, more=0
+STAT: n_roots=7436(+2922)
+f_limit=50
+[Stat:loop] 587140
+[Stat:nodes_evaluated] 13041792
+STAT: loads: sum=587140, av=78
+STAT: distr: av=5042, 2av=1456, 4av=703, 8av=200, 16av=33, 32av=1, 64av=0, 128av=1, more=0
+STAT: n_roots=12395(+4959)
+f_limit=52
+[Stat:loop] 3025791
+[Stat:nodes_evaluated] 70824936
+STAT: loads: sum=3025791, av=244
+STAT: distr: av=7914, 2av=2979, 4av=1223, 8av=250, 16av=28, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=20764(+8369)
+f_limit=54
+[Stat:loop] 15813732
+[Stat:nodes_evaluated] 376471065
+STAT: loads: sum=15813732, av=761
+STAT: distr: av=12752, 2av=5678, 4av=2018, 8av=296, 16av=19, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=34528(+13764)
+f_limit=56
+[Stat:loop] 81754654
+[Stat:nodes_evaluated] 1956993606
+STAT: loads: sum=81754654, av=2367
+STAT: distr: av=20564, 2av=10288, 4av=3315, 8av=348, 16av=12, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=57205(+22677)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2037
+[Stat:solution_depth]=56
+[Timer:search] 3.548262
+[Stat:total_nodes_evaluated]2420081484
+
+real	0m3.578s
+user	0m2.364s
+sys	0m1.212s
+LOG(state): depth=0, h=40, f=40, 5,7,3,12,15,13,14,8,0,10,9,6,1,4,2,11
+LOG: init_distr, cnt=2048
+f_limit=46
+[Stat:loop] 709
+[Stat:nodes_evaluated] 4731
+STAT: loads: sum=709, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2168(+120)
+f_limit=48
+[Stat:loop] 10043
+[Stat:nodes_evaluated] 86562
+STAT: loads: sum=10043, av=4
+STAT: distr: av=1194, 2av=610, 4av=277, 8av=74, 16av=13, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2900(+732)
+f_limit=50
+[Stat:loop] 43629
+[Stat:nodes_evaluated] 719304
+STAT: loads: sum=43629, av=15
+STAT: distr: av=2003, 2av=569, 4av=254, 8av=61, 16av=12, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4723(+1823)
+f_limit=52
+[Stat:loop] 245491
+[Stat:nodes_evaluated] 5302332
+STAT: loads: sum=245491, av=51
+STAT: distr: av=3229, 2av=920, 4av=407, 8av=144, 16av=19, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=7944(+3221)
+f_limit=54
+[Stat:loop] 1552100
+[Stat:nodes_evaluated] 36195396
+STAT: loads: sum=1552100, av=195
+STAT: distr: av=5193, 2av=1790, 4av=749, 8av=190, 16av=21, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=13383(+5439)
+f_limit=56
+[Stat:loop] 9879657
+[Stat:nodes_evaluated] 235270752
+STAT: loads: sum=9879657, av=738
+STAT: distr: av=8359, 2av=3448, 4av=1316, 8av=245, 16av=14, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=22569(+9186)
+f_limit=58
+[Stat:loop] 61471582
+[Stat:nodes_evaluated] 1472541385
+STAT: loads: sum=61471582, av=2723
+STAT: distr: av=13689, 2av=6307, 4av=2256, 8av=311, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37734(+15165)
+find all the optimal solution(s), at depth=58
+[Stat:cpu_nodes_evaluated]=2422
+[Stat:solution_depth]=58
+[Timer:search] 2.604104
+[Stat:total_nodes_evaluated]1750120462
+
+real	0m2.634s
+user	0m1.760s
+sys	0m0.872s
+LOG(state): depth=0, h=43, f=43, 14,10,9,4,13,6,5,8,2,12,7,0,1,3,11,15
+LOG: init_distr, cnt=2048
+f_limit=49
+[Stat:loop] 8642
+[Stat:nodes_evaluated] 56940
+STAT: loads: sum=8642, av=4
+STAT: distr: av=1192, 2av=480, 4av=331, 8av=45, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2587(+539)
+f_limit=51
+[Stat:loop] 33930
+[Stat:nodes_evaluated] 509388
+STAT: loads: sum=33930, av=13
+STAT: distr: av=1579, 2av=721, 4av=238, 8av=44, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4201(+1614)
+f_limit=53
+[Stat:loop] 180761
+[Stat:nodes_evaluated] 3778287
+STAT: loads: sum=180761, av=43
+STAT: distr: av=2752, 2av=936, 4av=401, 8av=110, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6886(+2685)
+f_limit=55
+[Stat:loop] 1122797
+[Stat:nodes_evaluated] 25998855
+STAT: loads: sum=1122797, av=163
+STAT: distr: av=4339, 2av=1709, 4av=714, 8av=116, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=11543(+4657)
+f_limit=57
+[Stat:loop] 7158491
+[Stat:nodes_evaluated] 170180265
+STAT: loads: sum=7158491, av=620
+STAT: distr: av=7013, 2av=3212, 4av=1171, 8av=141, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=19445(+7902)
+f_limit=59
+[Stat:loop] 44741731
+[Stat:nodes_evaluated] 1071065711
+STAT: loads: sum=44741731, av=2300
+STAT: distr: av=11477, 2av=5946, 4av=1841, 8av=180, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=32585(+13140)
+find all the optimal solution(s), at depth=59
+[Stat:cpu_nodes_evaluated]=2348
+[Stat:solution_depth]=59
+[Timer:search] 1.889062
+[Stat:total_nodes_evaluated]1271589446
+
+real	0m1.920s
+user	0m1.320s
+sys	0m0.600s
+LOG(state): depth=0, h=38, f=38, 12,15,11,10,4,5,14,0,13,7,1,2,9,8,3,6
+LOG: init_distr, cnt=2049
+f_limit=42
+[Stat:loop] 918
+[Stat:nodes_evaluated] 10098
+STAT: loads: sum=918, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2570(+521)
+f_limit=44
+[Stat:loop] 13570
+[Stat:nodes_evaluated] 146022
+STAT: loads: sum=13570, av=5
+STAT: distr: av=1864, 2av=353, 4av=254, 8av=69, 16av=20, 32av=8, 64av=2, 128av=0, more=0
+STAT: n_roots=3852(+1282)
+f_limit=46
+[Stat:loop] 63385
+[Stat:nodes_evaluated] 1069953
+STAT: loads: sum=63385, av=16
+STAT: distr: av=2823, 2av=601, 4av=263, 8av=123, 16av=31, 32av=10, 64av=1, 128av=0, more=0
+STAT: n_roots=6360(+2508)
+f_limit=48
+[Stat:loop] 309398
+[Stat:nodes_evaluated] 6556053
+STAT: loads: sum=309398, av=48
+STAT: distr: av=4574, 2av=1023, 4av=514, 8av=182, 16av=54, 32av=12, 64av=1, 128av=0, more=0
+STAT: n_roots=10591(+4231)
+f_limit=50
+[Stat:loop] 1581153
+[Stat:nodes_evaluated] 36442020
+STAT: loads: sum=1581153, av=149
+STAT: distr: av=7093, 2av=2192, 4av=1001, 8av=242, 16av=51, 32av=12, 64av=0, 128av=0, more=0
+STAT: n_roots=17663(+7072)
+f_limit=52
+[Stat:loop] 8136286
+[Stat:nodes_evaluated] 192726282
+STAT: loads: sum=8136286, av=460
+STAT: distr: av=11102, 2av=4542, 4av=1640, 8av=322, 16av=51, 32av=5, 64av=1, 128av=0, more=0
+STAT: n_roots=29443(+11780)
+f_limit=54
+[Stat:loop] 41135473
+[Stat:nodes_evaluated] 982924902
+STAT: loads: sum=41135473, av=1397
+STAT: distr: av=17939, 2av=8376, 4av=2695, 8av=374, 16av=53, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=48766(+19323)
+f_limit=56
+[Stat:loop] 205542730
+[Stat:nodes_evaluated] 4925992429
+STAT: loads: sum=205542730, av=4214
+STAT: distr: av=29113, 2av=14885, 4av=4229, 8av=507, 16av=28, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=79749(+30983)
+find all the optimal solution(s), at depth=56
+[Stat:cpu_nodes_evaluated]=2291
+[Stat:solution_depth]=56
+[Timer:search] 8.708371
+[Stat:total_nodes_evaluated]6145867759
+
+real	0m8.740s
+user	0m5.676s
+sys	0m3.060s
+LOG(state): depth=0, h=41, f=41, 7,6,8,1,11,5,14,10,3,4,9,13,15,2,0,12
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 2698
+[Stat:nodes_evaluated] 21015
+STAT: loads: sum=2698, av=1
+STAT: distr: av=1348, 2av=296, 4av=145, 8av=164, 16av=78, 32av=15, 64av=2, 128av=0, more=0
+STAT: n_roots=2788(+740)
+f_limit=49
+[Stat:loop] 17672
+[Stat:nodes_evaluated] 203682
+STAT: loads: sum=17672, av=6
+STAT: distr: av=1776, 2av=603, 4av=311, 8av=78, 16av=17, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=4148(+1360)
+f_limit=51
+[Stat:loop] 80648
+[Stat:nodes_evaluated] 1437222
+STAT: loads: sum=80648, av=19
+STAT: distr: av=2898, 2av=747, 4av=371, 8av=104, 16av=23, 32av=4, 64av=1, 128av=0, more=0
+STAT: n_roots=6757(+2609)
+f_limit=53
+[Stat:loop] 421295
+[Stat:nodes_evaluated] 9221826
+STAT: loads: sum=421295, av=62
+STAT: distr: av=4597, 2av=1307, 4av=627, 8av=190, 16av=32, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=11316(+4559)
+f_limit=55
+[Stat:loop] 2389275
+[Stat:nodes_evaluated] 55822173
+STAT: loads: sum=2389275, av=211
+STAT: distr: av=7354, 2av=2563, 4av=1110, 8av=257, 16av=29, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=18926(+7610)
+f_limit=57
+[Stat:loop] 13691537
+[Stat:nodes_evaluated] 325987065
+STAT: loads: sum=13691537, av=723
+STAT: distr: av=11729, 2av=5012, 4av=1873, 8av=287, 16av=25, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=31584(+12658)
+f_limit=59
+[Stat:loop] 77295796
+[Stat:nodes_evaluated] 1850682645
+STAT: loads: sum=77295796, av=2447
+STAT: distr: av=18948, 2av=9223, 4av=3067, 8av=321, 16av=25, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=52636(+21052)
+find all the optimal solution(s), at depth=59
+[Stat:cpu_nodes_evaluated]=2256
+[Stat:solution_depth]=59
+[Timer:search] 3.316562
+[Stat:total_nodes_evaluated]2243375628
+
+real	0m3.347s
+user	0m2.208s
+sys	0m1.136s
+LOG(state): depth=0, h=37, f=37, 3,2,7,9,0,15,12,4,6,11,5,14,8,13,10,1
+LOG: init_distr, cnt=2049
+f_limit=43
+[Stat:loop] 2560
+[Stat:nodes_evaluated] 15234
+STAT: loads: sum=2560, av=1
+STAT: distr: av=1424, 2av=184, 4av=177, 8av=158, 16av=99, 32av=7, 64av=0, 128av=0, more=0
+STAT: n_roots=2575(+526)
+f_limit=45
+[Stat:loop] 14448
+[Stat:nodes_evaluated] 143331
+STAT: loads: sum=14448, av=5
+STAT: distr: av=1572, 2av=500, 4av=417, 8av=78, 16av=7, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3761(+1186)
+f_limit=47
+[Stat:loop] 56545
+[Stat:nodes_evaluated] 913371
+STAT: loads: sum=56545, av=15
+STAT: distr: av=2475, 2av=841, 4av=351, 8av=79, 16av=15, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6013(+2252)
+f_limit=49
+[Stat:loop] 256657
+[Stat:nodes_evaluated] 5384421
+STAT: loads: sum=256657, av=42
+STAT: distr: av=3967, 2av=1297, 4av=586, 8av=139, 16av=20, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=9950(+3937)
+f_limit=51
+[Stat:loop] 1327985
+[Stat:nodes_evaluated] 30517785
+STAT: loads: sum=1327985, av=133
+STAT: distr: av=6271, 2av=2500, 4av=986, 8av=174, 16av=16, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=16516(+6566)
+f_limit=53
+[Stat:loop] 7069052
+[Stat:nodes_evaluated] 167342214
+STAT: loads: sum=7069052, av=428
+STAT: distr: av=10054, 2av=4741, 4av=1471, 8av=231, 16av=18, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=27339(+10823)
+f_limit=55
+[Stat:loop] 37359675
+[Stat:nodes_evaluated] 892741800
+STAT: loads: sum=37359675, av=1366
+STAT: distr: av=16154, 2av=8505, 4av=2411, 8av=251, 16av=18, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=45266(+17927)
+f_limit=57
+[Stat:loop] 194898664
+[Stat:nodes_evaluated] 4671306964
+STAT: loads: sum=194898664, av=4305
+STAT: distr: av=26294, 2av=14839, 4av=3823, 8av=293, 16av=17, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=74732(+29466)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2308
+[Stat:solution_depth]=57
+[Timer:search] 8.292179
+[Stat:total_nodes_evaluated]5768365120
+
+real	0m8.324s
+user	0m5.456s
+sys	0m2.868s
+LOG(state): depth=0, h=41, f=41, 14,7,8,2,13,11,10,4,9,12,5,0,3,6,1,15
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 1285
+[Stat:nodes_evaluated] 10608
+STAT: loads: sum=1285, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2490(+442)
+f_limit=49
+[Stat:loop] 14221
+[Stat:nodes_evaluated] 145851
+STAT: loads: sum=14221, av=5
+STAT: distr: av=1558, 2av=476, 4av=359, 8av=75, 16av=20, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=3791(+1301)
+f_limit=51
+[Stat:loop] 69738
+[Stat:nodes_evaluated] 1209699
+STAT: loads: sum=69738, av=18
+STAT: distr: av=2603, 2av=705, 4av=346, 8av=121, 16av=16, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6282(+2491)
+f_limit=53
+[Stat:loop] 411115
+[Stat:nodes_evaluated] 9003294
+STAT: loads: sum=411115, av=65
+STAT: distr: av=4324, 2av=1135, 4av=594, 8av=199, 16av=29, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=10502(+4220)
+f_limit=55
+[Stat:loop] 2632299
+[Stat:nodes_evaluated] 61696503
+STAT: loads: sum=2632299, av=250
+STAT: distr: av=6690, 2av=2456, 4av=1097, 8av=238, 16av=20, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=17842(+7340)
+f_limit=57
+[Stat:loop] 16796281
+[Stat:nodes_evaluated] 400554168
+STAT: loads: sum=16796281, av=941
+STAT: distr: av=11062, 2av=4603, 4av=1876, 8av=281, 16av=19, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=29956(+12114)
+f_limit=59
+[Stat:loop] 103047208
+[Stat:nodes_evaluated] 2469064145
+STAT: loads: sum=103047208, av=3439
+STAT: distr: av=17768, 2av=8913, 4av=2929, 8av=335, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=50313(+20357)
+find all the optimal solution(s), at depth=59
+[Stat:cpu_nodes_evaluated]=2318
+[Stat:solution_depth]=59
+[Timer:search] 4.217918
+[Stat:total_nodes_evaluated]2941684268
+
+real	0m4.249s
+user	0m2.760s
+sys	0m1.484s
+LOG(state): depth=0, h=29, f=29, 3,15,2,5,11,6,4,7,12,9,1,0,13,14,10,8
+LOG: init_distr, cnt=2048
+f_limit=39
+[Stat:loop] 2546
+[Stat:nodes_evaluated] 11706
+STAT: loads: sum=2546, av=1
+STAT: distr: av=1303, 2av=262, 4av=215, 8av=196, 16av=66, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=2362(+314)
+f_limit=41
+[Stat:loop] 10420
+[Stat:nodes_evaluated] 80361
+STAT: loads: sum=10420, av=4
+STAT: distr: av=1365, 2av=541, 4av=405, 8av=50, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3141(+779)
+f_limit=43
+[Stat:loop] 32138
+[Stat:nodes_evaluated] 421029
+STAT: loads: sum=32138, av=10
+STAT: distr: av=1790, 2av=1011, 4av=305, 8av=33, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=5185(+2044)
+f_limit=45
+[Stat:loop] 112885
+[Stat:nodes_evaluated] 2047005
+STAT: loads: sum=112885, av=21
+STAT: distr: av=3329, 2av=1251, 4av=515, 8av=84, 16av=6, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8394(+3209)
+f_limit=47
+[Stat:loop] 453130
+[Stat:nodes_evaluated] 9762270
+STAT: loads: sum=453130, av=53
+STAT: distr: av=5109, 2av=2404, 4av=758, 8av=120, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=13853(+5459)
+f_limit=49
+[Stat:loop] 1996689
+[Stat:nodes_evaluated] 46030521
+STAT: loads: sum=1996689, av=144
+STAT: distr: av=8163, 2av=4393, 4av=1167, 8av=129, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=22841(+8988)
+f_limit=51
+[Stat:loop] 9042168
+[Stat:nodes_evaluated] 213844659
+STAT: loads: sum=9042168, av=395
+STAT: distr: av=13109, 2av=7779, 4av=1833, 8av=120, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37725(+14884)
+f_limit=53
+[Stat:loop] 41640625
+[Stat:nodes_evaluated] 994082238
+STAT: loads: sum=41640625, av=1103
+STAT: distr: av=21403, 2av=13258, 4av=2914, 8av=150, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=62318(+24593)
+f_limit=55
+[Stat:loop] 192657727
+[Stat:nodes_evaluated] 4615079315
+STAT: loads: sum=192657727, av=3091
+STAT: distr: av=35044, 2av=22595, 4av=4495, 8av=182, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=102631(+40313)
+find all the optimal solution(s), at depth=55
+[Stat:cpu_nodes_evaluated]=2240
+[Stat:solution_depth]=55
+[Timer:search] 8.357987
+[Stat:total_nodes_evaluated]5881359104
+
+real	0m8.392s
+user	0m5.480s
+sys	0m2.912s
+LOG(state): depth=0, h=35, f=35, 15,14,6,7,10,1,0,11,12,8,4,9,2,5,13,3
+LOG: init_distr, cnt=2048
+f_limit=41
+[Stat:loop] 325
+[Stat:nodes_evaluated] 1923
+STAT: loads: sum=325, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2137(+89)
+f_limit=43
+[Stat:loop] 6896
+[Stat:nodes_evaluated] 42168
+STAT: loads: sum=6896, av=3
+STAT: distr: av=1301, 2av=523, 4av=248, 8av=56, 16av=8, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2532(+395)
+f_limit=45
+[Stat:loop] 22211
+[Stat:nodes_evaluated] 264447
+STAT: loads: sum=22211, av=8
+STAT: distr: av=1417, 2av=833, 4av=233, 8av=44, 16av=4, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=3927(+1395)
+f_limit=47
+[Stat:loop] 81543
+[Stat:nodes_evaluated] 1467099
+STAT: loads: sum=81543, av=20
+STAT: distr: av=2550, 2av=969, 4av=324, 8av=72, 16av=11, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=6327(+2400)
+f_limit=49
+[Stat:loop] 361315
+[Stat:nodes_evaluated] 7831524
+STAT: loads: sum=361315, av=57
+STAT: distr: av=4016, 2av=1630, 4av=571, 8av=100, 16av=9, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=10431(+4104)
+f_limit=51
+[Stat:loop] 1760472
+[Stat:nodes_evaluated] 40817331
+STAT: loads: sum=1760472, av=168
+STAT: distr: av=6356, 2av=2957, 4av=978, 8av=132, 16av=7, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=17372(+6941)
+f_limit=53
+[Stat:loop] 8829017
+[Stat:nodes_evaluated] 209450031
+STAT: loads: sum=8829017, av=508
+STAT: distr: av=10266, 2av=5389, 4av=1546, 8av=162, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=28836(+11464)
+f_limit=55
+[Stat:loop] 44174975
+[Stat:nodes_evaluated] 1056111651
+STAT: loads: sum=44174975, av=1531
+STAT: distr: av=16829, 2av=9258, 4av=2551, 8av=193, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=47875(+19039)
+f_limit=57
+[Stat:loop] 220152578
+[Stat:nodes_evaluated] 5276917974
+STAT: loads: sum=220152578, av=4598
+STAT: distr: av=27214, 2av=16465, 4av=3988, 8av=205, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=79257(+31382)
+find all the optimal solution(s), at depth=57
+[Stat:cpu_nodes_evaluated]=2249
+[Stat:solution_depth]=57
+[Timer:search] 9.258867
+[Stat:total_nodes_evaluated]6592904148
+
+real	0m9.291s
+user	0m5.700s
+sys	0m3.588s
+LOG(state): depth=0, h=44, f=44, 13,11,4,12,1,8,9,15,6,5,14,2,7,3,10,0
+LOG: init_distr, cnt=2048
+f_limit=50
+[Stat:loop] 462
+[Stat:nodes_evaluated] 4737
+STAT: loads: sum=462, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2314(+266)
+f_limit=52
+[Stat:loop] 11123
+[Stat:nodes_evaluated] 91023
+STAT: loads: sum=11123, av=4
+STAT: distr: av=1307, 2av=643, 4av=274, 8av=74, 16av=14, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=3143(+829)
+f_limit=54
+[Stat:loop] 46434
+[Stat:nodes_evaluated] 746913
+STAT: loads: sum=46434, av=14
+STAT: distr: av=2082, 2av=727, 4av=242, 8av=69, 16av=20, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=5155(+2012)
+f_limit=56
+[Stat:loop] 256983
+[Stat:nodes_evaluated] 5500134
+STAT: loads: sum=256983, av=49
+STAT: distr: av=3520, 2av=1049, 4av=439, 8av=125, 16av=17, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=8582(+3427)
+f_limit=58
+[Stat:loop] 1673256
+[Stat:nodes_evaluated] 38983281
+STAT: loads: sum=1673256, av=194
+STAT: distr: av=5569, 2av=2015, 4av=826, 8av=153, 16av=15, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=14373(+5791)
+f_limit=60
+[Stat:loop] 11217353
+[Stat:nodes_evaluated] 267197475
+STAT: loads: sum=11217353, av=780
+STAT: distr: av=8884, 2av=4049, 4av=1208, 8av=206, 16av=23, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=24015(+9642)
+f_limit=62
+[Stat:loop] 73992189
+[Stat:nodes_evaluated] 1772496778
+STAT: loads: sum=73992189, av=3081
+STAT: distr: av=14435, 2av=7289, 4av=2008, 8av=266, 16av=15, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=40059(+16044)
+find all the optimal solution(s), at depth=62
+[Stat:cpu_nodes_evaluated]=2483
+[Stat:solution_depth]=62
+[Timer:search] 3.126357
+[Stat:total_nodes_evaluated]2085020341
+
+real	0m3.159s
+user	0m2.000s
+sys	0m1.156s
+LOG(state): depth=0, h=33, f=33, 10,0,2,4,5,1,6,12,11,13,9,7,15,3,14,8
+LOG: init_distr, cnt=2048
+f_limit=43
+[Stat:loop] 3016
+[Stat:nodes_evaluated] 12795
+STAT: loads: sum=3016, av=1
+STAT: distr: av=1026, 2av=282, 4av=441, 8av=260, 16av=39, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2215(+167)
+f_limit=45
+[Stat:loop] 11127
+[Stat:nodes_evaluated] 87957
+STAT: loads: sum=11127, av=5
+STAT: distr: av=1224, 2av=674, 4av=305, 8av=12, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2757(+542)
+f_limit=47
+[Stat:loop] 31743
+[Stat:nodes_evaluated] 455802
+STAT: loads: sum=31743, av=11
+STAT: distr: av=1566, 2av=858, 4av=312, 8av=21, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4473(+1716)
+f_limit=49
+[Stat:loop] 116482
+[Stat:nodes_evaluated] 2239062
+STAT: loads: sum=116482, av=26
+STAT: distr: av=2759, 2av=1228, 4av=438, 8av=47, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7251(+2778)
+f_limit=51
+[Stat:loop] 503325
+[Stat:nodes_evaluated] 11129616
+STAT: loads: sum=503325, av=69
+STAT: distr: av=4399, 2av=2084, 4av=705, 8av=63, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=11915(+4664)
+f_limit=53
+[Stat:loop] 2385082
+[Stat:nodes_evaluated] 55650981
+STAT: loads: sum=2385082, av=200
+STAT: distr: av=6956, 2av=3887, 4av=1018, 8av=54, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=19696(+7781)
+f_limit=55
+[Stat:loop] 11753938
+[Stat:nodes_evaluated] 279407505
+STAT: loads: sum=11753938, av=596
+STAT: distr: av=11284, 2av=6796, 4av=1549, 8av=67, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=32452(+12756)
+f_limit=57
+[Stat:loop] 58642409
+[Stat:nodes_evaluated] 1402951896
+STAT: loads: sum=58642409, av=1807
+STAT: distr: av=18253, 2av=11699, 4av=2413, 8av=87, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=53588(+21136)
+f_limit=59
+[Stat:loop] 294347660
+[Stat:nodes_evaluated] 7056958321
+STAT: loads: sum=294347660, av=5492
+STAT: distr: av=29953, 2av=19849, 4av=3694, 8av=92, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=88128(+34540)
+find all the optimal solution(s), at depth=59
+[Stat:cpu_nodes_evaluated]=2371
+[Stat:solution_depth]=59
+[Timer:search] 12.318867
+[Stat:total_nodes_evaluated]8808893935
+
+real	0m12.350s
+user	0m8.248s
+sys	0m4.104s
+LOG(state): depth=0, h=50, f=50, 14,9,12,13,15,4,8,10,0,2,1,7,3,11,5,6
+LOG: init_distr, cnt=2048
+f_limit=54
+[Stat:loop] 7404
+[Stat:nodes_evaluated] 75153
+STAT: loads: sum=7404, av=3
+STAT: distr: av=1268, 2av=392, 4av=268, 8av=102, 16av=10, 32av=4, 64av=3, 128av=0, more=1
+STAT: n_roots=3224(+1176)
+f_limit=56
+[Stat:loop] 52263
+[Stat:nodes_evaluated] 923112
+STAT: loads: sum=52263, av=16
+STAT: distr: av=2563, 2av=459, 4av=138, 8av=37, 16av=12, 32av=7, 64av=3, 128av=3, more=2
+STAT: n_roots=5505(+2281)
+f_limit=58
+[Stat:loop] 394934
+[Stat:nodes_evaluated] 8739081
+STAT: loads: sum=394934, av=71
+STAT: distr: av=4480, 2av=579, 4av=274, 8av=100, 16av=36, 32av=21, 64av=10, 128av=3, more=2
+STAT: n_roots=9572(+4067)
+f_limit=60
+[Stat:loop] 3026410
+[Stat:nodes_evaluated] 71263938
+STAT: loads: sum=3026410, av=316
+STAT: distr: av=7204, 2av=1461, 4av=549, 8av=236, 16av=82, 32av=22, 64av=12, 128av=4, more=2
+STAT: n_roots=16859(+7287)
+f_limit=62
+[Stat:loop] 22213093
+[Stat:nodes_evaluated] 530636322
+STAT: loads: sum=22213093, av=1317
+STAT: distr: av=11884, 2av=3091, 4av=1328, 8av=388, 16av=116, 32av=37, 64av=10, 128av=4, more=1
+STAT: n_roots=29211(+12352)
+f_limit=64
+[Stat:loop] 154186055
+[Stat:nodes_evaluated] 3696135983
+STAT: loads: sum=154186055, av=5278
+STAT: distr: av=19393, 2av=6456, 4av=2573, 8av=589, 16av=156, 32av=34, 64av=7, 128av=3, more=0
+STAT: n_roots=49955(+20744)
+find all the optimal solution(s), at depth=64
+[Stat:cpu_nodes_evaluated]=2330
+[Stat:solution_depth]=64
+[Timer:search] 9.374153
+[Stat:total_nodes_evaluated]4307773589
+
+real	0m9.403s
+user	0m6.040s
+sys	0m3.360s
+LOG(state): depth=0, h=46, f=46, 15,14,0,4,11,1,6,13,7,5,8,9,3,2,10,12
+LOG: init_distr, cnt=2048
+f_limit=52
+[Stat:loop] 141
+[Stat:nodes_evaluated] 1047
+STAT: loads: sum=141, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2081(+33)
+f_limit=54
+[Stat:loop] 7012
+[Stat:nodes_evaluated] 44376
+STAT: loads: sum=7012, av=3
+STAT: distr: av=1033, 2av=740, 4av=263, 8av=37, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2358(+277)
+f_limit=56
+[Stat:loop] 22768
+[Stat:nodes_evaluated] 304395
+STAT: loads: sum=22768, av=9
+STAT: distr: av=1353, 2av=760, 4av=208, 8av=32, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=3687(+1329)
+f_limit=58
+[Stat:loop] 96197
+[Stat:nodes_evaluated] 1877217
+STAT: loads: sum=96197, av=26
+STAT: distr: av=2443, 2av=876, 4av=306, 8av=53, 16av=8, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=5928(+2241)
+f_limit=60
+[Stat:loop] 514975
+[Stat:nodes_evaluated] 11627106
+STAT: loads: sum=514975, av=86
+STAT: distr: av=3696, 2av=1638, 4av=501, 8av=86, 16av=7, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=9780(+3852)
+f_limit=62
+[Stat:loop] 3102268
+[Stat:nodes_evaluated] 73185999
+STAT: loads: sum=3102268, av=317
+STAT: distr: av=5909, 2av=2948, 4av=817, 8av=102, 16av=4, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=16174(+6394)
+f_limit=64
+[Stat:loop] 19592046
+[Stat:nodes_evaluated] 468033885
+STAT: loads: sum=19592046, av=1211
+STAT: distr: av=9556, 2av=5180, 4av=1319, 8av=116, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=26789(+10615)
+f_limit=66
+[Stat:loop] 126322531
+[Stat:nodes_evaluated] 3028111759
+STAT: loads: sum=126322531, av=4715
+STAT: distr: av=15603, 2av=8900, 4av=2129, 8av=155, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=44538(+17749)
+find all the optimal solution(s), at depth=66
+[Stat:cpu_nodes_evaluated]=2580
+[Stat:solution_depth]=66
+[Timer:search] 5.106125
+[Stat:total_nodes_evaluated]3583185784
+
+real	0m5.139s
+user	0m3.188s
+sys	0m1.948s
+LOG(state): depth=0, h=48, f=48, 11,14,13,1,2,3,12,4,15,7,9,5,10,6,8,0
+LOG: init_distr, cnt=2048
+f_limit=54
+[Stat:loop] 2816
+[Stat:nodes_evaluated] 32619
+STAT: loads: sum=2816, av=1
+STAT: distr: av=1617, 2av=79, 4av=152, 8av=81, 16av=70, 32av=43, 64av=5, 128av=1, more=0
+STAT: n_roots=3654(+1606)
+f_limit=56
+[Stat:loop] 32070
+[Stat:nodes_evaluated] 452262
+STAT: loads: sum=32070, av=8
+STAT: distr: av=2533, 2av=657, 4av=305, 8av=102, 16av=43, 32av=10, 64av=4, 128av=0, more=0
+STAT: n_roots=6101(+2447)
+f_limit=58
+[Stat:loop] 223229
+[Stat:nodes_evaluated] 4583967
+STAT: loads: sum=223229, av=36
+STAT: distr: av=4618, 2av=779, 4av=434, 8av=173, 16av=73, 32av=22, 64av=2, 128av=0, more=0
+STAT: n_roots=10414(+4313)
+f_limit=60
+[Stat:loop] 1750299
+[Stat:nodes_evaluated] 40588692
+STAT: loads: sum=1750299, av=168
+STAT: distr: av=7489, 2av=1614, 4av=918, 8av=276, 16av=95, 32av=19, 64av=2, 128av=1, more=0
+STAT: n_roots=17745(+7331)
+f_limit=62
+[Stat:loop] 13818605
+[Stat:nodes_evaluated] 329152353
+STAT: loads: sum=13818605, av=778
+STAT: distr: av=11912, 2av=3595, 4av=1705, 8av=444, 16av=68, 32av=17, 64av=3, 128av=1, more=0
+STAT: n_roots=30033(+12288)
+f_limit=64
+[Stat:loop] 103687703
+[Stat:nodes_evaluated] 2484188430
+STAT: loads: sum=103687703, av=3452
+STAT: distr: av=19358, 2av=7174, 4av=2833, 8av=562, 16av=92, 32av=12, 64av=1, 128av=1, more=0
+STAT: n_roots=50524(+20491)
+f_limit=66
+[Stat:loop] 744885203
+[Stat:nodes_evaluated] 17870339404
+STAT: loads: sum=744885203, av=14743
+STAT: distr: av=30960, 2av=14203, 4av=4566, 8av=711, 16av=78, 32av=5, 64av=0, 128av=1, more=0
+STAT: n_roots=84471(+33947)
+find all the optimal solution(s), at depth=66
+[Stat:cpu_nodes_evaluated]=2339
+[Stat:solution_depth]=66
+[Timer:search] 30.639980
+[Stat:total_nodes_evaluated]20729337727
+
+real	0m30.671s
+user	0m19.732s
+sys	0m10.944s
+LOG(state): depth=0, h=41, f=41, 11,6,14,12,3,5,1,15,8,0,10,13,9,7,4,2
+LOG: init_distr, cnt=2048
+f_limit=47
+[Stat:loop] 774
+[Stat:nodes_evaluated] 4905
+STAT: loads: sum=774, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2254(+206)
+f_limit=49
+[Stat:loop] 10866
+[Stat:nodes_evaluated] 82398
+STAT: loads: sum=10866, av=4
+STAT: distr: av=1158, 2av=719, 4av=296, 8av=76, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2978(+724)
+f_limit=51
+[Stat:loop] 41436
+[Stat:nodes_evaluated] 626751
+STAT: loads: sum=41436, av=13
+STAT: distr: av=1805, 2av=836, 4av=262, 8av=70, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4969(+1991)
+f_limit=53
+[Stat:loop] 209387
+[Stat:nodes_evaluated] 4368885
+STAT: loads: sum=209387, av=42
+STAT: distr: av=3314, 2av=1112, 4av=431, 8av=97, 16av=15, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=8188(+3219)
+f_limit=55
+[Stat:loop] 1276062
+[Stat:nodes_evaluated] 29505699
+STAT: loads: sum=1276062, av=155
+STAT: distr: av=5112, 2av=2174, 4av=771, 8av=118, 16av=12, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=13656(+5468)
+f_limit=57
+[Stat:loop] 8065269
+[Stat:nodes_evaluated] 191663739
+STAT: loads: sum=8065269, av=590
+STAT: distr: av=8111, 2av=4176, 4av=1223, 8av=141, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=22751(+9095)
+f_limit=59
+[Stat:loop] 50363121
+[Stat:nodes_evaluated] 1205504088
+STAT: loads: sum=50363121, av=2213
+STAT: distr: av=13258, 2av=7446, 4av=1877, 8av=165, 16av=5, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37819(+15068)
+f_limit=61
+[Stat:loop] 307418257
+[Stat:nodes_evaluated] 7372830096
+STAT: loads: sum=307418257, av=8128
+STAT: distr: av=21438, 2av=13196, 4av=3000, 8av=182, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=62935(+25116)
+find all the optimal solution(s), at depth=61
+[Stat:cpu_nodes_evaluated]=2443
+[Stat:solution_depth]=61
+[Timer:search] 12.326156
+[Stat:total_nodes_evaluated]8804586561
+
+real	0m12.360s
+user	0m7.832s
+sys	0m4.524s
+LOG(state): depth=0, h=40, f=40, 14,10,2,1,13,9,8,11,7,3,6,12,15,5,4,0
+LOG: init_distr, cnt=2048
+f_limit=46
+[Stat:loop] 331
+[Stat:nodes_evaluated] 2550
+STAT: loads: sum=331, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2161(+113)
+f_limit=48
+[Stat:loop] 8950
+[Stat:nodes_evaluated] 65640
+STAT: loads: sum=8950, av=4
+STAT: distr: av=1345, 2av=458, 4av=300, 8av=51, 16av=6, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2777(+616)
+f_limit=50
+[Stat:loop] 33536
+[Stat:nodes_evaluated] 487176
+STAT: loads: sum=33536, av=12
+STAT: distr: av=1798, 2av=715, 4av=205, 8av=51, 16av=5, 32av=3, 64av=0, 128av=0, more=0
+STAT: n_roots=4426(+1649)
+f_limit=52
+[Stat:loop] 154305
+[Stat:nodes_evaluated] 3133992
+STAT: loads: sum=154305, av=34
+STAT: distr: av=3011, 2av=885, 4av=408, 8av=107, 16av=11, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=7266(+2840)
+f_limit=54
+[Stat:loop] 834022
+[Stat:nodes_evaluated] 19045242
+STAT: loads: sum=834022, av=114
+STAT: distr: av=4637, 2av=1802, 4av=697, 8av=116, 16av=13, 32av=0, 64av=1, 128av=0, more=0
+STAT: n_roots=12052(+4786)
+f_limit=56
+[Stat:loop] 4692663
+[Stat:nodes_evaluated] 110964069
+STAT: loads: sum=4692663, av=389
+STAT: distr: av=7261, 2av=3550, 4av=1096, 8av=135, 16av=9, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=19933(+7881)
+f_limit=58
+[Stat:loop] 26264391
+[Stat:nodes_evaluated] 627574662
+STAT: loads: sum=26264391, av=1317
+STAT: distr: av=11712, 2av=6272, 4av=1798, 8av=149, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=33048(+13115)
+f_limit=60
+[Stat:loop] 146090065
+[Stat:nodes_evaluated] 3501484563
+STAT: loads: sum=146090065, av=4420
+STAT: distr: av=19061, 2av=11084, 4av=2725, 8av=177, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=54713(+21665)
+f_limit=62
+[Stat:loop] 800332351
+[Stat:nodes_evaluated] 19200178157
+STAT: loads: sum=800332351, av=14627
+STAT: distr: av=31087, 2av=19245, 4av=4152, 8av=229, 16av=0, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=90279(+35566)
+find all the optimal solution(s), at depth=62
+[Stat:cpu_nodes_evaluated]=2304
+[Stat:solution_depth]=62
+[Timer:search] 32.301643
+[Stat:total_nodes_evaluated]23462936051
+
+real	0m32.334s
+user	0m20.592s
+sys	0m11.740s
+LOG(state): depth=0, h=43, f=43, 15,2,12,11,14,13,9,5,1,3,8,7,0,10,6,4
+LOG: init_distr, cnt=2048
+f_limit=51
+[Stat:loop] 6300
+[Stat:nodes_evaluated] 44970
+STAT: loads: sum=6300, av=3
+STAT: distr: av=1281, 2av=340, 4av=305, 8av=118, 16av=3, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2705(+657)
+f_limit=53
+[Stat:loop] 29905
+[Stat:nodes_evaluated] 445872
+STAT: loads: sum=29905, av=11
+STAT: distr: av=1707, 2av=650, 4av=276, 8av=65, 16av=6, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4563(+1858)
+f_limit=55
+[Stat:loop] 171332
+[Stat:nodes_evaluated] 3515466
+STAT: loads: sum=171332, av=37
+STAT: distr: av=3138, 2av=797, 4av=464, 8av=142, 16av=18, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=7730(+3167)
+f_limit=57
+[Stat:loop] 1093542
+[Stat:nodes_evaluated] 25189425
+STAT: loads: sum=1093542, av=141
+STAT: distr: av=5113, 2av=1598, 4av=776, 8av=213, 16av=26, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=13121(+5391)
+f_limit=59
+[Stat:loop] 7127310
+[Stat:nodes_evaluated] 169208739
+STAT: loads: sum=7127310, av=543
+STAT: distr: av=8380, 2av=3103, 4av=1321, 8av=287, 16av=24, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=22151(+9030)
+f_limit=61
+[Stat:loop] 45434372
+[Stat:nodes_evaluated] 1087232601
+STAT: loads: sum=45434372, av=2051
+STAT: distr: av=13626, 2av=5955, 4av=2187, 8av=348, 16av=35, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=37283(+15132)
+f_limit=63
+[Stat:loop] 281444835
+[Stat:nodes_evaluated] 6749236338
+STAT: loads: sum=281444835, av=7548
+STAT: distr: av=22354, 2av=10931, 4av=3531, 8av=441, 16av=26, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=62230(+24947)
+f_limit=65
+[Stat:cpu_nodes_evaluated]=2396
+Error: bpida4.cu:1443 code:77, reason: an illegal memory access was encountered
+
+real	1m4.668s
+user	0m41.212s
+sys	0m23.456s
