@@ -334,6 +334,7 @@ idas_kernel(uchar *input)
                 break;
         }
     }
+	printf("[Stat:solution_depth]=%d\n", f_limit);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded);
 }
 

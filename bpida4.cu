@@ -1078,6 +1078,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
         --cnt;
         if (state_is_goal(state))
         {
+            printf("[Stat:solution_depth]=%d\n", state_get_depth(state));
             solved = true;
             break;
         }
@@ -1382,6 +1383,7 @@ main(int argc, char *argv[])
     int n_roots;
 
     int buf_len = N_INIT_DISTRIBUTION * MAX_BUF_RATIO;
+	int solution_depth = 0;
 
     Input *input                = (Input *) palloc(INPUT_SIZE),
           *d_input              = (Input *) cudaPalloc(INPUT_SIZE);
@@ -1410,7 +1412,7 @@ main(int argc, char *argv[])
         State init_state = state_init(input[0].tiles, 0);
         state_dump(init_state);
         if (distribute_astar(init_state, input, N_INIT_DISTRIBUTION, &n_roots,
-                             &min_fvalue))
+                             &min_fvalue, &solution_depth))
         {
             elog("solution is found by distributor\n");
             goto solution_found;
@@ -1440,9 +1442,10 @@ main(int argc, char *argv[])
 #else
         const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
         if (ret_memcpy == 4) {
-		/* solution found*/
-                break;
-	}
+			/* solution found*/
+			solution_depth = f_limit;
+			break;
+		}
         CUDA_CHECK(ret_memcpy);
 #endif
 
@@ -1521,6 +1524,7 @@ main(int argc, char *argv[])
             if (stat[i].solved)
             {
                 elog("find all the optimal solution(s), at depth=%d\n", stat[i].len);
+				solution_depth = stat[i].len;
                 goto solution_found;
             }
 #endif
@@ -1530,6 +1534,7 @@ main(int argc, char *argv[])
 
 solution_found:
     gettimeofday(&e, NULL);
+	printf("[Stat:solution_depth]=%d\n", solution_depth);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
 
