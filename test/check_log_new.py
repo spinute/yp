@@ -36,16 +36,18 @@ def output_results(log_file_name):
 		t = time_results[i].replace('[Timer:search] ', '')
 		n = total_nodes_results[i].replace('[Stat:total_nodes_evaluated]', '')
 		f.write(d + " " + t + " " + n + '\n')
-		print(d + " " + t + " " + n)
+		# print(d + " " + t + " " + n)
 
 	f.close()
 
 def test_find_error(log_file_name):
 	errors = commands.getoutput("grep -r 'Error:' ../log/" + log_file_name)
+	flag = len(errors) == 0
+	errors = errors.split('\n')
 	for e in errors:
 		print e
 
-	return len(errors) == 0
+	return flag
 
 
 def test_f_limit(log_file_name, ans_file_name):
@@ -66,18 +68,16 @@ def test_f_limit(log_file_name, ans_file_name):
 		valid_f = False
 
 	for x in xrange(0,len(depth_results)):
-		if ans_array[x] != depth_results :
-			print(str(x) + "th problem is false")
-			print("true   : " + ans_array[x])
-			print("false  : " + log_limits[x])
-			print("")
+		depth = depth_results[x].replace('[Stat:solution_depth]=', '')
+		if ans_array[x] != depth :
+			print(str(x) + "th true: " + ans_array[x] + "false: " + depth)
 			valid_f = False
-		assert ans_array[x] == depth_results
+		# assert ans_array[x] == depth
 
 	return valid_f
 
 def exec_test(log_file_name, ans_file_name):
-	if test_f_limit(log_file_name, ans_file_name) & test_find_error:
+	if test_f_limit(log_file_name, ans_file_name) & test_find_error(log_file_name):
 		print(log_file_name + " : OK")
 		return
 	print(log_file_name + " : failed")
