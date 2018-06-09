@@ -3,7 +3,7 @@
 #include <assert.h>
 #define PACKED
 // #define FIND_ALL
-#define COLLECT_LOG
+#define COLLECT_LOG (true)
 #undef USE_PRECOMPUTED_HDIFF
 
 #define BLOCK_DIM (32)
@@ -1396,8 +1396,7 @@ main(int argc, char *argv[])
     struct timeval s, e;
 
     d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
-
-
+    long long total_nodes_expanded_in_total = 0;
 
     int min_fvalue = 0;
 
@@ -1447,8 +1446,6 @@ main(int argc, char *argv[])
         const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
         if (ret_memcpy == 4) {
 		/* solution found*/
-                gettimeofday(&e, NULL);
-                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                 break;
 	}
         CUDA_CHECK(ret_memcpy);
@@ -1466,6 +1463,7 @@ main(int argc, char *argv[])
         for (int i = 0; i < n_roots; ++i)
             total_nodes_evaluated += stat[i].nodes_expanded;
         elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
+        total_nodes_expanded_in_total += total_nodes_evaluated;
 #endif
 
         int                    increased = 0;
@@ -1526,8 +1524,6 @@ main(int argc, char *argv[])
         for (int i = 0; i < n_roots; ++i)
             if (stat[i].solved)
             {
-                gettimeofday(&e, NULL);
-                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                 elog("find all the optimal solution(s), at depth=%d\n", stat[i].len);
                 goto solution_found;
             }
@@ -1537,6 +1533,9 @@ main(int argc, char *argv[])
     }
 
 solution_found:
+    gettimeofday(&e, NULL);
+    printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
+    printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
     cudaPfree(d_input);
     cudaPfree(d_stat);
     cudaPfree(d_movable_table);

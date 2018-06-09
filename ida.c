@@ -292,6 +292,7 @@ void
 idas_kernel(uchar *input)
 {
     long long nodes_expanded = 0, nodes_expanded_first = 0;
+    long long total_nodes_expanded = 0;
     int       f_limit;
     bool      found;
     init_mdist();
@@ -306,6 +307,8 @@ idas_kernel(uchar *input)
         nodes_expanded_first = 0;
         found                = idas_internal(f_limit, &nodes_expanded_first);
         printf("f_limit=%3d, expanded nodes = %lld\n", f_limit, nodes_expanded);
+        printf("[Stat:nodes_evaluated]%lld\n", nodes_expanded);
+        total_nodes_expanded += nodes_expanded;
     }
     if (!found)
     {
@@ -313,6 +316,8 @@ idas_kernel(uchar *input)
         nodes_expanded = 0;
         found          = idas_internal(f_limit, &nodes_expanded);
         printf("f_limit=%3d, expanded nodes = %lld\n", f_limit, nodes_expanded);
+        printf("[Stat:nodes_evaluated]%lld\n", nodes_expanded);
+        total_nodes_expanded += nodes_expanded;
 
         f_limit += nodes_expanded == nodes_expanded_first ? 1 : 2;
 
@@ -322,11 +327,14 @@ idas_kernel(uchar *input)
             found          = idas_internal(f_limit, &nodes_expanded);
             printf("f_limit=%3d, expanded nodes = %lld\n", f_limit,
                    nodes_expanded);
+	    printf("[Stat:nodes_evaluated]%lld\n", nodes_expanded);
+	    total_nodes_expanded += nodes_expanded;
 
             if (found)
                 break;
         }
     }
+    printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded);
 }
 
 /* host implementation */

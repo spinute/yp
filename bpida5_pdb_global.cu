@@ -2,7 +2,7 @@
 
 //#define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
-#define COLLECT_LOG (false)
+#define COLLECT_LOG (true)
 
 #define BLOCK_DIM (32) /* NOTE: broken when more than 32 */
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
@@ -1508,6 +1508,7 @@ main(int argc, char *argv[])
     d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
     int min_fvalue = 0;
+    long long total_nodes_expanded_in_total = 0;
 
     if (argc != 2)
         exit_failure("usage: bin/cumain <ifname>\n");
@@ -1557,8 +1558,6 @@ main(int argc, char *argv[])
         const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
         if (ret_memcpy == 4) {
 		/* solution found*/
-                gettimeofday(&e, NULL);
-                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                 break;
 	}
         CUDA_CHECK(ret_memcpy);
@@ -1569,19 +1568,15 @@ main(int argc, char *argv[])
             loads_sum += stat[i].loads;
 
 #if COLLECT_LOG == true
-        elog("STAT: loop\n");
+        unsigned long long int total_loop = 0, total_nodes_evaluated = 0;
+
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].loads);
-        putchar('\n');
-        elog("STAT: nodes_expanded\n");
+            total_loop += stat[i].loads;
+        elog("[Stat:loop] %llu\n", total_loop);
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].nodes_expanded);
-        putchar('\n');
-        elog("STAT: efficiency\n");
-        for (int i = 0; i < n_roots; ++i)
-        if (stat[i].loads != 0)
-            elog("%lld, ", stat[i].nodes_expanded / stat[i].loads);
-        putchar('\n');
+            total_nodes_evaluated += stat[i].nodes_expanded;
+        elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
+        total_nodes_expanded_in_total += total_nodes_evaluated;
 #endif
 
         int                    increased = 0;
@@ -1642,8 +1637,6 @@ main(int argc, char *argv[])
         for (int i = 0; i < n_roots; ++i)
             if (stat[i].solved)
             {
-                gettimeofday(&e, NULL);
-                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                 elog("find all the optimal solution(s), at depth=%d\n", stat[i].len);
                 goto solution_found;
             }
@@ -1651,6 +1644,9 @@ main(int argc, char *argv[])
     }
 
 solution_found:
+    gettimeofday(&e, NULL);
+    printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
+    printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
     cudaPfree(d_input);
     cudaPfree(d_stat);
     cudaPfree(d_movable_table);
