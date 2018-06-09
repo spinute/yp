@@ -1504,7 +1504,6 @@ main(int argc, char *argv[])
 
     struct timeval s, e;
 
-
     int min_fvalue = 0;
 
     if (argc != 2)
@@ -1570,19 +1569,14 @@ main(int argc, char *argv[])
             loads_sum += stat[i].loads;
 
 #if COLLECT_LOG == true
-        elog("STAT: loop\n");
+        unsigned long long int total_loop = 0, total_nodes_evaluated = 0;
+
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].loads);
-        putchar('\n');
-        elog("STAT: nodes_expanded\n");
+            total_loop += stat[i].loads;
+        elog("[Stat:loop] %llu\n", total_loop);
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].nodes_expanded);
-        putchar('\n');
-        elog("STAT: efficiency\n");
-        for (int i = 0; i < n_roots; ++i)
-		if (stat[i].loads != 0)
-            elog("%lld, ", stat[i].nodes_expanded / stat[i].loads);
-        putchar('\n');
+            total_nodes_evaluated += stat[i].nodes_expanded;
+        elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
 #endif
 
         int                    increased = 0;

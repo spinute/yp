@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include <sys/time.h>
 
 //#define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
@@ -1340,6 +1341,7 @@ main(int argc, char *argv[])
          *d_movable_table       = (bool *) cudaPalloc(MOVABLE_TABLE_SIZE);
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
+    struct timeval s, e;
 
     d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
@@ -1352,6 +1354,8 @@ main(int argc, char *argv[])
 
     init_mdist(h_diff_table);
     init_movable_table(movable_table);
+
+    gettimeofday(&s, NULL);
 
     {
         State init_state = state_init(input[0].tiles, 0);
@@ -1381,29 +1385,32 @@ main(int argc, char *argv[])
         elog("f_limit=%d\n", (int) f_limit);
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table, global_st);
-        CUDA_CHECK(
-            cudaGetLastError()); /* asm trap is called when find solution */
-
+#if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
+#else
+        const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
+        if (ret_memcpy == 4) {
+		/* solution found*/
+                gettimeofday(&e, NULL);
+                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
+                break;
+	}
+        CUDA_CHECK(ret_memcpy);
+#endif
 
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
             loads_sum += stat[i].loads;
 
 #if COLLECT_LOG == true
-        elog("STAT: loop\n");
+        unsigned long long int total_loop = 0, total_nodes_evaluated = 0;
+
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].loads);
-        putchar('\n');
-        elog("STAT: nodes_expanded\n");
+            total_loop += stat[i].loads;
+        elog("[Stat:loop] %llu\n", total_loop);
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].nodes_expanded);
-        putchar('\n');
-        elog("STAT: efficiency\n");
-        for (int i = 0; i < n_roots; ++i)
-		if (stat[i].loads != 0)
-            elog("%lld, ", stat[i].nodes_expanded / stat[i].loads);
-        putchar('\n');
+            total_nodes_evaluated += stat[i].nodes_expanded;
+        elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
 #endif
 
         int                    increased = 0;
@@ -1464,6 +1471,8 @@ main(int argc, char *argv[])
         for (int i = 0; i < n_roots; ++i)
             if (stat[i].solved)
             {
+                gettimeofday(&e, NULL);
+                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                 elog("find all the optimal solution(s), at depth=%d\n", stat[i].len);
                 goto solution_found;
             }
