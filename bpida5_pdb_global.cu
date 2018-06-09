@@ -1502,6 +1502,7 @@ main(int argc, char *argv[])
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE);
     unsigned char *d_h0 = (unsigned char *) cudaPalloc(TABLESIZE);
     unsigned char *d_h1 = (unsigned char *) cudaPalloc(TABLESIZE);
+    struct timeval s, e;
     d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
     int min_fvalue = 0;
@@ -1511,11 +1512,16 @@ main(int argc, char *argv[])
 
     load_state_from_file(argv[1], input[0].tiles);
 
+    gettimeofday(&s, NULL);
     pdb_load();
+    gettimeofday(&e, NULL);
+    printf("[Timer:pdb_load] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     CUDA_CHECK(cudaMemcpy(d_h0, h0, TABLESIZE, cudaMemcpyHostToDevice));
     CUDA_CHECK(cudaMemcpy(d_h1, h1, TABLESIZE, cudaMemcpyHostToDevice));
 
     init_movable_table();
+
+    gettimeofday(&s, NULL);
 
     {
         State init_state = state_init(input[0].tiles, 0);
@@ -1543,10 +1549,18 @@ main(int argc, char *argv[])
 
         elog("f_limit=%d\n", (int) f_limit);
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit, d_movable_table, d_h0, d_h1, global_st);
-        CUDA_CHECK(
-            cudaGetLastError()); /* asm trap is called when find solution */
-
+#if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
+#else
+        const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
+        if (ret_memcpy == 4) {
+		/* solution found*/
+                gettimeofday(&e, NULL);
+                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
+                break;
+	}
+        CUDA_CHECK(ret_memcpy);
+#endif
 
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
@@ -1626,6 +1640,8 @@ main(int argc, char *argv[])
         for (int i = 0; i < n_roots; ++i)
             if (stat[i].solved)
             {
+                gettimeofday(&e, NULL);
+                printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
                 elog("find all the optimal solution(s), at depth=%d\n", stat[i].len);
                 goto solution_found;
             }
