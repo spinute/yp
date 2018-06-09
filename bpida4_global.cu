@@ -1,8 +1,9 @@
 #include <stdbool.h>
+#include <sys/time.h>
 #include <assert.h>
 #define PACKED
 // #define FIND_ALL
-#define COLLECT_LOG
+#define COLLECT_LOG (true)
 #undef USE_PRECOMPUTED_HDIFF
 
 #define BLOCK_DIM (32)
@@ -242,13 +243,13 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
         if (found)
         {
             Direction dir = threadIdx.x & 3;
-#ifdef COLLECT_LOG
-			nodes_expanded++;
-#endif
-
 			/* NOTE: candidate_dir_table may be effective to avoid divergence */
             if (state.parent_dir == dir_reverse(dir))
                 continue;
+
+#ifdef COLLECT_LOG
+			nodes_expanded++;
+#endif
 
             if (state_movable(state, dir))
             {
@@ -1392,10 +1393,10 @@ main(int argc, char *argv[])
          *d_movable_table       = (bool *) cudaPalloc(MOVABLE_TABLE_SIZE);
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
+    struct timeval s, e;
 
     d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
-
-
+    long long total_nodes_expanded_in_total = 0;
 
     int min_fvalue = 0;
 
@@ -1406,6 +1407,8 @@ main(int argc, char *argv[])
 
     init_mdist(h_diff_table);
     init_movable_table(movable_table);
+
+    gettimeofday(&s, NULL);
 
     {
         State init_state = state_init(input[0].tiles, 0);
@@ -1436,29 +1439,31 @@ main(int argc, char *argv[])
         elog("f_limit=%d\n", (int) f_limit);
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table, global_st);
-        CUDA_CHECK(
-            cudaGetLastError()); /* asm trap is called when find solution */
 
+#if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
-
+#else
+        const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
+        if (ret_memcpy == 4) {
+		/* solution found*/
+                break;
+	}
+        CUDA_CHECK(ret_memcpy);
+#endif
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
             loads_sum += stat[i].loads;
 
 #ifdef COLLECT_LOG
-        elog("STAT: loop\n");
+        unsigned long long int total_loop = 0, total_nodes_evaluated = 0;
+
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].loads);
-        putchar('\n');
-        elog("STAT: nodes_expanded\n");
+            total_loop += stat[i].loads;
+        elog("[Stat:loop] %llu\n", total_loop);
         for (int i = 0; i < n_roots; ++i)
-            elog("%lld, ", stat[i].nodes_expanded);
-        putchar('\n');
-        elog("STAT: efficiency\n");
-        for (int i = 0; i < n_roots; ++i)
-		if (stat[i].loads != 0)
-            elog("%lld, ", stat[i].nodes_expanded / stat[i].loads);
-        putchar('\n');
+            total_nodes_evaluated += stat[i].nodes_expanded;
+        elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
+        total_nodes_expanded_in_total += total_nodes_evaluated;
 #endif
 
         int                    increased = 0;
@@ -1528,6 +1533,9 @@ main(int argc, char *argv[])
     }
 
 solution_found:
+    gettimeofday(&e, NULL);
+    printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
+    printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
     cudaPfree(d_input);
     cudaPfree(d_stat);
     cudaPfree(d_movable_table);
