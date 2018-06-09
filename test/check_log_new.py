@@ -52,32 +52,32 @@ def test_f_limit(log_file_name, ans_file_name):
 	depth_results  = commands.getoutput("grep -r 'solution_depth' ../log/" + log_file_name)
 	depth_results = depth_results.split('\n')
 	ans_hash = {}
-    ans_array = []
-    for line in open(ans_file_name, 'r'):
-        array = line.split()
-        if len(array) == 0:
-            break
-        ans_hash[array[0]] = array[1]
-        ans_array.append(array[1])
+	ans_array = []
+	for line in open(ans_file_name, 'r'):
+		array = line.split()
+		if len(array) == 0:
+			break
+		ans_hash[array[0]] = array[1]
+		ans_array.append(array[1])
 
-    valid_f = True
+	valid_f = True
 
-    if len(ans_array) != len(depth_results) :
-    	valid_f = False
+	if len(ans_array) != len(depth_results) :
+		valid_f = False
 
-    for x in xrange(0,len(depth_results)):
-    	if ans_array[x] != depth_results :
-    		print(str(x) + "th problem is false")
-    		print("true   : " + ans_array[x])
-    		print("false  : " + log_limits[x])
-    		print("")
-    		valid_f = False
-    	assert ans_array[x] == depth_results
+	for x in xrange(0,len(depth_results)):
+		if ans_array[x] != depth_results :
+			print(str(x) + "th problem is false")
+			print("true   : " + ans_array[x])
+			print("false  : " + log_limits[x])
+			print("")
+			valid_f = False
+		assert ans_array[x] == depth_results
 
-    return valid_f
+	return valid_f
 
 def exec_test(log_file_name, ans_file_name):
-	if test_f_limit(log_file_name, ans_file_name) && test_find_error:
+	if test_f_limit(log_file_name, ans_file_name) & test_find_error:
 		print(log_file_name + " : OK")
 		return
 	print(log_file_name + " : failed")
@@ -85,16 +85,19 @@ def exec_test(log_file_name, ans_file_name):
 
 for b in bench_marks_4:
 	for solver in solver_4:
-		log_f_name = b + solver
-		output_results(log_f_name, ans_file_hash[b])
+		log_f_name = b + "_" + solver
+		output_results(log_f_name)
+		exec_test(log_f_name, ans_file_hash[b])
 
 for b in bench_marks_5:
 	for solver in solver_5:
-		log_f_name = b + solver
-		output_results(log_f_name, ans_file_hash[b])
+		log_f_name = b + "_" + solver
+		output_results(log_f_name)
+		exec_test(log_f_name, ans_file_hash[b])
 
-for b in bench_marks_5_korf:
-	for solver in solver_5_pdb:
-		log_f_name = b + solver
-		output_results(log_f_name, ans_file_hash[b])
+# for b in bench_marks_5_korf:
+# 	for solver in solver_5_pdb:
+# 		log_f_name = b + "_" + solver
+		# output_results(log_f_name)
+		# exec_test(log_f_name, ans_file_hash[b])
 
