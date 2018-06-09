@@ -1008,6 +1008,7 @@ bool
 distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
                  int *min_fvalue, int *solution_depth)
 {
+	int nodes_evaluated = 0;
     int      cnt = 0;
     State    state;
     PQ       q = pq_init(distr_n + 10);
@@ -1023,7 +1024,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
-        state_dump(state);
+		nodes_evaluated++;
         --cnt;
         if (state_is_goal(state))
         {
@@ -1072,6 +1073,7 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     *cnt_inputs = cnt;
     elog("LOG: init_distr, cnt=%d\n", cnt);
+    printf("[Stat:cpu_nodes_evaluated]=%d\n", nodes_evaluated);
     if (!solved)
     {
         int minf = INT_MAX;
