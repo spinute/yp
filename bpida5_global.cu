@@ -1,7 +1,8 @@
 #include <stdbool.h>
 #include <sys/time.h>
+#include <assert.h>
 
-// #define FIND_ALL (true)
+//#define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
 #define COLLECT_LOG (true)
 
@@ -9,6 +10,7 @@
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
 #define STACK_BUF_LEN (104 * (BLOCK_DIM/DIR_N))
 #define MAX_BUF_RATIO (256)
+#define MAX_BLOCK_SIZE (64535)
 
 #define STATE_WIDTH 5
 #define STATE_N (STATE_WIDTH * STATE_WIDTH)
@@ -181,6 +183,7 @@ stack_put(d_Stack *stack, d_State *state, bool put)
 	{
 		unsigned int i = atomicInc( &stack->n, UINT_MAX); /* slow? especially in old CC environment */
 		stack->buf[i] = *state;
+        assert(STACK_BUF_LEN > i);
 	}
 	__syncthreads();
 }
@@ -233,6 +236,7 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
         if (found)
         {
             Direction dir = threadIdx.x & 3;
+
 			/* NOTE: candidate_dir_table may be effective to avoid divergence */
             if (state.parent_dir == dir_reverse(dir))
                 continue;
@@ -240,7 +244,6 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 #if COLLECT_LOG == true
 			nodes_expanded++;
 #endif
-
 
             if (state_movable(state, dir))
             {
@@ -276,9 +279,9 @@ idas_internal(d_Stack *stack, int f_limit, search_stat *stat)
 /* XXX: movable table is effective in this case? */
 __global__ void
 idas_kernel(Input *input, search_stat *stat, int f_limit,
-            signed char *h_diff_table, bool *movable_table)
+            signed char *h_diff_table, bool *movable_table, d_Stack *global_st)
 {
-    __shared__ d_Stack     stack;
+    // __shared__ d_Stack     stack;
 
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
@@ -292,8 +295,8 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
 
 	if (tid == 0)
 	{
-		stack.buf[0] = state;
-		stack.n      = 1;
+		global_st[bid].buf[0] = state;
+		global_st[bid].n      = 1;
 	}
 
     for (int i = tid; i < STATE_N * DIR_N; i += blockDim.x)
@@ -301,7 +304,7 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
             movable_table_shared[i / DIR_N][i % DIR_N] = movable_table[i];
 
 	__syncthreads();
-    idas_internal(&stack, f_limit, &stat[bid]);
+    idas_internal(&global_st[bid], f_limit, &stat[bid]);
 }
 
 /* host library implementation */
@@ -1024,12 +1027,12 @@ distribute_astar(State init_state, Input input[], int distr_n, int *cnt_inputs,
 
     while ((state = pq_pop(q)))
     {
-		nodes_evaluated++;
         --cnt;
+		nodes_evaluated++;
         if (state_is_goal(state))
         {
             solved = true;
-			*solution_depth = state_get_depth(state);
+	    *solution_depth = state_get_depth(state);
             break;
         }
 
@@ -1344,9 +1347,10 @@ main(int argc, char *argv[])
          *d_movable_table       = (bool *) cudaPalloc(MOVABLE_TABLE_SIZE);
     signed char *h_diff_table   = (signed char *) palloc(H_DIFF_TABLE_SIZE),
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
-
     struct timeval s, e;
     long long total_nodes_expanded_in_total = 0;
+
+    // d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
     int min_fvalue = 0;
 
@@ -1386,9 +1390,10 @@ main(int argc, char *argv[])
             cudaMemcpy(d_input, input, INPUT_SIZE, cudaMemcpyHostToDevice));
 
         elog("f_limit=%d\n", (int) f_limit);
+        d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
-                                            d_h_diff_table, d_movable_table);
-
+                                            d_h_diff_table, d_movable_table, global_st);
+        cudaPfree(global_st);
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else

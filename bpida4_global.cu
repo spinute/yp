@@ -8,7 +8,7 @@
 
 #define BLOCK_DIM (32)
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define MAX_GPU_PLAN (24)
+#define MAX_GPU_PLAN (28)
 #define MAX_BUF_RATIO (256)
 #define MAX_BLOCK_SIZE (64535)
 
@@ -191,6 +191,7 @@ stack_put(d_Stack *stack, d_State *state, bool put)
 	{
 		unsigned int i = atomicInc(&stack->n, UINT_MAX); /* slow? especially in old CC environment */
 		stack->buf[i] = *state;
+        assert(i < STACK_BUF_LEN);
 	}
 	__syncthreads();
 }
@@ -1401,7 +1402,7 @@ main(int argc, char *argv[])
 	int solution_depth = 0;
     struct timeval s, e;
 
-    d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
+    // d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
     long long total_nodes_expanded_in_total = 0;
 
     int min_fvalue = 0;
@@ -1443,8 +1444,10 @@ main(int argc, char *argv[])
             cudaMemcpy(d_input, input, INPUT_SIZE, cudaMemcpyHostToDevice));
 
         elog("f_limit=%d\n", (int) f_limit);
+        d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table, global_st);
+        cudaPfree(global_st);
 
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
