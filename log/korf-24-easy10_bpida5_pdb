@@ -1,0 +1,577 @@
+LOG: init_distr, cnt=2049
+start iteration
+0
+f_limit=85
+[Stat:loop] 5087
+[Stat:nodes_evaluated] 51588
+STAT: loads: sum=5087, av=2
+STAT: distr: av=1308, 2av=316, 4av=239, 8av=137, 16av=36, 32av=11, 64av=1, 128av=1, more=0
+STAT: n_roots=3120(+1071)
+0
+f_limit=87
+[Stat:loop] 46615
+[Stat:nodes_evaluated] 826113
+STAT: loads: sum=46615, av=14
+STAT: distr: av=2328, 2av=423, 4av=222, 8av=93, 16av=38, 32av=12, 64av=4, 128av=0, more=0
+STAT: n_roots=5594(+2474)
+0
+f_limit=89
+[Stat:loop] 459356
+[Stat:nodes_evaluated] 10328529
+STAT: loads: sum=459356, av=82
+STAT: distr: av=4184, 2av=707, 4av=445, 8av=174, 16av=64, 32av=13, 64av=7, 128av=0, more=0
+STAT: n_roots=9956(+4362)
+0
+f_limit=91
+[Stat:loop] 4958256
+[Stat:nodes_evaluated] 117722271
+STAT: loads: sum=4958256, av=498
+STAT: distr: av=7108, 2av=1573, 4av=871, 8av=298, 16av=86, 32av=12, 64av=7, 128av=1, more=0
+STAT: n_roots=17845(+7889)
+0
+f_limit=93
+[Stat:loop] 51648969
+[Stat:nodes_evaluated] 1237220964
+STAT: loads: sum=51648969, av=2894
+STAT: distr: av=12202, 2av=3397, 4av=1586, 8av=536, 16av=98, 32av=20, 64av=4, 128av=2, more=0
+STAT: n_roots=31844(+13999)
+0
+f_limit=95
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.333858
+state_dump: d=0, h=81, (x,y)=(1,2)
+14 5 9 2 18
+8 23 19 12 17
+15 0 10 20 4
+6 11 21 1 7
+24 3 16 22 13
+-----------
+[Stat:cpu_nodes_evaluated]=1894
+[Stat:solution_depth]=95
+[Timer:search] 836.762215
+[Stat:total_nodes_evaluated]1366149465
+
+real	14m3.384s
+user	9m6.188s
+sys	4m57.360s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=89
+[Stat:loop] 6790
+[Stat:nodes_evaluated] 43476
+STAT: loads: sum=6790, av=3
+STAT: distr: av=1085, 2av=486, 4av=415, 8av=61, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2410(+362)
+0
+f_limit=91
+[Stat:loop] 28450
+[Stat:nodes_evaluated] 437457
+STAT: loads: sum=28450, av=11
+STAT: distr: av=1417, 2av=693, 4av=238, 8av=59, 16av=3, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4236(+1826)
+0
+f_limit=93
+[Stat:loop] 178311
+[Stat:nodes_evaluated] 3792945
+STAT: loads: sum=178311, av=42
+STAT: distr: av=2790, 2av=918, 4av=424, 8av=92, 16av=11, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=7249(+3013)
+0
+f_limit=95
+[Stat:loop] 1344451
+[Stat:nodes_evaluated] 31402002
+STAT: loads: sum=1344451, av=185
+STAT: distr: av=4563, 2av=1811, 4av=723, 8av=131, 16av=21, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=12683(+5434)
+0
+f_limit=97
+[Stat:loop] 10679952
+[Stat:nodes_evaluated] 254783214
+STAT: loads: sum=10679952, av=842
+STAT: distr: av=7728, 2av=3556, 4av=1210, 8av=171, 16av=17, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=22208(+9525)
+0
+f_limit=99
+[Stat:loop] 85215244
+[Stat:nodes_evaluated] 2042431539
+STAT: loads: sum=85215244, av=3837
+STAT: distr: av=13406, 2av=6425, 4av=2077, 8av=278, 16av=22, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=38816(+16608)
+0
+f_limit=101
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.349899
+state_dump: d=0, h=83, (x,y)=(1,2)
+21 24 8 1 19
+22 12 9 7 18
+4 0 23 14 10
+6 3 11 16 5
+15 2 20 13 17
+-----------
+[Stat:cpu_nodes_evaluated]=1976
+[Stat:solution_depth]=101
+[Timer:search] 582.205576
+[Stat:total_nodes_evaluated]2332890633
+
+real	9m48.838s
+user	6m23.340s
+sys	3m25.616s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=71
+[Stat:loop] 4789
+[Stat:nodes_evaluated] 24351
+STAT: loads: sum=4789, av=2
+STAT: distr: av=1242, 2av=312, 4av=326, 8av=159, 16av=9, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2566(+518)
+0
+f_limit=73
+[Stat:loop] 18473
+[Stat:nodes_evaluated] 207717
+STAT: loads: sum=18473, av=7
+STAT: distr: av=1515, 2av=667, 4av=331, 8av=52, 16av=1, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=4001(+1435)
+0
+f_limit=75
+[Stat:loop] 88719
+[Stat:nodes_evaluated] 1628580
+STAT: loads: sum=88719, av=22
+STAT: distr: av=2693, 2av=823, 4av=372, 8av=101, 16av=12, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=6779(+2778)
+0
+f_limit=77
+[Stat:loop] 565193
+[Stat:nodes_evaluated] 12669249
+STAT: loads: sum=565193, av=83
+STAT: distr: av=4446, 2av=1477, 4av=651, 8av=182, 16av=22, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=11903(+5124)
+0
+f_limit=79
+[Stat:loop] 4165984
+[Stat:nodes_evaluated] 98392968
+STAT: loads: sum=4165984, av=349
+STAT: distr: av=7628, 2av=2819, 4av=1162, 8av=260, 16av=30, 32av=4, 64av=0, 128av=0, more=0
+STAT: n_roots=21013(+9110)
+0
+f_limit=81
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.346334
+state_dump: d=0, h=65, (x,y)=(4,1)
+3 17 9 8 24
+1 11 12 14 0
+5 4 22 13 16
+21 15 6 7 10
+20 23 2 18 19
+-----------
+[Stat:cpu_nodes_evaluated]=1671
+[Stat:solution_depth]=81
+[Timer:search] 54.245788
+[Stat:total_nodes_evaluated]112922865
+
+real	1m0.874s
+user	0m41.648s
+sys	0m19.240s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=88
+[Stat:loop] 945
+[Stat:nodes_evaluated] 11190
+STAT: loads: sum=945, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2641(+593)
+0
+f_limit=90
+[Stat:loop] 17126
+[Stat:nodes_evaluated] 217236
+STAT: loads: sum=17126, av=6
+STAT: distr: av=1875, 2av=481, 4av=199, 8av=49, 16av=25, 32av=6, 64av=4, 128av=2, more=0
+STAT: n_roots=4183(+1542)
+0
+f_limit=92
+[Stat:loop] 137708
+[Stat:nodes_evaluated] 2788992
+STAT: loads: sum=137708, av=32
+STAT: distr: av=3369, 2av=407, 4av=225, 8av=104, 16av=52, 32av=19, 64av=5, 128av=2, more=0
+STAT: n_roots=7259(+3076)
+0
+f_limit=94
+[Stat:loop] 1418263
+[Stat:nodes_evaluated] 33071184
+STAT: loads: sum=1418263, av=195
+STAT: distr: av=5449, 2av=931, 4av=552, 8av=227, 16av=77, 32av=18, 64av=3, 128av=2, more=0
+STAT: n_roots=12892(+5633)
+0
+f_limit=96
+[Stat:loop] 15532834
+[Stat:nodes_evaluated] 371022972
+STAT: loads: sum=15532834, av=1204
+STAT: distr: av=8978, 2av=2260, 4av=1122, 8av=426, 16av=91, 32av=12, 64av=1, 128av=2, more=0
+STAT: n_roots=23021(+10129)
+0
+f_limit=98
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.321130
+state_dump: d=0, h=84, (x,y)=(4,4)
+17 15 7 12 8
+3 4 9 21 5
+16 6 19 20 1
+22 24 18 11 14
+23 10 2 13 0
+-----------
+[Stat:cpu_nodes_evaluated]=1753
+[Stat:solution_depth]=98
+[Timer:search] 136.156249
+[Stat:total_nodes_evaluated]407111574
+
+real	2m22.759s
+user	1m31.680s
+sys	0m51.088s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=80
+[Stat:loop] 3119
+[Stat:nodes_evaluated] 18441
+STAT: loads: sum=3119, av=1
+STAT: distr: av=1313, 2av=251, 4av=155, 8av=197, 16av=118, 32av=14, 64av=0, 128av=0, more=0
+STAT: n_roots=2895(+847)
+0
+f_limit=82
+[Stat:loop] 18856
+[Stat:nodes_evaluated] 202824
+STAT: loads: sum=18856, av=6
+STAT: distr: av=1752, 2av=651, 4av=396, 8av=85, 16av=10, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4506(+1611)
+0
+f_limit=84
+[Stat:loop] 96310
+[Stat:nodes_evaluated] 1743756
+STAT: loads: sum=96310, av=21
+STAT: distr: av=3035, 2av=879, 4av=442, 8av=142, 16av=8, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=7713(+3207)
+0
+f_limit=86
+[Stat:loop] 635945
+[Stat:nodes_evaluated] 14214993
+STAT: loads: sum=635945, av=82
+STAT: distr: av=5113, 2av=1565, 4av=797, 8av=212, 16av=25, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=13513(+5800)
+0
+f_limit=88
+[Stat:loop] 4761007
+[Stat:nodes_evaluated] 112417896
+STAT: loads: sum=4761007, av=352
+STAT: distr: av=8457, 2av=3322, 4av=1443, 8av=274, 16av=15, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=23974(+10461)
+0
+f_limit=90
+[Stat:loop] 36371176
+[Stat:nodes_evaluated] 869637141
+STAT: loads: sum=36371176, av=1517
+STAT: distr: av=14741, 2av=6446, 4av=2394, 8av=371, 16av=20, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=42268(+18294)
+0
+f_limit=92
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.336728
+state_dump: d=0, h=74, (x,y)=(1,3)
+8 19 7 16 12
+2 13 22 14 9
+11 5 6 3 18
+24 0 15 10 23
+1 20 4 17 21
+-----------
+[Stat:cpu_nodes_evaluated]=1839
+[Stat:solution_depth]=92
+[Timer:search] 74.238995
+[Stat:total_nodes_evaluated]998235051
+
+real	1m20.836s
+user	0m54.404s
+sys	0m26.456s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=87
+[Stat:loop] 1526
+[Stat:nodes_evaluated] 12885
+STAT: loads: sum=1526, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2516(+468)
+0
+f_limit=89
+[Stat:loop] 17291
+[Stat:nodes_evaluated] 226308
+STAT: loads: sum=17291, av=6
+STAT: distr: av=1639, 2av=522, 4av=245, 8av=74, 16av=28, 32av=4, 64av=3, 128av=1, more=0
+STAT: n_roots=4074(+1558)
+0
+f_limit=91
+[Stat:loop] 135160
+[Stat:nodes_evaluated] 2786310
+STAT: loads: sum=135160, av=33
+STAT: distr: av=3142, 2av=488, 4av=277, 8av=103, 16av=49, 32av=10, 64av=3, 128av=2, more=0
+STAT: n_roots=7053(+2979)
+0
+f_limit=93
+[Stat:loop] 1352218
+[Stat:nodes_evaluated] 31591800
+STAT: loads: sum=1352218, av=191
+STAT: distr: av=5196, 2av=1036, 4av=532, 8av=177, 16av=90, 32av=17, 64av=4, 128av=1, more=0
+STAT: n_roots=12643(+5590)
+0
+f_limit=95
+[Stat:loop] 14095600
+[Stat:nodes_evaluated] 336710217
+STAT: loads: sum=14095600, av=1114
+STAT: distr: av=8952, 2av=2170, 4av=1010, 8av=369, 16av=109, 32av=29, 64av=4, 128av=0, more=0
+STAT: n_roots=22628(+9985)
+0
+f_limit=97
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.335931
+state_dump: d=0, h=81, (x,y)=(4,1)
+1 12 18 13 17
+15 3 7 20 0
+19 24 6 5 21
+11 2 8 9 16
+22 10 4 23 14
+-----------
+[Stat:cpu_nodes_evaluated]=1818
+[Stat:solution_depth]=97
+[Timer:search] 135.667163
+[Stat:total_nodes_evaluated]371327520
+
+real	2m22.286s
+user	1m34.640s
+sys	0m47.676s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=88
+[Stat:loop] 1255
+[Stat:nodes_evaluated] 13098
+STAT: loads: sum=1255, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2048
+STAT: n_roots=2550(+502)
+0
+f_limit=90
+[Stat:loop] 14713
+[Stat:nodes_evaluated] 179712
+STAT: loads: sum=14713, av=5
+STAT: distr: av=1635, 2av=559, 4av=232, 8av=83, 16av=33, 32av=7, 64av=1, 128av=0, more=0
+STAT: n_roots=3966(+1416)
+0
+f_limit=92
+[Stat:loop] 95263
+[Stat:nodes_evaluated] 1848486
+STAT: loads: sum=95263, av=24
+STAT: distr: av=2970, 2av=490, 4av=329, 8av=136, 16av=37, 32av=3, 64av=1, 128av=0, more=0
+STAT: n_roots=6717(+2751)
+0
+f_limit=94
+[Stat:loop] 804016
+[Stat:nodes_evaluated] 18477345
+STAT: loads: sum=804016, av=119
+STAT: distr: av=4701, 2av=1100, 4av=658, 8av=203, 16av=49, 32av=6, 64av=0, 128av=0, more=0
+STAT: n_roots=11860(+5143)
+0
+f_limit=96
+[Stat:loop] 7554151
+[Stat:nodes_evaluated] 179801889
+STAT: loads: sum=7554151, av=636
+STAT: distr: av=7904, 2av=2433, 4av=1147, 8av=317, 16av=53, 32av=4, 64av=2, 128av=0, more=0
+STAT: n_roots=21030(+9170)
+0
+f_limit=98
+[Stat:loop] 71188424
+[Stat:nodes_evaluated] 1705811928
+STAT: loads: sum=71188424, av=3385
+STAT: distr: av=13558, 2av=4928, 4av=2019, 8av=465, 16av=47, 32av=11, 64av=2, 128av=0, more=0
+STAT: n_roots=37184(+16154)
+0
+f_limit=100
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.329647
+state_dump: d=0, h=84, (x,y)=(1,3)
+23 22 5 3 9
+6 18 15 10 2
+21 13 19 12 20
+7 0 1 16 24
+17 4 14 8 11
+-----------
+[Stat:cpu_nodes_evaluated]=1782
+[Stat:solution_depth]=100
+[Timer:search] 260.368232
+[Stat:total_nodes_evaluated]1906132458
+
+real	4m26.979s
+user	2m55.076s
+sys	1m31.956s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=88
+[Stat:loop] 4699
+[Stat:nodes_evaluated] 33264
+STAT: loads: sum=4699, av=2
+STAT: distr: av=1274, 2av=279, 4av=303, 8av=170, 16av=21, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=2626(+578)
+0
+f_limit=90
+[Stat:loop] 25982
+[Stat:nodes_evaluated] 389487
+STAT: loads: sum=25982, av=9
+STAT: distr: av=1592, 2av=663, 4av=257, 8av=96, 16av=13, 32av=5, 64av=0, 128av=0, more=0
+STAT: n_roots=4681(+2055)
+0
+f_limit=92
+[Stat:loop] 179898
+[Stat:nodes_evaluated] 3769059
+STAT: loads: sum=179898, av=38
+STAT: distr: av=3259, 2av=812, 4av=438, 8av=145, 16av=21, 32av=4, 64av=2, 128av=0, more=0
+STAT: n_roots=8161(+3480)
+0
+f_limit=94
+[Stat:loop] 1500019
+[Stat:nodes_evaluated] 34990338
+STAT: loads: sum=1500019, av=183
+STAT: distr: av=5401, 2av=1761, 4av=782, 8av=170, 16av=39, 32av=7, 64av=0, 128av=1, more=0
+STAT: n_roots=14502(+6341)
+0
+f_limit=96
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.333637
+state_dump: d=0, h=82, (x,y)=(4,0)
+10 3 24 12 0
+7 8 11 14 21
+22 23 2 1 9
+17 18 6 20 4
+13 15 5 19 16
+-----------
+[Stat:cpu_nodes_evaluated]=1859
+[Stat:solution_depth]=96
+[Timer:search] 26.488591
+[Stat:total_nodes_evaluated]39182148
+
+real	0m33.047s
+user	0m23.796s
+sys	0m9.264s
+LOG: init_distr, cnt=2048
+start iteration
+0
+f_limit=74
+[Stat:loop] 5495
+[Stat:nodes_evaluated] 28131
+STAT: loads: sum=5495, av=2
+STAT: distr: av=1247, 2av=279, 4av=286, 8av=215, 16av=21, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=2841(+793)
+0
+f_limit=76
+[Stat:loop] 24651
+[Stat:nodes_evaluated] 283869
+STAT: loads: sum=24651, av=8
+STAT: distr: av=1538, 2av=872, 4av=373, 8av=54, 16av=3, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=4893(+2052)
+0
+f_limit=78
+[Stat:loop] 130008
+[Stat:nodes_evaluated] 2450082
+STAT: loads: sum=130008, av=26
+STAT: distr: av=3293, 2av=976, 4av=473, 8av=134, 16av=15, 32av=2, 64av=0, 128av=0, more=0
+STAT: n_roots=8359(+3466)
+0
+f_limit=80
+[Stat:loop] 917021
+[Stat:nodes_evaluated] 20792439
+STAT: loads: sum=917021, av=109
+STAT: distr: av=5476, 2av=1777, 4av=841, 8av=241, 16av=23, 32av=1, 64av=0, 128av=0, more=0
+STAT: n_roots=14735(+6376)
+0
+f_limit=82
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.328181
+state_dump: d=0, h=68, (x,y)=(3,1)
+2 17 4 13 7
+12 10 3 0 16
+21 24 8 5 18
+20 15 19 14 9
+22 11 6 1 23
+-----------
+[Stat:cpu_nodes_evaluated]=1697
+[Stat:solution_depth]=82
+[Timer:search] 10.689812
+[Stat:total_nodes_evaluated]23554521
+
+real	0m17.257s
+user	0m12.976s
+sys	0m4.288s
+LOG: init_distr, cnt=2049
+start iteration
+0
+f_limit=83
+[Stat:loop] 1248
+[Stat:nodes_evaluated] 12915
+STAT: loads: sum=1248, av=0
+STAT: distr: av=0, 2av=0, 4av=0, 8av=0, 16av=0, 32av=0, 64av=0, 128av=0, more=2049
+STAT: n_roots=2578(+529)
+0
+f_limit=85
+[Stat:loop] 16806
+[Stat:nodes_evaluated] 201180
+STAT: loads: sum=16806, av=6
+STAT: distr: av=1739, 2av=514, 4av=246, 8av=49, 16av=18, 32av=8, 64av=2, 128av=2, more=0
+STAT: n_roots=4056(+1478)
+0
+f_limit=87
+[Stat:loop] 108440
+[Stat:nodes_evaluated] 2095110
+STAT: loads: sum=108440, av=26
+STAT: distr: av=3064, 2av=559, 4av=272, 8av=118, 16av=31, 32av=6, 64av=5, 128av=1, more=0
+STAT: n_roots=6971(+2915)
+0
+f_limit=89
+[Stat:loop] 883864
+[Stat:nodes_evaluated] 20288103
+STAT: loads: sum=883864, av=126
+STAT: distr: av=4982, 2av=1119, 4av=605, 8av=194, 16av=58, 32av=9, 64av=4, 128av=0, more=0
+STAT: n_roots=12221(+5250)
+0
+f_limit=91
+[Stat:loop] 7898353
+[Stat:nodes_evaluated] 187894767
+STAT: loads: sum=7898353, av=646
+STAT: distr: av=8229, 2av=2528, 4av=1052, 8av=340, 16av=57, 32av=13, 64av=2, 128av=0, more=0
+STAT: n_roots=21538(+9317)
+0
+f_limit=93
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 6.338587
+state_dump: d=0, h=81, (x,y)=(3,4)
+8 12 18 3 2
+11 10 22 24 17
+1 13 23 4 20
+16 6 15 9 21
+19 5 14 0 7
+-----------
+[Stat:cpu_nodes_evaluated]=1765
+[Stat:solution_depth]=93
+[Timer:search] 20.308220
+[Stat:total_nodes_evaluated]210492075
+
+real	0m26.928s
+user	0m19.800s
+sys	0m7.136s

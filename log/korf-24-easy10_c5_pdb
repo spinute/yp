@@ -1,0 +1,464 @@
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.153792
+state_dump: g=0, h=81, (x,y)=(1,2)
+14 5 9 2 18
+8 23 19 12 17
+15 0 10 20 4
+6 11 21 1 7
+24 3 16 22 13
+-----------
+search start.
+f=81
+f_limit= 81, expanded nodes = 185
+[Stat:nodes_evaluated]185
+f=83
+f_limit= 83, expanded nodes = 1723
+[Stat:nodes_evaluated]1723
+f=85
+f_limit= 85, expanded nodes = 31835
+[Stat:nodes_evaluated]31835
+f=87
+f_limit= 87, expanded nodes = 413146
+[Stat:nodes_evaluated]413146
+f=89
+f_limit= 89, expanded nodes = 4927586
+[Stat:nodes_evaluated]4927586
+f=91
+f_limit= 91, expanded nodes = 56144429
+[Stat:nodes_evaluated]56144429
+f=93
+f_limit= 93, expanded nodes = 587131052
+[Stat:nodes_evaluated]587131052
+f=95
+f_limit= 95, expanded nodes = 674995363
+[Stat:nodes_evaluated]674995363
+[Stat:solution_depth]=95
+[Stat:total_nodes_evaluated]1323645319
+[Timer:search] 52.509998
+len=95: 1 3 2 0 2 2 3 1 0 2 0 1 1 1 0 2 3 1 3 3 2 3 1 0 0 2 2 0 1 3 3 2 3 1 0 2 2 3 1 0 0 2 0 2 3 3 3 1 0 0 0 1 0 2 2 3 1 0 1 1 3 3 2 2 2 3 1 1 0 2 0 1 1 1 3 3 3 2 2 2 0 0 2 0 1 1 0 2 3 1 3 1 1 0 0 
+
+real	0m55.678s
+user	0m55.500s
+sys	0m0.176s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.070303
+state_dump: g=0, h=83, (x,y)=(1,2)
+21 24 8 1 19
+22 12 9 7 18
+4 0 23 14 10
+6 3 11 16 5
+15 2 20 13 17
+-----------
+search start.
+f=83
+f_limit= 83, expanded nodes = 20
+[Stat:nodes_evaluated]20
+f=85
+f_limit= 85, expanded nodes = 286
+[Stat:nodes_evaluated]286
+f=87
+f_limit= 87, expanded nodes = 2850
+[Stat:nodes_evaluated]2850
+f=89
+f_limit= 89, expanded nodes = 27140
+[Stat:nodes_evaluated]27140
+f=91
+f_limit= 91, expanded nodes = 241610
+[Stat:nodes_evaluated]241610
+f=93
+f_limit= 93, expanded nodes = 2063478
+[Stat:nodes_evaluated]2063478
+f=95
+f_limit= 95, expanded nodes = 17054503
+[Stat:nodes_evaluated]17054503
+f=97
+f_limit= 97, expanded nodes = 138459240
+[Stat:nodes_evaluated]138459240
+f=99
+f_limit= 99, expanded nodes = 1110808199
+[Stat:nodes_evaluated]1110808199
+f=101
+f_limit=101, expanded nodes = 188738890
+[Stat:nodes_evaluated]188738890
+[Stat:solution_depth]=101
+[Stat:total_nodes_evaluated]1457396216
+[Timer:search] 63.271685
+len=101: 0 0 2 2 3 1 1 1 3 2 3 2 0 0 1 0 2 2 3 3 1 0 1 1 0 2 3 3 1 3 2 3 2 0 2 0 2 3 1 0 2 0 0 1 1 1 3 3 3 2 0 2 3 3 2 0 0 0 1 1 1 3 2 2 0 0 1 1 3 3 1 0 2 3 2 0 2 3 3 3 1 0 1 1 0 2 3 1 3 2 0 2 2 2 0 0 0 1 1 1 1 
+
+real	1m6.357s
+user	1m6.160s
+sys	0m0.196s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.184215
+state_dump: g=0, h=65, (x,y)=(4,1)
+3 17 9 8 24
+1 11 12 14 0
+5 4 22 13 16
+21 15 6 7 10
+20 23 2 18 19
+-----------
+search start.
+f=65
+f_limit= 65, expanded nodes = 39
+[Stat:nodes_evaluated]39
+f=67
+f_limit= 67, expanded nodes = 251
+[Stat:nodes_evaluated]251
+f=69
+f_limit= 69, expanded nodes = 2359
+[Stat:nodes_evaluated]2359
+f=71
+f_limit= 71, expanded nodes = 16322
+[Stat:nodes_evaluated]16322
+f=73
+f_limit= 73, expanded nodes = 126925
+[Stat:nodes_evaluated]126925
+f=75
+f_limit= 75, expanded nodes = 949134
+[Stat:nodes_evaluated]949134
+f=77
+f_limit= 77, expanded nodes = 7302344
+[Stat:nodes_evaluated]7302344
+f=79
+f_limit= 79, expanded nodes = 56428182
+[Stat:nodes_evaluated]56428182
+f=81
+f_limit= 81, expanded nodes = 431159980
+[Stat:nodes_evaluated]431159980
+f=83
+f_limit= 83, expanded nodes = 34262021
+[Stat:nodes_evaluated]34262021
+[Stat:solution_depth]=83
+[Stat:total_nodes_evaluated]530247557
+[Timer:search] 19.606633
+len=83: 0 1 1 1 1 3 2 2 3 3 3 2 0 2 0 0 1 1 3 1 0 2 3 3 2 2 0 0 0 1 1 3 3 1 3 2 2 3 2 0 0 1 0 0 1 1 3 1 3 2 3 1 0 2 2 2 3 3 1 1 0 2 0 2 0 2 0 1 1 3 3 2 2 3 1 3 1 0 0 1 0 0 1 
+
+real	0m22.806s
+user	0m22.584s
+sys	0m0.220s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.054560
+state_dump: g=0, h=84, (x,y)=(4,4)
+17 15 7 12 8
+3 4 9 21 5
+16 6 19 20 1
+22 24 18 11 14
+23 10 2 13 0
+-----------
+search start.
+f=84
+f_limit= 84, expanded nodes = 6
+[Stat:nodes_evaluated]6
+f=86
+f_limit= 86, expanded nodes = 663
+[Stat:nodes_evaluated]663
+f=88
+f_limit= 88, expanded nodes = 9820
+[Stat:nodes_evaluated]9820
+f=90
+f_limit= 90, expanded nodes = 124968
+[Stat:nodes_evaluated]124968
+f=92
+f_limit= 92, expanded nodes = 1443339
+[Stat:nodes_evaluated]1443339
+f=94
+f_limit= 94, expanded nodes = 16668498
+[Stat:nodes_evaluated]16668498
+f=96
+f_limit= 96, expanded nodes = 184325085
+[Stat:nodes_evaluated]184325085
+f=98
+f_limit= 98, expanded nodes = 1298872640
+[Stat:nodes_evaluated]1298872640
+[Stat:solution_depth]=98
+[Stat:total_nodes_evaluated]1501445019
+[Timer:search] 61.840238
+len=98: 1 0 1 1 3 2 2 0 1 0 2 0 1 0 2 3 2 3 3 1 1 0 0 2 2 0 1 1 3 1 1 0 2 2 3 2 0 1 3 1 3 3 2 3 1 1 0 2 2 3 2 2 0 1 0 1 3 2 3 1 1 1 0 0 0 0 2 2 3 1 3 1 0 2 2 3 1 3 2 0 2 0 2 0 1 1 3 3 2 3 3 1 1 0 1 0 0 0 
+
+real	1m4.910s
+user	1m4.680s
+sys	0m0.228s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.039653
+state_dump: g=0, h=74, (x,y)=(1,3)
+8 19 7 16 12
+2 13 22 14 9
+11 5 6 3 18
+24 0 15 10 23
+1 20 4 17 21
+-----------
+search start.
+f=74
+f_limit= 74, expanded nodes = 30
+[Stat:nodes_evaluated]30
+f=76
+f_limit= 76, expanded nodes = 229
+[Stat:nodes_evaluated]229
+f=78
+f_limit= 78, expanded nodes = 1774
+[Stat:nodes_evaluated]1774
+f=80
+f_limit= 80, expanded nodes = 13849
+[Stat:nodes_evaluated]13849
+f=82
+f_limit= 82, expanded nodes = 118701
+[Stat:nodes_evaluated]118701
+f=84
+f_limit= 84, expanded nodes = 995788
+[Stat:nodes_evaluated]995788
+f=86
+f_limit= 86, expanded nodes = 7963827
+[Stat:nodes_evaluated]7963827
+f=88
+f_limit= 88, expanded nodes = 62696378
+[Stat:nodes_evaluated]62696378
+f=90
+f_limit= 90, expanded nodes = 482277561
+[Stat:nodes_evaluated]482277561
+f=92
+f_limit= 92, expanded nodes = 631923181
+[Stat:nodes_evaluated]631923181
+[Stat:solution_depth]=92
+[Stat:total_nodes_evaluated]1185991318
+[Timer:search] 47.638345
+len=92: 1 0 2 2 3 3 2 0 1 1 0 0 0 2 2 2 3 1 3 3 1 3 2 2 0 1 1 0 0 1 0 1 3 3 3 3 2 2 0 0 0 0 2 3 3 1 1 1 3 2 3 2 2 2 0 0 1 1 0 0 1 1 3 3 3 2 3 2 0 0 0 0 2 3 1 1 1 3 3 2 2 2 2 0 0 0 1 1 1 3 1 0 
+
+real	0m50.693s
+user	0m50.456s
+sys	0m0.236s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.056299
+state_dump: g=0, h=81, (x,y)=(4,1)
+1 12 18 13 17
+15 3 7 20 0
+19 24 6 5 21
+11 2 8 9 16
+22 10 4 23 14
+-----------
+search start.
+f=81
+f_limit= 81, expanded nodes = 4
+[Stat:nodes_evaluated]4
+f=83
+f_limit= 83, expanded nodes = 88
+[Stat:nodes_evaluated]88
+f=85
+f_limit= 85, expanded nodes = 1137
+[Stat:nodes_evaluated]1137
+f=87
+f_limit= 87, expanded nodes = 11779
+[Stat:nodes_evaluated]11779
+f=89
+f_limit= 89, expanded nodes = 148199
+[Stat:nodes_evaluated]148199
+f=91
+f_limit= 91, expanded nodes = 1670235
+[Stat:nodes_evaluated]1670235
+f=93
+f_limit= 93, expanded nodes = 17867903
+[Stat:nodes_evaluated]17867903
+f=95
+f_limit= 95, expanded nodes = 183835898
+[Stat:nodes_evaluated]183835898
+f=97
+f_limit= 97, expanded nodes = 112096547
+[Stat:nodes_evaluated]112096547
+[Stat:solution_depth]=97
+[Stat:total_nodes_evaluated]315631790
+[Timer:search] 12.045791
+len=97: 0 1 1 1 3 2 3 1 3 2 0 1 3 1 0 0 2 2 3 2 0 1 0 1 3 3 2 2 2 3 1 1 3 2 0 1 1 1 0 2 2 3 1 3 1 0 2 0 2 2 2 3 1 1 0 2 2 3 3 1 1 1 0 2 0 0 2 2 3 1 0 0 2 3 3 3 1 0 0 0 1 3 1 1 3 3 3 2 0 2 2 0 0 1 1 0 1 
+
+real	0m15.117s
+user	0m14.856s
+sys	0m0.260s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.058870
+state_dump: g=0, h=84, (x,y)=(1,3)
+23 22 5 3 9
+6 18 15 10 2
+21 13 19 12 20
+7 0 1 16 24
+17 4 14 8 11
+-----------
+search start.
+f=84
+f_limit= 84, expanded nodes = 29
+[Stat:nodes_evaluated]29
+f=86
+f_limit= 86, expanded nodes = 362
+[Stat:nodes_evaluated]362
+f=88
+f_limit= 88, expanded nodes = 6778
+[Stat:nodes_evaluated]6778
+f=90
+f_limit= 90, expanded nodes = 76169
+[Stat:nodes_evaluated]76169
+f=92
+f_limit= 92, expanded nodes = 768008
+[Stat:nodes_evaluated]768008
+f=94
+f_limit= 94, expanded nodes = 7952903
+[Stat:nodes_evaluated]7952903
+f=96
+f_limit= 96, expanded nodes = 79206458
+[Stat:nodes_evaluated]79206458
+f=98
+f_limit= 98, expanded nodes = 766619734
+[Stat:nodes_evaluated]766619734
+f=100
+f_limit=100, expanded nodes = 98255132
+[Stat:nodes_evaluated]98255132
+[Stat:solution_depth]=100
+[Stat:total_nodes_evaluated]952885573
+[Timer:search] 37.753845
+len=100: 0 0 0 1 3 3 3 2 0 0 2 2 3 1 3 3 1 0 0 1 0 2 2 3 3 2 3 1 1 0 1 0 0 2 0 2 3 1 3 3 2 2 3 2 0 0 1 3 2 0 1 1 0 2 2 0 1 3 2 3 1 1 3 2 0 1 1 3 2 3 2 0 1 3 1 0 1 3 2 0 1 0 0 0 2 2 2 2 3 1 3 1 3 1 0 2 0 1 1 0 
+
+real	0m40.827s
+user	0m40.600s
+sys	0m0.224s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.052903
+state_dump: g=0, h=82, (x,y)=(4,0)
+10 3 24 12 0
+7 8 11 14 21
+22 23 2 1 9
+17 18 6 20 4
+13 15 5 19 16
+-----------
+search start.
+f=82
+f_limit= 82, expanded nodes = 2
+[Stat:nodes_evaluated]2
+f=84
+f_limit= 84, expanded nodes = 78
+[Stat:nodes_evaluated]78
+f=86
+f_limit= 86, expanded nodes = 1757
+[Stat:nodes_evaluated]1757
+f=88
+f_limit= 88, expanded nodes = 18854
+[Stat:nodes_evaluated]18854
+f=90
+f_limit= 90, expanded nodes = 197871
+[Stat:nodes_evaluated]197871
+f=92
+f_limit= 92, expanded nodes = 1882881
+[Stat:nodes_evaluated]1882881
+f=94
+f_limit= 94, expanded nodes = 17390581
+[Stat:nodes_evaluated]17390581
+f=96
+f_limit= 96, expanded nodes = 158707364
+[Stat:nodes_evaluated]158707364
+f=98
+f_limit= 98, expanded nodes = 69722835
+[Stat:nodes_evaluated]69722835
+[Stat:solution_depth]=98
+[Stat:total_nodes_evaluated]247922223
+[Timer:search] 10.265868
+len=98: 1 1 1 3 2 3 2 0 0 1 3 3 3 2 0 0 2 0 1 1 3 3 1 3 1 3 2 2 0 0 1 0 0 2 3 2 2 3 3 1 0 1 0 2 2 3 3 1 3 2 0 1 1 1 0 1 3 2 3 2 2 0 1 0 1 1 3 3 2 2 0 0 1 3 3 2 0 2 0 1 0 1 1 0 2 2 2 2 3 1 1 1 3 1 0 2 0 1 
+
+real	0m13.334s
+user	0m13.128s
+sys	0m0.204s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.166379
+state_dump: g=0, h=68, (x,y)=(3,1)
+2 17 4 13 7
+12 10 3 0 16
+21 24 8 5 18
+20 15 19 14 9
+22 11 6 1 23
+-----------
+search start.
+f=68
+f_limit= 68, expanded nodes = 10
+[Stat:nodes_evaluated]10
+f=70
+f_limit= 70, expanded nodes = 330
+[Stat:nodes_evaluated]330
+f=72
+f_limit= 72, expanded nodes = 2618
+[Stat:nodes_evaluated]2618
+f=74
+f_limit= 74, expanded nodes = 20151
+[Stat:nodes_evaluated]20151
+f=76
+f_limit= 76, expanded nodes = 173318
+[Stat:nodes_evaluated]173318
+f=78
+f_limit= 78, expanded nodes = 1423615
+[Stat:nodes_evaluated]1423615
+f=80
+f_limit= 80, expanded nodes = 11770468
+[Stat:nodes_evaluated]11770468
+f=82
+f_limit= 82, expanded nodes = 34538409
+[Stat:nodes_evaluated]34538409
+[Stat:solution_depth]=82
+[Stat:total_nodes_evaluated]47928919
+[Timer:search] 1.889462
+len=82: 0 1 3 3 2 2 3 1 1 3 2 0 1 3 1 1 0 2 0 1 0 2 0 2 3 3 3 1 0 0 2 3 2 3 1 0 2 0 2 0 1 1 1 3 2 2 2 3 3 1 3 2 0 1 1 3 1 0 0 1 0 2 3 2 0 1 0 1 3 2 3 2 3 1 0 2 0 2 0 1 1 1 
+
+real	0m5.071s
+user	0m4.820s
+sys	0m0.248s
+[Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = false
+pattern 1 2 5 6 7 12 read in
+pattern 3 4 8 9 13 14 read in
+[Timer:pdb_load] 3.061021
+state_dump: g=0, h=81, (x,y)=(3,4)
+8 12 18 3 2
+11 10 22 24 17
+1 13 23 4 20
+16 6 15 9 21
+19 5 14 0 7
+-----------
+search start.
+f=81
+f_limit= 81, expanded nodes = 559
+[Stat:nodes_evaluated]559
+f=83
+f_limit= 83, expanded nodes = 8258
+[Stat:nodes_evaluated]8258
+f=85
+f_limit= 85, expanded nodes = 96040
+[Stat:nodes_evaluated]96040
+f=87
+f_limit= 87, expanded nodes = 1021332
+[Stat:nodes_evaluated]1021332
+f=89
+f_limit= 89, expanded nodes = 10163841
+[Stat:nodes_evaluated]10163841
+f=91
+f_limit= 91, expanded nodes = 96356033
+[Stat:nodes_evaluated]96356033
+f=93
+f_limit= 93, expanded nodes = 480710894
+[Stat:nodes_evaluated]480710894
+[Stat:solution_depth]=93
+[Stat:total_nodes_evaluated]588356957
+[Timer:search] 23.278132
+len=93: 2 0 0 1 0 2 3 1 3 2 0 1 1 0 1 1 3 2 3 3 1 0 2 2 2 3 1 1 0 2 2 3 2 0 1 0 0 1 0 1 1 3 2 3 1 3 2 2 3 2 0 1 0 0 2 0 2 3 3 3 1 0 1 1 3 3 1 0 2 3 2 0 2 0 1 0 0 1 3 3 2 0 0 2 3 1 1 1 3 2 0 0 1 
+
+real	0m26.354s
+user	0m26.124s
+sys	0m0.228s
