@@ -300,7 +300,8 @@ state_dump(void)
 
     for (int i = 0; i < STATE_N; ++i)
         printf("%d%c", i == state.empty ? 0 : (int) state_tile_get(i),
-               POS_X(i) == STATE_WIDTH - 1 ? '\n' : ' ');
+               //POS_X(i) == STATE_WIDTH - 1 ? '\n' : ' ');
+               POS_X(i) == STATE_WIDTH - 1 ? ' ' : ' ');
     printf("-----------\n");
 }
 
@@ -367,34 +368,29 @@ idas_internal(int f_limit, long long *ret_nodes_expanded)
 
 			state.h[pat] = hash[pat]();
 
-			if (stack.i + 1 + state_get_h <= f_limit)
-            {
-				int rpat = whichrefpat[opponent];
-				int rhash_old = state.rh[rpat];
-				HashFunc rh;
-				if (pat == 0)
-					rh = rpat == 0 ? rhash[0] : rhash[2];
-				else if (pat == 1)
-					rh = rpat == 2 ? rhash[2] : rhash[3];
-				else if (pat == 2)
-					rh = rpat == 0 ? rhash[0] : rhash[1];
-				else
-					rh = rpat == 1 ? rhash[1] : rhash[3];
-				state.rh[rpat] = rh();
-
-				if (stack.i + 1 + state_get_rh <= f_limit)
-				{
-					state.empty = new_empty;
-					stack_put(dir, hash_old, rhash_old);
-					dir = 0;
-					continue;
-				}
-				else
-					state.rh[rpat] = rhash_old;
-            }
+			int rpat = whichrefpat[opponent];
+			int rhash_old = state.rh[rpat];
+			HashFunc rh;
+			if (pat == 0)
+				rh = rpat == 0 ? rhash[0] : rhash[2];
+			else if (pat == 1)
+				rh = rpat == 2 ? rhash[2] : rhash[3];
+			else if (pat == 2)
+				rh = rpat == 0 ? rhash[0] : rhash[1];
 			else
-				state.h[pat] = hash_old;
+				rh = rpat == 1 ? rhash[1] : rhash[3];
+			state.rh[rpat] = rh();
 
+			if (stack.i + 1 + state_get_rh <= f_limit)
+			{
+				state.empty = new_empty;
+				stack_put(dir, hash_old, rhash_old);
+				dir = 0;
+				continue;
+			}
+
+			state.rh[rpat] = rhash_old;
+			state.h[pat] = hash_old;
 			state_tile_set(new_empty, opponent);
 			state_inv_set(opponent, new_empty);
         }
