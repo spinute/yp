@@ -207,6 +207,7 @@ stack_pop(d_Stack *stack, d_State *state)
         stack->n = stack->n >= BLOCK_DIM / DIR_N ?
 			stack->n - BLOCK_DIM / DIR_N : 0;
 	__syncthreads();
+    assert(i < STACK_BUF_LEN);
     return i >= 0;
 }
 
@@ -1450,7 +1451,6 @@ main(int argc, char *argv[])
 
 
 #if FIND_ALL == true
-        cudaPfree(global_st);
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
         const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
@@ -1461,6 +1461,8 @@ main(int argc, char *argv[])
 		}
         CUDA_CHECK(ret_memcpy);
 #endif
+        cudaPfree(global_st);
+        
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
             loads_sum += stat[i].loads;

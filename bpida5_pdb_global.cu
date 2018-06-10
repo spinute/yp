@@ -1558,7 +1558,6 @@ main(int argc, char *argv[])
         elog("f_limit=%d\n", (int) f_limit);
         d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit, d_movable_table, d_h0, d_h1, global_st);
-        cudaPfree(global_st);
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
@@ -1570,6 +1569,7 @@ main(int argc, char *argv[])
 		}
         CUDA_CHECK(ret_memcpy);
 #endif
+        cudaPfree(global_st);
 
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
