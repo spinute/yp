@@ -8,7 +8,7 @@
 
 #define BLOCK_DIM (32)
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define MAX_GPU_PLAN (28)
+#define MAX_GPU_PLAN (30)
 #define MAX_BUF_RATIO (256)
 #define MAX_BLOCK_SIZE (64535)
 
@@ -1447,9 +1447,10 @@ main(int argc, char *argv[])
         d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table, global_st);
-        cudaPfree(global_st);
+
 
 #if FIND_ALL == true
+        cudaPfree(global_st);
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
         const cudaError_t ret_memcpy = cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost);
