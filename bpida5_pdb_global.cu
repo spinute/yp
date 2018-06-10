@@ -1510,7 +1510,7 @@ main(int argc, char *argv[])
     unsigned char *d_h0 = (unsigned char *) cudaPalloc(TABLESIZE);
     unsigned char *d_h1 = (unsigned char *) cudaPalloc(TABLESIZE);
     struct timeval s, e;
-    d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
+    // d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
     int min_fvalue = 0;
     long long total_nodes_expanded_in_total = 0;
@@ -1556,7 +1556,9 @@ main(int argc, char *argv[])
         elog("0\n");
 
         elog("f_limit=%d\n", (int) f_limit);
+        d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit, d_movable_table, d_h0, d_h1, global_st);
+        cudaPfree(global_st);
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
