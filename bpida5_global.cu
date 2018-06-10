@@ -282,6 +282,10 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
             signed char *h_diff_table, bool *movable_table, d_Stack *global_st)
 {
     // __shared__ d_Stack     stack;
+    #ifdef FAKE_SHARED
+    __shared__ uchar fake[FAKE_SHARED];
+    fake[0] = 1;
+    #endif
 
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
