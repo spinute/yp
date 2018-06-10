@@ -30,12 +30,20 @@ all_bench_shard: bench_bpida5_gloabl_sh_fa_4312 bench_bpida5_gloabl_sh_fa_8720 b
 	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
 	nvcc -o $@_fa $(NVCC_FLAGS) -DFIND_ALL=true $<
 
-bpida5_global_sh: bpida5_global.cu
-	nvcc -o $@_fa_4312 $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=4312 $<
-	nvcc -o $@_fa_8720 $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=8720 $<
-	nvcc -o $@_fa_13128 $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=13128 $<
-	nvcc -o $@_fa_17536 $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=17536 $<
-	nvcc -o $@_fa_35168 $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=35168 $<
+bpida5_global_sh_fa_4312: bpida5_global.cu
+	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=4312 $<
+
+bpida5_global_sh_fa_8720: bpida5_global.cu
+	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=8720 $<
+
+bpida5_global_sh_fa_13128: bpida5_global.cu
+	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=13128 $<
+
+bpida5_global_sh_fa_17536: bpida5_global.cu
+	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=17536 $<
+
+bpida5_global_sh_fa_35168: bpida5_global.cu
+	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=true -DFAKE_SHARED=35168 $<
 
 
 
