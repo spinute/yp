@@ -2,7 +2,7 @@ VPATH = src
 
 CUDA_PATH = /usr/local/cuda
 CUDA_INC += -I$(CUDA_PATH)/include
-NVCC_FLAGS = -Xcompiler -O2 -Xptxas -O2 --compiler-options -Wall -arch=sm_30  --resource-usage
+NVCC_FLAGS = -Xcompiler -O2 -Xptxas -O2 --compiler-options -Wall -arch=sm_30  --resource-usage -ccbin g++ -lineinfo
 CFLAGS = -O2 -std=c99 -Wall -Wextra
 
 BENCH4=korf100
@@ -10,7 +10,6 @@ BENCH5=yama24_50_hard_new
 # BENCH5KORF=korf50_24puzzle
 # BENCH5KORF=korf-24-easy10
 BENCH5KORF10=korf-24-easy10
-
 
 all: bpida4 bpida4_global bpida5 bpida5_global bpida5_pdb bpida5_pdb_global c4 c5 c5_pdb bpida4_fa bpida4_global_fa bpida5_fa bpida5_global_fa bpida5_pdb_fa bpida5_pdb_global_fa c4_fa c5_fa c5_pdb_fa
 all_bench: bench_bpida4 bench_bpida4_global bench_bpida5 bench_bpida5_global bench_bpida5_pdb bench_bpida5_pdb_global bench_c4 bench_c5 bench_c5_pdb bench_bpida4_fa bench_bpida4_global_fa bench_bpida5_fa bench_bpida5_global_fa bench_bpida5_pdb_fa bench_bpida5_pdb_global_fa bench_c4_fa bench_c5_fa bench_c5_pdb_fa bench_bpida5_pdb_korf10 bench_bpida5_pdb_global_korf10 bench_c5_pdb_korf10 bench_bpida5_pdb_fa_korf10 bench_bpida5_pdb_global_fa_korf10 bench_c5_pdb_fa_korf10
@@ -28,8 +27,6 @@ all_bench_korf10: bench_bpida5_pdb_korf10 bench_bpida5_pdb_global_korf10 bench_c
 %: %.cu
 	nvcc -o $@ $(NVCC_FLAGS) -DFIND_ALL=false $<
 	nvcc -o $@_fa $(NVCC_FLAGS) -DFIND_ALL=true $<
-
-
 
 c4: ida.c
 	gcc -o $@ $(CFLAGS) -DSTATE_WIDTH=4  -DFIND_ALL=false $<
@@ -85,7 +82,6 @@ bench_c5_fa: c5_fa
 bench_c5_pdb_fa: c5_pdb_fa
 	bash script/run_bench.sh $< $(BENCH5)
 
-
 # bench5korf
 bench_bpida5_pdb_korf10: bpida5_pdb
 	bash script/run_bench.sh $< $(BENCH5KORF10)
@@ -100,6 +96,3 @@ bench_bpida5_pdb_global_fa_korf10: bpida5_pdb_global_fa
 	bash script/run_bench.sh $< $(BENCH5KORF10)
 bench_c5_pdb_fa_korf10: c5_pdb_fa
 	bash script/run_bench.sh $< $(BENCH5KORF10)
-
-
-
