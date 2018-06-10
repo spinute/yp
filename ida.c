@@ -416,9 +416,8 @@ main(int argc, char *argv[])
            STATE_WIDTH, FIND_ALL ? "true" : "false");
 
     load_state_from_file(argv[1], s_list);
-
     gettimeofday(&s, NULL);
-    idas_kernel(s_list);
+	idas_kernel(s_list);
     gettimeofday(&e, NULL);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 

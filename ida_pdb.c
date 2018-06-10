@@ -1,6 +1,6 @@
 #include <stdbool.h>
-#include <stdio.h>
 #include <sys/time.h>
+#include <stdio.h>
 
 #define USE_ORDER_KORFS
 #define PLAN_LEN_MAX 255
@@ -528,7 +528,6 @@ main(int argc, char *argv[])
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
 
 	stack_dump();
-
 	avoid_unused_static_assertions();
 
 	return 0;
