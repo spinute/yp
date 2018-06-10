@@ -1,5 +1,6 @@
 #include <stdbool.h>
 #include <sys/time.h>
+#include <assert.h>
 
 //#define FIND_ALL (true)
 #define PACKED (false) // maybe needs debug in 24 puzzle
@@ -182,6 +183,7 @@ stack_put(d_Stack *stack, d_State *state, bool put)
 	{
 		unsigned int i = atomicInc( &stack->n, UINT_MAX); /* slow? especially in old CC environment */
 		stack->buf[i] = *state;
+        assert(STACK_BUF_LEN > i);
 	}
 	__syncthreads();
 }

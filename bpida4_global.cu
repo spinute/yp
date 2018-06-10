@@ -8,7 +8,7 @@
 
 #define BLOCK_DIM (32)
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define MAX_GPU_PLAN (24)
+#define MAX_GPU_PLAN (28)
 #define MAX_BUF_RATIO (256)
 #define MAX_BLOCK_SIZE (64535)
 
@@ -191,6 +191,7 @@ stack_put(d_Stack *stack, d_State *state, bool put)
 	{
 		unsigned int i = atomicInc(&stack->n, UINT_MAX); /* slow? especially in old CC environment */
 		stack->buf[i] = *state;
+        assert(i < STACK_BUF_LEN);
 	}
 	__syncthreads();
 }
