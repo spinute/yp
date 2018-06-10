@@ -282,6 +282,10 @@ idas_kernel(Input *input, search_stat *stat, int f_limit,
             signed char *h_diff_table, bool *movable_table, d_Stack *global_st)
 {
     // __shared__ d_Stack     stack;
+    #ifdef FAKE_SHARED
+    __shared__ uchar fake[FAKE_SHARED];
+    fake[0] = 1;
+    #endif
 
     int tid = threadIdx.x;
 	int bid = blockIdx.x;
@@ -1349,6 +1353,7 @@ main(int argc, char *argv[])
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
     struct timeval s, e;
     long long total_nodes_expanded_in_total = 0;
+    long long total_loops_in_total = 0;
 
     // d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
@@ -1393,7 +1398,6 @@ main(int argc, char *argv[])
         d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table, global_st);
-        cudaPfree(global_st);
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
@@ -1405,6 +1409,7 @@ main(int argc, char *argv[])
 		}
         CUDA_CHECK(ret_memcpy);
 #endif
+        cudaPfree(global_st);
 
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
@@ -1420,6 +1425,7 @@ main(int argc, char *argv[])
             total_nodes_evaluated += stat[i].nodes_expanded;
         elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
         total_nodes_expanded_in_total += total_nodes_evaluated;
+        total_loops_in_total += total_loop;
 #endif
 
         int                    increased = 0;
@@ -1492,6 +1498,7 @@ solution_found:
 	printf("[Stat:solution_depth]=%d\n", solution_depth);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
+    printf("[Stat:total_loops]%lld\n", total_loops_in_total);
 
     return 0;
 }

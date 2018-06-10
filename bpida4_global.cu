@@ -8,7 +8,7 @@
 
 #define BLOCK_DIM (32)
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define MAX_GPU_PLAN (28)
+#define MAX_GPU_PLAN (30)
 #define MAX_BUF_RATIO (256)
 #define MAX_BLOCK_SIZE (64535)
 
@@ -207,6 +207,7 @@ stack_pop(d_Stack *stack, d_State *state)
         stack->n = stack->n >= BLOCK_DIM / DIR_N ?
 			stack->n - BLOCK_DIM / DIR_N : 0;
 	__syncthreads();
+    assert(i < STACK_BUF_LEN);
     return i >= 0;
 }
 
@@ -1404,6 +1405,7 @@ main(int argc, char *argv[])
 
     // d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
     long long total_nodes_expanded_in_total = 0;
+    long long total_loops_in_total = 0;
 
     int min_fvalue = 0;
 
@@ -1447,7 +1449,7 @@ main(int argc, char *argv[])
         d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit,
                                             d_h_diff_table, d_movable_table, global_st);
-        cudaPfree(global_st);
+
 
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
@@ -1460,6 +1462,8 @@ main(int argc, char *argv[])
 		}
         CUDA_CHECK(ret_memcpy);
 #endif
+        cudaPfree(global_st);
+        
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
             loads_sum += stat[i].loads;
@@ -1474,6 +1478,7 @@ main(int argc, char *argv[])
             total_nodes_evaluated += stat[i].nodes_expanded;
         elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
         total_nodes_expanded_in_total += total_nodes_evaluated;
+        total_loops_in_total += total_loop;
 #endif
 
         int                    increased = 0;
@@ -1548,6 +1553,7 @@ solution_found:
 	printf("[Stat:solution_depth]=%d\n", solution_depth);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
+    printf("[Stat:total_loops]%lld\n", total_loops_in_total);
 
     return 0;
 }

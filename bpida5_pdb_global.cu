@@ -1514,6 +1514,7 @@ main(int argc, char *argv[])
 
     int min_fvalue = 0;
     long long total_nodes_expanded_in_total = 0;
+    long long total_loops_in_total = 0;
 
     if (argc != 2)
         exit_failure("usage: bin/cumain <ifname>\n");
@@ -1558,7 +1559,6 @@ main(int argc, char *argv[])
         elog("f_limit=%d\n", (int) f_limit);
         d_Stack *global_st          = (d_Stack *) cudaPalloc(n_roots * sizeof(d_Stack) );
         idas_kernel<<<n_roots, BLOCK_DIM>>>(d_input, d_stat, f_limit, d_movable_table, d_h0, d_h1, global_st);
-        cudaPfree(global_st);
 #if FIND_ALL == true
         CUDA_CHECK(cudaMemcpy(stat, d_stat, STAT_SIZE, cudaMemcpyDeviceToHost));
 #else
@@ -1570,6 +1570,7 @@ main(int argc, char *argv[])
 		}
         CUDA_CHECK(ret_memcpy);
 #endif
+        cudaPfree(global_st);
 
         unsigned long long int loads_sum = 0;
         for (int i = 0; i < n_roots; ++i)
@@ -1585,6 +1586,7 @@ main(int argc, char *argv[])
             total_nodes_evaluated += stat[i].nodes_expanded;
         elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
         total_nodes_expanded_in_total += total_nodes_evaluated;
+        total_loops_in_total += total_loop;
 #endif
 
         int                    increased = 0;
@@ -1657,5 +1659,6 @@ solution_found:
 	printf("[Stat:solution_depth]=%d\n", solution_depth);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
+    printf("[Stat:total_loops]%lld\n", total_loops_in_total);
     return 0;
 }

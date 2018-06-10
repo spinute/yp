@@ -1,6 +1,7 @@
 LOG(state): depth=0, h=35, f=35, 14,1,9,6,4,8,12,5,7,2,3,0,10,11,13,15
 LOG: init_distr, cnt=2048
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2038
 [Stat:loop] 2365
 [Stat:nodes_evaluated] 12696
 STAT: loads: sum=2365, av=1
@@ -19,17 +20,17 @@ STAT: loads: sum=49154, av=14
 STAT: distr: av=2225, 2av=816, 4av=337, 8av=68, 16av=6, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=5611(+2159)
 find all the optimal solution(s), at depth=45
-[Stat:cpu_nodes_evaluated]=2038
 [Stat:solution_depth]=45
-[Timer:search] 0.038185
+[Timer:search] 0.039348
 [Stat:total_nodes_evaluated]886965
 
-real	0m0.067s
-user	0m0.032s
+real	0m0.075s
+user	0m0.040s
 sys	0m0.032s
 LOG(state): depth=0, h=30, f=30, 4,5,7,2,9,14,12,13,0,3,6,11,8,1,15,10
 LOG: init_distr, cnt=2048
 f_limit=38
+[Stat:cpu_nodes_evaluated]=2221
 [Stat:loop] 6125
 [Stat:nodes_evaluated] 30561
 STAT: loads: sum=6125, av=2
@@ -48,17 +49,17 @@ STAT: loads: sum=66484, av=18
 STAT: distr: av=2304, 2av=952, 4av=303, 8av=54, 16av=5, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=5786(+2168)
 find all the optimal solution(s), at depth=42
-[Stat:cpu_nodes_evaluated]=2221
 [Stat:solution_depth]=42
-[Timer:search] 0.043936
+[Timer:search] 0.043590
 [Stat:total_nodes_evaluated]1370723
 
-real	0m0.075s
+real	0m0.073s
 user	0m0.036s
-sys	0m0.036s
+sys	0m0.032s
 LOG(state): depth=0, h=28, f=28, 0,1,9,7,11,13,5,3,14,12,4,2,8,6,10,15
 LOG: init_distr, cnt=2048
 f_limit=36
+[Stat:cpu_nodes_evaluated]=2041
 [Stat:loop] 353
 [Stat:nodes_evaluated] 2211
 STAT: loads: sum=353, av=0
@@ -83,17 +84,17 @@ STAT: loads: sum=71892, av=19
 STAT: distr: av=2384, 2av=1024, 4av=297, 8av=44, 16av=3, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=6062(+2310)
 find all the optimal solution(s), at depth=42
-[Stat:cpu_nodes_evaluated]=2041
 [Stat:solution_depth]=42
-[Timer:search] 0.052162
+[Timer:search] 0.052964
 [Stat:total_nodes_evaluated]1526953
 
-real	0m0.081s
+real	0m0.084s
 user	0m0.048s
 sys	0m0.032s
 LOG(state): depth=0, h=39, f=39, 8,11,4,6,7,3,10,9,2,12,15,13,0,1,5,14
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2204
 [Stat:loop] 202
 [Stat:nodes_evaluated] 2040
 STAT: loads: sum=202, av=0
@@ -118,17 +119,17 @@ STAT: loads: sum=186254, av=35
 STAT: distr: av=3639, 2av=950, 4av=430, 8av=151, 16av=18, 32av=6, 64av=0, 128av=0, more=0
 STAT: n_roots=8609(+3415)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2204
 [Stat:solution_depth]=49
-[Timer:search] 0.057597
+[Timer:search] 0.062118
 [Stat:total_nodes_evaluated]4299854
 
-real	0m0.085s
-user	0m0.044s
-sys	0m0.040s
+real	0m0.093s
+user	0m0.048s
+sys	0m0.044s
 LOG(state): depth=0, h=29, f=29, 13,8,14,3,9,1,0,7,15,5,4,10,12,2,6,11
 LOG: init_distr, cnt=2048
 f_limit=35
+[Stat:cpu_nodes_evaluated]=2113
 [Stat:loop] 680
 [Stat:nodes_evaluated] 3945
 STAT: loads: sum=680, av=0
@@ -153,17 +154,17 @@ STAT: loads: sum=69080, av=16
 STAT: distr: av=2600, 2av=1082, 4av=377, 8av=92, 16av=3, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=6760(+2606)
 find all the optimal solution(s), at depth=41
-[Stat:cpu_nodes_evaluated]=2113
 [Stat:solution_depth]=41
-[Timer:search] 0.052537
+[Timer:search] 0.055606
 [Stat:total_nodes_evaluated]1432983
 
-real	0m0.081s
-user	0m0.048s
-sys	0m0.032s
+real	0m0.090s
+user	0m0.060s
+sys	0m0.024s
 LOG(state): depth=0, h=36, f=36, 7,11,8,3,14,0,6,15,1,4,13,9,5,12,2,10
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2098
 [Stat:loop] 2002
 [Stat:nodes_evaluated] 13755
 STAT: loads: sum=2002, av=0
@@ -188,17 +189,17 @@ STAT: loads: sum=238499, av=35
 STAT: distr: av=4571, 2av=1311, 4av=615, 8av=181, 16av=29, 32av=2, 64av=0, 128av=0, more=0
 STAT: n_roots=11223(+4514)
 find all the optimal solution(s), at depth=46
-[Stat:cpu_nodes_evaluated]=2098
 [Stat:solution_depth]=46
-[Timer:search] 0.067544
+[Timer:search] 0.068677
 [Stat:total_nodes_evaluated]5779595
 
-real	0m0.096s
-user	0m0.056s
-sys	0m0.040s
+real	0m0.100s
+user	0m0.072s
+sys	0m0.024s
 LOG(state): depth=0, h=38, f=38, 12,8,15,13,1,0,5,4,6,3,2,11,9,7,14,10
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2250
 [Stat:loop] 3538
 [Stat:nodes_evaluated] 18357
 STAT: loads: sum=3538, av=1
@@ -223,17 +224,17 @@ STAT: loads: sum=275257, av=48
 STAT: distr: av=3706, 2av=1343, 4av=539, 8av=115, 16av=10, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=9499(+3785)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2250
 [Stat:solution_depth]=50
-[Timer:search] 0.062788
+[Timer:search] 0.068206
 [Stat:total_nodes_evaluated]6961520
 
-real	0m0.090s
-user	0m0.056s
-sys	0m0.032s
+real	0m0.102s
+user	0m0.044s
+sys	0m0.052s
 LOG(state): depth=0, h=35, f=35, 6,0,5,10,11,12,9,2,1,7,4,3,14,8,13,15
 LOG: init_distr, cnt=2049
 f_limit=39
+[Stat:cpu_nodes_evaluated]=2118
 [Stat:loop] 2001
 [Stat:nodes_evaluated] 17484
 STAT: loads: sum=2001, av=0
@@ -258,17 +259,17 @@ STAT: loads: sum=334727, av=42
 STAT: distr: av=5462, 2av=1434, 4av=638, 8av=212, 16av=58, 32av=8, 64av=1, 128av=0, more=0
 STAT: n_roots=13115(+5302)
 find all the optimal solution(s), at depth=45
-[Stat:cpu_nodes_evaluated]=2118
 [Stat:solution_depth]=45
-[Timer:search] 0.075872
+[Timer:search] 0.076567
 [Stat:total_nodes_evaluated]8318017
 
-real	0m0.105s
-user	0m0.068s
-sys	0m0.036s
+real	0m0.107s
+user	0m0.064s
+sys	0m0.040s
 LOG(state): depth=0, h=32, f=32, 4,7,13,10,1,2,9,6,12,8,14,5,3,0,11,15
 LOG: init_distr, cnt=2049
 f_limit=38
+[Stat:cpu_nodes_evaluated]=2088
 [Stat:loop] 2772
 [Stat:nodes_evaluated] 16446
 STAT: loads: sum=2772, av=1
@@ -293,17 +294,17 @@ STAT: loads: sum=193950, av=33
 STAT: distr: av=3804, 2av=1314, 4av=573, 8av=128, 16av=10, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=9703(+3873)
 find all the optimal solution(s), at depth=44
-[Stat:cpu_nodes_evaluated]=2088
 [Stat:solution_depth]=44
-[Timer:search] 0.068751
+[Timer:search] 0.062475
 [Stat:total_nodes_evaluated]4797411
 
-real	0m0.099s
-user	0m0.064s
-sys	0m0.032s
+real	0m0.094s
+user	0m0.068s
+sys	0m0.024s
 LOG(state): depth=0, h=37, f=37, 6,14,10,5,15,8,7,1,3,4,2,0,12,9,11,13
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2275
 [Stat:loop] 160
 [Stat:nodes_evaluated] 1992
 STAT: loads: sum=160, av=0
@@ -328,17 +329,17 @@ STAT: loads: sum=314592, av=59
 STAT: distr: av=3786, 2av=846, 4av=415, 8av=158, 16av=41, 32av=7, 64av=2, 128av=1, more=0
 STAT: n_roots=8930(+3674)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2275
 [Stat:solution_depth]=49
-[Timer:search] 0.091923
+[Timer:search] 0.083725
 [Stat:total_nodes_evaluated]7831654
 
-real	0m0.124s
-user	0m0.076s
-sys	0m0.044s
+real	0m0.117s
+user	0m0.068s
+sys	0m0.048s
 LOG(state): depth=0, h=32, f=32, 9,14,5,7,8,15,1,2,10,4,13,6,12,0,11,3
 LOG: init_distr, cnt=2048
 f_limit=38
+[Stat:cpu_nodes_evaluated]=2047
 [Stat:loop] 3494
 [Stat:nodes_evaluated] 20400
 STAT: loads: sum=3494, av=1
@@ -363,17 +364,17 @@ STAT: loads: sum=252792, av=30
 STAT: distr: av=5277, 2av=1882, 4av=799, 8av=185, 16av=10, 32av=4, 64av=0, 128av=0, more=0
 STAT: n_roots=13572(+5415)
 find all the optimal solution(s), at depth=44
-[Stat:cpu_nodes_evaluated]=2047
 [Stat:solution_depth]=44
-[Timer:search] 0.078182
+[Timer:search] 0.069478
 [Stat:total_nodes_evaluated]6010847
 
-real	0m0.110s
-user	0m0.068s
+real	0m0.100s
+user	0m0.056s
 sys	0m0.040s
 LOG(state): depth=0, h=45, f=45, 5,7,11,8,0,14,9,13,10,12,3,15,6,1,4,2
 LOG: init_distr, cnt=2048
 f_limit=49
+[Stat:cpu_nodes_evaluated]=2294
 [Stat:loop] 467
 [Stat:nodes_evaluated] 6690
 STAT: loads: sum=467, av=0
@@ -392,17 +393,17 @@ STAT: loads: sum=98370, av=25
 STAT: distr: av=2912, 2av=496, 4av=240, 8av=105, 16av=39, 32av=11, 64av=1, 128av=0, more=1
 STAT: n_roots=6448(+2643)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2294
 [Stat:solution_depth]=53
-[Timer:search] 0.059267
+[Timer:search] 0.062200
 [Stat:total_nodes_evaluated]2037025
 
-real	0m0.087s
-user	0m0.048s
-sys	0m0.036s
+real	0m0.092s
+user	0m0.052s
+sys	0m0.040s
 LOG(state): depth=0, h=35, f=35, 12,15,2,6,1,14,4,8,5,3,7,0,10,13,9,11
 LOG: init_distr, cnt=2048
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2195
 [Stat:loop] 4293
 [Stat:nodes_evaluated] 21648
 STAT: loads: sum=4293, av=2
@@ -427,17 +428,17 @@ STAT: loads: sum=275920, av=48
 STAT: distr: av=3575, 2av=1367, 4av=572, 8av=114, 16av=10, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=9419(+3781)
 find all the optimal solution(s), at depth=47
-[Stat:cpu_nodes_evaluated]=2195
 [Stat:solution_depth]=47
-[Timer:search] 0.076031
+[Timer:search] 0.061302
 [Stat:total_nodes_evaluated]7128849
 
-real	0m0.108s
-user	0m0.068s
-sys	0m0.040s
+real	0m0.089s
+user	0m0.056s
+sys	0m0.032s
 LOG(state): depth=0, h=32, f=32, 3,14,9,11,5,4,8,2,13,12,6,7,10,1,15,0
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2059
 [Stat:loop] 6550
 [Stat:nodes_evaluated] 34938
 STAT: loads: sum=6550, av=3
@@ -462,17 +463,17 @@ STAT: loads: sum=359038, av=56
 STAT: distr: av=4001, 2av=1626, 4av=623, 8av=112, 16av=12, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=10751(+4377)
 find all the optimal solution(s), at depth=46
-[Stat:cpu_nodes_evaluated]=2059
 [Stat:solution_depth]=46
-[Timer:search] 0.081393
+[Timer:search] 0.071997
 [Stat:total_nodes_evaluated]9478825
 
-real	0m0.114s
-user	0m0.068s
-sys	0m0.044s
+real	0m0.104s
+user	0m0.044s
+sys	0m0.056s
 LOG(state): depth=0, h=34, f=34, 13,9,14,6,12,8,1,2,3,4,0,7,5,10,11,15
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2168
 [Stat:loop] 5672
 [Stat:nodes_evaluated] 33846
 STAT: loads: sum=5672, av=2
@@ -497,17 +498,17 @@ STAT: loads: sum=418757, av=54
 STAT: distr: av=5033, 2av=1743, 4av=656, 8av=175, 16av=33, 32av=3, 64av=1, 128av=0, more=0
 STAT: n_roots=12843(+5199)
 find all the optimal solution(s), at depth=46
-[Stat:cpu_nodes_evaluated]=2168
 [Stat:solution_depth]=46
-[Timer:search] 0.088454
+[Timer:search] 0.073818
 [Stat:total_nodes_evaluated]10872125
 
-real	0m0.122s
-user	0m0.072s
-sys	0m0.048s
+real	0m0.103s
+user	0m0.048s
+sys	0m0.052s
 LOG(state): depth=0, h=36, f=36, 5,11,6,9,4,13,12,0,8,2,15,10,1,7,3,14
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2251
 [Stat:loop] 403
 [Stat:nodes_evaluated] 2988
 STAT: loads: sum=403, av=0
@@ -538,17 +539,17 @@ STAT: loads: sum=768530, av=100
 STAT: distr: av=4911, 2av=1875, 4av=729, 8av=147, 16av=15, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=12853(+5176)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2251
 [Stat:solution_depth]=50
-[Timer:search] 0.100007
+[Timer:search] 0.099002
 [Stat:total_nodes_evaluated]20774795
 
-real	0m0.130s
-user	0m0.080s
-sys	0m0.044s
+real	0m0.129s
+user	0m0.076s
+sys	0m0.052s
 LOG(state): depth=0, h=31, f=31, 6,13,3,2,11,9,5,10,1,7,12,14,8,4,0,15
 LOG: init_distr, cnt=2048
 f_limit=37
+[Stat:cpu_nodes_evaluated]=2192
 [Stat:loop] 2459
 [Stat:nodes_evaluated] 13089
 STAT: loads: sum=2459, av=1
@@ -579,17 +580,17 @@ STAT: loads: sum=684971, av=73
 STAT: distr: av=5842, 2av=2492, 4av=841, 8av=138, 16av=16, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=15429(+6100)
 find all the optimal solution(s), at depth=45
-[Stat:cpu_nodes_evaluated]=2192
 [Stat:solution_depth]=45
-[Timer:search] 0.100077
+[Timer:search] 0.101552
 [Stat:total_nodes_evaluated]18937925
 
-real	0m0.130s
-user	0m0.096s
-sys	0m0.032s
+real	0m0.132s
+user	0m0.072s
+sys	0m0.060s
 LOG(state): depth=0, h=30, f=30, 5,7,0,11,12,1,9,10,15,6,2,3,8,4,13,14
 LOG: init_distr, cnt=2048
 f_limit=36
+[Stat:cpu_nodes_evaluated]=2106
 [Stat:loop] 4560
 [Stat:nodes_evaluated] 21174
 STAT: loads: sum=4560, av=2
@@ -620,17 +621,17 @@ STAT: loads: sum=743027, av=85
 STAT: distr: av=5180, 2av=2579, 4av=777, 8av=109, 16av=11, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=14536(+5880)
 find all the optimal solution(s), at depth=44
-[Stat:cpu_nodes_evaluated]=2106
 [Stat:solution_depth]=44
-[Timer:search] 0.102657
+[Timer:search] 0.096584
 [Stat:total_nodes_evaluated]21129123
 
-real	0m0.132s
-user	0m0.084s
-sys	0m0.048s
+real	0m0.125s
+user	0m0.072s
+sys	0m0.052s
 LOG(state): depth=0, h=37, f=37, 5,0,15,8,4,6,1,14,10,11,3,9,7,12,2,13
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2129
 [Stat:loop] 1062
 [Stat:nodes_evaluated] 5415
 STAT: loads: sum=1062, av=0
@@ -661,17 +662,17 @@ STAT: loads: sum=841307, av=93
 STAT: distr: av=5804, 2av=2070, 4av=872, 8av=190, 16av=23, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=15065(+6105)
 find all the optimal solution(s), at depth=51
-[Stat:cpu_nodes_evaluated]=2129
 [Stat:solution_depth]=51
-[Timer:search] 0.103373
+[Timer:search] 0.103648
 [Stat:total_nodes_evaluated]22689974
 
 real	0m0.134s
-user	0m0.088s
-sys	0m0.044s
+user	0m0.080s
+sys	0m0.052s
 LOG(state): depth=0, h=41, f=41, 3,14,13,6,4,15,8,9,5,12,10,0,2,7,1,11
 LOG: init_distr, cnt=2049
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2333
 [Stat:loop] 6998
 [Stat:nodes_evaluated] 48096
 STAT: loads: sum=6998, av=3
@@ -696,17 +697,17 @@ STAT: loads: sum=992186, av=128
 STAT: distr: av=4970, 2av=1742, 4av=780, 8av=183, 16av=17, 32av=1, 64av=1, 128av=0, more=0
 STAT: n_roots=13160(+5466)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2333
 [Stat:solution_depth]=53
-[Timer:search] 0.104095
+[Timer:search] 0.102241
 [Stat:total_nodes_evaluated]26605600
 
 real	0m0.134s
-user	0m0.072s
-sys	0m0.060s
+user	0m0.080s
+sys	0m0.052s
 LOG(state): depth=0, h=34, f=34, 4,3,6,13,7,15,9,0,10,5,8,11,2,12,1,14
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2275
 [Stat:loop] 2759
 [Stat:nodes_evaluated] 14772
 STAT: loads: sum=2759, av=1
@@ -737,17 +738,17 @@ STAT: loads: sum=1057230, av=108
 STAT: distr: av=6073, 2av=2544, 4av=1020, 8av=132, 16av=6, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=16379(+6604)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2275
 [Stat:solution_depth]=50
-[Timer:search] 0.127122
+[Timer:search] 0.114739
 [Stat:total_nodes_evaluated]29150867
 
-real	0m0.157s
-user	0m0.108s
-sys	0m0.048s
+real	0m0.146s
+user	0m0.092s
+sys	0m0.052s
 LOG(state): depth=0, h=36, f=36, 3,6,5,2,10,0,15,14,1,4,13,12,9,8,11,7
 LOG: init_distr, cnt=2049
 f_limit=38
+[Stat:cpu_nodes_evaluated]=2179
 [Stat:loop] 951
 [Stat:nodes_evaluated] 9558
 STAT: loads: sum=951, av=0
@@ -778,17 +779,17 @@ STAT: loads: sum=1059337, av=94
 STAT: distr: av=7287, 2av=2551, 4av=1098, 8av=190, 16av=33, 32av=3, 64av=3, 128av=1, more=0
 STAT: n_roots=18722(+7556)
 find all the optimal solution(s), at depth=46
-[Stat:cpu_nodes_evaluated]=2179
 [Stat:solution_depth]=46
-[Timer:search] 0.133061
+[Timer:search] 0.132271
 [Stat:total_nodes_evaluated]29363689
 
-real	0m0.163s
-user	0m0.116s
+real	0m0.165s
+user	0m0.120s
 sys	0m0.044s
 LOG(state): depth=0, h=41, f=41, 7,15,8,2,13,6,3,12,11,0,4,10,9,5,1,14
 LOG: init_distr, cnt=2048
 f_limit=45
+[Stat:cpu_nodes_evaluated]=2413
 [Stat:loop] 580
 [Stat:nodes_evaluated] 4899
 STAT: loads: sum=580, av=0
@@ -819,17 +820,17 @@ STAT: loads: sum=1399264, av=170
 STAT: distr: av=5307, 2av=1979, 4av=716, 8av=201, 16av=10, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=13806(+5592)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2413
 [Stat:solution_depth]=53
-[Timer:search] 0.126239
+[Timer:search] 0.126125
 [Stat:total_nodes_evaluated]38124597
 
-real	0m0.156s
-user	0m0.092s
-sys	0m0.064s
+real	0m0.157s
+user	0m0.084s
+sys	0m0.072s
 LOG(state): depth=0, h=39, f=39, 13,0,9,12,11,6,3,5,15,8,1,10,4,14,2,7
 LOG: init_distr, cnt=2048
 f_limit=45
+[Stat:cpu_nodes_evaluated]=2249
 [Stat:loop] 1673
 [Stat:nodes_evaluated] 10503
 STAT: loads: sum=1673, av=0
@@ -860,17 +861,17 @@ STAT: loads: sum=1166664, av=131
 STAT: distr: av=5494, 2av=2315, 4av=891, 8av=148, 16av=6, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=14937(+6083)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2249
 [Stat:solution_depth]=53
-[Timer:search] 0.106460
+[Timer:search] 0.111206
 [Stat:total_nodes_evaluated]32254892
 
-real	0m0.135s
-user	0m0.088s
-sys	0m0.044s
+real	0m0.141s
+user	0m0.080s
+sys	0m0.060s
 LOG(state): depth=0, h=36, f=36, 5,4,7,1,11,12,14,15,10,13,8,6,2,0,9,3
 LOG: init_distr, cnt=2049
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2322
 [Stat:loop] 2261
 [Stat:nodes_evaluated] 13494
 STAT: loads: sum=2261, av=1
@@ -901,17 +902,17 @@ STAT: loads: sum=1428340, av=156
 STAT: distr: av=5754, 2av=2365, 4av=819, 8av=156, 16av=14, 32av=2, 64av=0, 128av=0, more=0
 STAT: n_roots=15281(+6171)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2322
 [Stat:solution_depth]=50
-[Timer:search] 0.127180
+[Timer:search] 0.127695
 [Stat:total_nodes_evaluated]39821416
 
-real	0m0.157s
-user	0m0.096s
-sys	0m0.060s
+real	0m0.159s
+user	0m0.092s
+sys	0m0.064s
 LOG(state): depth=0, h=36, f=36, 13,14,6,12,4,5,1,0,9,3,10,2,15,11,8,7
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2368
 [Stat:loop] 2507
 [Stat:nodes_evaluated] 15846
 STAT: loads: sum=2507, av=1
@@ -942,17 +943,17 @@ STAT: loads: sum=1574926, av=157
 STAT: distr: av=6336, 2av=2543, 4av=935, 8av=194, 16av=17, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=16964(+6938)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2368
 [Stat:solution_depth]=52
-[Timer:search] 0.125129
+[Timer:search] 0.130591
 [Stat:total_nodes_evaluated]43636424
 
-real	0m0.153s
-user	0m0.088s
-sys	0m0.064s
+real	0m0.161s
+user	0m0.100s
+sys	0m0.060s
 LOG(state): depth=0, h=36, f=36, 14,7,1,9,12,3,6,15,8,11,2,5,10,0,4,13
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2144
 [Stat:loop] 2858
 [Stat:nodes_evaluated] 15432
 STAT: loads: sum=2858, av=1
@@ -983,17 +984,17 @@ STAT: loads: sum=1706821, av=148
 STAT: distr: av=7111, 2av=3070, 4av=1104, 8av=170, 16av=21, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=19443(+7967)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2144
 [Stat:solution_depth]=52
-[Timer:search] 0.152150
+[Timer:search] 0.142310
 [Stat:total_nodes_evaluated]46992641
 
-real	0m0.185s
-user	0m0.120s
-sys	0m0.064s
+real	0m0.174s
+user	0m0.092s
+sys	0m0.080s
 LOG(state): depth=0, h=24, f=24, 1,3,2,5,10,9,15,6,8,14,13,11,12,4,7,0
 LOG: init_distr, cnt=2049
 f_limit=32
+[Stat:cpu_nodes_evaluated]=2101
 [Stat:loop] 1785
 [Stat:nodes_evaluated] 6915
 STAT: loads: sum=1785, av=0
@@ -1030,17 +1031,17 @@ STAT: loads: sum=760344, av=74
 STAT: distr: av=5889, 2av=3413, 4av=837, 8av=58, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=16937(+6740)
 find all the optimal solution(s), at depth=42
-[Stat:cpu_nodes_evaluated]=2101
 [Stat:solution_depth]=42
-[Timer:search] 0.116668
+[Timer:search] 0.118334
 [Stat:total_nodes_evaluated]22175245
 
 real	0m0.150s
-user	0m0.100s
-sys	0m0.048s
+user	0m0.092s
+sys	0m0.056s
 LOG(state): depth=0, h=35, f=35, 9,0,4,10,1,14,15,3,12,6,5,7,11,13,8,2
 LOG: init_distr, cnt=2049
 f_limit=39
+[Stat:cpu_nodes_evaluated]=2304
 [Stat:loop] 334
 [Stat:nodes_evaluated] 2304
 STAT: loads: sum=334, av=0
@@ -1077,17 +1078,17 @@ STAT: loads: sum=2170339, av=180
 STAT: distr: av=7372, 2av=3402, 4av=1081, 8av=138, 16av=13, 32av=2, 64av=0, 128av=0, more=0
 STAT: n_roots=19978(+7970)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2304
 [Stat:solution_depth]=49
-[Timer:search] 0.175902
+[Timer:search] 0.181237
 [Stat:total_nodes_evaluated]62424034
 
-real	0m0.205s
-user	0m0.136s
-sys	0m0.068s
+real	0m0.215s
+user	0m0.156s
+sys	0m0.052s
 LOG(state): depth=0, h=43, f=43, 6,0,14,12,1,15,9,10,11,4,7,2,8,3,5,13
 LOG: init_distr, cnt=2049
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2496
 [Stat:loop] 253
 [Stat:nodes_evaluated] 2670
 STAT: loads: sum=253, av=0
@@ -1118,17 +1119,17 @@ STAT: loads: sum=2150608, av=248
 STAT: distr: av=5813, 2av=1776, 4av=796, 8av=217, 16av=41, 32av=10, 64av=1, 128av=0, more=0
 STAT: n_roots=14796(+6142)
 find all the optimal solution(s), at depth=55
-[Stat:cpu_nodes_evaluated]=2496
 [Stat:solution_depth]=55
-[Timer:search] 0.185065
+[Timer:search] 0.177907
 [Stat:total_nodes_evaluated]58322702
 
-real	0m0.215s
-user	0m0.144s
-sys	0m0.068s
+real	0m0.208s
+user	0m0.136s
+sys	0m0.072s
 LOG(state): depth=0, h=35, f=35, 1,7,15,14,2,6,4,9,12,11,13,3,0,8,5,10
 LOG: init_distr, cnt=2049
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2156
 [Stat:loop] 5427
 [Stat:nodes_evaluated] 32541
 STAT: loads: sum=5427, av=2
@@ -1159,17 +1160,17 @@ STAT: loads: sum=2372734, av=175
 STAT: distr: av=8745, 2av=3080, 4av=1313, 8av=307, 16av=42, 32av=5, 64av=0, 128av=0, more=0
 STAT: n_roots=22784(+9292)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2156
 [Stat:solution_depth]=49
-[Timer:search] 0.172818
+[Timer:search] 0.183707
 [Stat:total_nodes_evaluated]67088334
 
-real	0m0.201s
-user	0m0.148s
-sys	0m0.052s
+real	0m0.215s
+user	0m0.120s
+sys	0m0.092s
 LOG(state): depth=0, h=46, f=46, 14,13,4,11,15,8,6,9,0,7,3,1,2,10,12,5
 LOG: init_distr, cnt=2048
 f_limit=50
+[Stat:cpu_nodes_evaluated]=2296
 [Stat:loop] 647
 [Stat:nodes_evaluated] 6360
 STAT: loads: sum=647, av=0
@@ -1194,17 +1195,17 @@ STAT: loads: sum=503900, av=87
 STAT: distr: av=4115, 2av=931, 4av=481, 8av=177, 16av=39, 32av=8, 64av=1, 128av=0, more=0
 STAT: n_roots=9743(+3991)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2296
 [Stat:solution_depth]=56
-[Timer:search] 0.081885
+[Timer:search] 0.083225
 [Stat:total_nodes_evaluated]12760960
 
-real	0m0.112s
+real	0m0.116s
 user	0m0.072s
 sys	0m0.040s
 LOG(state): depth=0, h=33, f=33, 10,9,3,11,0,13,2,14,5,6,4,7,8,15,1,12
 LOG: init_distr, cnt=2048
 f_limit=39
+[Stat:cpu_nodes_evaluated]=2223
 [Stat:loop] 377
 [Stat:nodes_evaluated] 2658
 STAT: loads: sum=377, av=0
@@ -1241,17 +1242,17 @@ STAT: loads: sum=2336609, av=189
 STAT: distr: av=7453, 2av=3574, 4av=1183, 8av=137, 16av=3, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=20713(+8363)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2223
 [Stat:solution_depth]=49
-[Timer:search] 0.170108
+[Timer:search] 0.170531
 [Stat:total_nodes_evaluated]67126481
 
-real	0m0.200s
-user	0m0.140s
-sys	0m0.056s
+real	0m0.201s
+user	0m0.136s
+sys	0m0.060s
 LOG(state): depth=0, h=35, f=35, 8,4,6,1,14,12,2,15,13,10,9,5,3,7,0,11
 LOG: init_distr, cnt=2048
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2079
 [Stat:loop] 5022
 [Stat:nodes_evaluated] 32100
 STAT: loads: sum=5022, av=2
@@ -1282,17 +1283,17 @@ STAT: loads: sum=2441296, av=175
 STAT: distr: av=8473, 2av=3725, 4av=1522, 8av=172, 16av=14, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=23573(+9666)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2079
 [Stat:solution_depth]=49
-[Timer:search] 0.179123
+[Timer:search] 0.175485
 [Stat:total_nodes_evaluated]68941580
 
-real	0m0.209s
-user	0m0.132s
-sys	0m0.076s
+real	0m0.207s
+user	0m0.148s
+sys	0m0.056s
 LOG(state): depth=0, h=43, f=43, 4,6,12,0,14,2,9,13,11,8,3,15,7,10,1,5
 LOG: init_distr, cnt=2048
 f_limit=49
+[Stat:cpu_nodes_evaluated]=2267
 [Stat:loop] 1736
 [Stat:nodes_evaluated] 14250
 STAT: loads: sum=1736, av=0
@@ -1323,17 +1324,17 @@ STAT: loads: sum=4004958, av=332
 STAT: distr: av=7763, 2av=2789, 4av=1195, 8av=256, 16av=48, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=20635(+8583)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2267
 [Stat:solution_depth]=57
-[Timer:search] 0.228612
+[Timer:search] 0.228551
 [Stat:total_nodes_evaluated]109796455
 
-real	0m0.259s
-user	0m0.176s
-sys	0m0.080s
+real	0m0.261s
+user	0m0.200s
+sys	0m0.060s
 LOG(state): depth=0, h=31, f=31, 12,3,9,1,4,5,10,2,6,11,15,0,14,7,13,8
 LOG: init_distr, cnt=2048
 f_limit=37
+[Stat:cpu_nodes_evaluated]=2076
 [Stat:loop] 24
 [Stat:nodes_evaluated] 150
 STAT: loads: sum=24, av=0
@@ -1376,17 +1377,17 @@ STAT: loads: sum=3433137, av=243
 STAT: distr: av=8154, 2av=4669, 4av=1205, 8av=71, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=23623(+9522)
 find all the optimal solution(s), at depth=49
-[Stat:cpu_nodes_evaluated]=2076
 [Stat:solution_depth]=49
-[Timer:search] 0.228414
+[Timer:search] 0.236300
 [Stat:total_nodes_evaluated]101864199
 
-real	0m0.258s
-user	0m0.188s
-sys	0m0.068s
+real	0m0.268s
+user	0m0.172s
+sys	0m0.092s
 LOG(state): depth=0, h=36, f=36, 6,12,11,3,13,7,9,15,2,14,8,10,4,1,5,0
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2222
 [Stat:loop] 6631
 [Stat:nodes_evaluated] 39762
 STAT: loads: sum=6631, av=3
@@ -1417,17 +1418,17 @@ STAT: loads: sum=3381046, av=268
 STAT: distr: av=7786, 2av=3303, 4av=1269, 8av=206, 16av=16, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=21203(+8623)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2222
 [Stat:solution_depth]=52
-[Timer:search] 0.211044
+[Timer:search] 0.215053
 [Stat:total_nodes_evaluated]95145542
 
-real	0m0.241s
-user	0m0.156s
+real	0m0.247s
+user	0m0.160s
 sys	0m0.084s
 LOG(state): depth=0, h=42, f=42, 4,7,14,13,10,3,9,12,11,5,6,15,1,2,8,0
 LOG: init_distr, cnt=2048
 f_limit=48
+[Stat:cpu_nodes_evaluated]=2420
 [Stat:loop] 3036
 [Stat:nodes_evaluated] 21972
 STAT: loads: sum=3036, av=1
@@ -1458,17 +1459,17 @@ STAT: loads: sum=3657184, av=307
 STAT: distr: av=7494, 2av=2955, 4av=1179, 8av=236, 16av=24, 32av=2, 64av=0, 128av=0, more=0
 STAT: n_roots=20277(+8387)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2420
 [Stat:solution_depth]=56
-[Timer:search] 0.220909
+[Timer:search] 0.221974
 [Stat:total_nodes_evaluated]100535099
 
-real	0m0.251s
-user	0m0.168s
-sys	0m0.080s
+real	0m0.255s
+user	0m0.148s
+sys	0m0.100s
 LOG(state): depth=0, h=34, f=34, 0,13,2,4,12,14,6,9,15,1,10,3,11,5,8,7
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2380
 [Stat:loop] 1129
 [Stat:nodes_evaluated] 6000
 STAT: loads: sum=1129, av=0
@@ -1505,17 +1506,17 @@ STAT: loads: sum=4208479, av=300
 STAT: distr: av=8522, 2av=3883, 4av=1397, 8av=212, 16av=3, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=23764(+9747)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2380
 [Stat:solution_depth]=54
-[Timer:search] 0.240800
+[Timer:search] 0.235948
 [Stat:total_nodes_evaluated]119640247
 
-real	0m0.270s
-user	0m0.180s
+real	0m0.266s
+user	0m0.172s
 sys	0m0.088s
 LOG(state): depth=0, h=35, f=35, 6,10,1,14,15,8,3,5,13,0,2,7,4,9,11,12
 LOG: init_distr, cnt=2048
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2144
 [Stat:loop] 4633
 [Stat:nodes_evaluated] 22236
 STAT: loads: sum=4633, av=2
@@ -1540,17 +1541,17 @@ STAT: loads: sum=244209, av=42
 STAT: distr: av=3423, 2av=1596, 4av=587, 8av=75, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=9568(+3886)
 find all the optimal solution(s), at depth=47
-[Stat:cpu_nodes_evaluated]=2144
 [Stat:solution_depth]=47
-[Timer:search] 0.061504
+[Timer:search] 0.063417
 [Stat:total_nodes_evaluated]6225160
 
-real	0m0.090s
+real	0m0.094s
 user	0m0.052s
-sys	0m0.036s
+sys	0m0.040s
 LOG(state): depth=0, h=39, f=39, 3,14,9,7,12,15,0,4,1,8,5,6,11,10,2,13
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2238
 [Stat:loop] 344
 [Stat:nodes_evaluated] 2508
 STAT: loads: sum=344, av=0
@@ -1581,17 +1582,17 @@ STAT: loads: sum=795250, av=102
 STAT: distr: av=5058, 2av=1794, 4av=748, 8av=143, 16av=23, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=12995(+5228)
 find all the optimal solution(s), at depth=51
-[Stat:cpu_nodes_evaluated]=2238
 [Stat:solution_depth]=51
-[Timer:search] 0.099347
+[Timer:search] 0.101641
 [Stat:total_nodes_evaluated]21570885
 
-real	0m0.129s
-user	0m0.072s
-sys	0m0.056s
+real	0m0.135s
+user	0m0.088s
+sys	0m0.044s
 LOG(state): depth=0, h=36, f=36, 12,6,0,4,7,3,15,1,13,9,8,11,2,14,5,10
 LOG: init_distr, cnt=2049
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2356
 [Stat:loop] 2960
 [Stat:nodes_evaluated] 16371
 STAT: loads: sum=2960, av=1
@@ -1628,17 +1629,17 @@ STAT: loads: sum=4387329, av=263
 STAT: distr: av=9849, 2av=5050, 4av=1587, 8av=151, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=27893(+11254)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2356
 [Stat:solution_depth]=52
-[Timer:search] 0.268470
+[Timer:search] 0.257971
 [Stat:total_nodes_evaluated]127555850
 
-real	0m0.299s
-user	0m0.180s
+real	0m0.288s
+user	0m0.168s
 sys	0m0.116s
 LOG(state): depth=0, h=36, f=36, 6,11,7,8,13,2,5,4,1,10,3,9,14,0,12,15
 LOG: init_distr, cnt=2049
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2243
 [Stat:loop] 7194
 [Stat:nodes_evaluated] 41391
 STAT: loads: sum=7194, av=3
@@ -1669,17 +1670,17 @@ STAT: loads: sum=3712416, av=329
 STAT: distr: av=6992, 2av=3030, 4av=1043, 8av=176, 16av=19, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=19045(+7784)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2243
 [Stat:solution_depth]=52
-[Timer:search] 0.225998
+[Timer:search] 0.223127
 [Stat:total_nodes_evaluated]104465358
 
-real	0m0.256s
-user	0m0.144s
-sys	0m0.112s
+real	0m0.253s
+user	0m0.180s
+sys	0m0.068s
 LOG(state): depth=0, h=31, f=31, 7,8,3,2,10,12,4,6,11,13,5,15,0,1,9,14
 LOG: init_distr, cnt=2048
 f_limit=37
+[Stat:cpu_nodes_evaluated]=2130
 [Stat:loop] 340
 [Stat:nodes_evaluated] 2844
 STAT: loads: sum=340, av=0
@@ -1716,17 +1717,17 @@ STAT: loads: sum=1635179, av=143
 STAT: distr: av=6910, 2av=3319, 4av=1006, 8av=123, 16av=12, 32av=2, 64av=0, 128av=0, more=0
 STAT: n_roots=19015(+7643)
 find all the optimal solution(s), at depth=47
-[Stat:cpu_nodes_evaluated]=2130
 [Stat:solution_depth]=47
-[Timer:search] 0.148650
+[Timer:search] 0.149792
 [Stat:total_nodes_evaluated]47304624
 
-real	0m0.178s
-user	0m0.128s
-sys	0m0.048s
+real	0m0.182s
+user	0m0.120s
+sys	0m0.060s
 LOG(state): depth=0, h=32, f=32, 12,9,0,6,8,3,5,14,2,4,11,7,10,1,15,13
 LOG: init_distr, cnt=2048
 f_limit=38
+[Stat:cpu_nodes_evaluated]=2256
 [Stat:loop] 155
 [Stat:nodes_evaluated] 918
 STAT: loads: sum=155, av=0
@@ -1769,17 +1770,17 @@ STAT: loads: sum=5566618, av=352
 STAT: distr: av=9236, 2av=5084, 4av=1339, 8av=110, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=26310(+10540)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2256
 [Stat:solution_depth]=50
-[Timer:search] 0.311225
+[Timer:search] 0.316755
 [Stat:total_nodes_evaluated]165932797
 
-real	0m0.340s
-user	0m0.212s
-sys	0m0.124s
+real	0m0.348s
+user	0m0.240s
+sys	0m0.104s
 LOG(state): depth=0, h=44, f=44, 10,2,8,4,15,0,1,14,11,13,3,6,9,7,5,12
 LOG: init_distr, cnt=2048
 f_limit=48
+[Stat:cpu_nodes_evaluated]=2382
 [Stat:loop] 6347
 [Stat:nodes_evaluated] 48243
 STAT: loads: sum=6347, av=3
@@ -1810,17 +1811,17 @@ STAT: loads: sum=7199537, av=507
 STAT: distr: av=9066, 2av=3377, 4av=1421, 8av=303, 16av=29, 32av=0, 64av=1, 128av=0, more=0
 STAT: n_roots=24157(+9960)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2382
 [Stat:solution_depth]=56
-[Timer:search] 0.369916
+[Timer:search] 0.365987
 [Stat:total_nodes_evaluated]201176335
 
 real	0m0.400s
 user	0m0.240s
-sys	0m0.160s
+sys	0m0.156s
 LOG(state): depth=0, h=30, f=30, 14,4,0,10,6,5,1,3,9,2,13,15,12,7,8,11
 LOG: init_distr, cnt=2049
 f_limit=36
+[Stat:cpu_nodes_evaluated]=2118
 [Stat:loop] 323
 [Stat:nodes_evaluated] 2127
 STAT: loads: sum=323, av=0
@@ -1863,17 +1864,17 @@ STAT: loads: sum=7579102, av=432
 STAT: distr: av=10218, 2av=5654, 4av=1519, 8av=128, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=29341(+11821)
 find all the optimal solution(s), at depth=48
-[Stat:cpu_nodes_evaluated]=2118
 [Stat:solution_depth]=48
-[Timer:search] 0.399383
+[Timer:search] 0.398113
 [Stat:total_nodes_evaluated]226334128
 
-real	0m0.430s
-user	0m0.288s
-sys	0m0.140s
+real	0m0.431s
+user	0m0.308s
+sys	0m0.120s
 LOG(state): depth=0, h=43, f=43, 11,0,15,8,13,12,3,5,10,1,4,6,14,9,7,2
 LOG: init_distr, cnt=2048
 f_limit=49
+[Stat:cpu_nodes_evaluated]=2351
 [Stat:loop] 4215
 [Stat:nodes_evaluated] 35760
 STAT: loads: sum=4215, av=2
@@ -1904,17 +1905,17 @@ STAT: loads: sum=8485033, av=536
 STAT: distr: av=10236, 2av=3654, 4av=1488, 8av=349, 16av=75, 32av=6, 64av=0, 128av=0, more=0
 STAT: n_roots=27035(+11227)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2351
 [Stat:solution_depth]=57
-[Timer:search] 0.419618
+[Timer:search] 0.417132
 [Stat:total_nodes_evaluated]234042700
 
-real	0m0.450s
-user	0m0.300s
-sys	0m0.148s
+real	0m0.451s
+user	0m0.280s
+sys	0m0.168s
 LOG(state): depth=0, h=38, f=38, 11,1,7,4,10,13,3,8,9,14,0,15,6,5,2,12
 LOG: init_distr, cnt=2049
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2254
 [Stat:loop] 5238
 [Stat:nodes_evaluated] 27342
 STAT: loads: sum=5238, av=2
@@ -1951,17 +1952,17 @@ STAT: loads: sum=9242988, av=503
 STAT: distr: av=10835, 2av=5500, 4av=1891, 8av=140, 16av=5, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=30994(+12623)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2254
 [Stat:solution_depth]=54
-[Timer:search] 0.431146
+[Timer:search] 0.434766
 [Stat:total_nodes_evaluated]268206714
 
-real	0m0.460s
-user	0m0.284s
-sys	0m0.172s
+real	0m0.466s
+user	0m0.312s
+sys	0m0.152s
 LOG(state): depth=0, h=43, f=43, 13,5,4,10,9,12,8,14,2,3,7,1,0,15,11,6
 LOG: init_distr, cnt=2048
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2480
 [Stat:loop] 542
 [Stat:nodes_evaluated] 9267
 STAT: loads: sum=542, av=0
@@ -1992,17 +1993,17 @@ STAT: loads: sum=4240057, av=379
 STAT: distr: av=7966, 2av=2029, 4av=838, 8av=232, 16av=76, 32av=17, 64av=12, 128av=3, more=0
 STAT: n_roots=19161(+7988)
 find all the optimal solution(s), at depth=55
-[Stat:cpu_nodes_evaluated]=2480
 [Stat:solution_depth]=55
-[Timer:search] 0.361938
+[Timer:search] 0.362505
 [Stat:total_nodes_evaluated]115969408
 
-real	0m0.391s
-user	0m0.248s
-sys	0m0.140s
+real	0m0.394s
+user	0m0.236s
+sys	0m0.156s
 LOG(state): depth=0, h=39, f=39, 1,6,12,14,3,2,15,8,4,5,13,9,0,7,11,10
 LOG: init_distr, cnt=2048
 f_limit=45
+[Stat:cpu_nodes_evaluated]=2398
 [Stat:loop] 745
 [Stat:nodes_evaluated] 7986
 STAT: loads: sum=745, av=0
@@ -2039,17 +2040,17 @@ STAT: loads: sum=9277678, av=589
 STAT: distr: av=9856, 2av=4227, 4av=1358, 8av=255, 16av=38, 32av=6, 64av=0, 128av=0, more=0
 STAT: n_roots=26511(+10771)
 find all the optimal solution(s), at depth=55
-[Stat:cpu_nodes_evaluated]=2398
 [Stat:solution_depth]=55
-[Timer:search] 0.497059
+[Timer:search] 0.485907
 [Stat:total_nodes_evaluated]265407764
 
-real	0m0.528s
-user	0m0.352s
-sys	0m0.176s
+real	0m0.518s
+user	0m0.332s
+sys	0m0.180s
 LOG(state): depth=0, h=37, f=37, 6,0,5,15,1,14,4,9,2,13,8,10,11,12,7,3
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2195
 [Stat:loop] 6093
 [Stat:nodes_evaluated] 32778
 STAT: loads: sum=6093, av=2
@@ -2086,17 +2087,17 @@ STAT: loads: sum=10210395, av=497
 STAT: distr: av=12147, 2av=6230, 4av=1924, 8av=211, 16av=7, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=34534(+14014)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2195
 [Stat:solution_depth]=53
-[Timer:search] 0.521918
+[Timer:search] 0.515009
 [Stat:total_nodes_evaluated]298746440
 
-real	0m0.553s
-user	0m0.352s
-sys	0m0.200s
+real	0m0.548s
+user	0m0.324s
+sys	0m0.220s
 LOG(state): depth=0, h=38, f=38, 9,8,0,2,15,1,4,14,3,10,7,5,11,13,6,12
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2287
 [Stat:loop] 3032
 [Stat:nodes_evaluated] 20706
 STAT: loads: sum=3032, av=1
@@ -2133,17 +2134,17 @@ STAT: loads: sum=9336767, av=448
 STAT: distr: av=12698, 2av=5839, 4av=1927, 8av=302, 16av=31, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=35085(+14288)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2287
 [Stat:solution_depth]=54
-[Timer:search] 0.460024
+[Timer:search] 0.446043
 [Stat:total_nodes_evaluated]269139288
 
-real	0m0.491s
-user	0m0.352s
-sys	0m0.136s
+real	0m0.477s
+user	0m0.304s
+sys	0m0.172s
 LOG(state): depth=0, h=34, f=34, 7,3,14,13,4,1,10,8,5,12,9,11,2,15,6,0
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2217
 [Stat:loop] 609
 [Stat:nodes_evaluated] 2832
 STAT: loads: sum=609, av=0
@@ -2186,17 +2187,17 @@ STAT: loads: sum=9500180, av=553
 STAT: distr: av=9866, 2av=5750, 4av=1490, 8av=69, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=28764(+11589)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2217
 [Stat:solution_depth]=54
-[Timer:search] 0.459996
+[Timer:search] 0.448062
 [Stat:total_nodes_evaluated]277635110
 
-real	0m0.491s
-user	0m0.340s
-sys	0m0.144s
+real	0m0.478s
+user	0m0.300s
+sys	0m0.172s
 LOG(state): depth=0, h=34, f=34, 9,5,11,10,13,0,2,1,8,6,14,12,4,7,3,15
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2239
 [Stat:loop] 41
 [Stat:nodes_evaluated] 360
 STAT: loads: sum=41, av=0
@@ -2239,17 +2240,17 @@ STAT: loads: sum=11079852, av=694
 STAT: distr: av=9290, 2av=5164, 4av=1406, 8av=93, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=26605(+10650)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2239
 [Stat:solution_depth]=52
-[Timer:search] 0.513430
+[Timer:search] 0.502754
 [Stat:total_nodes_evaluated]322555540
 
-real	0m0.544s
-user	0m0.372s
-sys	0m0.168s
+real	0m0.533s
+user	0m0.344s
+sys	0m0.188s
 LOG(state): depth=0, h=31, f=31, 5,2,14,0,7,8,6,3,11,12,13,15,4,10,9,1
 LOG: init_distr, cnt=2048
 f_limit=39
+[Stat:cpu_nodes_evaluated]=2218
 [Stat:loop] 1863
 [Stat:nodes_evaluated] 10098
 STAT: loads: sum=1863, av=0
@@ -2292,17 +2293,17 @@ STAT: loads: sum=13003340, av=549
 STAT: distr: av=13645, 2av=7622, 4av=2279, 8av=125, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=39748(+16075)
 find all the optimal solution(s), at depth=51
-[Stat:cpu_nodes_evaluated]=2218
 [Stat:solution_depth]=51
-[Timer:search] 0.606233
+[Timer:search] 0.601186
 [Stat:total_nodes_evaluated]389436796
 
-real	0m0.635s
-user	0m0.424s
-sys	0m0.208s
+real	0m0.631s
+user	0m0.400s
+sys	0m0.228s
 LOG(state): depth=0, h=38, f=38, 11,4,0,8,6,10,5,13,12,7,14,3,1,2,9,15
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2218
 [Stat:loop] 1471
 [Stat:nodes_evaluated] 11445
 STAT: loads: sum=1471, av=0
@@ -2339,17 +2340,17 @@ STAT: loads: sum=9320386, av=505
 STAT: distr: av=11369, 2av=4968, 4av=1809, 8av=257, 16av=33, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=31137(+12700)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2218
 [Stat:solution_depth]=54
-[Timer:search] 0.459576
+[Timer:search] 0.454972
 [Stat:total_nodes_evaluated]266182094
 
 real	0m0.489s
-user	0m0.336s
-sys	0m0.152s
+user	0m0.328s
+sys	0m0.160s
 LOG(state): depth=0, h=31, f=31, 7,3,1,13,12,10,5,2,8,0,6,11,14,15,4,9
 LOG: init_distr, cnt=2048
 f_limit=39
+[Stat:cpu_nodes_evaluated]=2210
 [Stat:loop] 2679
 [Stat:nodes_evaluated] 11124
 STAT: loads: sum=2679, av=1
@@ -2392,17 +2393,17 @@ STAT: loads: sum=11450787, av=554
 STAT: distr: av=11642, 2av=7460, 4av=1501, 8av=46, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=34281(+13632)
 find all the optimal solution(s), at depth=51
-[Stat:cpu_nodes_evaluated]=2210
 [Stat:solution_depth]=51
-[Timer:search] 0.542005
+[Timer:search] 0.543457
 [Stat:total_nodes_evaluated]340856695
 
-real	0m0.573s
-user	0m0.356s
-sys	0m0.216s
+real	0m0.575s
+user	0m0.332s
+sys	0m0.240s
 LOG(state): depth=0, h=36, f=36, 8,13,10,9,11,3,15,6,0,1,2,14,12,5,4,7
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2109
 [Stat:loop] 4491
 [Stat:nodes_evaluated] 23964
 STAT: loads: sum=4491, av=2
@@ -2439,17 +2440,17 @@ STAT: loads: sum=12714325, av=664
 STAT: distr: av=11574, 2av=5390, 4av=1905, 8av=240, 16av=16, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=32386(+13260)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2109
 [Stat:solution_depth]=54
-[Timer:search] 0.564178
+[Timer:search] 0.567026
 [Stat:total_nodes_evaluated]364274939
 
-real	0m0.593s
-user	0m0.352s
-sys	0m0.240s
+real	0m0.599s
+user	0m0.388s
+sys	0m0.208s
 LOG(state): depth=0, h=39, f=39, 7,15,4,0,10,9,2,5,12,11,13,6,1,3,14,8
 LOG: init_distr, cnt=2048
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2398
 [Stat:loop] 2514
 [Stat:nodes_evaluated] 14652
 STAT: loads: sum=2514, av=1
@@ -2486,17 +2487,17 @@ STAT: loads: sum=10901916, av=631
 STAT: distr: av=10543, 2av=4964, 4av=1518, 8av=218, 16av=15, 32av=2, 64av=1, 128av=0, more=0
 STAT: n_roots=29094(+11833)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2398
 [Stat:solution_depth]=57
-[Timer:search] 0.558574
+[Timer:search] 0.561973
 [Stat:total_nodes_evaluated]309402555
 
-real	0m0.588s
+real	0m0.594s
 user	0m0.372s
-sys	0m0.212s
+sys	0m0.216s
 LOG(state): depth=0, h=36, f=36, 11,5,1,14,4,12,10,0,2,7,13,3,9,15,6,8
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2254
 [Stat:loop] 183
 [Stat:nodes_evaluated] 1194
 STAT: loads: sum=183, av=0
@@ -2539,17 +2540,17 @@ STAT: loads: sum=15246985, av=766
 STAT: distr: av=11756, 2av=6213, 4av=1777, 8av=148, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=33219(+13323)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2254
 [Stat:solution_depth]=54
-[Timer:search] 0.677221
+[Timer:search] 0.670999
 [Stat:total_nodes_evaluated]442165726
 
-real	0m0.708s
-user	0m0.484s
-sys	0m0.220s
+real	0m0.703s
+user	0m0.508s
+sys	0m0.188s
 LOG(state): depth=0, h=32, f=32, 11,4,2,7,1,0,10,15,6,9,14,8,3,13,5,12
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2334
 [Stat:loop] 2984
 [Stat:nodes_evaluated] 14337
 STAT: loads: sum=2984, av=1
@@ -2592,17 +2593,17 @@ STAT: loads: sum=15549171, av=675
 STAT: distr: av=13284, 2av=7473, 4av=2122, 8av=128, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=38641(+15632)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2334
 [Stat:solution_depth]=52
-[Timer:search] 0.701927
+[Timer:search] 0.692313
 [Stat:total_nodes_evaluated]461797079
 
-real	0m0.733s
-user	0m0.476s
-sys	0m0.256s
+real	0m0.725s
+user	0m0.520s
+sys	0m0.200s
 LOG(state): depth=0, h=34, f=34, 12,8,14,6,11,4,7,0,5,1,10,15,3,13,9,2
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2348
 [Stat:loop] 1380
 [Stat:nodes_evaluated] 6639
 STAT: loads: sum=1380, av=0
@@ -2645,17 +2646,17 @@ STAT: loads: sum=11185410, av=542
 STAT: distr: av=11798, 2av=6956, 4av=1771, 8av=91, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=34591(+13975)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2348
 [Stat:solution_depth]=54
-[Timer:search] 0.530263
+[Timer:search] 0.528779
 [Stat:total_nodes_evaluated]329355582
 
-real	0m0.560s
-user	0m0.392s
-sys	0m0.164s
+real	0m0.561s
+user	0m0.344s
+sys	0m0.212s
 LOG(state): depth=0, h=48, f=48, 11,15,14,13,1,9,10,4,3,6,2,12,7,5,8,0
 LOG: init_distr, cnt=2048
 f_limit=56
+[Stat:cpu_nodes_evaluated]=2557
 [Stat:loop] 6793
 [Stat:nodes_evaluated] 47067
 STAT: loads: sum=6793, av=3
@@ -2686,17 +2687,17 @@ STAT: loads: sum=18299305, av=1465
 STAT: distr: av=7800, 2av=3217, 4av=1212, 8av=234, 16av=20, 32av=2, 64av=0, 128av=0, more=0
 STAT: n_roots=21319(+8834)
 find all the optimal solution(s), at depth=64
-[Stat:cpu_nodes_evaluated]=2557
 [Stat:solution_depth]=64
-[Timer:search] 0.784169
+[Timer:search] 0.761118
 [Stat:total_nodes_evaluated]493145845
 
-real	0m0.816s
-user	0m0.480s
-sys	0m0.336s
+real	0m0.791s
+user	0m0.512s
+sys	0m0.276s
 LOG(state): depth=0, h=30, f=30, 2,11,15,5,13,4,6,7,12,8,10,1,9,3,14,0
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2266
 [Stat:loop] 1952
 [Stat:nodes_evaluated] 9063
 STAT: loads: sum=1952, av=0
@@ -2739,17 +2740,17 @@ STAT: loads: sum=18338160, av=804
 STAT: distr: av=13470, 2av=7068, 4av=2033, 8av=217, 16av=8, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=38168(+15372)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2266
 [Stat:solution_depth]=52
-[Timer:search] 0.797908
+[Timer:search] 0.785851
 [Stat:total_nodes_evaluated]538520445
 
-real	0m0.829s
-user	0m0.496s
-sys	0m0.332s
+real	0m0.818s
+user	0m0.548s
+sys	0m0.268s
 LOG(state): depth=0, h=41, f=41, 15,10,8,3,0,6,9,5,1,14,13,11,7,2,12,4
 LOG: init_distr, cnt=2048
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2160
 [Stat:loop] 6075
 [Stat:nodes_evaluated] 42696
 STAT: loads: sum=6075, av=2
@@ -2786,17 +2787,17 @@ STAT: loads: sum=20903748, av=875
 STAT: distr: av=14742, 2av=6255, 4av=2459, 8av=377, 16av=32, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=40525(+16659)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2160
 [Stat:solution_depth]=57
-[Timer:search] 0.878447
+[Timer:search] 0.856110
 [Stat:total_nodes_evaluated]601346427
 
-real	0m0.910s
-user	0m0.568s
-sys	0m0.340s
+real	0m0.887s
+user	0m0.528s
+sys	0m0.356s
 LOG(state): depth=0, h=40, f=40, 12,11,0,8,10,2,13,15,5,4,7,3,6,9,14,1
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2380
 [Stat:loop] 425
 [Stat:nodes_evaluated] 4212
 STAT: loads: sum=425, av=0
@@ -2839,17 +2840,17 @@ STAT: loads: sum=18564115, av=858
 STAT: distr: av=12905, 2av=6595, 4av=1860, 8av=237, 16av=20, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=36323(+14706)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2380
 [Stat:solution_depth]=56
-[Timer:search] 0.805948
+[Timer:search] 0.784861
 [Stat:total_nodes_evaluated]539543929
 
-real	0m0.837s
-user	0m0.560s
-sys	0m0.276s
+real	0m0.816s
+user	0m0.524s
+sys	0m0.288s
 LOG(state): depth=0, h=32, f=32, 12,11,15,3,8,0,4,2,6,13,9,5,14,1,10,7
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2131
 [Stat:loop] 3560
 [Stat:nodes_evaluated] 17019
 STAT: loads: sum=3560, av=1
@@ -2886,17 +2887,17 @@ STAT: loads: sum=3911470, av=261
 STAT: distr: av=8748, 2av=4732, 4av=1337, 8av=131, 16av=4, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=25154(+10202)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2131
 [Stat:solution_depth]=50
-[Timer:search] 0.245233
+[Timer:search] 0.241691
 [Stat:total_nodes_evaluated]114219367
 
-real	0m0.275s
-user	0m0.196s
-sys	0m0.076s
+real	0m0.273s
+user	0m0.148s
+sys	0m0.124s
 LOG(state): depth=0, h=30, f=30, 15,1,3,12,4,0,6,5,2,8,14,9,13,10,7,11
 LOG: init_distr, cnt=2048
 f_limit=40
+[Stat:cpu_nodes_evaluated]=2266
 [Stat:loop] 5454
 [Stat:nodes_evaluated] 23088
 STAT: loads: sum=5454, av=2
@@ -2939,17 +2940,17 @@ STAT: loads: sum=23328381, av=954
 STAT: distr: av=14034, 2av=8073, 4av=2197, 8av=142, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=40982(+16535)
 find all the optimal solution(s), at depth=52
-[Stat:cpu_nodes_evaluated]=2266
 [Stat:solution_depth]=52
-[Timer:search] 0.994001
+[Timer:search] 0.977387
 [Stat:total_nodes_evaluated]693195896
 
-real	0m1.025s
-user	0m0.688s
-sys	0m0.336s
+real	0m1.009s
+user	0m0.632s
+sys	0m0.372s
 LOG(state): depth=0, h=28, f=28, 7,1,2,4,8,3,6,11,10,15,0,5,14,12,13,9
 LOG: init_distr, cnt=2048
 f_limit=36
+[Stat:cpu_nodes_evaluated]=2132
 [Stat:loop] 1743
 [Stat:nodes_evaluated] 6933
 STAT: loads: sum=1743, av=0
@@ -2998,17 +2999,17 @@ STAT: loads: sum=20109769, av=722
 STAT: distr: av=15562, 2av=10326, 4av=1893, 8av=36, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=46123(+18306)
 find all the optimal solution(s), at depth=50
-[Stat:cpu_nodes_evaluated]=2132
 [Stat:solution_depth]=50
-[Timer:search] 0.923565
+[Timer:search] 0.912988
 [Stat:total_nodes_evaluated]618543860
 
-real	0m0.955s
-user	0m0.604s
-sys	0m0.344s
+real	0m0.945s
+user	0m0.592s
+sys	0m0.348s
 LOG(state): depth=0, h=43, f=43, 5,9,13,14,6,3,7,12,10,8,4,0,15,2,11,1
 LOG: init_distr, cnt=2049
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2383
 [Stat:loop] 425
 [Stat:nodes_evaluated] 3786
 STAT: loads: sum=425, av=0
@@ -3045,17 +3046,17 @@ STAT: loads: sum=7116877, av=547
 STAT: distr: av=8155, 2av=3455, 4av=1168, 8av=203, 16av=21, 32av=0, 64av=1, 128av=0, more=0
 STAT: n_roots=21773(+8770)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2383
 [Stat:solution_depth]=57
-[Timer:search] 0.391764
+[Timer:search] 0.388501
 [Stat:total_nodes_evaluated]200144005
 
-real	0m0.420s
+real	0m0.419s
 user	0m0.276s
-sys	0m0.144s
+sys	0m0.140s
 LOG(state): depth=0, h=37, f=37, 15,8,10,7,0,12,14,1,5,9,6,3,13,11,4,2
 LOG: init_distr, cnt=2048
 f_limit=45
+[Stat:cpu_nodes_evaluated]=2403
 [Stat:loop] 8055
 [Stat:nodes_evaluated] 46248
 STAT: loads: sum=8055, av=3
@@ -3092,17 +3093,17 @@ STAT: loads: sum=27422890, av=1399
 STAT: distr: av=11374, 2av=6273, 4av=1781, 8av=161, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=33080(+13489)
 find all the optimal solution(s), at depth=55
-[Stat:cpu_nodes_evaluated]=2403
 [Stat:solution_depth]=55
-[Timer:search] 1.104525
+[Timer:search] 1.084083
 [Stat:total_nodes_evaluated]788740237
 
-real	0m1.135s
-user	0m0.704s
-sys	0m0.428s
+real	0m1.116s
+user	0m0.720s
+sys	0m0.392s
 LOG(state): depth=0, h=33, f=33, 14,1,8,15,2,6,0,3,9,12,10,13,4,7,5,11
 LOG: init_distr, cnt=2048
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2214
 [Stat:loop] 4844
 [Stat:nodes_evaluated] 22380
 STAT: loads: sum=4844, av=2
@@ -3145,17 +3146,17 @@ STAT: loads: sum=32253092, av=1215
 STAT: distr: av=15191, 2av=8931, 4av=2286, 8av=120, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=44257(+17728)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2214
 [Stat:solution_depth]=53
-[Timer:search] 1.327648
+[Timer:search] 1.292700
 [Stat:total_nodes_evaluated]955233335
 
-real	0m1.359s
-user	0m0.884s
-sys	0m0.472s
+real	0m1.323s
+user	0m0.876s
+sys	0m0.444s
 LOG(state): depth=0, h=34, f=34, 0,11,3,12,5,2,1,9,8,10,14,15,7,4,13,6
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2126
 [Stat:loop] 3836
 [Stat:nodes_evaluated] 18243
 STAT: loads: sum=3836, av=1
@@ -3198,17 +3199,17 @@ STAT: loads: sum=24939286, av=842
 STAT: distr: av=17253, 2av=9570, 4av=2592, 8av=168, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=49315(+19730)
 find all the optimal solution(s), at depth=54
-[Stat:cpu_nodes_evaluated]=2126
 [Stat:solution_depth]=54
-[Timer:search] 1.060022
+[Timer:search] 1.042382
 [Stat:total_nodes_evaluated]738110770
 
-real	0m1.092s
-user	0m0.720s
-sys	0m0.368s
+real	0m1.074s
+user	0m0.680s
+sys	0m0.392s
 LOG(state): depth=0, h=41, f=41, 14,3,9,1,15,8,4,5,11,7,10,13,0,2,12,6
 LOG: init_distr, cnt=2049
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2222
 [Stat:loop] 393
 [Stat:nodes_evaluated] 3042
 STAT: loads: sum=393, av=0
@@ -3251,17 +3252,17 @@ STAT: loads: sum=39657959, av=1786
 STAT: distr: av=13543, 2av=6312, 4av=2019, 8av=305, 16av=15, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=37224(+15030)
 find all the optimal solution(s), at depth=59
-[Stat:cpu_nodes_evaluated]=2222
 [Stat:solution_depth]=59
-[Timer:search] 1.545255
+[Timer:search] 1.514066
 [Stat:total_nodes_evaluated]1134688448
 
-real	0m1.576s
-user	0m1.072s
-sys	0m0.504s
+real	0m1.545s
+user	0m1.032s
+sys	0m0.508s
 LOG(state): depth=0, h=39, f=39, 12,5,13,11,2,10,0,9,7,8,4,3,14,6,15,1
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2225
 [Stat:loop] 69
 [Stat:nodes_evaluated] 801
 STAT: loads: sum=69, av=0
@@ -3298,17 +3299,17 @@ STAT: loads: sum=3028577, av=269
 STAT: distr: av=6864, 2av=3161, 4av=1051, 8av=136, 16av=10, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=18809(+7587)
 find all the optimal solution(s), at depth=53
-[Stat:cpu_nodes_evaluated]=2225
 [Stat:solution_depth]=53
-[Timer:search] 0.199329
+[Timer:search] 0.193036
 [Stat:total_nodes_evaluated]85453742
 
-real	0m0.229s
-user	0m0.148s
-sys	0m0.080s
+real	0m0.223s
+user	0m0.160s
+sys	0m0.060s
 LOG(state): depth=0, h=38, f=38, 10,8,0,12,3,7,6,2,1,14,4,11,15,13,9,5
 LOG: init_distr, cnt=2048
 f_limit=44
+[Stat:cpu_nodes_evaluated]=2165
 [Stat:loop] 1474
 [Stat:nodes_evaluated] 9753
 STAT: loads: sum=1474, av=0
@@ -3351,17 +3352,17 @@ STAT: loads: sum=34730894, av=1312
 STAT: distr: av=15912, 2av=7825, 4av=2413, 8av=291, 16av=22, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=44446(+17983)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2165
 [Stat:solution_depth]=56
-[Timer:search] 1.388418
+[Timer:search] 1.371650
 [Stat:total_nodes_evaluated]1014047939
 
-real	0m1.418s
-user	0m0.856s
-sys	0m0.560s
+real	0m1.404s
+user	0m0.916s
+sys	0m0.484s
 LOG(state): depth=0, h=42, f=42, 5,12,10,7,15,11,14,0,8,2,1,13,3,4,9,6
 LOG: init_distr, cnt=2048
 f_limit=46
+[Stat:cpu_nodes_evaluated]=2338
 [Stat:loop] 75
 [Stat:nodes_evaluated] 657
 STAT: loads: sum=75, av=0
@@ -3398,17 +3399,17 @@ STAT: loads: sum=13069315, av=952
 STAT: distr: av=8858, 2av=3268, 4av=1249, 8av=284, 16av=46, 32av=11, 64av=1, 128av=0, more=0
 STAT: n_roots=23351(+9634)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2338
 [Stat:solution_depth]=56
-[Timer:search] 0.656257
+[Timer:search] 0.634434
 [Stat:total_nodes_evaluated]366885216
 
-real	0m0.687s
-user	0m0.436s
-sys	0m0.248s
+real	0m0.664s
+user	0m0.464s
+sys	0m0.200s
 LOG(state): depth=0, h=41, f=41, 9,7,5,2,14,15,12,10,11,3,6,1,8,13,0,4
 LOG: init_distr, cnt=2048
 f_limit=45
+[Stat:cpu_nodes_evaluated]=2520
 [Stat:loop] 157
 [Stat:nodes_evaluated] 2658
 STAT: loads: sum=157, av=0
@@ -3451,17 +3452,17 @@ STAT: loads: sum=53211586, av=2324
 STAT: distr: av=13707, 2av=6879, 4av=2005, 8av=275, 16av=20, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=38517(+15630)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2520
 [Stat:solution_depth]=57
-[Timer:search] 2.100176
+[Timer:search] 2.067566
 [Stat:total_nodes_evaluated]1528128901
 
-real	0m2.130s
-user	0m1.424s
-sys	0m0.704s
+real	0m2.099s
+user	0m1.420s
+sys	0m0.676s
 LOG(state): depth=0, h=42, f=42, 14,3,5,15,11,6,13,9,0,10,2,12,4,1,7,8
 LOG: init_distr, cnt=2049
 f_limit=48
+[Stat:cpu_nodes_evaluated]=2447
 [Stat:loop] 634
 [Stat:nodes_evaluated] 6132
 STAT: loads: sum=634, av=0
@@ -3504,17 +3505,17 @@ STAT: loads: sum=50010474, av=2015
 STAT: distr: av=14713, 2av=7614, 4av=2242, 8av=240, 16av=6, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=41626(+16811)
 find all the optimal solution(s), at depth=60
-[Stat:cpu_nodes_evaluated]=2447
 [Stat:solution_depth]=60
-[Timer:search] 1.903831
+[Timer:search] 1.866321
 [Stat:total_nodes_evaluated]1424048041
 
-real	0m1.933s
-user	0m1.280s
-sys	0m0.652s
+real	0m1.896s
+user	0m1.144s
+sys	0m0.748s
 LOG(state): depth=0, h=40, f=40, 8,1,7,12,11,0,10,5,9,15,6,13,14,2,3,4
 LOG: init_distr, cnt=2048
 f_limit=46
+[Stat:cpu_nodes_evaluated]=2384
 [Stat:loop] 1561
 [Stat:nodes_evaluated] 13617
 STAT: loads: sum=1561, av=0
@@ -3557,17 +3558,17 @@ STAT: loads: sum=68071924, av=2312
 STAT: distr: av=17731, 2av=8457, 4av=2860, 8av=371, 16av=15, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=49566(+20132)
 find all the optimal solution(s), at depth=58
-[Stat:cpu_nodes_evaluated]=2384
 [Stat:solution_depth]=58
-[Timer:search] 2.587824
+[Timer:search] 2.539447
 [Stat:total_nodes_evaluated]1954684521
 
-real	0m2.619s
-user	0m1.660s
-sys	0m0.956s
+real	0m2.572s
+user	0m1.680s
+sys	0m0.888s
 LOG(state): depth=0, h=43, f=43, 13,11,8,9,0,15,7,10,4,3,6,14,5,12,2,1
 LOG: init_distr, cnt=2048
 f_limit=49
+[Stat:cpu_nodes_evaluated]=2174
 [Stat:loop] 3876
 [Stat:nodes_evaluated] 30117
 STAT: loads: sum=3876, av=1
@@ -3604,17 +3605,17 @@ STAT: loads: sum=52432431, av=1895
 STAT: distr: av=16709, 2av=7638, 4av=2928, 8av=360, 16av=22, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=47182(+19524)
 find all the optimal solution(s), at depth=59
-[Stat:cpu_nodes_evaluated]=2174
 [Stat:solution_depth]=59
-[Timer:search] 1.954983
+[Timer:search] 1.912287
 [Stat:total_nodes_evaluated]1470298651
 
-real	0m1.986s
-user	0m1.276s
-sys	0m0.708s
+real	0m1.944s
+user	0m1.256s
+sys	0m0.688s
 LOG(state): depth=0, h=41, f=41, 14,13,15,7,11,12,9,5,6,0,2,1,4,8,10,3
 LOG: init_distr, cnt=2048
 f_limit=45
+[Stat:cpu_nodes_evaluated]=2272
 [Stat:loop] 1146
 [Stat:nodes_evaluated] 8193
 STAT: loads: sum=1146, av=0
@@ -3657,17 +3658,17 @@ STAT: loads: sum=29261789, av=1161
 STAT: distr: av=14852, 2av=7782, 4av=2286, 8av=273, 16av=8, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=42297(+17096)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2272
 [Stat:solution_depth]=57
-[Timer:search] 1.218356
+[Timer:search] 1.166672
 [Stat:total_nodes_evaluated]848187127
 
-real	0m1.252s
-user	0m0.796s
-sys	0m0.452s
+real	0m1.198s
+user	0m0.704s
+sys	0m0.488s
 LOG(state): depth=0, h=40, f=40, 8,10,9,11,14,1,7,15,13,4,0,12,6,2,5,3
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2048
 [Stat:loop] 82
 [Stat:nodes_evaluated] 639
 STAT: loads: sum=82, av=0
@@ -3716,17 +3717,17 @@ STAT: loads: sum=78949866, av=2200
 STAT: distr: av=21348, 2av=10663, 4av=3470, 8av=386, 16av=14, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=60401(+24520)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2048
 [Stat:solution_depth]=56
-[Timer:search] 3.099893
+[Timer:search] 3.035980
 [Stat:total_nodes_evaluated]2339793159
 
-real	0m3.130s
-user	0m2.076s
-sys	0m1.052s
+real	0m3.069s
+user	0m2.040s
+sys	0m1.024s
 LOG(state): depth=0, h=40, f=40, 5,7,3,12,15,13,14,8,0,10,9,6,1,4,2,11
 LOG: init_distr, cnt=2048
 f_limit=46
+[Stat:cpu_nodes_evaluated]=2450
 [Stat:loop] 662
 [Stat:nodes_evaluated] 4602
 STAT: loads: sum=662, av=0
@@ -3769,17 +3770,17 @@ STAT: loads: sum=59801837, av=2525
 STAT: distr: av=14407, 2av=6529, 4av=2403, 8av=328, 16av=12, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=40035(+16356)
 find all the optimal solution(s), at depth=58
-[Stat:cpu_nodes_evaluated]=2450
 [Stat:solution_depth]=58
-[Timer:search] 2.304379
+[Timer:search] 2.235285
 [Stat:total_nodes_evaluated]1704621891
 
-real	0m2.339s
-user	0m1.540s
-sys	0m0.796s
+real	0m2.266s
+user	0m1.448s
+sys	0m0.816s
 LOG(state): depth=0, h=43, f=43, 14,10,9,4,13,6,5,8,2,12,7,0,1,3,11,15
 LOG: init_distr, cnt=2048
 f_limit=49
+[Stat:cpu_nodes_evaluated]=2370
 [Stat:loop] 8488
 [Stat:nodes_evaluated] 56013
 STAT: loads: sum=8488, av=4
@@ -3816,17 +3817,17 @@ STAT: loads: sum=43757629, av=2069
 STAT: distr: av=12605, 2av=6299, 4av=2017, 8av=223, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=35651(+14506)
 find all the optimal solution(s), at depth=59
-[Stat:cpu_nodes_evaluated]=2370
 [Stat:solution_depth]=59
-[Timer:search] 1.690574
+[Timer:search] 1.647966
 [Stat:total_nodes_evaluated]1244387805
 
-real	0m1.725s
-user	0m1.096s
-sys	0m0.628s
+real	0m1.680s
+user	0m1.060s
+sys	0m0.616s
 LOG(state): depth=0, h=38, f=38, 12,15,11,10,4,5,14,0,13,7,1,2,9,8,3,6
 LOG: init_distr, cnt=2048
 f_limit=42
+[Stat:cpu_nodes_evaluated]=2389
 [Stat:loop] 851
 [Stat:nodes_evaluated] 9525
 STAT: loads: sum=851, av=0
@@ -3875,17 +3876,17 @@ STAT: loads: sum=195640141, av=3880
 STAT: distr: av=30115, 2av=15244, 4av=4487, 8av=533, 16av=39, 32av=4, 64av=0, 128av=0, more=0
 STAT: n_roots=83886(+33464)
 find all the optimal solution(s), at depth=56
-[Stat:cpu_nodes_evaluated]=2389
 [Stat:solution_depth]=56
-[Timer:search] 7.500858
+[Timer:search] 7.318287
 [Stat:total_nodes_evaluated]5862901087
 
-real	0m7.536s
-user	0m4.920s
-sys	0m2.612s
+real	0m7.351s
+user	0m4.792s
+sys	0m2.552s
 LOG(state): depth=0, h=41, f=41, 7,6,8,1,11,5,14,10,3,4,9,13,15,2,0,12
 LOG: init_distr, cnt=2049
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2280
 [Stat:loop] 2590
 [Stat:nodes_evaluated] 20094
 STAT: loads: sum=2590, av=1
@@ -3928,17 +3929,17 @@ STAT: loads: sum=75292938, av=2307
 STAT: distr: av=19648, 2av=9428, 4av=3183, 8av=344, 16av=26, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=54940(+22311)
 find all the optimal solution(s), at depth=59
-[Stat:cpu_nodes_evaluated]=2280
 [Stat:solution_depth]=59
-[Timer:search] 2.871092
+[Timer:search] 2.803522
 [Stat:total_nodes_evaluated]2186798193
 
-real	0m2.902s
-user	0m1.916s
-sys	0m0.984s
+real	0m2.836s
+user	0m1.796s
+sys	0m1.036s
 LOG(state): depth=0, h=37, f=37, 3,2,7,9,0,15,12,4,6,11,5,14,8,13,10,1
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2364
 [Stat:loop] 2440
 [Stat:nodes_evaluated] 14751
 STAT: loads: sum=2440, av=1
@@ -3987,17 +3988,17 @@ STAT: loads: sum=187208882, av=3840
 STAT: distr: av=28331, 2av=15851, 4av=4186, 8av=357, 16av=21, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=81591(+32845)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2364
 [Stat:solution_depth]=57
-[Timer:search] 7.053900
+[Timer:search] 6.899658
 [Stat:total_nodes_evaluated]5546096311
 
-real	0m7.086s
-user	0m4.592s
-sys	0m2.488s
+real	0m6.933s
+user	0m4.544s
+sys	0m2.388s
 LOG(state): depth=0, h=41, f=41, 14,7,8,2,13,11,10,4,9,12,5,0,3,6,1,15
 LOG: init_distr, cnt=2048
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2342
 [Stat:loop] 1224
 [Stat:nodes_evaluated] 10221
 STAT: loads: sum=1224, av=0
@@ -4040,17 +4041,17 @@ STAT: loads: sum=100545682, av=3304
 STAT: distr: av=18087, 2av=8959, 4av=2994, 8av=369, 16av=14, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=51639(+21215)
 find all the optimal solution(s), at depth=59
-[Stat:cpu_nodes_evaluated]=2342
 [Stat:solution_depth]=59
-[Timer:search] 3.706865
+[Timer:search] 3.628379
 [Stat:total_nodes_evaluated]2872783491
 
-real	0m3.738s
-user	0m2.216s
-sys	0m1.520s
+real	0m3.661s
+user	0m2.444s
+sys	0m1.212s
 LOG(state): depth=0, h=29, f=29, 3,15,2,5,11,6,4,7,12,9,1,0,13,14,10,8
 LOG: init_distr, cnt=2048
 f_limit=39
+[Stat:cpu_nodes_evaluated]=2238
 [Stat:loop] 2507
 [Stat:nodes_evaluated] 11556
 STAT: loads: sum=2507, av=1
@@ -4099,15 +4100,23 @@ STAT: loads: sum=40373503, av=1043
 STAT: distr: av=22079, 2av=13404, 4av=3043, 8av=179, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=64743(+26038)
 f_limit=55
-[Stat:cpu_nodes_evaluated]=2238
-Error: bpida4_global.cu:1450 code:77, reason: an illegal memory access was encountered
+[Stat:loop] 185772227
+[Stat:nodes_evaluated] 4449491636
+STAT: loads: sum=185772227, av=2869
+STAT: distr: av=36611, 2av=22989, 4av=4902, 8av=239, 16av=2, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=108152(+43409)
+find all the optimal solution(s), at depth=55
+[Stat:solution_depth]=55
+[Timer:search] 7.079182
+[Stat:total_nodes_evaluated]5678060351
 
-real	0m7.147s
-user	0m4.520s
-sys	0m2.624s
+real	0m7.113s
+user	0m4.736s
+sys	0m2.372s
 LOG(state): depth=0, h=35, f=35, 15,14,6,7,10,1,0,11,12,8,4,9,2,5,13,3
 LOG: init_distr, cnt=2048
 f_limit=41
+[Stat:cpu_nodes_evaluated]=2249
 [Stat:loop] 312
 [Stat:nodes_evaluated] 1845
 STAT: loads: sum=312, av=0
@@ -4162,17 +4171,17 @@ STAT: loads: sum=213422652, av=4299
 STAT: distr: av=28355, 2av=16810, 4av=4244, 8av=229, 16av=3, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=83039(+33398)
 find all the optimal solution(s), at depth=57
-[Stat:cpu_nodes_evaluated]=2249
 [Stat:solution_depth]=57
-[Timer:search] 8.054016
+[Timer:search] 7.856508
 [Stat:total_nodes_evaluated]6398958404
 
-real	0m8.089s
-user	0m4.828s
-sys	0m3.260s
+real	0m7.889s
+user	0m5.164s
+sys	0m2.724s
 LOG(state): depth=0, h=44, f=44, 13,11,4,12,1,8,9,15,6,5,14,2,7,3,10,0
 LOG: init_distr, cnt=2048
 f_limit=50
+[Stat:cpu_nodes_evaluated]=2502
 [Stat:loop] 454
 [Stat:nodes_evaluated] 4605
 STAT: loads: sum=454, av=0
@@ -4215,17 +4224,17 @@ STAT: loads: sum=72655284, av=3017
 STAT: distr: av=14475, 2av=7277, 4av=2034, 8av=271, 16av=17, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=40419(+16344)
 find all the optimal solution(s), at depth=62
-[Stat:cpu_nodes_evaluated]=2502
 [Stat:solution_depth]=62
-[Timer:search] 2.738519
+[Timer:search] 2.689453
 [Stat:total_nodes_evaluated]2048384518
 
-real	0m2.769s
-user	0m1.876s
-sys	0m0.888s
+real	0m2.722s
+user	0m1.788s
+sys	0m0.932s
 LOG(state): depth=0, h=33, f=33, 10,0,2,4,5,1,6,12,11,13,9,7,15,3,14,8
 LOG: init_distr, cnt=2048
 f_limit=43
+[Stat:cpu_nodes_evaluated]=2358
 [Stat:loop] 2889
 [Stat:nodes_evaluated] 12261
 STAT: loads: sum=2889, av=1
@@ -4280,17 +4289,17 @@ STAT: loads: sum=283483653, av=4885
 STAT: distr: av=32682, 2av=21013, 4av=4227, 8av=107, 16av=1, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=96464(+38434)
 find all the optimal solution(s), at depth=59
-[Stat:cpu_nodes_evaluated]=2358
 [Stat:solution_depth]=59
-[Timer:search] 10.625116
+[Timer:search] 10.388806
 [Stat:total_nodes_evaluated]8492283822
 
-real	0m10.657s
-user	0m7.032s
-sys	0m3.624s
+real	0m10.421s
+user	0m6.704s
+sys	0m3.716s
 LOG(state): depth=0, h=50, f=50, 14,9,12,13,15,4,8,10,0,2,1,7,3,11,5,6
 LOG: init_distr, cnt=2048
 f_limit=54
+[Stat:cpu_nodes_evaluated]=2352
 [Stat:loop] 7331
 [Stat:nodes_evaluated] 74829
 STAT: loads: sum=7331, av=3
@@ -4327,17 +4336,17 @@ STAT: loads: sum=152004803, av=5184
 STAT: distr: av=19481, 2av=6455, 4av=2588, 8av=600, 16av=150, 32av=36, 64av=7, 128av=3, more=0
 STAT: n_roots=50401(+21081)
 find all the optimal solution(s), at depth=64
-[Stat:cpu_nodes_evaluated]=2352
 [Stat:solution_depth]=64
-[Timer:search] 8.834613
+[Timer:search] 8.642817
 [Stat:total_nodes_evaluated]4249944758
 
-real	0m8.866s
-user	0m5.720s
-sys	0m3.140s
+real	0m8.675s
+user	0m5.580s
+sys	0m3.092s
 LOG(state): depth=0, h=46, f=46, 15,14,0,4,11,1,6,13,7,5,8,9,3,2,10,12
 LOG: init_distr, cnt=2048
 f_limit=52
+[Stat:cpu_nodes_evaluated]=2598
 [Stat:loop] 124
 [Stat:nodes_evaluated] 915
 STAT: loads: sum=124, av=0
@@ -4386,17 +4395,17 @@ STAT: loads: sum=124194133, av=4488
 STAT: distr: av=16163, 2av=9135, 4av=2192, 8av=179, 16av=2, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=46203(+18532)
 find all the optimal solution(s), at depth=66
-[Stat:cpu_nodes_evaluated]=2598
 [Stat:solution_depth]=66
-[Timer:search] 4.489257
+[Timer:search] 4.401293
 [Stat:total_nodes_evaluated]3523632464
 
-real	0m4.519s
-user	0m2.932s
-sys	0m1.584s
+real	0m4.432s
+user	0m2.952s
+sys	0m1.480s
 LOG(state): depth=0, h=48, f=48, 11,14,13,1,2,3,12,4,15,7,9,5,10,6,8,0
 LOG: init_distr, cnt=2048
 f_limit=54
+[Stat:cpu_nodes_evaluated]=2373
 [Stat:loop] 2752
 [Stat:nodes_evaluated] 31659
 STAT: loads: sum=2752, av=1
@@ -4439,17 +4448,17 @@ STAT: loads: sum=728577436, av=14237
 STAT: distr: av=31400, 2av=14285, 4av=4650, 8av=752, 16av=77, 32av=7, 64av=1, 128av=0, more=0
 STAT: n_roots=86070(+34898)
 find all the optimal solution(s), at depth=66
-[Stat:cpu_nodes_evaluated]=2373
 [Stat:solution_depth]=66
-[Timer:search] 26.717086
+[Timer:search] 26.062024
 [Stat:total_nodes_evaluated]20295727318
 
-real	0m26.749s
-user	0m17.228s
-sys	0m9.516s
+real	0m26.094s
+user	0m17.028s
+sys	0m9.064s
 LOG(state): depth=0, h=41, f=41, 11,6,14,12,3,5,1,15,8,0,10,13,9,7,4,2
 LOG: init_distr, cnt=2048
 f_limit=47
+[Stat:cpu_nodes_evaluated]=2470
 [Stat:loop] 759
 [Stat:nodes_evaluated] 4692
 STAT: loads: sum=759, av=0
@@ -4498,17 +4507,17 @@ STAT: loads: sum=298605567, av=7740
 STAT: distr: av=21966, 2av=13380, 4av=3043, 8av=185, 16av=5, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=64613(+26034)
 find all the optimal solution(s), at depth=61
-[Stat:cpu_nodes_evaluated]=2470
 [Stat:solution_depth]=61
-[Timer:search] 10.723726
+[Timer:search] 10.462491
 [Stat:total_nodes_evaluated]8561165112
 
-real	0m10.758s
-user	0m6.920s
-sys	0m3.840s
+real	0m10.496s
+user	0m6.744s
+sys	0m3.752s
 LOG(state): depth=0, h=40, f=40, 14,10,2,1,13,9,8,11,7,3,6,12,15,5,4,0
 LOG: init_distr, cnt=2048
 f_limit=46
+[Stat:cpu_nodes_evaluated]=2337
 [Stat:loop] 301
 [Stat:nodes_evaluated] 2352
 STAT: loads: sum=301, av=0
@@ -4563,17 +4572,17 @@ STAT: loads: sum=776216549, av=13810
 STAT: distr: av=31979, 2av=19559, 4av=4419, 8av=246, 16av=0, 32av=0, 64av=0, 128av=0, more=0
 STAT: n_roots=93824(+37621)
 find all the optimal solution(s), at depth=62
-[Stat:cpu_nodes_evaluated]=2337
 [Stat:solution_depth]=62
-[Timer:search] 28.031076
+[Timer:search] 27.397892
 [Stat:total_nodes_evaluated]22784503022
 
-real	0m28.065s
-user	0m16.948s
-sys	0m11.116s
+real	0m27.431s
+user	0m17.888s
+sys	0m9.540s
 LOG(state): depth=0, h=43, f=43, 15,2,12,11,14,13,9,5,1,3,8,7,0,10,6,4
 LOG: init_distr, cnt=2048
 f_limit=51
+[Stat:cpu_nodes_evaluated]=2408
 [Stat:loop] 6255
 [Stat:nodes_evaluated] 44754
 STAT: loads: sum=6255, av=3
@@ -4616,9 +4625,16 @@ STAT: loads: sum=274094009, av=6801
 STAT: distr: av=24287, 2av=11679, 4av=3825, 8av=469, 16av=36, 32av=1, 64av=0, 128av=0, more=0
 STAT: n_roots=67847(+27550)
 f_limit=65
-[Stat:cpu_nodes_evaluated]=2408
-Error: bpida4_global.cu:1450 code:77, reason: an illegal memory access was encountered
+[Stat:loop] 1649337163
+[Stat:nodes_evaluated] 39575973831
+STAT: loads: sum=1649337163, av=24309
+STAT: distr: av=40082, 2av=20999, 4av=6178, 8av=565, 16av=23, 32av=0, 64av=0, 128av=0, more=0
+STAT: n_roots=113659(+45812)
+find all the optimal solution(s), at depth=65
+[Stat:solution_depth]=65
+[Timer:search] 56.850995
+[Stat:total_nodes_evaluated]47407895976
 
-real	0m34.973s
-user	0m22.640s
-sys	0m12.336s
+real	0m56.883s
+user	0m36.648s
+sys	0m20.240s
