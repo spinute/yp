@@ -8,7 +8,7 @@
 
 #define BLOCK_DIM (32)
 #define N_INIT_DISTRIBUTION (BLOCK_DIM * 64)
-#define MAX_GPU_PLAN (24)
+#define MAX_GPU_PLAN (28)
 #define MAX_BUF_RATIO (256)
 
 #define STATE_WIDTH 4
