@@ -1349,6 +1349,7 @@ main(int argc, char *argv[])
                 *d_h_diff_table = (signed char *) cudaPalloc(H_DIFF_TABLE_SIZE);
     struct timeval s, e;
     long long total_nodes_expanded_in_total = 0;
+    long long total_loops_in_total = 0;
 
     // d_Stack *global_st          = (d_Stack *) cudaPalloc(MAX_BLOCK_SIZE * sizeof(d_Stack) );
 
@@ -1420,6 +1421,7 @@ main(int argc, char *argv[])
             total_nodes_evaluated += stat[i].nodes_expanded;
         elog("[Stat:nodes_evaluated] %llu\n", total_nodes_evaluated);
         total_nodes_expanded_in_total += total_nodes_evaluated;
+        total_loops_in_total += total_loop;
 #endif
 
         int                    increased = 0;
@@ -1492,6 +1494,7 @@ solution_found:
 	printf("[Stat:solution_depth]=%d\n", solution_depth);
     printf("[Timer:search] %lf\n", (e.tv_sec - s.tv_sec) + (e.tv_usec - s.tv_usec)*1.0E-6);
     printf("[Stat:total_nodes_evaluated]%lld\n", total_nodes_expanded_in_total);
+    printf("[Stat:total_loops]%lld\n", total_loops_in_total);
 
     return 0;
 }
