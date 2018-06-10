@@ -9,7 +9,7 @@ solver_4 = ["bpida4", "bpida4_global", "c4", "bpida4_fa", "bpida4_global_fa", "c
 solver_5 = ["bpida5", "bpida5_global", "bpida5_pdb", "bpida5_pdb_global", "c5", "c5_pdb", "bpida5_fa", "bpida5_global_fa", "bpida5_pdb_fa", "bpida5_pdb_global_fa", "c5_fa", "c5_pdb_fa"]
 solver_5_pdb = ["bpida5_pdb", "bpida5_pdb_global", "c5_pdb",  "bpida5_pdb_fa", "bpida5_pdb_global_fa", "c5_pdb_fa"]
 
-ans_file_hash = {}
+ans_file_hash = {}	
 ans_file_hash["korf100"] = "15puzzle_answers.txt"
 ans_file_hash["yama24_50_hard_new"] = "24puzzle_yama_answers.txt"
 ans_file_hash["korf-24-easy10"] = "24puzzle_korf_answers10.txt"
@@ -35,7 +35,7 @@ def output_results(log_file_name):
 		d = depth_results[i].replace('[Stat:solution_depth]=', '')
 		t = time_results[i].replace('[Timer:search] ', '')
 		n = total_nodes_results[i].replace('[Stat:total_nodes_evaluated]', '')
-		f.write(d + " " + t + " " + n + '\n')
+		f.write(d + " " + t + " " + n + " " + str(float(n) / float(t))  + '\n')
 		# print(d + " " + t + " " + n)
 
 	f.close()
@@ -95,9 +95,9 @@ for b in bench_marks_5:
 		output_results(log_f_name)
 		exec_test(log_f_name, ans_file_hash[b])
 
-# for b in bench_marks_5_korf:
-# 	for solver in solver_5_pdb:
-# 		log_f_name = b + "_" + solver
-		# output_results(log_f_name)
-		# exec_test(log_f_name, ans_file_hash[b])
+for b in bench_marks_5_korf:
+	for solver in solver_5_pdb:
+		log_f_name = b + "_" + solver
+		output_results(log_f_name)
+		exec_test(log_f_name, ans_file_hash[b])
 
