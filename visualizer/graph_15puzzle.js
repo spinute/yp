@@ -17,12 +17,14 @@ function loadCSV(targetFile) {
     for (var i = 0; i < (lines.length - 1); i++) {
         // 1行ごとの処理
  
-        var wordSet = lines[i].split(",");
+        var wordSet = lines[i].split(" ");
+        console.log(wordSet);
  
         var wordData = {
             label: i,
-            y: parseFloat(wordSet[0]),
+            y: parseFloat(wordSet[1]),
         };
+        console.log(parseFloat(wordSet[1]));
         // if (i == lines.length - 1) {break;}
  
         allData.push(wordData);
@@ -32,15 +34,18 @@ function loadCSV(targetFile) {
 
 
 window.onload = function () {
-  var bpida = loadCSV("../results/15puzzle_bpida_korf100.txt");
-  var bpida_find_all = loadCSV("../results/15puzzle_bpida_findall_korf100.txt");
-  var bpida_global = loadCSV("../results/15puzzle_bpida_global_korf100.txt");
-  var bpida_global_find_all = loadCSV("../results/15puzzle_bpida_global_findall_korf100.txt");
+  var bpida = loadCSV("../results/korf100_bpida4");
+  var bpida_fa = loadCSV("../results/korf100_bpida4_fa");
+  var bpida_global = loadCSV("../results/korf100_bpida4_global");
+  var bpida_global_fa = loadCSV("../results/korf100_bpida4_global_fa");
+
+  var c4 = loadCSV("../results/korf100_c4");
+  var c4_fa = loadCSV("../results/korf100_c4_fa");
 
   var chart = new CanvasJS.Chart("chartContainer",
   {
     title:{
-      text: "Result of BPIDA* in Kolf's 100 problems"             
+      text: "Executed Time of BPIDA* in Kolf's 100 problems"             
     }, 
     animationEnabled: true,     
     axisY:{
@@ -52,6 +57,12 @@ window.onload = function () {
       shared: true
     },
     data: [
+    {
+      type: "line",
+      name: "IDA* cpu",
+      showInLegend: true,
+      dataPoints: c4
+    },
     {        
       type: "line",  
       name: "BPIDA*" ,      
@@ -60,22 +71,10 @@ window.onload = function () {
     },
     {        
       type: "line",  
-      name: "BPIDA*(find all)",        
-      showInLegend: true,
-      dataPoints: bpida_find_all
-    },
-    {        
-      type: "line",  
       name: "BPIDA*Global",        
       showInLegend: true,
       dataPoints: bpida_global
-    },
-    {        
-      type: "line",  
-      name: "BPIDA*Global(find all)",        
-      showInLegend: true,
-      dataPoints: bpida_global_find_all
-    }        
+    }     
     ],
     legend:{
       cursor:"pointer",
@@ -91,4 +90,53 @@ window.onload = function () {
     }
   });
   chart.render();
+
+  var chartFA = new CanvasJS.Chart("chartContainerFA",
+  {
+    title:{
+      text: "Executed Time of BPIDA*(Find all) in Kolf's 100 problems"             
+    }, 
+    animationEnabled: true,     
+    axisY:{
+      titleFontFamily: "arial",
+      titleFontSize: 12,
+      includeZero: false
+    },
+    toolTip: {
+      shared: true
+    },
+    data: [
+    {
+      type: "line",
+      name: "IDA* cpu(find all)",
+      showInLegend: true,
+      dataPoints: c4_fa
+    },
+    {        
+      type: "line",  
+      name: "BPIDA*(find all)",        
+      showInLegend: true,
+      dataPoints: bpida_fa
+    },
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all)",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa
+    }        
+    ],
+    legend:{
+      cursor:"pointer",
+      itemclick:function(e){
+        if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+          e.dataSeries.visible = false;
+        }
+        else {
+          e.dataSeries.visible = true;            
+        }
+        chartFA.render();
+      }
+    }
+  });
+  chartFA.render();
 }
