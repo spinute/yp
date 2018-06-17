@@ -2,7 +2,7 @@ LOG: init_distr, cnt=104
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.320423
+[Timer:pdb_load] 6.338855
 state_dump: d=0, h=39, (x,y)=(3,4)
 11 7 5 2 3
 1 22 16 8 4
@@ -12,17 +12,18 @@ state_dump: d=0, h=39, (x,y)=(3,4)
 -----------
 [Stat:cpu_nodes_evaluated]=74
 [Stat:solution_depth]=41
-[Timer:search] 0.000366
+[Timer:search] 0.000388
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.581s
-user	0m6.352s
-sys	0m0.224s
+real	0m6.623s
+user	0m6.364s
+sys	0m0.260s
 LOG: init_distr, cnt=283
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.326626
+[Timer:pdb_load] 6.338425
 state_dump: d=0, h=37, (x,y)=(4,3)
 5 7 1 9 3
 11 2 8 4 19
@@ -32,17 +33,18 @@ state_dump: d=0, h=37, (x,y)=(4,3)
 -----------
 [Stat:cpu_nodes_evaluated]=224
 [Stat:solution_depth]=41
-[Timer:search] 0.001625
+[Timer:search] 0.001630
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.606s
+real	0m6.620s
 user	0m6.352s
-sys	0m0.252s
+sys	0m0.268s
 LOG: init_distr, cnt=86
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.322768
+[Timer:pdb_load] 6.340791
 state_dump: d=0, h=37, (x,y)=(0,3)
 5 13 10 7 2
 11 1 8 4 3
@@ -52,17 +54,18 @@ state_dump: d=0, h=37, (x,y)=(0,3)
 -----------
 [Stat:cpu_nodes_evaluated]=60
 [Stat:solution_depth]=39
-[Timer:search] 0.000309
+[Timer:search] 0.000308
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.601s
-user	0m6.372s
-sys	0m0.228s
+real	0m6.624s
+user	0m6.360s
+sys	0m0.264s
 LOG: init_distr, cnt=82
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.319552
+[Timer:pdb_load] 6.338272
 state_dump: d=0, h=43, (x,y)=(2,1)
 10 12 5 14 3
 2 13 0 6 4
@@ -74,15 +77,16 @@ state_dump: d=0, h=43, (x,y)=(2,1)
 [Stat:solution_depth]=43
 [Timer:search] 0.000291
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.604s
-user	0m6.380s
-sys	0m0.220s
+real	0m6.575s
+user	0m6.296s
+sys	0m0.276s
 LOG: init_distr, cnt=144
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.321896
+[Timer:pdb_load] 6.337168
 state_dump: d=0, h=38, (x,y)=(0,4)
 1 7 3 8 12
 2 10 6 14 4
@@ -92,12 +96,13 @@ state_dump: d=0, h=38, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=92
 [Stat:solution_depth]=40
-[Timer:search] 0.000497
+[Timer:search] 0.000516
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.604s
-user	0m6.364s
-sys	0m0.236s
+real	0m6.529s
+user	0m6.236s
+sys	0m0.292s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -117,7 +122,7 @@ STAT: n_roots=3007(+841)
 find all the optimal solution(s), at depth=47
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.330519
+[Timer:pdb_load] 6.346932
 state_dump: d=0, h=41, (x,y)=(3,0)
 5 7 13 0 4
 11 1 2 10 8
@@ -127,17 +132,18 @@ state_dump: d=0, h=41, (x,y)=(3,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1454
 [Stat:solution_depth]=47
-[Timer:search] 0.216020
+[Timer:search] 0.220285
 [Stat:total_nodes_evaluated]40093
+[Stat:total_loops]7330
 
-real	0m6.826s
-user	0m6.536s
-sys	0m0.288s
+real	0m6.801s
+user	0m6.448s
+sys	0m0.348s
 LOG: init_distr, cnt=1090
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.334641
+[Timer:pdb_load] 6.333870
 state_dump: d=0, h=37, (x,y)=(1,4)
 6 2 7 9 3
 1 15 5 18 4
@@ -147,17 +153,18 @@ state_dump: d=0, h=37, (x,y)=(1,4)
 -----------
 [Stat:cpu_nodes_evaluated]=828
 [Stat:solution_depth]=43
-[Timer:search] 0.023275
+[Timer:search] 0.023144
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.628s
-user	0m6.380s
-sys	0m0.248s
+real	0m6.639s
+user	0m6.348s
+sys	0m0.288s
 LOG: init_distr, cnt=806
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.326647
+[Timer:pdb_load] 6.342102
 state_dump: d=0, h=43, (x,y)=(0,1)
 10 5 11 13 2
 0 12 6 1 9
@@ -167,17 +174,18 @@ state_dump: d=0, h=43, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=579
 [Stat:solution_depth]=49
-[Timer:search] 0.011589
+[Timer:search] 0.010955
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.571s
-user	0m6.336s
-sys	0m0.232s
+real	0m6.634s
+user	0m6.376s
+sys	0m0.256s
 LOG: init_distr, cnt=350
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.319901
+[Timer:pdb_load] 6.348839
 state_dump: d=0, h=38, (x,y)=(0,0)
 0 5 1 3 4
 6 11 2 7 9
@@ -187,17 +195,18 @@ state_dump: d=0, h=38, (x,y)=(0,0)
 -----------
 [Stat:cpu_nodes_evaluated]=251
 [Stat:solution_depth]=42
-[Timer:search] 0.003163
+[Timer:search] 0.003234
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.525s
-user	0m6.264s
-sys	0m0.260s
+real	0m6.634s
+user	0m6.316s
+sys	0m0.312s
 LOG: init_distr, cnt=904
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327406
+[Timer:pdb_load] 6.334719
 state_dump: d=0, h=38, (x,y)=(2,2)
 5 17 1 3 4
 6 15 2 7 8
@@ -207,17 +216,18 @@ state_dump: d=0, h=38, (x,y)=(2,2)
 -----------
 [Stat:cpu_nodes_evaluated]=648
 [Stat:solution_depth]=44
-[Timer:search] 0.015930
+[Timer:search] 0.015646
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.563s
-user	0m6.332s
-sys	0m0.228s
+real	0m6.635s
+user	0m6.376s
+sys	0m0.252s
 LOG: init_distr, cnt=1461
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.319873
+[Timer:pdb_load] 6.332815
 state_dump: d=0, h=44, (x,y)=(2,2)
 2 6 12 3 4
 7 1 21 9 14
@@ -227,12 +237,13 @@ state_dump: d=0, h=44, (x,y)=(2,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1076
 [Stat:solution_depth]=50
-[Timer:search] 0.049027
+[Timer:search] 0.048451
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.629s
-user	0m6.424s
-sys	0m0.200s
+real	0m6.664s
+user	0m6.392s
+sys	0m0.268s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -259,7 +270,7 @@ STAT: n_roots=5268(+2191)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 7.623760
+[Timer:pdb_load] 6.339916
 state_dump: d=0, h=40, (x,y)=(1,3)
 5 1 13 19 3
 6 8 17 4 12
@@ -269,12 +280,13 @@ state_dump: d=0, h=40, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1642
 [Stat:solution_depth]=50
-[Timer:search] 0.317466
+[Timer:search] 0.344947
 [Stat:total_nodes_evaluated]324632
+[Stat:total_loops]34076
 
-real	0m8.221s
-user	0m7.876s
-sys	0m0.344s
+real	0m6.973s
+user	0m6.700s
+sys	0m0.272s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -294,7 +306,7 @@ STAT: n_roots=3971(+1310)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.321642
+[Timer:pdb_load] 6.342368
 state_dump: d=0, h=46, (x,y)=(1,3)
 2 15 7 10 4
 5 13 3 18 8
@@ -304,17 +316,18 @@ state_dump: d=0, h=46, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1504
 [Stat:solution_depth]=50
-[Timer:search] 0.222187
+[Timer:search] 0.235925
 [Stat:total_nodes_evaluated]84774
+[Stat:total_loops]12776
 
-real	0m6.827s
-user	0m6.496s
-sys	0m0.328s
+real	0m6.861s
+user	0m6.488s
+sys	0m0.372s
 LOG: init_distr, cnt=231
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.337178
+[Timer:pdb_load] 6.340116
 state_dump: d=0, h=54, (x,y)=(4,0)
 7 5 2 9 0
 12 13 8 14 3
@@ -324,12 +337,13 @@ state_dump: d=0, h=54, (x,y)=(4,0)
 -----------
 [Stat:cpu_nodes_evaluated]=161
 [Stat:solution_depth]=54
-[Timer:search] 0.001127
+[Timer:search] 0.001130
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.614s
-user	0m6.372s
-sys	0m0.240s
+real	0m6.626s
+user	0m6.412s
+sys	0m0.212s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -349,7 +363,7 @@ STAT: n_roots=3106(+987)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.332412
+[Timer:pdb_load] 6.340322
 state_dump: d=0, h=46, (x,y)=(4,0)
 1 6 13 2 0
 5 10 16 4 3
@@ -359,12 +373,13 @@ state_dump: d=0, h=46, (x,y)=(4,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1441
 [Stat:solution_depth]=50
-[Timer:search] 0.217082
+[Timer:search] 0.218388
 [Stat:total_nodes_evaluated]39976
+[Stat:total_loops]7030
 
-real	0m6.830s
-user	0m6.540s
-sys	0m0.288s
+real	0m6.789s
+user	0m6.552s
+sys	0m0.236s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -384,7 +399,7 @@ STAT: n_roots=2990(+900)
 find all the optimal solution(s), at depth=51
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.321399
+[Timer:pdb_load] 6.347374
 state_dump: d=0, h=47, (x,y)=(2,1)
 5 3 8 4 9
 10 2 0 6 18
@@ -394,12 +409,13 @@ state_dump: d=0, h=47, (x,y)=(2,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1653
 [Stat:solution_depth]=51
-[Timer:search] 0.206123
+[Timer:search] 0.220822
 [Stat:total_nodes_evaluated]42370
+[Stat:total_loops]7399
 
-real	0m6.735s
-user	0m6.464s
-sys	0m0.272s
+real	0m6.767s
+user	0m6.436s
+sys	0m0.328s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -419,7 +435,7 @@ STAT: n_roots=4813(+1899)
 find all the optimal solution(s), at depth=53
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.331833
+[Timer:pdb_load] 6.367777
 state_dump: d=0, h=45, (x,y)=(4,3)
 1 11 12 17 3
 7 2 22 8 4
@@ -429,17 +445,18 @@ state_dump: d=0, h=45, (x,y)=(4,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1617
 [Stat:solution_depth]=53
-[Timer:search] 0.238298
+[Timer:search] 0.251313
 [Stat:total_nodes_evaluated]128660
+[Stat:total_loops]22539
 
-real	0m6.806s
-user	0m6.540s
-sys	0m0.264s
+real	0m6.861s
+user	0m6.520s
+sys	0m0.340s
 LOG: init_distr, cnt=440
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.329894
+[Timer:pdb_load] 6.339527
 state_dump: d=0, h=49, (x,y)=(0,1)
 7 5 11 8 4
 0 3 1 9 14
@@ -449,12 +466,13 @@ state_dump: d=0, h=49, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=316
 [Stat:solution_depth]=53
-[Timer:search] 0.003236
+[Timer:search] 0.003197
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.617s
-user	0m6.380s
-sys	0m0.236s
+real	0m6.657s
+user	0m6.312s
+sys	0m0.340s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -474,7 +492,7 @@ STAT: n_roots=4073(+1225)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327862
+[Timer:pdb_load] 6.346893
 state_dump: d=0, h=42, (x,y)=(1,1)
 5 11 1 2 3
 8 0 16 13 4
@@ -484,12 +502,13 @@ state_dump: d=0, h=42, (x,y)=(1,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1448
 [Stat:solution_depth]=50
-[Timer:search] 0.229662
+[Timer:search] 0.245283
 [Stat:total_nodes_evaluated]135851
+[Stat:total_loops]17683
 
-real	0m6.838s
-user	0m6.500s
-sys	0m0.336s
+real	0m6.873s
+user	0m6.552s
+sys	0m0.320s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -509,7 +528,7 @@ STAT: n_roots=4187(+1348)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.333562
+[Timer:pdb_load] 6.330349
 state_dump: d=0, h=44, (x,y)=(0,0)
 0 5 6 8 9
 15 10 1 13 2
@@ -519,12 +538,13 @@ state_dump: d=0, h=44, (x,y)=(0,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1491
 [Stat:solution_depth]=50
-[Timer:search] 0.229793
+[Timer:search] 0.246094
 [Stat:total_nodes_evaluated]84663
+[Stat:total_loops]13428
 
-real	0m6.890s
-user	0m6.612s
-sys	0m0.276s
+real	0m6.860s
+user	0m6.500s
+sys	0m0.352s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -544,7 +564,7 @@ STAT: n_roots=3347(+1019)
 find all the optimal solution(s), at depth=52
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.344965
+[Timer:pdb_load] 6.335371
 state_dump: d=0, h=46, (x,y)=(4,4)
 2 6 3 13 8
 1 10 15 12 4
@@ -554,12 +574,13 @@ state_dump: d=0, h=46, (x,y)=(4,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1511
 [Stat:solution_depth]=52
-[Timer:search] 0.225709
+[Timer:search] 0.239034
 [Stat:total_nodes_evaluated]52612
+[Stat:total_loops]9288
 
-real	0m6.852s
-user	0m6.580s
-sys	0m0.272s
+real	0m6.894s
+user	0m6.584s
+sys	0m0.308s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -579,7 +600,7 @@ STAT: n_roots=5823(+2296)
 find all the optimal solution(s), at depth=56
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.349234
+[Timer:pdb_load] 6.342833
 state_dump: d=0, h=48, (x,y)=(4,4)
 2 6 3 13 12
 17 9 4 16 14
@@ -589,12 +610,13 @@ state_dump: d=0, h=48, (x,y)=(4,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1466
 [Stat:solution_depth]=56
-[Timer:search] 0.235843
+[Timer:search] 0.251427
 [Stat:total_nodes_evaluated]198075
+[Stat:total_loops]23711
 
-real	0m6.869s
-user	0m6.524s
-sys	0m0.344s
+real	0m6.879s
+user	0m6.528s
+sys	0m0.348s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -621,7 +643,7 @@ STAT: n_roots=4043(+1390)
 find all the optimal solution(s), at depth=49
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.325841
+[Timer:pdb_load] 6.326089
 state_dump: d=0, h=39, (x,y)=(1,2)
 5 1 2 4 9
 15 11 18 3 14
@@ -631,12 +653,13 @@ state_dump: d=0, h=39, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1562
 [Stat:solution_depth]=49
-[Timer:search] 0.302644
+[Timer:search] 0.324123
 [Stat:total_nodes_evaluated]196163
+[Stat:total_loops]25479
 
-real	0m6.908s
-user	0m6.608s
-sys	0m0.296s
+real	0m6.928s
+user	0m6.616s
+sys	0m0.308s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -656,7 +679,7 @@ STAT: n_roots=4861(+1770)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.322739
+[Timer:pdb_load] 6.348299
 state_dump: d=0, h=44, (x,y)=(2,4)
 6 5 3 9 12
 15 2 13 14 8
@@ -666,17 +689,18 @@ state_dump: d=0, h=44, (x,y)=(2,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1430
 [Stat:solution_depth]=50
-[Timer:search] 0.228137
+[Timer:search] 0.232217
 [Stat:total_nodes_evaluated]136838
+[Stat:total_loops]17868
 
-real	0m6.832s
-user	0m6.524s
-sys	0m0.304s
+real	0m6.818s
+user	0m6.476s
+sys	0m0.340s
 LOG: init_distr, cnt=1427
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.330544
+[Timer:pdb_load] 6.342672
 state_dump: d=0, h=47, (x,y)=(1,0)
 3 0 13 7 8
 9 1 15 4 12
@@ -686,12 +710,13 @@ state_dump: d=0, h=47, (x,y)=(1,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1033
 [Stat:solution_depth]=51
-[Timer:search] 0.040184
+[Timer:search] 0.039559
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.648s
-user	0m6.356s
-sys	0m0.292s
+real	0m6.606s
+user	0m6.328s
+sys	0m0.276s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -718,7 +743,7 @@ STAT: n_roots=7019(+3129)
 find all the optimal solution(s), at depth=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.324328
+[Timer:pdb_load] 6.341088
 state_dump: d=0, h=40, (x,y)=(2,0)
 1 3 0 16 8
 5 10 12 9 4
@@ -728,12 +753,13 @@ state_dump: d=0, h=40, (x,y)=(2,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1503
 [Stat:solution_depth]=50
-[Timer:search] 0.344741
+[Timer:search] 0.345768
 [Stat:total_nodes_evaluated]902805
+[Stat:total_loops]74307
 
-real	0m6.908s
+real	0m6.888s
 user	0m6.564s
-sys	0m0.344s
+sys	0m0.324s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -753,7 +779,7 @@ STAT: n_roots=4000(+1296)
 find all the optimal solution(s), at depth=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.318686
+[Timer:pdb_load] 6.343796
 state_dump: d=0, h=46, (x,y)=(2,0)
 15 2 0 6 8
 1 18 10 9 4
@@ -763,12 +789,13 @@ state_dump: d=0, h=46, (x,y)=(2,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1433
 [Stat:solution_depth]=54
-[Timer:search] 0.220552
+[Timer:search] 0.237022
 [Stat:total_nodes_evaluated]123413
+[Stat:total_loops]17886
 
-real	0m6.771s
-user	0m6.488s
-sys	0m0.284s
+real	0m6.830s
+user	0m6.548s
+sys	0m0.280s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -788,7 +815,7 @@ STAT: n_roots=5315(+1889)
 find all the optimal solution(s), at depth=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.324006
+[Timer:pdb_load] 6.353696
 state_dump: d=0, h=46, (x,y)=(3,1)
 6 3 4 9 8
 1 15 7 0 13
@@ -798,12 +825,13 @@ state_dump: d=0, h=46, (x,y)=(3,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1640
 [Stat:solution_depth]=54
-[Timer:search] 0.219561
+[Timer:search] 0.253383
 [Stat:total_nodes_evaluated]133510
+[Stat:total_loops]21385
 
-real	0m6.740s
-user	0m6.408s
-sys	0m0.332s
+real	0m6.882s
+user	0m6.584s
+sys	0m0.296s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -837,7 +865,7 @@ STAT: n_roots=7287(+3058)
 find all the optimal solution(s), at depth=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.328632
+[Timer:pdb_load] 6.343823
 state_dump: d=0, h=44, (x,y)=(2,4)
 5 11 3 4 9
 1 6 7 18 17
@@ -847,12 +875,13 @@ state_dump: d=0, h=44, (x,y)=(2,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1567
 [Stat:solution_depth]=54
-[Timer:search] 0.454672
+[Timer:search] 0.511978
 [Stat:total_nodes_evaluated]1753947
+[Stat:total_loops]114969
 
-real	0m7.003s
-user	0m6.676s
-sys	0m0.328s
+real	0m7.137s
+user	0m6.708s
+sys	0m0.428s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -872,7 +901,7 @@ STAT: n_roots=5125(+1951)
 find all the optimal solution(s), at depth=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.321895
+[Timer:pdb_load] 6.338782
 state_dump: d=0, h=49, (x,y)=(4,3)
 5 6 14 8 13
 11 1 2 22 3
@@ -882,12 +911,13 @@ state_dump: d=0, h=49, (x,y)=(4,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1562
 [Stat:solution_depth]=57
-[Timer:search] 0.221649
+[Timer:search] 0.249456
 [Stat:total_nodes_evaluated]168703
+[Stat:total_loops]22630
 
-real	0m6.778s
-user	0m6.520s
-sys	0m0.256s
+real	0m6.871s
+user	0m6.504s
+sys	0m0.364s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -921,7 +951,7 @@ STAT: n_roots=10331(+4232)
 find all the optimal solution(s), at depth=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.316329
+[Timer:pdb_load] 6.339433
 state_dump: d=0, h=42, (x,y)=(4,0)
 3 5 12 1 0
 11 6 18 14 4
@@ -931,12 +961,13 @@ state_dump: d=0, h=42, (x,y)=(4,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1496
 [Stat:solution_depth]=54
-[Timer:search] 0.570300
+[Timer:search] 0.609273
 [Stat:total_nodes_evaluated]2781109
+[Stat:total_loops]178031
 
-real	0m7.148s
-user	0m6.752s
-sys	0m0.396s
+real	0m7.234s
+user	0m6.812s
+sys	0m0.420s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -984,7 +1015,7 @@ STAT: n_roots=21553(+9359)
 find all the optimal solution(s), at depth=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.334496
+[Timer:pdb_load] 6.474510
 state_dump: d=0, h=41, (x,y)=(1,4)
 1 13 2 18 4
 10 7 12 3 9
@@ -994,12 +1025,13 @@ state_dump: d=0, h=41, (x,y)=(1,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1520
 [Stat:solution_depth]=57
-[Timer:search] 3.322835
+[Timer:search] 3.381232
 [Stat:total_nodes_evaluated]38077851
+[Stat:total_loops]1747647
 
-real	0m9.917s
-user	0m8.404s
-sys	0m1.512s
+real	0m10.140s
+user	0m8.856s
+sys	0m1.280s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1026,7 +1058,7 @@ STAT: n_roots=5600(+2416)
 find all the optimal solution(s), at depth=55
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.335509
+[Timer:pdb_load] 6.338952
 state_dump: d=0, h=43, (x,y)=(0,1)
 5 8 2 4 9
 0 12 7 13 3
@@ -1036,12 +1068,13 @@ state_dump: d=0, h=43, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1500
 [Stat:solution_depth]=55
-[Timer:search] 0.317366
+[Timer:search] 0.349648
 [Stat:total_nodes_evaluated]685380
+[Stat:total_loops]51128
 
-real	0m6.882s
-user	0m6.580s
-sys	0m0.300s
+real	0m6.944s
+user	0m6.668s
+sys	0m0.276s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1068,7 +1101,7 @@ STAT: n_roots=6082(+2609)
 find all the optimal solution(s), at depth=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.331715
+[Timer:pdb_load] 6.346761
 state_dump: d=0, h=44, (x,y)=(0,4)
 6 11 1 3 9
 12 5 2 4 14
@@ -1078,12 +1111,13 @@ state_dump: d=0, h=44, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1541
 [Stat:solution_depth]=54
-[Timer:search] 0.276079
+[Timer:search] 0.328739
 [Stat:total_nodes_evaluated]434779
+[Stat:total_loops]44946
 
-real	0m6.816s
-user	0m6.544s
-sys	0m0.272s
+real	0m6.962s
+user	0m6.580s
+sys	0m0.376s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1117,7 +1151,7 @@ STAT: n_roots=8294(+3433)
 find all the optimal solution(s), at depth=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.338429
+[Timer:pdb_load] 6.344212
 state_dump: d=0, h=47, (x,y)=(3,4)
 1 7 11 9 3
 5 17 4 14 13
@@ -1127,12 +1161,13 @@ state_dump: d=0, h=47, (x,y)=(3,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1490
 [Stat:solution_depth]=57
-[Timer:search] 0.522267
+[Timer:search] 0.557238
 [Stat:total_nodes_evaluated]2599939
+[Stat:total_loops]157276
 
-real	0m7.103s
+real	0m7.185s
 user	0m6.748s
-sys	0m0.356s
+sys	0m0.436s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -1159,7 +1194,7 @@ STAT: n_roots=4990(+2178)
 find all the optimal solution(s), at depth=62
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.332568
+[Timer:pdb_load] 6.291262
 state_dump: d=0, h=52, (x,y)=(0,4)
 4 5 3 9 18
 2 6 8 14 24
@@ -1169,12 +1204,13 @@ state_dump: d=0, h=52, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1623
 [Stat:solution_depth]=62
-[Timer:search] 0.303389
+[Timer:search] 0.333784
 [Stat:total_nodes_evaluated]397177
+[Stat:total_loops]38436
 
-real	0m6.899s
-user	0m6.592s
-sys	0m0.308s
+real	0m6.910s
+user	0m6.572s
+sys	0m0.336s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1208,7 +1244,7 @@ STAT: n_roots=8008(+3254)
 find all the optimal solution(s), at depth=61
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.336300
+[Timer:pdb_load] 6.341154
 state_dump: d=0, h=51, (x,y)=(1,2)
 1 6 5 2 8
 10 16 7 4 3
@@ -1218,12 +1254,13 @@ state_dump: d=0, h=51, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1611
 [Stat:solution_depth]=61
-[Timer:search] 0.559476
+[Timer:search] 0.594978
 [Stat:total_nodes_evaluated]2798216
+[Stat:total_loops]169113
 
-real	0m7.174s
-user	0m6.776s
-sys	0m0.392s
+real	0m7.217s
+user	0m6.816s
+sys	0m0.396s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -1264,7 +1301,7 @@ STAT: n_roots=21328(+9373)
 find all the optimal solution(s), at depth=60
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.345062
+[Timer:pdb_load] 6.334175
 state_dump: d=0, h=50, (x,y)=(1,3)
 1 8 7 4 11
 10 5 2 18 9
@@ -1274,12 +1311,13 @@ state_dump: d=0, h=50, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1493
 [Stat:solution_depth]=60
-[Timer:search] 2.865858
+[Timer:search] 2.892473
 [Stat:total_nodes_evaluated]31260653
+[Stat:total_loops]1454249
 
-real	0m9.490s
-user	0m8.332s
-sys	0m1.156s
+real	0m9.514s
+user	0m8.344s
+sys	0m1.168s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1320,7 +1358,7 @@ STAT: n_roots=13647(+5844)
 find all the optimal solution(s), at depth=59
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.378573
+[Timer:pdb_load] 6.333381
 state_dump: d=0, h=45, (x,y)=(3,2)
 5 6 7 3 4
 16 11 8 1 9
@@ -1330,12 +1368,13 @@ state_dump: d=0, h=45, (x,y)=(3,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1553
 [Stat:solution_depth]=59
-[Timer:search] 1.373196
+[Timer:search] 1.434819
 [Stat:total_nodes_evaluated]12765850
+[Stat:total_loops]624020
 
-real	0m7.982s
-user	0m7.284s
-sys	0m0.696s
+real	0m8.050s
+user	0m7.416s
+sys	0m0.632s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1369,7 +1408,7 @@ STAT: n_roots=13106(+5778)
 find all the optimal solution(s), at depth=58
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.330218
+[Timer:pdb_load] 6.343146
 state_dump: d=0, h=46, (x,y)=(2,2)
 1 10 3 4 7
 6 14 8 2 13
@@ -1379,12 +1418,13 @@ state_dump: d=0, h=46, (x,y)=(2,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1449
 [Stat:solution_depth]=58
-[Timer:search] 1.089470
+[Timer:search] 1.153110
 [Stat:total_nodes_evaluated]10062006
+[Stat:total_loops]495526
 
-real	0m7.615s
-user	0m7.088s
-sys	0m0.528s
+real	0m7.776s
+user	0m7.076s
+sys	0m0.700s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1418,7 +1458,7 @@ STAT: n_roots=9477(+3882)
 find all the optimal solution(s), at depth=62
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.332320
+[Timer:pdb_load] 6.338849
 state_dump: d=0, h=50, (x,y)=(0,4)
 2 8 3 12 9
 5 6 17 4 14
@@ -1428,12 +1468,13 @@ state_dump: d=0, h=50, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1611
 [Stat:solution_depth]=62
-[Timer:search] 0.589362
+[Timer:search] 0.645885
 [Stat:total_nodes_evaluated]3715997
+[Stat:total_loops]217554
 
-real	0m7.113s
-user	0m6.712s
-sys	0m0.400s
+real	0m7.226s
+user	0m6.760s
+sys	0m0.464s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1460,7 +1501,7 @@ STAT: n_roots=6420(+2647)
 find all the optimal solution(s), at depth=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.334509
+[Timer:pdb_load] 6.337172
 state_dump: d=0, h=47, (x,y)=(1,2)
 5 2 12 6 4
 1 16 15 7 3
@@ -1470,12 +1511,13 @@ state_dump: d=0, h=47, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1543
 [Stat:solution_depth]=57
-[Timer:search] 0.332346
+[Timer:search] 0.374390
 [Stat:total_nodes_evaluated]976688
+[Stat:total_loops]73952
 
-real	0m6.865s
-user	0m6.588s
-sys	0m0.276s
+real	0m6.948s
+user	0m6.620s
+sys	0m0.328s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -1502,7 +1544,7 @@ STAT: n_roots=9125(+3940)
 find all the optimal solution(s), at depth=59
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.343398
+[Timer:pdb_load] 6.331098
 state_dump: d=0, h=51, (x,y)=(0,3)
 1 8 5 4 9
 10 6 7 3 2
@@ -1512,12 +1554,13 @@ state_dump: d=0, h=51, (x,y)=(0,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1555
 [Stat:solution_depth]=59
-[Timer:search] 0.430032
+[Timer:search] 0.487208
 [Stat:total_nodes_evaluated]2196010
+[Stat:total_loops]140546
 
-real	0m6.962s
-user	0m6.584s
-sys	0m0.376s
+real	0m7.103s
+user	0m6.744s
+sys	0m0.356s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -1558,7 +1601,7 @@ STAT: n_roots=11203(+4851)
 find all the optimal solution(s), at depth=59
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.321423
+[Timer:pdb_load] 6.334008
 state_dump: d=0, h=45, (x,y)=(1,2)
 1 5 14 7 4
 2 18 6 12 19
@@ -1568,12 +1611,13 @@ state_dump: d=0, h=45, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1549
 [Stat:solution_depth]=59
-[Timer:search] 1.223366
+[Timer:search] 1.316877
 [Stat:total_nodes_evaluated]11727092
+[Stat:total_loops]557178
 
-real	0m7.747s
-user	0m7.208s
-sys	0m0.540s
+real	0m7.938s
+user	0m7.288s
+sys	0m0.648s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1614,7 +1658,7 @@ STAT: n_roots=20535(+8868)
 find all the optimal solution(s), at depth=62
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.333532
+[Timer:pdb_load] 6.354691
 state_dump: d=0, h=48, (x,y)=(1,3)
 8 3 5 9 4
 10 11 2 6 14
@@ -1624,12 +1668,13 @@ state_dump: d=0, h=48, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1705
 [Stat:solution_depth]=62
-[Timer:search] 3.081154
+[Timer:search] 3.172895
 [Stat:total_nodes_evaluated]34507987
+[Stat:total_loops]1581566
 
-real	0m9.604s
-user	0m8.260s
-sys	0m1.344s
+real	0m9.792s
+user	0m8.308s
+sys	0m1.484s
 LOG: init_distr, cnt=2049
 start iteration
 0
@@ -1656,7 +1701,7 @@ STAT: n_roots=8719(+3725)
 find all the optimal solution(s), at depth=63
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.310379
+[Timer:pdb_load] 6.346292
 state_dump: d=0, h=53, (x,y)=(1,2)
 5 4 2 7 18
 6 17 11 1 3
@@ -1666,12 +1711,13 @@ state_dump: d=0, h=53, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1677
 [Stat:solution_depth]=63
-[Timer:search] 0.438236
+[Timer:search] 0.433585
 [Stat:total_nodes_evaluated]1841108
+[Stat:total_loops]122492
 
-real	0m7.022s
-user	0m6.636s
-sys	0m0.380s
+real	0m6.987s
+user	0m6.672s
+sys	0m0.316s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1719,7 +1765,7 @@ STAT: n_roots=22909(+9848)
 find all the optimal solution(s), at depth=64
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.337487
+[Timer:pdb_load] 6.336068
 state_dump: d=0, h=50, (x,y)=(2,4)
 5 1 2 18 13
 10 6 3 12 9
@@ -1729,12 +1775,13 @@ state_dump: d=0, h=50, (x,y)=(2,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1664
 [Stat:solution_depth]=64
-[Timer:search] 5.338097
+[Timer:search] 5.386373
 [Stat:total_nodes_evaluated]63864847
+[Stat:total_loops]2848655
 
-real	0m11.936s
-user	0m9.932s
-sys	0m2.004s
+real	0m12.006s
+user	0m10.076s
+sys	0m1.924s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1768,7 +1815,7 @@ STAT: n_roots=15654(+6616)
 find all the optimal solution(s), at depth=64
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.328123
+[Timer:pdb_load] 6.345599
 state_dump: d=0, h=54, (x,y)=(1,3)
 5 10 2 8 9
 6 12 4 18 14
@@ -1778,12 +1825,13 @@ state_dump: d=0, h=54, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1642
 [Stat:solution_depth]=64
-[Timer:search] 1.360688
+[Timer:search] 1.314459
 [Stat:total_nodes_evaluated]12165349
+[Stat:total_loops]614843
 
-real	0m8.002s
-user	0m7.296s
-sys	0m0.704s
+real	0m7.852s
+user	0m7.204s
+sys	0m0.644s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1824,7 +1872,7 @@ STAT: n_roots=13623(+5703)
 find all the optimal solution(s), at depth=61
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327533
+[Timer:pdb_load] 6.334457
 state_dump: d=0, h=49, (x,y)=(1,2)
 11 6 1 9 3
 7 2 12 4 13
@@ -1834,12 +1882,13 @@ state_dump: d=0, h=49, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1587
 [Stat:solution_depth]=61
-[Timer:search] 1.324578
+[Timer:search] 1.323592
 [Stat:total_nodes_evaluated]11710384
+[Stat:total_loops]596274
 
-real	0m7.933s
-user	0m7.236s
-sys	0m0.696s
+real	0m7.895s
+user	0m7.268s
+sys	0m0.628s
 LOG: init_distr, cnt=2048
 start iteration
 0
@@ -1887,7 +1936,7 @@ STAT: n_roots=41864(+18329)
 find all the optimal solution(s), at depth=63
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.334516
+[Timer:pdb_load] 6.337543
 state_dump: d=0, h=47, (x,y)=(0,1)
 6 10 11 7 4
 0 5 17 8 1
@@ -1897,9 +1946,10 @@ state_dump: d=0, h=47, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1571
 [Stat:solution_depth]=63
-[Timer:search] 13.521115
+[Timer:search] 13.539049
 [Stat:total_nodes_evaluated]171437182
+[Stat:total_loops]7468899
 
-real	0m20.174s
-user	0m15.288s
-sys	0m4.888s
+real	0m20.149s
+user	0m15.056s
+sys	0m5.096s

@@ -2,7 +2,7 @@ LOG: init_distr, cnt=104
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327381
+[Timer:pdb_load] 6.340647
 state_dump: d=0, h=39, (x,y)=(3,4)
 11 7 5 2 3
 1 22 16 8 4
@@ -12,17 +12,18 @@ state_dump: d=0, h=39, (x,y)=(3,4)
 -----------
 [Stat:cpu_nodes_evaluated]=74
 [Stat:solution_depth]=41
-[Timer:search] 0.000361
+[Timer:search] 0.000372
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.515s
-user	0m6.268s
-sys	0m0.244s
+real	0m6.560s
+user	0m6.296s
+sys	0m0.264s
 LOG: init_distr, cnt=283
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.315702
+[Timer:pdb_load] 6.336386
 state_dump: d=0, h=37, (x,y)=(4,3)
 5 7 1 9 3
 11 2 8 4 19
@@ -32,17 +33,18 @@ state_dump: d=0, h=37, (x,y)=(4,3)
 -----------
 [Stat:cpu_nodes_evaluated]=224
 [Stat:solution_depth]=41
-[Timer:search] 0.001746
+[Timer:search] 0.001634
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.610s
-user	0m6.364s
-sys	0m0.244s
+real	0m6.618s
+user	0m6.360s
+sys	0m0.252s
 LOG: init_distr, cnt=86
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.346821
+[Timer:pdb_load] 6.336792
 state_dump: d=0, h=37, (x,y)=(0,3)
 5 13 10 7 2
 11 1 8 4 3
@@ -52,17 +54,18 @@ state_dump: d=0, h=37, (x,y)=(0,3)
 -----------
 [Stat:cpu_nodes_evaluated]=60
 [Stat:solution_depth]=39
-[Timer:search] 0.000306
+[Timer:search] 0.000324
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.631s
-user	0m6.364s
-sys	0m0.264s
+real	0m6.619s
+user	0m6.324s
+sys	0m0.292s
 LOG: init_distr, cnt=82
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.323434
+[Timer:pdb_load] 6.330071
 state_dump: d=0, h=43, (x,y)=(2,1)
 10 12 5 14 3
 2 13 0 6 4
@@ -72,17 +75,18 @@ state_dump: d=0, h=43, (x,y)=(2,1)
 -----------
 [Stat:cpu_nodes_evaluated]=57
 [Stat:solution_depth]=43
-[Timer:search] 0.000274
+[Timer:search] 0.000288
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.601s
-user	0m6.396s
-sys	0m0.204s
+real	0m6.611s
+user	0m6.372s
+sys	0m0.236s
 LOG: init_distr, cnt=144
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.322346
+[Timer:pdb_load] 6.333198
 state_dump: d=0, h=38, (x,y)=(0,4)
 1 7 3 8 12
 2 10 6 14 4
@@ -92,12 +96,13 @@ state_dump: d=0, h=38, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=92
 [Stat:solution_depth]=40
-[Timer:search] 0.000505
+[Timer:search] 0.000517
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.601s
-user	0m6.344s
-sys	0m0.252s
+real	0m6.616s
+user	0m6.324s
+sys	0m0.288s
 LOG: init_distr, cnt=2048
 0
 f_limit=45
@@ -110,7 +115,7 @@ STAT: n_roots=2166(+118)
 f_limit=47
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.320996
+[Timer:pdb_load] 6.331343
 state_dump: d=0, h=41, (x,y)=(3,0)
 5 7 13 0 4
 11 1 2 10 8
@@ -120,17 +125,18 @@ state_dump: d=0, h=41, (x,y)=(3,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1454
 [Stat:solution_depth]=47
-[Timer:search] 0.136604
+[Timer:search] 0.139583
 [Stat:total_nodes_evaluated]1365
+[Stat:total_loops]289
 
-real	0m6.735s
-user	0m6.512s
-sys	0m0.228s
+real	0m6.753s
+user	0m6.480s
+sys	0m0.280s
 LOG: init_distr, cnt=1090
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.325611
+[Timer:pdb_load] 6.332555
 state_dump: d=0, h=37, (x,y)=(1,4)
 6 2 7 9 3
 1 15 5 18 4
@@ -140,17 +146,18 @@ state_dump: d=0, h=37, (x,y)=(1,4)
 -----------
 [Stat:cpu_nodes_evaluated]=828
 [Stat:solution_depth]=43
-[Timer:search] 0.023929
+[Timer:search] 0.023134
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.588s
-user	0m6.356s
-sys	0m0.228s
+real	0m6.546s
+user	0m6.304s
+sys	0m0.240s
 LOG: init_distr, cnt=806
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.330140
+[Timer:pdb_load] 6.339713
 state_dump: d=0, h=43, (x,y)=(0,1)
 10 5 11 13 2
 0 12 6 1 9
@@ -160,17 +167,18 @@ state_dump: d=0, h=43, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=579
 [Stat:solution_depth]=49
-[Timer:search] 0.011886
+[Timer:search] 0.011371
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.534s
-user	0m6.272s
+real	0m6.587s
+user	0m6.324s
 sys	0m0.260s
 LOG: init_distr, cnt=350
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.331357
+[Timer:pdb_load] 6.323648
 state_dump: d=0, h=38, (x,y)=(0,0)
 0 5 1 3 4
 6 11 2 7 9
@@ -180,17 +188,18 @@ state_dump: d=0, h=38, (x,y)=(0,0)
 -----------
 [Stat:cpu_nodes_evaluated]=251
 [Stat:solution_depth]=42
-[Timer:search] 0.003376
+[Timer:search] 0.003220
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.571s
-user	0m6.340s
-sys	0m0.228s
+real	0m6.607s
+user	0m6.364s
+sys	0m0.240s
 LOG: init_distr, cnt=904
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.338257
+[Timer:pdb_load] 6.337589
 state_dump: d=0, h=38, (x,y)=(2,2)
 5 17 1 3 4
 6 15 2 7 8
@@ -200,17 +209,18 @@ state_dump: d=0, h=38, (x,y)=(2,2)
 -----------
 [Stat:cpu_nodes_evaluated]=648
 [Stat:solution_depth]=44
-[Timer:search] 0.016740
+[Timer:search] 0.015887
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.577s
-user	0m6.300s
-sys	0m0.272s
+real	0m6.638s
+user	0m6.376s
+sys	0m0.260s
 LOG: init_distr, cnt=1461
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.338570
+[Timer:pdb_load] 6.343762
 state_dump: d=0, h=44, (x,y)=(2,2)
 2 6 12 3 4
 7 1 21 9 14
@@ -220,12 +230,13 @@ state_dump: d=0, h=44, (x,y)=(2,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1076
 [Stat:solution_depth]=50
-[Timer:search] 0.051565
+[Timer:search] 0.049737
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.621s
-user	0m6.320s
-sys	0m0.296s
+real	0m6.675s
+user	0m6.452s
+sys	0m0.224s
 LOG: init_distr, cnt=2048
 0
 f_limit=46
@@ -245,7 +256,7 @@ STAT: n_roots=3077(+832)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.334577
+[Timer:pdb_load] 6.339423
 state_dump: d=0, h=40, (x,y)=(1,3)
 5 1 13 19 3
 6 8 17 4 12
@@ -255,12 +266,13 @@ state_dump: d=0, h=40, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1642
 [Stat:solution_depth]=50
-[Timer:search] 0.172868
+[Timer:search] 0.171805
 [Stat:total_nodes_evaluated]42357
+[Stat:total_loops]7553
 
-real	0m6.814s
-user	0m6.520s
-sys	0m0.300s
+real	0m6.793s
+user	0m6.508s
+sys	0m0.292s
 LOG: init_distr, cnt=2049
 0
 f_limit=48
@@ -273,7 +285,7 @@ STAT: n_roots=2661(+612)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.332203
+[Timer:pdb_load] 6.348071
 state_dump: d=0, h=46, (x,y)=(1,3)
 2 15 7 10 4
 5 13 3 18 8
@@ -283,17 +295,18 @@ state_dump: d=0, h=46, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1504
 [Stat:solution_depth]=50
-[Timer:search] 0.129275
+[Timer:search] 0.132944
 [Stat:total_nodes_evaluated]7878
+[Stat:total_loops]1559
 
-real	0m6.742s
-user	0m6.480s
-sys	0m0.268s
+real	0m6.762s
+user	0m6.472s
+sys	0m0.292s
 LOG: init_distr, cnt=231
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.310644
+[Timer:pdb_load] 6.343354
 state_dump: d=0, h=54, (x,y)=(4,0)
 7 5 2 9 0
 12 13 8 14 3
@@ -303,12 +316,13 @@ state_dump: d=0, h=54, (x,y)=(4,0)
 -----------
 [Stat:cpu_nodes_evaluated]=161
 [Stat:solution_depth]=54
-[Timer:search] 0.001170
+[Timer:search] 0.001190
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.621s
-user	0m6.328s
-sys	0m0.292s
+real	0m6.602s
+user	0m6.276s
+sys	0m0.324s
 LOG: init_distr, cnt=2048
 0
 f_limit=48
@@ -321,7 +335,7 @@ STAT: n_roots=2119(+71)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.323889
+[Timer:pdb_load] 6.336749
 state_dump: d=0, h=46, (x,y)=(4,0)
 1 6 13 2 0
 5 10 16 4 3
@@ -331,12 +345,13 @@ state_dump: d=0, h=46, (x,y)=(4,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1441
 [Stat:solution_depth]=50
-[Timer:search] 0.130702
+[Timer:search] 0.134025
 [Stat:total_nodes_evaluated]1011
+[Stat:total_loops]76
 
-real	0m6.729s
-user	0m6.456s
-sys	0m0.276s
+real	0m6.739s
+user	0m6.412s
+sys	0m0.332s
 LOG: init_distr, cnt=2048
 0
 f_limit=49
@@ -349,7 +364,7 @@ STAT: n_roots=2090(+42)
 f_limit=51
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327440
+[Timer:pdb_load] 6.338985
 state_dump: d=0, h=47, (x,y)=(2,1)
 5 3 8 4 9
 10 2 0 6 18
@@ -359,12 +374,13 @@ state_dump: d=0, h=47, (x,y)=(2,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1653
 [Stat:solution_depth]=51
-[Timer:search] 0.136538
+[Timer:search] 0.137114
 [Stat:total_nodes_evaluated]543
+[Stat:total_loops]43
 
-real	0m6.731s
-user	0m6.456s
-sys	0m0.280s
+real	0m6.759s
+user	0m6.504s
+sys	0m0.260s
 LOG: init_distr, cnt=2048
 0
 f_limit=51
@@ -377,7 +393,7 @@ STAT: n_roots=2914(+866)
 f_limit=53
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.334746
+[Timer:pdb_load] 6.334170
 state_dump: d=0, h=45, (x,y)=(4,3)
 1 11 12 17 3
 7 2 22 8 4
@@ -387,17 +403,18 @@ state_dump: d=0, h=45, (x,y)=(4,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1617
 [Stat:solution_depth]=53
-[Timer:search] 0.156054
+[Timer:search] 0.143975
 [Stat:total_nodes_evaluated]14844
+[Stat:total_loops]4231
 
-real	0m6.770s
-user	0m6.520s
+real	0m6.728s
+user	0m6.468s
 sys	0m0.264s
 LOG: init_distr, cnt=440
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327019
+[Timer:pdb_load] 6.346696
 state_dump: d=0, h=49, (x,y)=(0,1)
 7 5 11 8 4
 0 3 1 9 14
@@ -407,12 +424,13 @@ state_dump: d=0, h=49, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=316
 [Stat:solution_depth]=53
-[Timer:search] 0.003338
+[Timer:search] 0.003296
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.610s
-user	0m6.320s
-sys	0m0.288s
+real	0m6.626s
+user	0m6.364s
+sys	0m0.260s
 LOG: init_distr, cnt=2049
 0
 f_limit=48
@@ -425,7 +443,7 @@ STAT: n_roots=2848(+799)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.332090
+[Timer:pdb_load] 6.340169
 state_dump: d=0, h=42, (x,y)=(1,1)
 5 11 1 2 3
 8 0 16 13 4
@@ -435,12 +453,13 @@ state_dump: d=0, h=42, (x,y)=(1,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1448
 [Stat:solution_depth]=50
-[Timer:search] 0.132275
+[Timer:search] 0.139863
 [Stat:total_nodes_evaluated]15678
+[Stat:total_loops]3373
 
-real	0m6.672s
-user	0m6.376s
-sys	0m0.300s
+real	0m6.765s
+user	0m6.464s
+sys	0m0.308s
 LOG: init_distr, cnt=2049
 0
 f_limit=48
@@ -453,7 +472,7 @@ STAT: n_roots=2839(+790)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.329112
+[Timer:pdb_load] 6.334026
 state_dump: d=0, h=44, (x,y)=(0,0)
 0 5 6 8 9
 15 10 1 13 2
@@ -463,12 +482,13 @@ state_dump: d=0, h=44, (x,y)=(0,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1491
 [Stat:solution_depth]=50
-[Timer:search] 0.140305
+[Timer:search] 0.147408
 [Stat:total_nodes_evaluated]8937
+[Stat:total_loops]1978
 
-real	0m6.748s
-user	0m6.484s
-sys	0m0.272s
+real	0m6.830s
+user	0m6.596s
+sys	0m0.236s
 LOG: init_distr, cnt=2048
 0
 f_limit=50
@@ -481,7 +501,7 @@ STAT: n_roots=2328(+280)
 f_limit=52
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.339714
+[Timer:pdb_load] 6.350389
 state_dump: d=0, h=46, (x,y)=(4,4)
 2 6 3 13 8
 1 10 15 12 4
@@ -491,12 +511,13 @@ state_dump: d=0, h=46, (x,y)=(4,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1511
 [Stat:solution_depth]=52
-[Timer:search] 0.139942
+[Timer:search] 0.134669
 [Stat:total_nodes_evaluated]3852
+[Stat:total_loops]760
 
-real	0m6.761s
-user	0m6.480s
-sys	0m0.284s
+real	0m6.716s
+user	0m6.412s
+sys	0m0.308s
 LOG: init_distr, cnt=2048
 0
 f_limit=54
@@ -509,7 +530,7 @@ STAT: n_roots=3527(+1479)
 f_limit=56
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.339207
+[Timer:pdb_load] 6.341455
 state_dump: d=0, h=48, (x,y)=(4,4)
 2 6 3 13 12
 17 9 4 16 14
@@ -519,11 +540,12 @@ state_dump: d=0, h=48, (x,y)=(4,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1466
 [Stat:solution_depth]=56
-[Timer:search] 0.126334
+[Timer:search] 0.150346
 [Stat:total_nodes_evaluated]19998
+[Stat:total_loops]3455
 
-real	0m6.728s
-user	0m6.424s
+real	0m6.840s
+user	0m6.552s
 sys	0m0.308s
 LOG: init_distr, cnt=2048
 0
@@ -544,7 +566,7 @@ STAT: n_roots=2653(+580)
 f_limit=49
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.339673
+[Timer:pdb_load] 6.345145
 state_dump: d=0, h=39, (x,y)=(1,2)
 5 1 2 4 9
 15 11 18 3 14
@@ -554,12 +576,13 @@ state_dump: d=0, h=39, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1562
 [Stat:solution_depth]=49
-[Timer:search] 0.170339
+[Timer:search] 0.175720
 [Stat:total_nodes_evaluated]26235
+[Stat:total_loops]5982
 
-real	0m6.782s
-user	0m6.524s
-sys	0m0.268s
+real	0m6.803s
+user	0m6.512s
+sys	0m0.300s
 LOG: init_distr, cnt=2048
 0
 f_limit=48
@@ -572,7 +595,7 @@ STAT: n_roots=3091(+1043)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.336519
+[Timer:pdb_load] 6.346910
 state_dump: d=0, h=44, (x,y)=(2,4)
 6 5 3 9 12
 15 2 13 14 8
@@ -582,17 +605,18 @@ state_dump: d=0, h=44, (x,y)=(2,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1430
 [Stat:solution_depth]=50
-[Timer:search] 0.133181
+[Timer:search] 0.134703
 [Stat:total_nodes_evaluated]11334
+[Stat:total_loops]2114
 
-real	0m6.749s
-user	0m6.440s
-sys	0m0.316s
+real	0m6.765s
+user	0m6.448s
+sys	0m0.328s
 LOG: init_distr, cnt=1427
 solution is found by distributor
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.322071
+[Timer:pdb_load] 6.180968
 state_dump: d=0, h=47, (x,y)=(1,0)
 3 0 13 7 8
 9 1 15 4 12
@@ -602,12 +626,13 @@ state_dump: d=0, h=47, (x,y)=(1,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1033
 [Stat:solution_depth]=51
-[Timer:search] 0.041498
+[Timer:search] 0.040211
 [Stat:total_nodes_evaluated]0
+[Stat:total_loops]0
 
-real	0m6.633s
-user	0m6.340s
-sys	0m0.288s
+real	0m6.453s
+user	0m6.180s
+sys	0m0.268s
 LOG: init_distr, cnt=2048
 0
 f_limit=46
@@ -627,7 +652,7 @@ STAT: n_roots=3890(+1298)
 f_limit=50
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.335675
+[Timer:pdb_load] 6.339081
 state_dump: d=0, h=40, (x,y)=(2,0)
 1 3 0 16 8
 5 10 12 9 4
@@ -637,12 +662,13 @@ state_dump: d=0, h=40, (x,y)=(2,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1503
 [Stat:solution_depth]=50
-[Timer:search] 0.148665
+[Timer:search] 0.137812
 [Stat:total_nodes_evaluated]151605
+[Stat:total_loops]21289
 
-real	0m6.719s
-user	0m6.464s
-sys	0m0.264s
+real	0m6.666s
+user	0m6.432s
+sys	0m0.236s
 LOG: init_distr, cnt=2048
 0
 f_limit=52
@@ -655,7 +681,7 @@ STAT: n_roots=2704(+656)
 f_limit=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327309
+[Timer:pdb_load] 6.339871
 state_dump: d=0, h=46, (x,y)=(2,0)
 15 2 0 6 8
 1 18 10 9 4
@@ -665,12 +691,13 @@ state_dump: d=0, h=46, (x,y)=(2,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1433
 [Stat:solution_depth]=54
-[Timer:search] 0.135640
+[Timer:search] 0.138637
 [Stat:total_nodes_evaluated]14085
+[Stat:total_loops]3435
 
-real	0m6.735s
-user	0m6.464s
-sys	0m0.276s
+real	0m6.817s
+user	0m6.512s
+sys	0m0.312s
 LOG: init_distr, cnt=2048
 0
 f_limit=52
@@ -683,7 +710,7 @@ STAT: n_roots=3426(+1378)
 f_limit=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.338354
+[Timer:pdb_load] 6.338195
 state_dump: d=0, h=46, (x,y)=(3,1)
 6 3 4 9 8
 1 15 7 0 13
@@ -693,12 +720,13 @@ state_dump: d=0, h=46, (x,y)=(3,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1640
 [Stat:solution_depth]=54
-[Timer:search] 0.151470
+[Timer:search] 0.141674
 [Stat:total_nodes_evaluated]13680
+[Stat:total_loops]3529
 
-real	0m6.769s
-user	0m6.528s
-sys	0m0.252s
+real	0m6.762s
+user	0m6.484s
+sys	0m0.284s
 LOG: init_distr, cnt=2048
 0
 f_limit=48
@@ -725,7 +753,7 @@ STAT: n_roots=4229(+1627)
 f_limit=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.328079
+[Timer:pdb_load] 6.333942
 state_dump: d=0, h=44, (x,y)=(2,4)
 5 11 3 4 9
 1 6 7 18 17
@@ -735,12 +763,13 @@ state_dump: d=0, h=44, (x,y)=(2,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1567
 [Stat:solution_depth]=54
-[Timer:search] 0.182475
+[Timer:search] 0.176533
 [Stat:total_nodes_evaluated]261033
+[Stat:total_loops]28176
 
-real	0m6.791s
-user	0m6.504s
-sys	0m0.292s
+real	0m6.736s
+user	0m6.440s
+sys	0m0.300s
 LOG: init_distr, cnt=2049
 0
 f_limit=55
@@ -753,7 +782,7 @@ STAT: n_roots=3174(+1125)
 f_limit=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327001
+[Timer:pdb_load] 6.333970
 state_dump: d=0, h=49, (x,y)=(4,3)
 5 6 14 8 13
 11 1 2 22 3
@@ -763,12 +792,13 @@ state_dump: d=0, h=49, (x,y)=(4,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1562
 [Stat:solution_depth]=57
-[Timer:search] 0.131698
+[Timer:search] 0.133598
 [Stat:total_nodes_evaluated]17565
+[Stat:total_loops]3881
 
-real	0m6.696s
-user	0m6.388s
-sys	0m0.312s
+real	0m6.749s
+user	0m6.412s
+sys	0m0.348s
 LOG: init_distr, cnt=2048
 0
 f_limit=48
@@ -795,7 +825,7 @@ STAT: n_roots=6099(+2625)
 f_limit=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.318649
+[Timer:pdb_load] 6.342156
 state_dump: d=0, h=42, (x,y)=(4,0)
 3 5 12 1 0
 11 6 18 14 4
@@ -805,12 +835,13 @@ state_dump: d=0, h=42, (x,y)=(4,0)
 -----------
 [Stat:cpu_nodes_evaluated]=1496
 [Stat:solution_depth]=54
-[Timer:search] 0.193314
+[Timer:search] 0.204651
 [Stat:total_nodes_evaluated]494067
+[Stat:total_loops]46848
 
-real	0m6.791s
-user	0m6.500s
-sys	0m0.296s
+real	0m6.832s
+user	0m6.556s
+sys	0m0.280s
 LOG: init_distr, cnt=2049
 0
 f_limit=47
@@ -851,7 +882,7 @@ STAT: n_roots=12194(+5109)
 f_limit=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.337148
+[Timer:pdb_load] 6.344083
 state_dump: d=0, h=41, (x,y)=(1,4)
 1 13 2 18 4
 10 7 12 3 9
@@ -861,12 +892,13 @@ state_dump: d=0, h=41, (x,y)=(1,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1520
 [Stat:solution_depth]=57
-[Timer:search] 0.398618
+[Timer:search] 0.373361
 [Stat:total_nodes_evaluated]7127919
+[Stat:total_loops]382418
 
-real	0m7.048s
-user	0m6.708s
-sys	0m0.364s
+real	0m7.000s
+user	0m6.636s
+sys	0m0.372s
 LOG: init_distr, cnt=2048
 0
 f_limit=51
@@ -886,7 +918,7 @@ STAT: n_roots=3184(+940)
 f_limit=55
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.322218
+[Timer:pdb_load] 6.333842
 state_dump: d=0, h=43, (x,y)=(0,1)
 5 8 2 4 9
 0 12 7 13 3
@@ -896,12 +928,13 @@ state_dump: d=0, h=43, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1500
 [Stat:solution_depth]=55
-[Timer:search] 0.156067
+[Timer:search] 0.150928
 [Stat:total_nodes_evaluated]85533
+[Stat:total_loops]10623
 
-real	0m6.749s
-user	0m6.460s
-sys	0m0.296s
+real	0m6.705s
+user	0m6.432s
+sys	0m0.280s
 LOG: init_distr, cnt=2048
 0
 f_limit=50
@@ -921,7 +954,7 @@ STAT: n_roots=3473(+1077)
 f_limit=54
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.318482
+[Timer:pdb_load] 6.337648
 state_dump: d=0, h=44, (x,y)=(0,4)
 6 11 1 3 9
 12 5 2 4 14
@@ -931,12 +964,13 @@ state_dump: d=0, h=44, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1541
 [Stat:solution_depth]=54
-[Timer:search] 0.133582
+[Timer:search] 0.139992
 [Stat:total_nodes_evaluated]58155
+[Stat:total_loops]10130
 
-real	0m6.685s
-user	0m6.404s
-sys	0m0.284s
+real	0m6.759s
+user	0m6.496s
+sys	0m0.268s
 LOG: init_distr, cnt=2048
 0
 f_limit=51
@@ -963,7 +997,7 @@ STAT: n_roots=4861(+2146)
 f_limit=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.323005
+[Timer:pdb_load] 6.369205
 state_dump: d=0, h=47, (x,y)=(3,4)
 1 7 11 9 3
 5 17 4 14 13
@@ -973,12 +1007,13 @@ state_dump: d=0, h=47, (x,y)=(3,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1490
 [Stat:solution_depth]=57
-[Timer:search] 0.182055
+[Timer:search] 0.183304
 [Stat:total_nodes_evaluated]351513
+[Stat:total_loops]33833
 
-real	0m6.808s
-user	0m6.576s
-sys	0m0.236s
+real	0m6.834s
+user	0m6.532s
+sys	0m0.312s
 LOG: init_distr, cnt=2049
 0
 f_limit=58
@@ -998,7 +1033,7 @@ STAT: n_roots=2812(+660)
 f_limit=62
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.326002
+[Timer:pdb_load] 6.341031
 state_dump: d=0, h=52, (x,y)=(0,4)
 4 5 3 9 18
 2 6 8 14 24
@@ -1008,12 +1043,13 @@ state_dump: d=0, h=52, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1623
 [Stat:solution_depth]=62
-[Timer:search] 0.157923
+[Timer:search] 0.154012
 [Stat:total_nodes_evaluated]49950
+[Stat:total_loops]8965
 
-real	0m6.764s
-user	0m6.476s
-sys	0m0.296s
+real	0m6.737s
+user	0m6.392s
+sys	0m0.348s
 LOG: init_distr, cnt=2048
 0
 f_limit=55
@@ -1040,7 +1076,7 @@ STAT: n_roots=4754(+2100)
 f_limit=61
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.336957
+[Timer:pdb_load] 6.345273
 state_dump: d=0, h=51, (x,y)=(1,2)
 1 6 5 2 8
 10 16 7 4 3
@@ -1050,12 +1086,13 @@ state_dump: d=0, h=51, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1611
 [Stat:solution_depth]=61
-[Timer:search] 0.165065
+[Timer:search] 0.166040
 [Stat:total_nodes_evaluated]352050
+[Stat:total_loops]35959
 
-real	0m6.705s
-user	0m6.404s
-sys	0m0.308s
+real	0m6.748s
+user	0m6.412s
+sys	0m0.344s
 LOG: init_distr, cnt=2049
 0
 f_limit=52
@@ -1089,7 +1126,7 @@ STAT: n_roots=11955(+5080)
 f_limit=60
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.332952
+[Timer:pdb_load] 6.337032
 state_dump: d=0, h=50, (x,y)=(1,3)
 1 8 7 4 11
 10 5 2 18 9
@@ -1099,12 +1136,13 @@ state_dump: d=0, h=50, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1493
 [Stat:solution_depth]=60
-[Timer:search] 0.293494
+[Timer:search] 0.294973
 [Stat:total_nodes_evaluated]5096046
+[Stat:total_loops]283252
 
-real	0m6.949s
-user	0m6.696s
-sys	0m0.260s
+real	0m6.913s
+user	0m6.564s
+sys	0m0.352s
 LOG: init_distr, cnt=2048
 0
 f_limit=51
@@ -1138,7 +1176,7 @@ STAT: n_roots=7803(+3168)
 f_limit=59
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.329754
+[Timer:pdb_load] 6.338338
 state_dump: d=0, h=45, (x,y)=(3,2)
 5 6 7 3 4
 16 11 8 1 9
@@ -1148,12 +1186,13 @@ state_dump: d=0, h=45, (x,y)=(3,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1553
 [Stat:solution_depth]=59
-[Timer:search] 0.233272
+[Timer:search] 0.242179
 [Stat:total_nodes_evaluated]2204232
+[Stat:total_loops]137073
 
-real	0m6.842s
-user	0m6.488s
-sys	0m0.356s
+real	0m6.864s
+user	0m6.568s
+sys	0m0.304s
 LOG: init_distr, cnt=2048
 0
 f_limit=52
@@ -1180,7 +1219,7 @@ STAT: n_roots=7328(+3206)
 f_limit=58
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.327025
+[Timer:pdb_load] 6.381539
 state_dump: d=0, h=46, (x,y)=(2,2)
 1 10 3 4 7
 6 14 8 2 13
@@ -1190,12 +1229,13 @@ state_dump: d=0, h=46, (x,y)=(2,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1449
 [Stat:solution_depth]=58
-[Timer:search] 0.206141
+[Timer:search] 0.211309
 [Stat:total_nodes_evaluated]1459536
+[Stat:total_loops]94865
 
-real	0m6.812s
-user	0m6.504s
-sys	0m0.312s
+real	0m6.876s
+user	0m6.588s
+sys	0m0.292s
 LOG: init_distr, cnt=2048
 0
 f_limit=56
@@ -1222,7 +1262,7 @@ STAT: n_roots=5595(+2513)
 f_limit=62
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.340353
+[Timer:pdb_load] 6.355378
 state_dump: d=0, h=50, (x,y)=(0,4)
 2 8 3 12 9
 5 6 17 4 14
@@ -1232,12 +1272,13 @@ state_dump: d=0, h=50, (x,y)=(0,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1611
 [Stat:solution_depth]=62
-[Timer:search] 0.205154
+[Timer:search] 0.205309
 [Stat:total_nodes_evaluated]528774
+[Stat:total_loops]47109
 
-real	0m6.769s
-user	0m6.468s
-sys	0m0.308s
+real	0m6.771s
+user	0m6.404s
+sys	0m0.372s
 LOG: init_distr, cnt=2048
 0
 f_limit=53
@@ -1257,7 +1298,7 @@ STAT: n_roots=3773(+1221)
 f_limit=57
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.325276
+[Timer:pdb_load] 6.348749
 state_dump: d=0, h=47, (x,y)=(1,2)
 5 2 12 6 4
 1 16 15 7 3
@@ -1267,12 +1308,13 @@ state_dump: d=0, h=47, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1543
 [Stat:solution_depth]=57
-[Timer:search] 0.156551
+[Timer:search] 0.157405
 [Stat:total_nodes_evaluated]130842
+[Stat:total_loops]17157
 
-real	0m6.726s
+real	0m6.777s
 user	0m6.488s
-sys	0m0.244s
+sys	0m0.296s
 LOG: init_distr, cnt=2049
 0
 f_limit=55
@@ -1292,7 +1334,7 @@ STAT: n_roots=5185(+2116)
 f_limit=59
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.340565
+[Timer:pdb_load] 6.336801
 state_dump: d=0, h=51, (x,y)=(0,3)
 1 8 5 4 9
 10 6 7 3 2
@@ -1302,12 +1344,13 @@ state_dump: d=0, h=51, (x,y)=(0,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1555
 [Stat:solution_depth]=59
-[Timer:search] 0.157547
+[Timer:search] 0.156150
 [Stat:total_nodes_evaluated]268512
+[Stat:total_loops]27510
 
-real	0m6.837s
-user	0m6.564s
-sys	0m0.276s
+real	0m6.775s
+user	0m6.452s
+sys	0m0.324s
 LOG: init_distr, cnt=2049
 0
 f_limit=51
@@ -1341,7 +1384,7 @@ STAT: n_roots=6352(+2636)
 f_limit=59
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.350957
+[Timer:pdb_load] 6.339636
 state_dump: d=0, h=45, (x,y)=(1,2)
 1 5 14 7 4
 2 18 6 12 19
@@ -1351,12 +1394,13 @@ state_dump: d=0, h=45, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1549
 [Stat:solution_depth]=59
-[Timer:search] 0.217263
+[Timer:search] 0.213709
 [Stat:total_nodes_evaluated]1811223
+[Stat:total_loops]109124
 
-real	0m6.847s
-user	0m6.468s
-sys	0m0.384s
+real	0m6.837s
+user	0m6.520s
+sys	0m0.320s
 LOG: init_distr, cnt=2048
 0
 f_limit=54
@@ -1390,7 +1434,7 @@ STAT: n_roots=11667(+4888)
 f_limit=62
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.331544
+[Timer:pdb_load] 6.353402
 state_dump: d=0, h=48, (x,y)=(1,3)
 8 3 5 9 4
 10 11 2 6 14
@@ -1400,12 +1444,13 @@ state_dump: d=0, h=48, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1705
 [Stat:solution_depth]=62
-[Timer:search] 0.421848
+[Timer:search] 0.413069
 [Stat:total_nodes_evaluated]5583393
+[Stat:total_loops]305086
 
-real	0m7.019s
-user	0m6.660s
-sys	0m0.364s
+real	0m6.957s
+user	0m6.596s
+sys	0m0.368s
 LOG: init_distr, cnt=2049
 0
 f_limit=59
@@ -1425,7 +1470,7 @@ STAT: n_roots=4994(+1969)
 f_limit=63
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 7.635390
+[Timer:pdb_load] 6.335128
 state_dump: d=0, h=53, (x,y)=(1,2)
 5 4 2 7 18
 6 17 11 1 3
@@ -1435,12 +1480,13 @@ state_dump: d=0, h=53, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1677
 [Stat:solution_depth]=63
-[Timer:search] 0.152047
+[Timer:search] 0.154710
 [Stat:total_nodes_evaluated]212478
+[Stat:total_loops]23715
 
-real	0m7.979s
-user	0m7.736s
-sys	0m0.248s
+real	0m6.727s
+user	0m6.472s
+sys	0m0.260s
 LOG: init_distr, cnt=2048
 0
 f_limit=54
@@ -1481,7 +1527,7 @@ STAT: n_roots=13061(+5435)
 f_limit=64
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.333727
+[Timer:pdb_load] 6.338776
 state_dump: d=0, h=50, (x,y)=(2,4)
 5 1 2 18 13
 10 6 3 12 9
@@ -1491,12 +1537,13 @@ state_dump: d=0, h=50, (x,y)=(2,4)
 -----------
 [Stat:cpu_nodes_evaluated]=1664
 [Stat:solution_depth]=64
-[Timer:search] 0.381636
+[Timer:search] 0.375367
 [Stat:total_nodes_evaluated]10527519
+[Stat:total_loops]537360
 
-real	0m7.059s
-user	0m6.728s
-sys	0m0.336s
+real	0m7.036s
+user	0m6.712s
+sys	0m0.328s
 LOG: init_distr, cnt=2048
 0
 f_limit=58
@@ -1523,7 +1570,7 @@ STAT: n_roots=9038(+3838)
 f_limit=64
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.340998
+[Timer:pdb_load] 6.348019
 state_dump: d=0, h=54, (x,y)=(1,3)
 5 10 2 8 9
 6 12 4 18 14
@@ -1533,12 +1580,13 @@ state_dump: d=0, h=54, (x,y)=(1,3)
 -----------
 [Stat:cpu_nodes_evaluated]=1642
 [Stat:solution_depth]=64
-[Timer:search] 0.267693
+[Timer:search] 0.272662
 [Stat:total_nodes_evaluated]1656594
+[Stat:total_loops]116470
 
-real	0m6.948s
-user	0m6.660s
-sys	0m0.292s
+real	0m6.904s
+user	0m6.600s
+sys	0m0.312s
 LOG: init_distr, cnt=2048
 0
 f_limit=53
@@ -1572,7 +1620,7 @@ STAT: n_roots=7920(+3130)
 f_limit=61
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.324596
+[Timer:pdb_load] 6.341478
 state_dump: d=0, h=49, (x,y)=(1,2)
 11 6 1 9 3
 7 2 12 4 13
@@ -1582,12 +1630,13 @@ state_dump: d=0, h=49, (x,y)=(1,2)
 -----------
 [Stat:cpu_nodes_evaluated]=1587
 [Stat:solution_depth]=61
-[Timer:search] 0.233455
+[Timer:search] 0.238151
 [Stat:total_nodes_evaluated]1873671
+[Stat:total_loops]131106
 
-real	0m6.835s
-user	0m6.564s
-sys	0m0.276s
+real	0m6.864s
+user	0m6.532s
+sys	0m0.336s
 LOG: init_distr, cnt=2048
 0
 f_limit=53
@@ -1628,7 +1677,7 @@ STAT: n_roots=23535(+10226)
 f_limit=63
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 6.315484
+[Timer:pdb_load] 6.344791
 state_dump: d=0, h=47, (x,y)=(0,1)
 6 10 11 7 4
 0 5 17 8 1
@@ -1638,9 +1687,10 @@ state_dump: d=0, h=47, (x,y)=(0,1)
 -----------
 [Stat:cpu_nodes_evaluated]=1571
 [Stat:solution_depth]=63
-[Timer:search] 0.694632
+[Timer:search] 0.676982
 [Stat:total_nodes_evaluated]29883402
+[Stat:total_loops]1418173
 
-real	0m7.320s
-user	0m6.900s
-sys	0m0.424s
+real	0m7.215s
+user	0m6.780s
+sys	0m0.436s

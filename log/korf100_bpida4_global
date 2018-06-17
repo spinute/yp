@@ -15,12 +15,13 @@ STAT: distr: av=1525, 2av=550, 4av=347, 8av=70, 16av=1, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=3452(+959)
 f_limit=45
 [Stat:solution_depth]=45
-[Timer:search] 0.046450
+[Timer:search] 0.048549
 [Stat:total_nodes_evaluated]128535
+[Stat:total_loops]15445
 
-real	0m0.083s
+real	0m0.078s
 user	0m0.036s
-sys	0m0.052s
+sys	0m0.044s
 LOG(state): depth=0, h=30, f=30, 4,5,7,2,9,14,12,13,0,3,6,11,8,1,15,10
 LOG: init_distr, cnt=2048
 f_limit=38
@@ -38,11 +39,12 @@ STAT: distr: av=1199, 2av=927, 4av=287, 8av=31, 16av=3, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=3618(+1171)
 f_limit=42
 [Stat:solution_depth]=42
-[Timer:search] 0.046499
+[Timer:search] 0.046204
 [Stat:total_nodes_evaluated]234381
+[Stat:total_loops]25334
 
-real	0m0.077s
-user	0m0.032s
+real	0m0.074s
+user	0m0.028s
 sys	0m0.048s
 LOG(state): depth=0, h=28, f=28, 0,1,9,7,11,13,5,3,14,12,4,2,8,6,10,15
 LOG: init_distr, cnt=2048
@@ -67,11 +69,12 @@ STAT: distr: av=1458, 2av=880, 4av=199, 8av=34, 16av=2, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=3752(+1179)
 f_limit=42
 [Stat:solution_depth]=42
-[Timer:search] 0.050118
+[Timer:search] 0.058426
 [Stat:total_nodes_evaluated]277335
+[Stat:total_loops]28524
 
-real	0m0.078s
-user	0m0.044s
+real	0m0.088s
+user	0m0.052s
 sys	0m0.040s
 LOG(state): depth=0, h=39, f=39, 8,11,4,6,7,3,10,9,2,12,15,13,0,1,5,14
 LOG: init_distr, cnt=2048
@@ -96,12 +99,13 @@ STAT: distr: av=1788, 2av=918, 4av=235, 8av=54, 16av=16, 32av=2, 64av=0, 128av=0
 STAT: n_roots=5194(+2181)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.060907
+[Timer:search] 0.067361
 [Stat:total_nodes_evaluated]602571
+[Stat:total_loops]48905
 
-real	0m0.091s
-user	0m0.044s
-sys	0m0.052s
+real	0m0.096s
+user	0m0.064s
+sys	0m0.036s
 LOG(state): depth=0, h=29, f=29, 13,8,14,3,9,1,0,7,15,5,4,10,12,2,6,11
 LOG: init_distr, cnt=2048
 f_limit=35
@@ -125,11 +129,12 @@ STAT: distr: av=1474, 2av=858, 4av=327, 8av=64, 16av=2, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=4154(+1429)
 f_limit=41
 [Stat:solution_depth]=41
-[Timer:search] 0.051425
+[Timer:search] 0.055272
 [Stat:total_nodes_evaluated]290349
+[Stat:total_loops]29258
 
-real	0m0.080s
-user	0m0.052s
+real	0m0.083s
+user	0m0.056s
 sys	0m0.032s
 LOG(state): depth=0, h=36, f=36, 7,11,8,3,14,0,6,15,1,4,13,9,5,12,2,10
 LOG: init_distr, cnt=2048
@@ -154,12 +159,13 @@ STAT: distr: av=2698, 2av=944, 4av=350, 8av=94, 16av=14, 32av=0, 64av=1, 128av=0
 STAT: n_roots=6709(+2608)
 f_limit=46
 [Stat:solution_depth]=46
-[Timer:search] 0.064256
+[Timer:search] 0.068954
 [Stat:total_nodes_evaluated]962247
+[Stat:total_loops]69104
 
-real	0m0.094s
-user	0m0.048s
-sys	0m0.052s
+real	0m0.098s
+user	0m0.060s
+sys	0m0.040s
 LOG(state): depth=0, h=38, f=38, 12,8,15,13,1,0,5,4,6,3,2,11,9,7,14,10
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -183,11 +189,12 @@ STAT: distr: av=2265, 2av=849, 4av=337, 8av=63, 16av=9, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=5714(+2191)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.059575
+[Timer:search] 0.058918
 [Stat:total_nodes_evaluated]1112577
+[Stat:total_loops]76722
 
-real	0m0.089s
-user	0m0.044s
+real	0m0.088s
+user	0m0.040s
 sys	0m0.048s
 LOG(state): depth=0, h=35, f=35, 6,0,5,10,11,12,9,2,1,7,4,3,14,8,13,15
 LOG: init_distr, cnt=2049
@@ -212,12 +219,13 @@ STAT: distr: av=3216, 2av=936, 4av=355, 8av=116, 16av=28, 32av=5, 64av=4, 128av=
 STAT: n_roots=7813(+3153)
 f_limit=45
 [Stat:solution_depth]=45
-[Timer:search] 0.065373
+[Timer:search] 0.070363
 [Stat:total_nodes_evaluated]1374876
+[Stat:total_loops]91622
 
-real	0m0.095s
-user	0m0.052s
-sys	0m0.048s
+real	0m0.100s
+user	0m0.060s
+sys	0m0.044s
 LOG(state): depth=0, h=32, f=32, 4,7,13,10,1,2,9,6,12,8,14,5,3,0,11,15
 LOG: init_distr, cnt=2049
 f_limit=38
@@ -241,11 +249,12 @@ STAT: distr: av=2281, 2av=786, 4av=364, 8av=90, 16av=6, 32av=1, 64av=0, 128av=0,
 STAT: n_roots=5830(+2302)
 f_limit=44
 [Stat:solution_depth]=44
-[Timer:search] 0.060446
+[Timer:search] 0.061002
 [Stat:total_nodes_evaluated]890724
+[Stat:total_loops]63121
 
-real	0m0.090s
-user	0m0.052s
+real	0m0.089s
+user	0m0.048s
 sys	0m0.044s
 LOG(state): depth=0, h=37, f=37, 6,14,10,5,15,8,7,1,3,4,2,0,12,9,11,13
 LOG: init_distr, cnt=2048
@@ -270,12 +279,13 @@ STAT: distr: av=2348, 2av=537, 4av=189, 8av=79, 16av=25, 32av=7, 64av=1, 128av=1
 STAT: n_roots=5256(+2069)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.060889
+[Timer:search] 0.069815
 [Stat:total_nodes_evaluated]1018701
+[Stat:total_loops]64661
 
-real	0m0.089s
-user	0m0.040s
-sys	0m0.052s
+real	0m0.099s
+user	0m0.036s
+sys	0m0.068s
 LOG(state): depth=0, h=32, f=32, 9,14,5,7,8,15,1,2,10,4,13,6,12,0,11,3
 LOG: init_distr, cnt=2048
 f_limit=38
@@ -299,12 +309,13 @@ STAT: distr: av=2929, 2av=1443, 4av=426, 8av=93, 16av=7, 32av=0, 64av=1, 128av=0
 STAT: n_roots=8157(+3258)
 f_limit=44
 [Stat:solution_depth]=44
-[Timer:search] 0.067752
+[Timer:search] 0.073628
 [Stat:total_nodes_evaluated]1102068
+[Stat:total_loops]85460
 
-real	0m0.098s
+real	0m0.102s
 user	0m0.056s
-sys	0m0.044s
+sys	0m0.052s
 LOG(state): depth=0, h=45, f=45, 5,7,11,8,0,14,9,13,10,12,3,15,6,1,4,2
 LOG: init_distr, cnt=2048
 f_limit=49
@@ -322,12 +333,13 @@ STAT: distr: av=1586, 2av=485, 4av=277, 8av=54, 16av=17, 32av=2, 64av=0, 128av=1
 STAT: n_roots=3805(+1382)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.044008
+[Timer:search] 0.051069
 [Stat:total_nodes_evaluated]177816
+[Stat:total_loops]16355
 
-real	0m0.071s
-user	0m0.036s
-sys	0m0.040s
+real	0m0.079s
+user	0m0.040s
+sys	0m0.044s
 LOG(state): depth=0, h=35, f=35, 12,15,2,6,1,14,4,8,5,3,7,0,10,13,9,11
 LOG: init_distr, cnt=2048
 f_limit=41
@@ -351,12 +363,13 @@ STAT: distr: av=2166, 2av=814, 4av=347, 8av=70, 16av=9, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=5638(+2232)
 f_limit=47
 [Stat:solution_depth]=47
-[Timer:search] 0.063125
+[Timer:search] 0.069249
 [Stat:total_nodes_evaluated]1236474
+[Stat:total_loops]79891
 
-real	0m0.093s
-user	0m0.040s
-sys	0m0.056s
+real	0m0.098s
+user	0m0.052s
+sys	0m0.052s
 LOG(state): depth=0, h=32, f=32, 3,14,9,11,5,4,8,2,13,12,6,7,10,1,15,0
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -380,12 +393,13 @@ STAT: distr: av=2387, 2av=898, 4av=417, 8av=72, 16av=7, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=6374(+2593)
 f_limit=46
 [Stat:solution_depth]=46
-[Timer:search] 0.062747
+[Timer:search] 0.060035
 [Stat:total_nodes_evaluated]1715478
+[Stat:total_loops]105592
 
-real	0m0.092s
-user	0m0.048s
-sys	0m0.048s
+real	0m0.087s
+user	0m0.052s
+sys	0m0.040s
 LOG(state): depth=0, h=34, f=34, 13,9,14,6,12,8,1,2,3,4,0,7,5,10,11,15
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -409,10 +423,11 @@ STAT: distr: av=3037, 2av=1047, 4av=399, 8av=106, 16av=14, 32av=7, 64av=0, 128av
 STAT: n_roots=7644(+3034)
 f_limit=46
 [Stat:solution_depth]=46
-[Timer:search] 0.068122
+[Timer:search] 0.072299
 [Stat:total_nodes_evaluated]1886103
+[Stat:total_loops]118379
 
-real	0m0.098s
+real	0m0.101s
 user	0m0.064s
 sys	0m0.040s
 LOG(state): depth=0, h=36, f=36, 5,11,6,9,4,13,12,0,8,2,15,10,1,7,3,14
@@ -444,12 +459,13 @@ STAT: distr: av=3195, 2av=966, 4av=390, 8av=116, 16av=19, 32av=0, 64av=0, 128av=
 STAT: n_roots=7677(+2991)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.078314
+[Timer:search] 0.080418
 [Stat:total_nodes_evaluated]3403617
+[Stat:total_loops]189278
 
 real	0m0.108s
-user	0m0.056s
-sys	0m0.056s
+user	0m0.072s
+sys	0m0.040s
 LOG(state): depth=0, h=31, f=31, 6,13,3,2,11,9,5,10,1,7,12,14,8,4,0,15
 LOG: init_distr, cnt=2048
 f_limit=37
@@ -479,12 +495,13 @@ STAT: distr: av=3604, 2av=1366, 4av=570, 8av=92, 16av=11, 32av=1, 64av=0, 128av=
 STAT: n_roots=9329(+3685)
 f_limit=45
 [Stat:solution_depth]=45
-[Timer:search] 0.078108
+[Timer:search] 0.085325
 [Stat:total_nodes_evaluated]3737997
+[Stat:total_loops]211463
 
-real	0m0.108s
-user	0m0.076s
-sys	0m0.036s
+real	0m0.115s
+user	0m0.064s
+sys	0m0.056s
 LOG(state): depth=0, h=30, f=30, 5,7,0,11,12,1,9,10,15,6,2,3,8,4,13,14
 LOG: init_distr, cnt=2048
 f_limit=36
@@ -514,12 +531,13 @@ STAT: distr: av=3195, 2av=1351, 4av=520, 8av=88, 16av=8, 32av=0, 64av=0, 128av=0
 STAT: n_roots=8656(+3494)
 f_limit=44
 [Stat:solution_depth]=44
-[Timer:search] 0.088391
+[Timer:search] 0.088120
 [Stat:total_nodes_evaluated]4433670
+[Stat:total_loops]239270
 
-real	0m0.118s
-user	0m0.060s
-sys	0m0.060s
+real	0m0.116s
+user	0m0.072s
+sys	0m0.044s
 LOG(state): depth=0, h=37, f=37, 5,0,15,8,4,6,1,14,10,11,3,9,7,12,2,13
 LOG: init_distr, cnt=2048
 f_limit=43
@@ -549,12 +567,13 @@ STAT: distr: av=3752, 2av=1103, 4av=477, 8av=137, 16av=20, 32av=0, 64av=0, 128av
 STAT: n_roots=8960(+3471)
 f_limit=51
 [Stat:solution_depth]=51
-[Timer:search] 0.077828
+[Timer:search] 0.082817
 [Stat:total_nodes_evaluated]3793731
+[Stat:total_loops]214855
 
-real	0m0.108s
-user	0m0.060s
-sys	0m0.052s
+real	0m0.112s
+user	0m0.064s
+sys	0m0.048s
 LOG(state): depth=0, h=41, f=41, 3,14,13,6,4,15,8,9,5,12,10,0,2,7,1,11
 LOG: init_distr, cnt=2049
 f_limit=47
@@ -578,12 +597,13 @@ STAT: distr: av=3088, 2av=938, 4av=405, 8av=142, 16av=12, 32av=1, 64av=0, 128av=
 STAT: n_roots=7694(+3108)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.083137
+[Timer:search] 0.081450
 [Stat:total_nodes_evaluated]3865677
+[Stat:total_loops]203266
 
-real	0m0.113s
+real	0m0.110s
 user	0m0.060s
-sys	0m0.060s
+sys	0m0.052s
 LOG(state): depth=0, h=34, f=34, 4,3,6,13,7,15,9,0,10,5,8,11,2,12,1,14
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -613,11 +633,12 @@ STAT: distr: av=3791, 2av=1370, 4av=602, 8av=100, 16av=14, 32av=0, 64av=0, 128av
 STAT: n_roots=9775(+3898)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.104160
+[Timer:search] 0.111705
 [Stat:total_nodes_evaluated]5131869
+[Stat:total_loops]274345
 
-real	0m0.134s
-user	0m0.076s
+real	0m0.141s
+user	0m0.084s
 sys	0m0.060s
 LOG(state): depth=0, h=36, f=36, 3,6,5,2,10,0,15,14,1,4,13,12,9,8,11,7
 LOG: init_distr, cnt=2049
@@ -648,12 +669,13 @@ STAT: distr: av=4793, 2av=1205, 4av=584, 8av=159, 16av=31, 32av=8, 64av=2, 128av
 STAT: n_roots=11166(+4384)
 f_limit=46
 [Stat:solution_depth]=46
-[Timer:search] 0.109502
+[Timer:search] 0.106337
 [Stat:total_nodes_evaluated]5569326
+[Stat:total_loops]303032
 
-real	0m0.139s
-user	0m0.080s
-sys	0m0.064s
+real	0m0.133s
+user	0m0.092s
+sys	0m0.044s
 LOG(state): depth=0, h=41, f=41, 7,15,8,2,13,6,3,12,11,0,4,10,9,5,1,14
 LOG: init_distr, cnt=2048
 f_limit=45
@@ -683,11 +705,12 @@ STAT: distr: av=3300, 2av=1052, 4av=415, 8av=122, 16av=16, 32av=2, 64av=0, 128av
 STAT: n_roots=8214(+3307)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.105748
+[Timer:search] 0.115620
 [Stat:total_nodes_evaluated]5643264
+[Stat:total_loops]283469
 
-real	0m0.135s
-user	0m0.080s
+real	0m0.145s
+user	0m0.092s
 sys	0m0.060s
 LOG(state): depth=0, h=39, f=39, 13,0,9,12,11,6,3,5,15,8,1,10,4,14,2,7
 LOG: init_distr, cnt=2048
@@ -718,12 +741,13 @@ STAT: distr: av=3507, 2av=1167, 4av=520, 8av=109, 16av=13, 32av=0, 64av=0, 128av
 STAT: n_roots=8854(+3538)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.092261
+[Timer:search] 0.100415
 [Stat:total_nodes_evaluated]5443710
+[Stat:total_loops]278732
 
-real	0m0.121s
-user	0m0.052s
-sys	0m0.072s
+real	0m0.129s
+user	0m0.080s
+sys	0m0.052s
 LOG(state): depth=0, h=36, f=36, 5,4,7,1,11,12,14,15,10,13,8,6,2,0,9,3
 LOG: init_distr, cnt=2049
 f_limit=42
@@ -753,12 +777,13 @@ STAT: distr: av=3550, 2av=1290, 4av=484, 8av=115, 16av=15, 32av=2, 64av=0, 128av
 STAT: n_roots=9110(+3654)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.092534
+[Timer:search] 0.102453
 [Stat:total_nodes_evaluated]6756861
+[Stat:total_loops]337297
 
-real	0m0.122s
-user	0m0.076s
-sys	0m0.052s
+real	0m0.131s
+user	0m0.088s
+sys	0m0.048s
 LOG(state): depth=0, h=36, f=36, 13,14,6,12,4,5,1,0,9,3,10,2,15,11,8,7
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -788,12 +813,13 @@ STAT: distr: av=3952, 2av=1323, 4av=547, 8av=139, 16av=21, 32av=2, 64av=0, 128av
 STAT: n_roots=10026(+4042)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.088582
+[Timer:search] 0.091169
 [Stat:total_nodes_evaluated]7252416
+[Stat:total_loops]364332
 
-real	0m0.117s
-user	0m0.068s
-sys	0m0.052s
+real	0m0.118s
+user	0m0.064s
+sys	0m0.060s
 LOG(state): depth=0, h=36, f=36, 14,7,1,9,12,3,6,15,8,11,2,5,10,0,4,13
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -823,12 +849,13 @@ STAT: distr: av=4492, 2av=1527, 4av=692, 8av=140, 16av=16, 32av=2, 64av=0, 128av
 STAT: n_roots=11476(+4607)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.118723
+[Timer:search] 0.142819
 [Stat:total_nodes_evaluated]7684662
+[Stat:total_loops]394427
 
-real	0m0.149s
-user	0m0.092s
-sys	0m0.060s
+real	0m0.176s
+user	0m0.124s
+sys	0m0.056s
 LOG(state): depth=0, h=24, f=24, 1,3,2,5,10,9,15,6,8,14,13,11,12,4,7,0
 LOG: init_distr, cnt=2049
 f_limit=32
@@ -864,12 +891,13 @@ STAT: distr: av=3755, 2av=1877, 4av=577, 8av=35, 16av=0, 32av=0, 64av=0, 128av=0
 STAT: n_roots=10197(+3953)
 f_limit=42
 [Stat:solution_depth]=42
-[Timer:search] 0.095633
+[Timer:search] 0.119983
 [Stat:total_nodes_evaluated]5302221
+[Stat:total_loops]293197
 
-real	0m0.123s
+real	0m0.151s
 user	0m0.100s
-sys	0m0.028s
+sys	0m0.056s
 LOG(state): depth=0, h=35, f=35, 9,0,4,10,1,14,15,3,12,6,5,7,11,13,8,2
 LOG: init_distr, cnt=2049
 f_limit=39
@@ -905,12 +933,13 @@ STAT: distr: av=4654, 2av=1814, 4av=621, 8av=142, 16av=13, 32av=0, 64av=0, 128av
 STAT: n_roots=12008(+4764)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.147927
+[Timer:search] 0.159471
 [Stat:total_nodes_evaluated]12027528
+[Stat:total_loops]586467
 
-real	0m0.178s
-user	0m0.112s
-sys	0m0.068s
+real	0m0.189s
+user	0m0.116s
+sys	0m0.076s
 LOG(state): depth=0, h=43, f=43, 6,0,14,12,1,15,9,10,11,4,7,2,8,3,5,13
 LOG: init_distr, cnt=2049
 f_limit=47
@@ -940,12 +969,13 @@ STAT: distr: av=3678, 2av=840, 4av=385, 8av=150, 16av=34, 32av=7, 64av=2, 128av=
 STAT: n_roots=8654(+3558)
 f_limit=55
 [Stat:solution_depth]=55
-[Timer:search] 0.140187
+[Timer:search] 0.150364
 [Stat:total_nodes_evaluated]7904313
+[Stat:total_loops]377513
 
-real	0m0.169s
+real	0m0.180s
 user	0m0.096s
-sys	0m0.080s
+sys	0m0.088s
 LOG(state): depth=0, h=35, f=35, 1,7,15,14,2,6,4,9,12,11,13,3,0,8,5,10
 LOG: init_distr, cnt=2049
 f_limit=41
@@ -975,12 +1005,13 @@ STAT: distr: av=5356, 2av=1679, 4av=714, 8av=188, 16av=43, 32av=5, 64av=0, 128av
 STAT: n_roots=13492(+5507)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.116996
+[Timer:search] 0.123869
 [Stat:total_nodes_evaluated]12114651
+[Stat:total_loops]595041
 
-real	0m0.148s
-user	0m0.096s
-sys	0m0.056s
+real	0m0.153s
+user	0m0.092s
+sys	0m0.064s
 LOG(state): depth=0, h=46, f=46, 14,13,4,11,15,8,6,9,0,7,3,1,2,10,12,5
 LOG: init_distr, cnt=2048
 f_limit=50
@@ -1004,12 +1035,13 @@ STAT: distr: av=2605, 2av=545, 4av=231, 8av=91, 16av=25, 32av=6, 64av=2, 128av=0
 STAT: n_roots=5752(+2247)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.074767
+[Timer:search] 0.079447
 [Stat:total_nodes_evaluated]1476645
+[Stat:total_loops]89035
 
-real	0m0.105s
-user	0m0.056s
-sys	0m0.052s
+real	0m0.109s
+user	0m0.052s
+sys	0m0.056s
 LOG(state): depth=0, h=33, f=33, 10,9,3,11,0,13,2,14,5,6,4,7,8,15,1,12
 LOG: init_distr, cnt=2048
 f_limit=39
@@ -1045,12 +1077,13 @@ STAT: distr: av=4564, 2av=1943, 4av=674, 8av=148, 16av=2, 32av=0, 64av=0, 128av=
 STAT: n_roots=12350(+5019)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.137026
+[Timer:search] 0.145112
 [Stat:total_nodes_evaluated]12761448
+[Stat:total_loops]615312
 
-real	0m0.168s
-user	0m0.092s
-sys	0m0.080s
+real	0m0.174s
+user	0m0.108s
+sys	0m0.072s
 LOG(state): depth=0, h=35, f=35, 8,4,6,1,14,12,2,15,13,10,9,5,3,7,0,11
 LOG: init_distr, cnt=2048
 f_limit=41
@@ -1080,12 +1113,13 @@ STAT: distr: av=5089, 2av=2034, 4av=855, 8av=151, 16av=14, 32av=2, 64av=0, 128av
 STAT: n_roots=13907(+5762)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.101620
+[Timer:search] 0.108678
 [Stat:total_nodes_evaluated]12358176
+[Stat:total_loops]605752
 
-real	0m0.133s
-user	0m0.084s
-sys	0m0.052s
+real	0m0.138s
+user	0m0.088s
+sys	0m0.056s
 LOG(state): depth=0, h=43, f=43, 4,6,12,0,14,2,9,13,11,8,3,15,7,10,1,5
 LOG: init_distr, cnt=2048
 f_limit=49
@@ -1115,12 +1149,13 @@ STAT: distr: av=4810, 2av=1372, 4av=607, 8av=200, 16av=52, 32av=6, 64av=0, 128av
 STAT: n_roots=12052(+5005)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 0.153027
+[Timer:search] 0.154271
 [Stat:total_nodes_evaluated]15371652
+[Stat:total_loops]713267
 
 real	0m0.182s
-user	0m0.108s
-sys	0m0.080s
+user	0m0.116s
+sys	0m0.068s
 LOG(state): depth=0, h=31, f=31, 12,3,9,1,4,5,10,2,6,11,15,0,14,7,13,8
 LOG: init_distr, cnt=2048
 f_limit=37
@@ -1162,12 +1197,13 @@ STAT: distr: av=5060, 2av=2640, 4av=727, 8av=66, 16av=1, 32av=0, 64av=0, 128av=0
 STAT: n_roots=14101(+5607)
 f_limit=49
 [Stat:solution_depth]=49
-[Timer:search] 0.146641
+[Timer:search] 0.156716
 [Stat:total_nodes_evaluated]21438291
+[Stat:total_loops]1000651
 
-real	0m0.177s
+real	0m0.186s
 user	0m0.120s
-sys	0m0.064s
+sys	0m0.072s
 LOG(state): depth=0, h=36, f=36, 6,12,11,3,13,7,9,15,2,14,8,10,4,1,5,0
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -1197,12 +1233,13 @@ STAT: distr: av=4875, 2av=1659, 4av=784, 8av=160, 16av=14, 32av=1, 64av=0, 128av
 STAT: n_roots=12580(+5087)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.158265
+[Timer:search] 0.168313
 [Stat:total_nodes_evaluated]15863004
+[Stat:total_loops]750755
 
-real	0m0.188s
-user	0m0.128s
-sys	0m0.064s
+real	0m0.197s
+user	0m0.120s
+sys	0m0.080s
 LOG(state): depth=0, h=42, f=42, 4,7,14,13,10,3,9,12,11,5,6,15,1,2,8,0
 LOG: init_distr, cnt=2048
 f_limit=48
@@ -1232,12 +1269,13 @@ STAT: distr: av=4633, 2av=1474, 4av=676, 8av=175, 16av=28, 32av=2, 64av=0, 128av
 STAT: n_roots=11890(+4902)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.111070
+[Timer:search] 0.117072
 [Stat:total_nodes_evaluated]14365050
+[Stat:total_loops]668164
 
-real	0m0.142s
-user	0m0.084s
-sys	0m0.060s
+real	0m0.146s
+user	0m0.080s
+sys	0m0.068s
 LOG(state): depth=0, h=34, f=34, 0,13,2,4,12,14,6,9,15,1,10,3,11,5,8,7
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -1273,11 +1311,12 @@ STAT: distr: av=5228, 2av=2074, 4av=847, 8av=157, 16av=8, 32av=0, 64av=0, 128av=
 STAT: n_roots=14017(+5703)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.142544
+[Timer:search] 0.149887
 [Stat:total_nodes_evaluated]20635971
+[Stat:total_loops]958552
 
-real	0m0.173s
-user	0m0.112s
+real	0m0.179s
+user	0m0.116s
 sys	0m0.068s
 LOG(state): depth=0, h=35, f=35, 6,10,1,14,15,8,3,5,13,0,2,7,4,9,11,12
 LOG: init_distr, cnt=2048
@@ -1302,12 +1341,13 @@ STAT: distr: av=2069, 2av=959, 4av=354, 8av=48, 16av=3, 32av=0, 64av=0, 128av=0,
 STAT: n_roots=5682(+2249)
 f_limit=47
 [Stat:solution_depth]=47
-[Timer:search] 0.058955
+[Timer:search] 0.059335
 [Stat:total_nodes_evaluated]1131780
+[Stat:total_loops]77251
 
-real	0m0.089s
-user	0m0.024s
-sys	0m0.068s
+real	0m0.086s
+user	0m0.032s
+sys	0m0.060s
 LOG(state): depth=0, h=39, f=39, 3,14,9,7,12,15,0,4,1,8,5,6,11,10,2,13
 LOG: init_distr, cnt=2048
 f_limit=43
@@ -1337,12 +1377,13 @@ STAT: distr: av=3329, 2av=852, 4av=380, 8av=121, 16av=23, 32av=4, 64av=0, 128av=
 STAT: n_roots=7767(+3058)
 f_limit=51
 [Stat:solution_depth]=51
-[Timer:search] 0.091751
+[Timer:search] 0.096069
 [Stat:total_nodes_evaluated]3558534
+[Stat:total_loops]193616
 
-real	0m0.122s
-user	0m0.068s
-sys	0m0.056s
+real	0m0.125s
+user	0m0.080s
+sys	0m0.048s
 LOG(state): depth=0, h=36, f=36, 12,6,0,4,7,3,15,1,13,9,8,11,2,14,5,10
 LOG: init_distr, cnt=2049
 f_limit=42
@@ -1378,12 +1419,13 @@ STAT: distr: av=6209, 2av=2712, 4av=964, 8av=138, 16av=6, 32av=0, 64av=0, 128av=
 STAT: n_roots=16639(+6610)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.230113
+[Timer:search] 0.237015
 [Stat:total_nodes_evaluated]24541944
+[Stat:total_loops]1140653
 
-real	0m0.261s
-user	0m0.152s
-sys	0m0.112s
+real	0m0.265s
+user	0m0.148s
+sys	0m0.124s
 LOG(state): depth=0, h=36, f=36, 6,11,7,8,13,2,5,4,1,10,3,9,14,0,12,15
 LOG: init_distr, cnt=2049
 f_limit=44
@@ -1413,12 +1455,13 @@ STAT: distr: av=4329, 2av=1584, 4av=633, 8av=138, 16av=16, 32av=1, 64av=0, 128av
 STAT: n_roots=11261(+4560)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.140675
+[Timer:search] 0.161912
 [Stat:total_nodes_evaluated]16956012
+[Stat:total_loops]783936
 
-real	0m0.171s
-user	0m0.104s
-sys	0m0.072s
+real	0m0.194s
+user	0m0.100s
+sys	0m0.096s
 LOG(state): depth=0, h=31, f=31, 7,8,3,2,10,12,4,6,11,13,5,15,0,1,9,14
 LOG: init_distr, cnt=2048
 f_limit=37
@@ -1454,12 +1497,13 @@ STAT: distr: av=4375, 2av=1722, 4av=593, 8av=125, 16av=16, 32av=1, 64av=0, 128av
 STAT: n_roots=11372(+4540)
 f_limit=47
 [Stat:solution_depth]=47
-[Timer:search] 0.084659
+[Timer:search] 0.098553
 [Stat:total_nodes_evaluated]9626016
+[Stat:total_loops]480468
 
-real	0m0.113s
+real	0m0.127s
 user	0m0.076s
-sys	0m0.040s
+sys	0m0.056s
 LOG(state): depth=0, h=32, f=32, 12,9,0,6,8,3,5,14,2,4,11,7,10,1,15,13
 LOG: init_distr, cnt=2048
 f_limit=38
@@ -1501,12 +1545,13 @@ STAT: distr: av=5676, 2av=2900, 4av=823, 8av=89, 16av=1, 32av=0, 64av=0, 128av=0
 STAT: n_roots=15770(+6281)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.153217
+[Timer:search] 0.165699
 [Stat:total_nodes_evaluated]34524582
+[Stat:total_loops]1561431
 
-real	0m0.184s
-user	0m0.100s
-sys	0m0.088s
+real	0m0.195s
+user	0m0.136s
+sys	0m0.064s
 LOG(state): depth=0, h=44, f=44, 10,2,8,4,15,0,1,14,11,13,3,6,9,7,5,12
 LOG: init_distr, cnt=2048
 f_limit=48
@@ -1536,12 +1581,13 @@ STAT: distr: av=5531, 2av=1713, 4av=795, 8av=225, 16av=37, 32av=2, 64av=1, 128av
 STAT: n_roots=14197(+5893)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.142089
+[Timer:search] 0.149153
 [Stat:total_nodes_evaluated]30494526
+[Stat:total_loops]1366951
 
-real	0m0.173s
-user	0m0.092s
-sys	0m0.084s
+real	0m0.179s
+user	0m0.104s
+sys	0m0.080s
 LOG(state): depth=0, h=30, f=30, 14,4,0,10,6,5,1,3,9,2,13,15,12,7,8,11
 LOG: init_distr, cnt=2049
 f_limit=36
@@ -1583,11 +1629,12 @@ STAT: distr: av=6298, 2av=3116, 4av=970, 8av=112, 16av=3, 32av=1, 64av=0, 128av=
 STAT: n_roots=17520(+7020)
 f_limit=48
 [Stat:solution_depth]=48
-[Timer:search] 0.165823
+[Timer:search] 0.168116
 [Stat:total_nodes_evaluated]46884345
+[Stat:total_loops]2086456
 
 real	0m0.196s
-user	0m0.124s
+user	0m0.120s
 sys	0m0.076s
 LOG(state): depth=0, h=43, f=43, 11,0,15,8,13,12,3,5,10,1,4,6,14,9,7,2
 LOG: init_distr, cnt=2048
@@ -1618,12 +1665,13 @@ STAT: distr: av=6280, 2av=1715, 4av=868, 8av=261, 16av=64, 32av=8, 64av=0, 128av
 STAT: n_roots=15808(+6612)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 0.256589
+[Timer:search] 0.267158
 [Stat:total_nodes_evaluated]32748051
+[Stat:total_loops]1468301
 
-real	0m0.288s
-user	0m0.192s
-sys	0m0.100s
+real	0m0.297s
+user	0m0.196s
+sys	0m0.104s
 LOG(state): depth=0, h=38, f=38, 11,1,7,4,10,13,3,8,9,14,0,15,6,5,2,12
 LOG: init_distr, cnt=2049
 f_limit=44
@@ -1659,12 +1707,13 @@ STAT: distr: av=6498, 2av=3117, 4av=1110, 8av=139, 16av=4, 32av=1, 64av=0, 128av
 STAT: n_roots=18371(+7502)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.168359
+[Timer:search] 0.175989
 [Stat:total_nodes_evaluated]49015401
+[Stat:total_loops]2179065
 
-real	0m0.199s
-user	0m0.120s
-sys	0m0.084s
+real	0m0.206s
+user	0m0.140s
+sys	0m0.068s
 LOG(state): depth=0, h=43, f=43, 13,5,4,10,9,12,8,14,2,3,7,1,0,15,11,6
 LOG: init_distr, cnt=2048
 f_limit=47
@@ -1694,12 +1743,13 @@ STAT: distr: av=5039, 2av=906, 4av=375, 8av=163, 16av=52, 32av=18, 64av=6, 128av
 STAT: n_roots=11173(+4609)
 f_limit=55
 [Stat:solution_depth]=55
-[Timer:search] 0.152625
+[Timer:search] 0.163322
 [Stat:total_nodes_evaluated]15856329
+[Stat:total_loops]735115
 
-real	0m0.182s
+real	0m0.192s
 user	0m0.100s
-sys	0m0.088s
+sys	0m0.096s
 LOG(state): depth=0, h=39, f=39, 1,6,12,14,3,2,15,8,4,5,13,9,0,7,11,10
 LOG: init_distr, cnt=2048
 f_limit=45
@@ -1735,11 +1785,12 @@ STAT: distr: av=6214, 2av=2112, 4av=809, 8av=198, 16av=38, 32av=4, 64av=2, 128av
 STAT: n_roots=15740(+6363)
 f_limit=55
 [Stat:solution_depth]=55
-[Timer:search] 0.237142
+[Timer:search] 0.251915
 [Stat:total_nodes_evaluated]44974125
+[Stat:total_loops]1984853
 
-real	0m0.268s
-user	0m0.168s
+real	0m0.281s
+user	0m0.184s
 sys	0m0.104s
 LOG(state): depth=0, h=37, f=37, 6,0,5,15,1,14,4,9,2,13,8,10,11,12,7,3
 LOG: init_distr, cnt=2048
@@ -1776,12 +1827,13 @@ STAT: distr: av=7425, 2av=3369, 4av=1160, 8av=175, 16av=17, 32av=1, 64av=0, 128a
 STAT: n_roots=20520(+8373)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.304497
+[Timer:search] 0.321564
 [Stat:total_nodes_evaluated]56641362
+[Stat:total_loops]2512452
 
-real	0m0.336s
-user	0m0.220s
-sys	0m0.120s
+real	0m0.352s
+user	0m0.240s
+sys	0m0.116s
 LOG(state): depth=0, h=38, f=38, 9,8,0,2,15,1,4,14,3,10,7,5,11,13,6,12
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -1817,12 +1869,13 @@ STAT: distr: av=7868, 2av=3045, 4av=1181, 8av=234, 16av=31, 32av=3, 64av=0, 128a
 STAT: n_roots=20797(+8435)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.169056
+[Timer:search] 0.197208
 [Stat:total_nodes_evaluated]47999157
+[Stat:total_loops]2146550
 
-real	0m0.199s
-user	0m0.128s
-sys	0m0.076s
+real	0m0.230s
+user	0m0.168s
+sys	0m0.068s
 LOG(state): depth=0, h=34, f=34, 7,3,14,13,4,1,10,8,5,12,9,11,2,15,6,0
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -1864,12 +1917,13 @@ STAT: distr: av=6092, 2av=3225, 4av=900, 8av=82, 16av=1, 32av=0, 64av=0, 128av=0
 STAT: n_roots=17175(+6875)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.169843
+[Timer:search] 0.172597
 [Stat:total_nodes_evaluated]52073571
+[Stat:total_loops]2302828
 
-real	0m0.201s
-user	0m0.136s
-sys	0m0.068s
+real	0m0.203s
+user	0m0.128s
+sys	0m0.080s
 LOG(state): depth=0, h=34, f=34, 9,5,11,10,13,0,2,1,8,6,14,12,4,7,3,15
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -1911,11 +1965,12 @@ STAT: distr: av=5784, 2av=2905, 4av=858, 8av=87, 16av=5, 32av=0, 64av=0, 128av=0
 STAT: n_roots=15955(+6316)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.179567
+[Timer:search] 0.192844
 [Stat:total_nodes_evaluated]58831893
+[Stat:total_loops]2570631
 
-real	0m0.211s
-user	0m0.148s
+real	0m0.223s
+user	0m0.160s
 sys	0m0.068s
 LOG(state): depth=0, h=31, f=31, 5,2,14,0,7,8,6,3,11,12,13,15,4,10,9,1
 LOG: init_distr, cnt=2048
@@ -1958,12 +2013,13 @@ STAT: distr: av=8396, 2av=4219, 4av=1397, 8av=135, 16av=3, 32av=0, 64av=0, 128av
 STAT: n_roots=23673(+9523)
 f_limit=51
 [Stat:solution_depth]=51
-[Timer:search] 0.399904
+[Timer:search] 0.393829
 [Stat:total_nodes_evaluated]80686050
+[Stat:total_loops]3541284
 
-real	0m0.431s
+real	0m0.424s
 user	0m0.252s
-sys	0m0.208s
+sys	0m0.176s
 LOG(state): depth=0, h=38, f=38, 11,4,0,8,6,10,5,13,12,7,14,3,1,2,9,15
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -1999,12 +2055,13 @@ STAT: distr: av=6949, 2av=2632, 4av=1031, 8av=215, 16av=35, 32av=3, 64av=0, 128a
 STAT: n_roots=18437(+7572)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.216888
+[Timer:search] 0.236018
 [Stat:total_nodes_evaluated]45173271
+[Stat:total_loops]2013403
 
-real	0m0.246s
-user	0m0.160s
-sys	0m0.092s
+real	0m0.266s
+user	0m0.168s
+sys	0m0.104s
 LOG(state): depth=0, h=31, f=31, 7,3,1,13,12,10,5,2,8,0,6,11,14,15,4,9
 LOG: init_distr, cnt=2048
 f_limit=39
@@ -2046,12 +2103,13 @@ STAT: distr: av=7188, 2av=4153, 4av=1044, 8av=40, 16av=1, 32av=0, 64av=0, 128av=
 STAT: n_roots=20649(+8223)
 f_limit=51
 [Stat:solution_depth]=51
-[Timer:search] 0.279156
+[Timer:search] 0.284925
 [Stat:total_nodes_evaluated]68955477
+[Stat:total_loops]3035608
 
-real	0m0.311s
-user	0m0.172s
-sys	0m0.144s
+real	0m0.314s
+user	0m0.212s
+sys	0m0.108s
 LOG(state): depth=0, h=36, f=36, 8,13,10,9,11,3,15,6,0,1,2,14,12,5,4,7
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -2087,12 +2145,13 @@ STAT: distr: av=6954, 2av=2990, 4av=1112, 8av=199, 16av=9, 32av=3, 64av=0, 128av
 STAT: n_roots=19126(+7859)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.313680
+[Timer:search] 0.330716
 [Stat:total_nodes_evaluated]61929789
+[Stat:total_loops]2720846
 
-real	0m0.345s
-user	0m0.232s
-sys	0m0.116s
+real	0m0.362s
+user	0m0.236s
+sys	0m0.128s
 LOG(state): depth=0, h=39, f=39, 7,15,4,0,10,9,2,5,12,11,13,6,1,3,14,8
 LOG: init_distr, cnt=2048
 f_limit=47
@@ -2128,12 +2187,13 @@ STAT: distr: av=6484, 2av=2658, 4av=941, 8av=157, 16av=16, 32av=3, 64av=1, 128av
 STAT: n_roots=17261(+7001)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 0.322816
+[Timer:search] 0.336122
 [Stat:total_nodes_evaluated]50155668
+[Stat:total_loops]2211047
 
-real	0m0.355s
-user	0m0.256s
-sys	0m0.104s
+real	0m0.367s
+user	0m0.252s
+sys	0m0.120s
 LOG(state): depth=0, h=36, f=36, 11,5,1,14,4,12,10,0,2,7,13,3,9,15,6,8
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -2175,12 +2235,13 @@ STAT: distr: av=7220, 2av=3443, 4av=1076, 8av=129, 16av=4, 32av=3, 64av=0, 128av
 STAT: n_roots=19896(+8021)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.383332
+[Timer:search] 0.425378
 [Stat:total_nodes_evaluated]79150692
+[Stat:total_loops]3460362
 
-real	0m0.413s
-user	0m0.244s
-sys	0m0.172s
+real	0m0.456s
+user	0m0.304s
+sys	0m0.168s
 LOG(state): depth=0, h=32, f=32, 11,4,2,7,1,0,10,15,6,9,14,8,3,13,5,12
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -2222,12 +2283,13 @@ STAT: distr: av=8024, 2av=4228, 4av=1357, 8av=97, 16av=2, 32av=0, 64av=0, 128av=
 STAT: n_roots=23009(+9301)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.244380
+[Timer:search] 0.245715
 [Stat:total_nodes_evaluated]91843725
+[Stat:total_loops]4003364
 
-real	0m0.276s
-user	0m0.200s
-sys	0m0.080s
+real	0m0.275s
+user	0m0.156s
+sys	0m0.124s
 LOG(state): depth=0, h=34, f=34, 12,8,14,6,11,4,7,0,5,1,10,15,3,13,9,2
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -2269,12 +2331,13 @@ STAT: distr: av=7198, 2av=3915, 4av=1097, 8av=93, 16av=1, 32av=0, 64av=0, 128av=
 STAT: n_roots=20616(+8312)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.425139
+[Timer:search] 0.443596
 [Stat:total_nodes_evaluated]63844272
+[Stat:total_loops]2820498
 
-real	0m0.456s
-user	0m0.288s
-sys	0m0.168s
+real	0m0.474s
+user	0m0.320s
+sys	0m0.160s
 LOG(state): depth=0, h=48, f=48, 11,15,14,13,1,9,10,4,3,6,2,12,7,5,8,0
 LOG: init_distr, cnt=2048
 f_limit=56
@@ -2304,12 +2367,13 @@ STAT: distr: av=4734, 2av=1612, 4av=763, 8av=170, 16av=23, 32av=2, 64av=0, 128av
 STAT: n_roots=12485(+5181)
 f_limit=64
 [Stat:solution_depth]=64
-[Timer:search] 0.164143
+[Timer:search] 0.177220
 [Stat:total_nodes_evaluated]55630095
+[Stat:total_loops]2402488
 
-real	0m0.194s
-user	0m0.108s
-sys	0m0.092s
+real	0m0.208s
+user	0m0.124s
+sys	0m0.088s
 LOG(state): depth=0, h=30, f=30, 2,11,15,5,13,4,6,7,12,8,10,1,9,3,14,0
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -2351,12 +2415,13 @@ STAT: distr: av=8344, 2av=3822, 4av=1284, 8av=176, 16av=9, 32av=0, 64av=0, 128av
 STAT: n_roots=22796(+9161)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.709041
+[Timer:search] 0.743538
 [Stat:total_nodes_evaluated]101618043
+[Stat:total_loops]4408001
 
-real	0m0.738s
-user	0m0.492s
-sys	0m0.252s
+real	0m0.774s
+user	0m0.508s
+sys	0m0.268s
 LOG(state): depth=0, h=41, f=41, 15,10,8,3,0,6,9,5,1,14,13,11,7,2,12,4
 LOG: init_distr, cnt=2048
 f_limit=47
@@ -2392,12 +2457,13 @@ STAT: distr: av=8859, 2av=3357, 4av=1436, 8av=302, 16av=22, 32av=2, 64av=0, 128a
 STAT: n_roots=23866(+9888)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 0.430267
+[Timer:search] 0.439265
 [Stat:total_nodes_evaluated]103048755
+[Stat:total_loops]4465040
 
-real	0m0.461s
-user	0m0.280s
-sys	0m0.184s
+real	0m0.468s
+user	0m0.296s
+sys	0m0.176s
 LOG(state): depth=0, h=40, f=40, 12,11,0,8,10,2,13,15,5,4,7,3,6,9,14,1
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -2439,12 +2505,13 @@ STAT: distr: av=8027, 2av=3527, 4av=1161, 8av=185, 16av=26, 32av=0, 64av=0, 128a
 STAT: n_roots=21617(+8691)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.524278
+[Timer:search] 0.536215
 [Stat:total_nodes_evaluated]97059681
+[Stat:total_loops]4206646
 
-real	0m0.556s
-user	0m0.352s
-sys	0m0.208s
+real	0m0.566s
+user	0m0.364s
+sys	0m0.204s
 LOG(state): depth=0, h=32, f=32, 12,11,15,3,8,0,4,2,6,13,9,5,14,1,10,7
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -2480,12 +2547,13 @@ STAT: distr: av=5386, 2av=2566, 4av=883, 8av=105, 16av=2, 32av=0, 64av=0, 128av=
 STAT: n_roots=14952(+6010)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.152619
+[Timer:search] 0.167274
 [Stat:total_nodes_evaluated]22409280
+[Stat:total_loops]1038913
 
-real	0m0.184s
-user	0m0.104s
-sys	0m0.084s
+real	0m0.197s
+user	0m0.132s
+sys	0m0.068s
 LOG(state): depth=0, h=30, f=30, 15,1,3,12,4,0,6,5,2,8,14,9,13,10,7,11
 LOG: init_distr, cnt=2048
 f_limit=40
@@ -2527,12 +2595,13 @@ STAT: distr: av=8524, 2av=4663, 4av=1322, 8av=121, 16av=0, 32av=0, 64av=0, 128av
 STAT: n_roots=24447(+9817)
 f_limit=52
 [Stat:solution_depth]=52
-[Timer:search] 0.387502
+[Timer:search] 0.431677
 [Stat:total_nodes_evaluated]136742151
+[Stat:total_loops]5894826
 
-real	0m0.418s
-user	0m0.260s
-sys	0m0.164s
+real	0m0.466s
+user	0m0.324s
+sys	0m0.148s
 LOG(state): depth=0, h=28, f=28, 7,1,2,4,8,3,6,11,10,15,0,5,14,12,13,9
 LOG: init_distr, cnt=2048
 f_limit=36
@@ -2580,12 +2649,13 @@ STAT: distr: av=9467, 2av=6088, 4av=1186, 8av=37, 16av=0, 32av=0, 64av=0, 128av=
 STAT: n_roots=27817(+11039)
 f_limit=50
 [Stat:solution_depth]=50
-[Timer:search] 0.393932
+[Timer:search] 0.427927
 [Stat:total_nodes_evaluated]139762452
+[Stat:total_loops]6049524
 
-real	0m0.422s
-user	0m0.288s
-sys	0m0.136s
+real	0m0.461s
+user	0m0.320s
+sys	0m0.148s
 LOG(state): depth=0, h=43, f=43, 5,9,13,14,6,3,7,12,10,8,4,0,15,2,11,1
 LOG: init_distr, cnt=2049
 f_limit=47
@@ -2621,12 +2691,13 @@ STAT: distr: av=5043, 2av=1801, 4av=728, 8av=145, 16av=15, 32av=4, 64av=1, 128av
 STAT: n_roots=13003(+5266)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 0.227397
+[Timer:search] 0.245271
 [Stat:total_nodes_evaluated]31161378
+[Stat:total_loops]1389077
 
-real	0m0.255s
-user	0m0.164s
-sys	0m0.096s
+real	0m0.275s
+user	0m0.188s
+sys	0m0.092s
 LOG(state): depth=0, h=37, f=37, 15,8,10,7,0,12,14,1,5,9,6,3,13,11,4,2
 LOG: init_distr, cnt=2048
 f_limit=45
@@ -2662,12 +2733,13 @@ STAT: distr: av=6925, 2av=3462, 4av=1127, 8av=122, 16av=3, 32av=0, 64av=0, 128av
 STAT: n_roots=19591(+7952)
 f_limit=55
 [Stat:solution_depth]=55
-[Timer:search] 0.793771
+[Timer:search] 0.821256
 [Stat:total_nodes_evaluated]133380876
+[Stat:total_loops]5707837
 
-real	0m0.824s
-user	0m0.552s
-sys	0m0.276s
+real	0m0.852s
+user	0m0.544s
+sys	0m0.312s
 LOG(state): depth=0, h=33, f=33, 14,1,8,15,2,6,0,3,9,12,10,13,4,7,5,11
 LOG: init_distr, cnt=2048
 f_limit=41
@@ -2709,12 +2781,13 @@ STAT: distr: av=9173, 2av=5175, 4av=1379, 8av=113, 16av=5, 32av=0, 64av=0, 128av
 STAT: n_roots=26529(+10684)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.351203
+[Timer:search] 0.371635
 [Stat:total_nodes_evaluated]184896948
+[Stat:total_loops]7915330
 
-real	0m0.383s
-user	0m0.252s
-sys	0m0.136s
+real	0m0.406s
+user	0m0.280s
+sys	0m0.132s
 LOG(state): depth=0, h=34, f=34, 0,11,3,12,5,2,1,9,8,10,14,15,7,4,13,6
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -2756,12 +2829,13 @@ STAT: distr: av=10440, 2av=5414, 4av=1693, 8av=127, 16av=6, 32av=0, 64av=0, 128a
 STAT: n_roots=29585(+11905)
 f_limit=54
 [Stat:solution_depth]=54
-[Timer:search] 0.392715
+[Timer:search] 0.415413
 [Stat:total_nodes_evaluated]143771637
+[Stat:total_loops]6220058
 
-real	0m0.424s
-user	0m0.268s
-sys	0m0.160s
+real	0m0.448s
+user	0m0.312s
+sys	0m0.140s
 LOG(state): depth=0, h=41, f=41, 14,3,9,1,15,8,4,5,11,7,10,13,0,2,12,6
 LOG: init_distr, cnt=2049
 f_limit=47
@@ -2803,12 +2877,13 @@ STAT: distr: av=8332, 2av=3369, 4av=1277, 8av=228, 16av=14, 32av=0, 64av=0, 128a
 STAT: n_roots=22194(+8974)
 f_limit=59
 [Stat:solution_depth]=59
-[Timer:search] 1.272655
+[Timer:search] 1.313754
 [Stat:total_nodes_evaluated]186154740
+[Stat:total_loops]7933504
 
-real	0m1.305s
-user	0m0.884s
-sys	0m0.424s
+real	0m1.345s
+user	0m0.892s
+sys	0m0.460s
 LOG(state): depth=0, h=39, f=39, 12,5,13,11,2,10,0,9,7,8,4,3,14,6,15,1
 LOG: init_distr, cnt=2048
 f_limit=43
@@ -2844,12 +2919,13 @@ STAT: distr: av=4362, 2av=1610, 4av=650, 8av=108, 16av=14, 32av=2, 64av=0, 128av
 STAT: n_roots=11222(+4476)
 f_limit=53
 [Stat:solution_depth]=53
-[Timer:search] 0.170292
+[Timer:search] 0.186311
 [Stat:total_nodes_evaluated]14381730
+[Stat:total_loops]678714
 
-real	0m0.201s
-user	0m0.132s
-sys	0m0.072s
+real	0m0.217s
+user	0m0.148s
+sys	0m0.076s
 LOG(state): depth=0, h=38, f=38, 10,8,0,12,3,7,6,2,1,14,4,11,15,13,9,5
 LOG: init_distr, cnt=2048
 f_limit=44
@@ -2891,12 +2967,13 @@ STAT: distr: av=9815, 2av=4149, 4av=1492, 8av=225, 16av=28, 32av=2, 64av=0, 128a
 STAT: n_roots=26463(+10752)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.949055
+[Timer:search] 0.982206
 [Stat:total_nodes_evaluated]184317843
+[Stat:total_loops]7884416
 
-real	0m0.981s
-user	0m0.632s
-sys	0m0.352s
+real	0m1.013s
+user	0m0.648s
+sys	0m0.368s
 LOG(state): depth=0, h=42, f=42, 5,12,10,7,15,11,14,0,8,2,1,13,3,4,9,6
 LOG: init_distr, cnt=2048
 f_limit=46
@@ -2932,12 +3009,13 @@ STAT: distr: av=5521, 2av=1584, 4av=671, 8av=196, 16av=57, 32av=8, 64av=3, 128av
 STAT: n_roots=13717(+5677)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.435298
+[Timer:search] 0.452707
 [Stat:total_nodes_evaluated]55191177
+[Stat:total_loops]2397979
 
-real	0m0.465s
-user	0m0.308s
-sys	0m0.160s
+real	0m0.482s
+user	0m0.340s
+sys	0m0.148s
 LOG(state): depth=0, h=41, f=41, 9,7,5,2,14,15,12,10,11,3,6,1,8,13,0,4
 LOG: init_distr, cnt=2048
 f_limit=45
@@ -2979,12 +3057,13 @@ STAT: distr: av=8463, 2av=3599, 4av=1298, 8av=215, 16av=20, 32av=2, 64av=0, 128a
 STAT: n_roots=22887(+9290)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 1.727890
+[Timer:search] 1.789038
 [Stat:total_nodes_evaluated]254339088
+[Stat:total_loops]10774689
 
-real	0m1.758s
-user	0m1.156s
-sys	0m0.608s
+real	0m1.819s
+user	0m1.168s
+sys	0m0.656s
 LOG(state): depth=0, h=42, f=42, 14,3,5,15,11,6,13,9,0,10,2,12,4,1,7,8
 LOG: init_distr, cnt=2049
 f_limit=48
@@ -3026,12 +3105,13 @@ STAT: distr: av=8903, 2av=4181, 4av=1410, 8av=194, 16av=12, 32av=0, 64av=0, 128a
 STAT: n_roots=24815(+10115)
 f_limit=60
 [Stat:solution_depth]=60
-[Timer:search] 0.939638
+[Timer:search] 0.976248
 [Stat:total_nodes_evaluated]227365095
+[Stat:total_loops]9661887
 
-real	0m0.970s
-user	0m0.576s
-sys	0m0.396s
+real	0m1.006s
+user	0m0.636s
+sys	0m0.376s
 LOG(state): depth=0, h=40, f=40, 8,1,7,12,11,0,10,5,9,15,6,13,14,2,3,4
 LOG: init_distr, cnt=2048
 f_limit=46
@@ -3073,12 +3153,13 @@ STAT: distr: av=10880, 2av=4433, 4av=1770, 8av=307, 16av=22, 32av=1, 64av=0, 128
 STAT: n_roots=29434(+12021)
 f_limit=58
 [Stat:solution_depth]=58
-[Timer:search] 0.753523
+[Timer:search] 0.765810
 [Stat:total_nodes_evaluated]324992592
+[Stat:total_loops]13757242
 
-real	0m0.786s
-user	0m0.516s
-sys	0m0.276s
+real	0m0.796s
+user	0m0.496s
+sys	0m0.304s
 LOG(state): depth=0, h=43, f=43, 13,11,8,9,0,15,7,10,4,3,6,14,5,12,2,1
 LOG: init_distr, cnt=2048
 f_limit=49
@@ -3114,12 +3195,13 @@ STAT: distr: av=10152, 2av=3897, 4av=1700, 8av=330, 16av=33, 32av=2, 64av=0, 128
 STAT: n_roots=27658(+11544)
 f_limit=59
 [Stat:solution_depth]=59
-[Timer:search] 0.475481
+[Timer:search] 0.488122
 [Stat:total_nodes_evaluated]215868498
+[Stat:total_loops]9189926
 
-real	0m0.507s
-user	0m0.324s
-sys	0m0.188s
+real	0m0.518s
+user	0m0.320s
+sys	0m0.204s
 LOG(state): depth=0, h=41, f=41, 14,13,15,7,11,12,9,5,6,0,2,1,4,8,10,3
 LOG: init_distr, cnt=2048
 f_limit=45
@@ -3161,12 +3243,13 @@ STAT: distr: av=9190, 2av=4160, 4av=1438, 8av=222, 16av=12, 32av=1, 64av=0, 128a
 STAT: n_roots=25201(+10178)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 1.133633
+[Timer:search] 1.164578
 [Stat:total_nodes_evaluated]149431506
+[Stat:total_loops]6413709
 
-real	0m1.166s
-user	0m0.768s
-sys	0m0.400s
+real	0m1.195s
+user	0m0.784s
+sys	0m0.416s
 LOG(state): depth=0, h=40, f=40, 8,10,9,11,14,1,7,15,13,4,0,12,6,2,5,3
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -3214,12 +3297,13 @@ STAT: distr: av=13057, 2av=5737, 4av=2119, 8av=310, 16av=17, 32av=0, 64av=0, 128
 STAT: n_roots=35881(+14641)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 0.913506
+[Timer:search] 0.948439
 [Stat:total_nodes_evaluated]450304233
+[Stat:total_loops]19054493
 
-real	0m0.946s
-user	0m0.628s
-sys	0m0.320s
+real	0m0.980s
+user	0m0.600s
+sys	0m0.380s
 LOG(state): depth=0, h=40, f=40, 5,7,3,12,15,13,14,8,0,10,9,6,1,4,2,11
 LOG: init_distr, cnt=2048
 f_limit=46
@@ -3261,12 +3345,13 @@ STAT: distr: av=8736, 2av=3584, 4av=1361, 8av=255, 16av=18, 32av=0, 64av=0, 128a
 STAT: n_roots=23679(+9725)
 f_limit=58
 [Stat:solution_depth]=58
-[Timer:search] 0.623149
+[Timer:search] 0.642599
 [Stat:total_nodes_evaluated]272262315
+[Stat:total_loops]11515882
 
-real	0m0.653s
-user	0m0.388s
-sys	0m0.268s
+real	0m0.673s
+user	0m0.456s
+sys	0m0.220s
 LOG(state): depth=0, h=43, f=43, 14,10,9,4,13,6,5,8,2,12,7,0,1,3,11,15
 LOG: init_distr, cnt=2048
 f_limit=49
@@ -3302,12 +3387,13 @@ STAT: distr: av=7534, 2av=3483, 4av=1243, 8av=160, 16av=11, 32av=0, 64av=0, 128a
 STAT: n_roots=21145(+8714)
 f_limit=59
 [Stat:solution_depth]=59
-[Timer:search] 0.464313
+[Timer:search] 0.483741
 [Stat:total_nodes_evaluated]197177808
+[Stat:total_loops]8373974
 
-real	0m0.496s
-user	0m0.324s
-sys	0m0.176s
+real	0m0.514s
+user	0m0.328s
+sys	0m0.192s
 LOG(state): depth=0, h=38, f=38, 12,15,11,10,4,5,14,0,13,7,1,2,9,8,3,6
 LOG: init_distr, cnt=2048
 f_limit=42
@@ -3355,12 +3441,13 @@ STAT: distr: av=18431, 2av=8510, 4av=2753, 8av=402, 16av=56, 32av=5, 64av=0, 128
 STAT: n_roots=50422(+20265)
 f_limit=56
 [Stat:solution_depth]=56
-[Timer:search] 1.811243
+[Timer:search] 1.876439
 [Stat:total_nodes_evaluated]1174829283
+[Stat:total_loops]49367993
 
-real	0m1.844s
-user	0m1.224s
-sys	0m0.624s
+real	0m1.908s
+user	0m1.260s
+sys	0m0.648s
 LOG(state): depth=0, h=41, f=41, 7,6,8,1,11,5,14,10,3,4,9,13,15,2,0,12
 LOG: init_distr, cnt=2049
 f_limit=47
@@ -3402,12 +3489,13 @@ STAT: distr: av=12028, 2av=5000, 4av=1953, 8av=306, 16av=30, 32av=0, 64av=0, 128
 STAT: n_roots=32629(+13312)
 f_limit=59
 [Stat:solution_depth]=59
-[Timer:search] 2.068886
+[Timer:search] 2.136885
 [Stat:total_nodes_evaluated]384324858
+[Stat:total_loops]16256651
 
-real	0m2.100s
-user	0m1.380s
-sys	0m0.724s
+real	0m2.168s
+user	0m1.336s
+sys	0m0.836s
 LOG(state): depth=0, h=37, f=37, 3,2,7,9,0,15,12,4,6,11,5,14,8,13,10,1
 LOG: init_distr, cnt=2048
 f_limit=43
@@ -3455,12 +3543,13 @@ STAT: distr: av=17163, 2av=8996, 4av=2599, 8av=288, 16av=23, 32av=0, 64av=0, 128
 STAT: n_roots=48746(+19677)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 1.658668
+[Timer:search] 1.719373
 [Stat:total_nodes_evaluated]1059917007
+[Stat:total_loops]44557956
 
-real	0m1.689s
+real	0m1.748s
 user	0m1.136s
-sys	0m0.560s
+sys	0m0.616s
 LOG(state): depth=0, h=41, f=41, 14,7,8,2,13,11,10,4,9,12,5,0,3,6,1,15
 LOG: init_distr, cnt=2048
 f_limit=47
@@ -3502,12 +3591,13 @@ STAT: distr: av=11155, 2av=4632, 4av=1899, 8av=273, 16av=20, 32av=1, 64av=0, 128
 STAT: n_roots=30424(+12444)
 f_limit=59
 [Stat:solution_depth]=59
-[Timer:search] 1.106680
+[Timer:search] 1.141926
 [Stat:total_nodes_evaluated]463826481
+[Stat:total_loops]19559594
 
-real	0m1.138s
-user	0m0.728s
-sys	0m0.416s
+real	0m1.172s
+user	0m0.756s
+sys	0m0.420s
 LOG(state): depth=0, h=29, f=29, 3,15,2,5,11,6,4,7,12,9,1,0,13,14,10,8
 LOG: init_distr, cnt=2048
 f_limit=39
@@ -3561,12 +3651,13 @@ STAT: distr: av=22079, 2av=13404, 4av=3043, 8av=179, 16av=0, 32av=0, 64av=0, 128
 STAT: n_roots=64743(+26038)
 f_limit=55
 [Stat:solution_depth]=55
-[Timer:search] 2.045728
+[Timer:search] 2.111767
 [Stat:total_nodes_evaluated]1228568715
+[Stat:total_loops]51724927
 
-real	0m2.077s
-user	0m1.368s
-sys	0m0.716s
+real	0m2.144s
+user	0m1.372s
+sys	0m0.776s
 LOG(state): depth=0, h=35, f=35, 15,14,6,7,10,1,0,11,12,8,4,9,2,5,13,3
 LOG: init_distr, cnt=2048
 f_limit=41
@@ -3620,12 +3711,13 @@ STAT: distr: av=17306, 2av=9396, 4av=2708, 8av=192, 16av=6, 32av=0, 64av=0, 128a
 STAT: n_roots=49641(+20033)
 f_limit=57
 [Stat:solution_depth]=57
-[Timer:search] 2.344971
+[Timer:search] 2.411990
 [Stat:total_nodes_evaluated]1283809674
+[Stat:total_loops]53902253
 
-real	0m2.377s
-user	0m1.492s
-sys	0m0.892s
+real	0m2.444s
+user	0m1.736s
+sys	0m0.712s
 LOG(state): depth=0, h=44, f=44, 13,11,4,12,1,8,9,15,6,5,14,2,7,3,10,0
 LOG: init_distr, cnt=2048
 f_limit=50
@@ -3667,12 +3759,13 @@ STAT: distr: av=8866, 2av=4002, 4av=1213, 8av=213, 16av=28, 32av=2, 64av=0, 128a
 STAT: n_roots=24075(+9751)
 f_limit=62
 [Stat:solution_depth]=62
-[Timer:search] 1.008472
+[Timer:search] 1.033795
 [Stat:total_nodes_evaluated]307979736
+[Stat:total_loops]13015760
 
-real	0m1.039s
-user	0m0.668s
-sys	0m0.376s
+real	0m1.064s
+user	0m0.684s
+sys	0m0.384s
 LOG(state): depth=0, h=33, f=33, 10,0,2,4,5,1,6,12,11,13,9,7,15,3,14,8
 LOG: init_distr, cnt=2048
 f_limit=43
@@ -3726,12 +3819,13 @@ STAT: distr: av=19639, 2av=12344, 4av=2683, 8av=103, 16av=1, 32av=0, 64av=0, 128
 STAT: n_roots=58030(+23260)
 f_limit=59
 [Stat:solution_depth]=59
-[Timer:search] 4.690860
+[Timer:search] 4.821565
 [Stat:total_nodes_evaluated]1696700421
+[Stat:total_loops]71170407
 
-real	0m4.723s
-user	0m3.052s
-sys	0m1.676s
+real	0m4.852s
+user	0m3.032s
+sys	0m1.824s
 LOG(state): depth=0, h=50, f=50, 14,9,12,13,15,4,8,10,0,2,1,7,3,11,5,6
 LOG: init_distr, cnt=2048
 f_limit=54
@@ -3767,12 +3861,13 @@ STAT: distr: av=11900, 2av=3081, 4av=1324, 8av=396, 16av=116, 32av=38, 64av=11, 
 STAT: n_roots=29320(+12450)
 f_limit=64
 [Stat:solution_depth]=64
-[Timer:search] 2.937352
+[Timer:search] 3.022357
 [Stat:total_nodes_evaluated]606173280
+[Stat:total_loops]25466184
 
-real	0m2.969s
-user	0m1.988s
-sys	0m0.984s
+real	0m3.054s
+user	0m1.848s
+sys	0m1.208s
 LOG(state): depth=0, h=46, f=46, 15,14,0,4,11,1,6,13,7,5,8,9,3,2,10,12
 LOG: init_distr, cnt=2048
 f_limit=52
@@ -3820,12 +3915,13 @@ STAT: distr: av=9809, 2av=5293, 4av=1368, 8av=122, 16av=3, 32av=0, 64av=0, 128av
 STAT: n_roots=27671(+11076)
 f_limit=66
 [Stat:solution_depth]=66
-[Timer:search] 2.008795
+[Timer:search] 2.068715
 [Stat:total_nodes_evaluated]546720834
+[Stat:total_loops]22991092
 
-real	0m2.040s
+real	0m2.100s
 user	0m1.312s
-sys	0m0.732s
+sys	0m0.792s
 LOG(state): depth=0, h=48, f=48, 11,14,13,1,2,3,12,4,15,7,9,5,10,6,8,0
 LOG: init_distr, cnt=2048
 f_limit=54
@@ -3867,12 +3963,13 @@ STAT: distr: av=19551, 2av=7221, 4av=2867, 8av=570, 16av=91, 32av=15, 64av=1, 12
 STAT: n_roots=51172(+20855)
 f_limit=66
 [Stat:solution_depth]=66
-[Timer:search] 7.120227
+[Timer:search] 7.318149
 [Stat:total_nodes_evaluated]2816945118
+[Stat:total_loops]117764539
 
-real	0m7.152s
-user	0m4.508s
-sys	0m2.652s
+real	0m7.349s
+user	0m4.592s
+sys	0m2.760s
 LOG(state): depth=0, h=41, f=41, 11,6,14,12,3,5,1,15,8,0,10,13,9,7,4,2
 LOG: init_distr, cnt=2048
 f_limit=47
@@ -3920,11 +4017,12 @@ STAT: distr: av=13430, 2av=7533, 4av=1918, 8av=172, 16av=8, 32av=0, 64av=0, 128a
 STAT: n_roots=38579(+15518)
 f_limit=61
 [Stat:solution_depth]=61
-[Timer:search] 1.993720
+[Timer:search] 2.052636
 [Stat:total_nodes_evaluated]1399942170
+[Stat:total_loops]58643561
 
-real	0m2.026s
-user	0m1.332s
+real	0m2.084s
+user	0m1.392s
 sys	0m0.696s
 LOG(state): depth=0, h=40, f=40, 14,10,2,1,13,9,8,11,7,3,6,12,15,5,4,0
 LOG: init_distr, cnt=2048
@@ -3979,12 +4077,13 @@ STAT: distr: av=19422, 2av=11148, 4av=2843, 8av=190, 16av=2, 32av=0, 64av=0, 128
 STAT: n_roots=56203(+22598)
 f_limit=62
 [Stat:solution_depth]=62
-[Timer:search] 6.859904
+[Timer:search] 7.032806
 [Stat:total_nodes_evaluated]4163311512
+[Stat:total_loops]173938623
 
-real	0m6.891s
-user	0m4.480s
-sys	0m2.416s
+real	0m7.062s
+user	0m4.492s
+sys	0m2.572s
 LOG(state): depth=0, h=43, f=43, 15,2,12,11,14,13,9,5,1,3,8,7,0,10,6,4
 LOG: init_distr, cnt=2048
 f_limit=51
@@ -4032,9 +4131,10 @@ STAT: distr: av=24287, 2av=11679, 4av=3825, 8av=469, 16av=36, 32av=1, 64av=0, 12
 STAT: n_roots=67847(+27550)
 f_limit=65
 [Stat:solution_depth]=65
-[Timer:search] 22.198081
+[Timer:search] 22.784891
 [Stat:total_nodes_evaluated]7831922145
+[Stat:total_loops]326886686
 
-real	0m22.231s
-user	0m14.524s
-sys	0m7.716s
+real	0m22.817s
+user	0m13.540s
+sys	0m9.280s

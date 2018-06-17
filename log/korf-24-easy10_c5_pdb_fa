@@ -1,7 +1,7 @@
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.239266
+[Timer:pdb_load] 3.072691
 state_dump: g=0, h=81, (x,y)=(1,2)
 14 5 9 2 18 8 23 19 12 17 15 0 10 20 4 6 11 21 1 7 24 3 16 22 13 -----------
 search start.
@@ -31,16 +31,16 @@ f_limit= 95, expanded nodes = 37228378845
 [Stat:nodes_evaluated]37228378845
 [Stat:solution_depth]=95
 [Stat:total_nodes_evaluated]41643765511
-[Timer:search] 1956.877664
+[Timer:search] 1641.685382
 len=0: 
 
-real	32m40.132s
-user	32m39.864s
-sys	0m0.264s
+real	27m24.774s
+user	27m24.560s
+sys	0m0.196s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.255973
+[Timer:pdb_load] 3.075764
 state_dump: g=0, h=83, (x,y)=(1,2)
 21 24 8 1 19 22 12 9 7 18 4 0 23 14 10 6 3 11 16 5 15 2 20 13 17 -----------
 search start.
@@ -76,16 +76,16 @@ f_limit=101, expanded nodes = 18975740646
 [Stat:nodes_evaluated]18975740646
 [Stat:solution_depth]=101
 [Stat:total_nodes_evaluated]21612150338
-[Timer:search] 1042.622269
+[Timer:search] 880.097758
 len=0: 
 
-real	17m25.894s
-user	17m25.564s
-sys	0m0.308s
+real	14m43.189s
+user	14m42.980s
+sys	0m0.204s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.223815
+[Timer:pdb_load] 3.076284
 state_dump: g=0, h=65, (x,y)=(4,1)
 3 17 9 8 24 1 11 12 14 0 5 4 22 13 16 21 15 6 7 10 20 23 2 18 19 -----------
 search start.
@@ -118,16 +118,16 @@ f_limit= 81, expanded nodes = 2968247707
 [Stat:nodes_evaluated]2968247707
 [Stat:solution_depth]=81
 [Stat:total_nodes_evaluated]3398454755
-[Timer:search] 149.358070
+[Timer:search] 130.200728
 len=0: 
 
-real	2m32.597s
-user	2m32.272s
-sys	0m0.320s
+real	2m13.293s
+user	2m13.088s
+sys	0m0.204s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.207928
+[Timer:pdb_load] 3.102059
 state_dump: g=0, h=84, (x,y)=(4,4)
 17 15 7 12 8 3 4 9 21 5 16 6 19 20 1 22 24 18 11 14 23 10 2 13 0 -----------
 search start.
@@ -157,16 +157,16 @@ f_limit= 98, expanded nodes = 6878005856
 [Stat:nodes_evaluated]6878005856
 [Stat:solution_depth]=98
 [Stat:total_nodes_evaluated]7515956920
-[Timer:search] 345.205086
+[Timer:search] 293.214135
 len=0: 
 
-real	5m48.428s
-user	5m48.100s
-sys	0m0.320s
+real	4m56.332s
+user	4m56.068s
+sys	0m0.260s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.213603
+[Timer:pdb_load] 3.081227
 state_dump: g=0, h=74, (x,y)=(1,3)
 8 19 7 16 12 2 13 22 14 9 11 5 6 3 18 24 0 15 10 23 1 20 4 17 21 -----------
 search start.
@@ -202,16 +202,16 @@ f_limit= 92, expanded nodes = 17453689492
 [Stat:nodes_evaluated]17453689492
 [Stat:solution_depth]=92
 [Stat:total_nodes_evaluated]20117760314
-[Timer:search] 919.020480
+[Timer:search] 796.641457
 len=0: 
 
-real	15m22.249s
-user	15m21.888s
-sys	0m0.344s
+real	13m19.738s
+user	13m19.540s
+sys	0m0.196s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.193786
+[Timer:pdb_load] 3.185946
 state_dump: g=0, h=81, (x,y)=(4,1)
 1 12 18 13 17 15 3 7 20 0 19 24 6 5 21 11 2 8 9 16 22 10 4 23 14 -----------
 search start.
@@ -244,16 +244,16 @@ f_limit= 97, expanded nodes = 29710157618
 [Stat:nodes_evaluated]29710157618
 [Stat:solution_depth]=97
 [Stat:total_nodes_evaluated]33419011261
-[Timer:search] 1579.708495
+[Timer:search] 1349.873505
 len=0: 
 
-real	26m22.917s
-user	26m22.572s
-sys	0m0.316s
+real	22m33.075s
+user	22m32.792s
+sys	0m0.280s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.191121
+[Timer:pdb_load] 3.070153
 state_dump: g=0, h=84, (x,y)=(1,3)
 23 22 5 3 9 6 18 15 10 2 21 13 19 12 20 7 0 1 16 24 17 4 14 8 11 -----------
 search start.
@@ -286,16 +286,16 @@ f_limit=100, expanded nodes = 18976049882
 [Stat:nodes_evaluated]18976049882
 [Stat:solution_depth]=100
 [Stat:total_nodes_evaluated]21135029120
-[Timer:search] 937.871369
+[Timer:search] 834.585197
 len=0: 
 
-real	15m41.079s
-user	15m40.732s
-sys	0m0.328s
+real	13m57.671s
+user	13m57.464s
+sys	0m0.204s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.178817
+[Timer:pdb_load] 3.088063
 state_dump: g=0, h=82, (x,y)=(4,0)
 10 3 24 12 0 7 8 11 14 21 22 23 2 1 9 17 18 6 20 4 13 15 5 19 16 -----------
 search start.
@@ -325,16 +325,16 @@ f_limit= 96, expanded nodes = 585679800
 [Stat:nodes_evaluated]585679800
 [Stat:solution_depth]=96
 [Stat:total_nodes_evaluated]650891033
-[Timer:search] 29.707443
+[Timer:search] 25.891701
 len=0: 
 
-real	0m32.902s
-user	0m32.636s
-sys	0m0.264s
+real	0m28.997s
+user	0m28.784s
+sys	0m0.212s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.201857
+[Timer:pdb_load] 3.080785
 state_dump: g=0, h=68, (x,y)=(3,1)
 2 17 4 13 7 12 10 3 0 16 21 24 8 5 18 20 15 19 14 9 22 11 6 1 23 -----------
 search start.
@@ -364,16 +364,16 @@ f_limit= 82, expanded nodes = 425023135
 [Stat:nodes_evaluated]425023135
 [Stat:solution_depth]=82
 [Stat:total_nodes_evaluated]486025858
-[Timer:search] 22.112779
+[Timer:search] 20.216532
 len=0: 
 
-real	0m25.330s
-user	0m24.988s
-sys	0m0.340s
+real	0m23.313s
+user	0m23.048s
+sys	0m0.264s
 [Start] STATE_WIDTH = 5, FIND_ALL_SOLUTIONS = true
 pattern 1 2 5 6 7 12 read in
 pattern 3 4 8 9 13 14 read in
-[Timer:pdb_load] 3.202967
+[Timer:pdb_load] 3.082162
 state_dump: g=0, h=81, (x,y)=(3,4)
 8 12 18 3 2 11 10 22 24 17 1 13 23 4 20 16 6 15 9 21 19 5 14 0 7 -----------
 search start.
@@ -400,9 +400,9 @@ f_limit= 93, expanded nodes = 3228062757
 [Stat:nodes_evaluated]3228062757
 [Stat:solution_depth]=93
 [Stat:total_nodes_evaluated]3616881983
-[Timer:search] 159.437705
+[Timer:search] 142.828111
 len=0: 
 
-real	2m42.656s
-user	2m42.256s
-sys	0m0.396s
+real	2m25.926s
+user	2m25.740s
+sys	0m0.184s
