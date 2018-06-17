@@ -351,4 +351,78 @@ window.onload = function () {
     }
   });
   chart_pdb_FA_hard.render();
+
+  // var bpida_global_fa = loadCSV("../results/yama24_50_hard_new_bpida5_global_fa");
+  var bpida_global_fa_8720 = loadCSV("../results/yama24_50_hard_new_bpida5_global_sh_fa_8720");
+  var bpida_global_fa_4312 = loadCSV("../results/yama24_50_hard_new_bpida5_global_sh_fa_4312");
+  var bpida_global_fa_35168 = loadCSV("../results/yama24_50_hard_new_bpida5_global_sh_fa_35168");
+  var bpida_global_fa_13128 = loadCSV("../results/yama24_50_hard_new_bpida5_global_sh_fa_13128");
+  var bpida_global_fa_17536 = loadCSV("../results/yama24_50_hard_new_bpida5_global_sh_fa_17536");
+
+  var chartFASHARD = new CanvasJS.Chart("chartContainerFASHARED",
+  {
+    title:{
+      text: "Executed Time of BPIDA*(Find all) in yama's 50 problems"             
+    }, 
+    animationEnabled: true,     
+    axisY:{
+      titleFontFamily: "arial",
+      titleFontSize: 12,
+      includeZero: false
+    },
+    toolTip: {
+      shared: true
+    },
+    data: [
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all)",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa
+    },
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all) 4312 byte",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa_4312
+    },
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all) 8720 byte",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa_8720
+    },
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all) 13128 byte",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa_13128
+    },
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all) 17536 byte",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa_17536
+    },    
+    {        
+      type: "line",  
+      name: "BPIDA*Global(find all) 35168 byte",        
+      showInLegend: true,
+      dataPoints: bpida_global_fa_35168
+    },               
+    ],
+    legend:{
+      cursor:"pointer",
+      itemclick:function(e){
+        if(typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+          e.dataSeries.visible = false;
+        }
+        else {
+          e.dataSeries.visible = true;            
+        }
+        chartFASHARD.render();
+      }
+    }
+  });
+  chartFASHARD.render();
 }
