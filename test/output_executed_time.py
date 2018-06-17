@@ -20,7 +20,7 @@ for file in file_list_fa:
 		executed_times += float(arr[1])
 		expand_nodes += int(arr[2])
 		per_sec += float(arr[3])
-	print("|" +file.replace("../results/", "") + "|" + str(executed_times) + "|" + str(expand_nodes) + "|" + str(per_sec) + "|" )
+	print("|" +file.replace("../results/", "") + "|" + str(executed_times) + "|" + str(expand_nodes) + "|" + str(per_sec / float(len(lines)) ) + "|" )
 
 print("")
 
